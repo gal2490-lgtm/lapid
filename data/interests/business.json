@@ -3,18 +3,19 @@
   "name_he": "עסקים, יזמות ומנהיגות",
   "name_en": "Business, Entrepreneurship & Leadership",
   "tagline_he": "איך בונים חברה, מוכרים רעיון, מנהלים אנשים ומנצחים בשוק – מהמייסדים והחוקרים שעשו את זה בפועל",
+  "book_list_source": { "name": "Porchlight Book Company – The 100 Best Business Books of All Time", "url": "https://www.porchlightbooks.com/pages/100-best-business-books-of-all-time" },
   "books": [
-    { "id": "b_the_lean_startup", "title": "The Lean Startup", "title_he": "חברת ההזנק הרזה", "author": "Eric Ries", "year": 2011, "why_he": "הספר שהפך את 'בנה-מדוד-למד' ואת ה-MVP לשפה המשותפת של כל חברת הזנק בעולם.", "chapters_total": 14 },
-    { "id": "b_zero_to_one", "title": "Zero to One", "title_he": "מאפס לאחד", "author": "Peter Thiel", "year": 2014, "why_he": "טענה חדה ומעוררת מחלוקת: חברות גדולות נבנות על יצירת משהו חדש, לא על העתקה של מה שכבר עובד.", "chapters_total": 14 },
-    { "id": "b_good_to_great", "title": "Good to Great", "title_he": "מטוב למצוין", "author": "Jim Collins", "year": 2001, "why_he": "מחקר בן חמש שנים שמסביר למה חברות טובות נשארות טובות ומה מבדיל את המעטות שנעשות מצוינות.", "chapters_total": 9 },
+    { "id": "b_the_lean_startup", "title": "The Lean Startup", "title_he": "הסטארטאפ הרזה", "author": "Eric Ries", "year": 2011, "why_he": "הספר שהפך את 'בנה-מדוד-למד' ואת ה-MVP לשפה המשותפת של כל חברת הזנק בעולם.", "chapters_total": 14 },
+    { "id": "b_zero_to_one", "title": "Zero to One", "title_he": "אפס לאחד", "author": "Peter Thiel", "year": 2014, "why_he": "טענה חדה ומעוררת מחלוקת: חברות גדולות נבנות על יצירת משהו חדש, לא על העתקה של מה שכבר עובד.", "chapters_total": 14 },
+    { "id": "b_good_to_great", "title": "Good to Great", "title_he": "גלגל התנופה: מטוב למצוין", "author": "Jim Collins", "year": 2001, "why_he": "מחקר בן חמש שנים שמסביר למה חברות טובות נשארות טובות ומה מבדיל את המעטות שנעשות מצוינות.", "chapters_total": 9 },
     { "id": "b_the_hard_thing_about_hard_things", "title": "The Hard Thing About Hard Things", "title_he": "הדבר הקשה בדברים הקשים", "author": "Ben Horowitz", "year": 2014, "why_he": "המדריך הכן ביותר לניהול חברה כשאין תשובות קלות – פיטורים, משברים ולילות ללא שינה.", "chapters_total": 9 },
-    { "id": "b_never_split_the_difference", "title": "Never Split the Difference", "title_he": "לעולם אל תתפשר", "author": "Chris Voss", "year": 2016, "why_he": "מו\"מ של חטופים ב-FBI הופך לשיטה מעשית שעובדת גם על משכורת, חוזה או לקוח.", "chapters_total": 10 },
-    { "id": "b_high_output_management", "title": "High Output Management", "title_he": "ניהול בתפוקה גבוהה", "author": "Andrew S. Grove", "year": 1983, "why_he": "מנכ\"ל אינטל מסביר ניהול כמערכת ייצור – הספר שמנהלי עמק הסיליקון עדיין מחלקים לכל מנהל חדש.", "chapters_total": 16 },
+    { "id": "b_never_split_the_difference", "title": "Never Split the Difference", "author": "Chris Voss", "year": 2016, "why_he": "מו\"מ של חטופים ב-FBI הופך לשיטה מעשית שעובדת גם על משכורת, חוזה או לקוח.", "chapters_total": 10 },
+    { "id": "b_high_output_management", "title": "High Output Management", "author": "Andrew S. Grove", "year": 1983, "why_he": "מנכ\"ל אינטל מסביר ניהול כמערכת ייצור – הספר שמנהלי עמק הסיליקון עדיין מחלקים לכל מנהל חדש.", "chapters_total": 16 },
     { "id": "b_built_to_last", "title": "Built to Last", "title_he": "בנויות לנצח", "author": "Jim Collins & Jerry I. Porras", "year": 1994, "why_he": "מה משותף לחברות ששרדו עשרות שנים: אידאולוגיית ליבה יציבה ונכונות לשנות הכול מסביבה." },
     { "id": "b_blue_ocean_strategy", "title": "Blue Ocean Strategy", "title_he": "אסטרטגיית האוקיינוס הכחול", "author": "W. Chan Kim & Renée Mauborgne", "year": 2005, "why_he": "במקום להילחם בשוק אדום ורווי, צרו שוק חדש שבו התחרות אינה רלוונטית." },
     { "id": "b_the_e_myth_revisited", "title": "The E-Myth Revisited", "title_he": "מיתוס היזם", "author": "Michael E. Gerber", "year": 1995, "why_he": "למה רוב העסקים הקטנים נכשלים – ולמה צריך לעבוד על העסק, לא רק בתוך העסק." },
     { "id": "b_crossing_the_chasm", "title": "Crossing the Chasm", "title_he": "לחצות את התהום", "author": "Geoffrey A. Moore", "year": 1991, "why_he": "התנ\"ך של שיווק טכנולוגיה: איך לעבור מהמאמצים הראשונים אל השוק הרחב בלי ליפול לתהום שביניהם." },
-    { "id": "b_the_innovators_dilemma", "title": "The Innovator's Dilemma", "title_he": "דילמת החדשן", "author": "Clayton M. Christensen", "year": 1997, "why_he": "התיאוריה של חדשנות משבשת: איך חברות מצוינות נכשלות דווקא כי הן מקשיבות ללקוחות שלהן." },
+    { "id": "b_the_innovators_dilemma", "title": "The Innovator's Dilemma", "author": "Clayton M. Christensen", "year": 1997, "why_he": "התיאוריה של חדשנות משבשת: איך חברות מצוינות נכשלות דווקא כי הן מקשיבות ללקוחות שלהן." },
     { "id": "b_start_with_why", "title": "Start with Why", "title_he": "להתחיל מה'למה'", "author": "Simon Sinek", "year": 2009, "why_he": "מעגל הזהב: אנשים לא קונים מה שאתה עושה, הם קונים למה אתה עושה את זה." },
     { "id": "b_measure_what_matters", "title": "Measure What Matters", "title_he": "למדוד את מה שחשוב", "author": "John Doerr", "year": 2018, "why_he": "שיטת ה-OKR שגוגל אימצה מאינטל – איך להפוך יעדים גדולים לתוצאות מדידות." },
     { "id": "b_shoe_dog", "title": "Shoe Dog", "title_he": "שו דוג", "author": "Phil Knight", "year": 2016, "why_he": "זיכרונותיו של מייסד נייקי – סיפור יזמות גולמי, מלא פחד, חוב ועקשנות." },
@@ -44,7 +45,8 @@
       "why_he": "מנכ\"ל לשעבר שהפך למשקיע המוביל בעמק הסיליקון, וכותב על ניהול במשבר בכנות נדירה.",
       "videos": [
         { "youtube_id": "9SLSN1iE6q4", "title": "Ben Horowitz — What You Do Is Who You Are | The Tim Ferriss Show", "source_url": "https://www.youtube.com/watch?v=9SLSN1iE6q4", "blurb_he": "שיחה ארוכה עם טים פריס על תרבות ארגונית וספרו 'What You Do Is Who You Are'." },
-        { "youtube_id": "URCUAj1bt28", "title": "Ben Horowitz: How to Lead Through Chaos, Doubt, and Pressure...", "source_url": "https://www.youtube.com/watch?v=URCUAj1bt28", "blurb_he": "הורוביץ חולק לקחים על הצלחה בחברות הזנק, פחד ועתיד הבינה המלאכותית." }
+        { "youtube_id": "URCUAj1bt28", "title": "Ben Horowitz: How to Lead Through Chaos, Doubt, and Pressure...", "source_url": "https://www.youtube.com/watch?v=URCUAj1bt28", "blurb_he": "הורוביץ חולק לקחים על הצלחה בחברות הזנק, פחד ועתיד הבינה המלאכותית." },
+        { "youtube_id": "dFT4xj57D7U", "title": "Ben Horowitz On What Makes a Great Founder", "source_url": "https://www.youtube.com/watch?v=dFT4xj57D7U", "blurb_he": "שיחה גלויה על מה שבאמת שובר מנכ\"לים מייסדים, ומה מבדיל את הטובים ביותר מכל השאר." }
       ]
     },
     {
@@ -88,7 +90,8 @@
       "why_he": "הביא את טכניקות המו\"מ מזירת החטיפות לעולם העסקי והפך אותן לכלים שכל אחד יכול להפעיל.",
       "videos": [
         { "youtube_id": "Pn4jUD3mc4o", "title": "Never Split the Difference | Negotiation Tactics | Live Chris Voss Interview", "source_url": "https://www.youtube.com/watch?v=Pn4jUD3mc4o", "blurb_he": "ראיון חי על ספרו 'Never Split the Difference' וטקטיקות המו\"מ שבו." },
-        { "youtube_id": "ouNudMCG1GA", "title": "Chris Voss: Interview with a Master Negotiator", "source_url": "https://www.youtube.com/watch?v=ouNudMCG1GA", "blurb_he": "שיחה עם ווס על כוחו של המו\"מ בעסקים ובחיים." }
+        { "youtube_id": "ouNudMCG1GA", "title": "Chris Voss: Interview with a Master Negotiator", "source_url": "https://www.youtube.com/watch?v=ouNudMCG1GA", "blurb_he": "שיחה עם ווס על כוחו של המו\"מ בעסקים ובחיים." },
+        { "youtube_id": "B1nxvT1sXOk", "title": "Negotiation and Closing, with former FBI hostage chief Chris Voss", "source_url": "https://www.youtube.com/watch?v=B1nxvT1sXOk", "blurb_he": "ווס על מסגרות מו\"מ וסגירת עסקאות שכל בעל עסק צריך להכיר." }
       ]
     },
     {
@@ -132,7 +135,8 @@
       "why_he": "הקימה מותג של מיליארד דולר מ-5,000 דולר בלי משקיעים – סיפור יזמות של מוצר, מכירות ועקשנות.",
       "videos": [
         { "youtube_id": "0K-TQcV-Xoo", "title": "Spanx Founder Sara Blakely Shares Secrets To Building A Billion-Dollar Business | #Next1000 Summit", "source_url": "https://www.youtube.com/watch?v=0K-TQcV-Xoo", "blurb_he": "בלייקלי חולקת את הסודות לבניית עסק של מיליארד דולר." },
-        { "youtube_id": "pjS2pqWUmgU", "title": "Sara Blakely: Fireside Chat", "source_url": "https://www.youtube.com/watch?v=pjS2pqWUmgU", "blurb_he": "שיחת אח עם מייסדת Spanx בכנס של גולדמן זאקס." }
+        { "youtube_id": "pjS2pqWUmgU", "title": "Sara Blakely: Fireside Chat", "source_url": "https://www.youtube.com/watch?v=pjS2pqWUmgU", "blurb_he": "שיחת אח עם מייסדת Spanx בכנס של גולדמן זאקס." },
+        { "youtube_id": "8vq2H_FpZ04", "title": "Sara Blakely | Florida State University 2026 Commencement Address", "source_url": "https://www.youtube.com/watch?v=8vq2H_FpZ04", "blurb_he": "נאום הפתיחה שנשאה בלייקלי, בוגרת האוניברסיטה, בטקס הסיום של אוניברסיטת פלורידה סטייט ב-2026." }
       ]
     },
     {
@@ -325,6 +329,349 @@
         "https://www.oreilly.com/library/view/the-innovators-dilemma/9781422197585/Text/InnovatorsSolu_chap-1.html",
         "https://www.supersummary.com/the-innovators-dilemma/summary/",
         "https://iterativegrowth.wordpress.com/2017/07/07/the-innovators-dilemma-chapter-1/"
+      ]
+    },
+    {
+      "book_id": "b_the_lean_startup",
+      "chapter_index": 2,
+      "chapter_title": "Define",
+      "chapter_title_he": "הגדרה",
+      "idea_he": "יזם הוא תפקיד, לא תואר – והחברה היא מכונה ללמידה תחת אי-ודאות",
+      "body_he": "ריס מגדיר חברת הזנק כארגון אנושי שנועד ליצור מוצר או שירות חדש בתנאי אי-ודאות קיצונית. מי שמנהל אותה – בין אם בחברה בת יומה ובין אם בצוות בתוך תאגיד ענק – ממלא בפועל תפקיד של יזם, תפקיד שדורש אומץ להתנסות בשיטה מדעית ולא רק לבצע תוכנית שנכתבה מראש.",
+      "points_he": [
+        "אי-ודאות קיצונית, לא הגודל או התעשייה, היא שמגדירה חברת הזנק",
+        "יזמות היא ניהול – תפקיד שדורש מבנה ארגוני, לא רק חזון",
+        "גם צוות בתוך תאגיד גדול יכול לפעול כחברת הזנק",
+        "השלב הראשון הוא להבין מה בדיוק מנסים ללמוד, לפני שבונים עוד תכונה"
+      ],
+      "apply_he": "הגדירו במשפט אחד מה בדיוק אתם מנסים ללמוד בשלב הנוכחי של המיזם, לפני שאתם בונים עוד תכונה.",
+      "sources": [
+        "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/",
+        "https://www.oberlo.com/blog/lean-startup",
+        "https://www.supersummary.com/the-lean-startup/summary/"
+      ]
+    },
+    {
+      "book_id": "b_the_lean_startup",
+      "chapter_index": 3,
+      "chapter_title": "Learn",
+      "chapter_title_he": "למידה",
+      "idea_he": "'למידה מאומתת', לא הכנסות או קוד שנכתב, היא ההוכחה האמיתית להתקדמות",
+      "body_he": "חברת הזנק יכולה להיראות עסוקה מאוד – לשגר תכונות, לקיים ישיבות – ועדיין לא להתקדם כלל. ריס טוען שההתקדמות האמיתית נמדדת ב'למידה מאומתת': ניסויים קטנים ומבוקרים שמוכיחים מדעית מה הלקוחות באמת רוצים, ולא מה שהצוות מניח שהם רוצים.",
+      "points_he": [
+        "לולאת בנה-מדוד-למד היא המנוע המרכזי של החברה",
+        "כל תכונה חדשה היא ניסוי שבודק השערה, לא רק תוספת למוצר",
+        "נתונים איכותיים ממעט לקוחות אמיתיים שווים יותר מסקר גדול שלא בודק התנהגות",
+        "המטרה היא לקצר את הזמן מרעיון להשערה נבדקת"
+      ],
+      "apply_he": "לפני שאתם מוסיפים תכונה, כתבו איזו השערה עסקית היא אמורה להוכיח או להפריך.",
+      "sources": [
+        "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/",
+        "https://www.oberlo.com/blog/lean-startup"
+      ]
+    },
+    {
+      "book_id": "b_the_lean_startup",
+      "chapter_index": 4,
+      "chapter_title": "Experiment",
+      "chapter_title_he": "ניסוי",
+      "idea_he": "כל תכונה חדשה היא ניסוי מדעי עם השערה שאפשר להפריך",
+      "body_he": "ריס מעביר את מושג הניסוי המדעי לפיתוח מוצר: כל שינוי במוצר צריך להתחיל מהשערה ברורה, להיבדק במהירות מול לקוחות אמיתיים, ולהימדד ב'חשבונאות חדשנות' – מדדים שמראים אם מנוע הצמיחה באמת מתקדם. מכאן נגזרת גם ההחלטה מתי לשנות כיוון אסטרטגי ומתי להתמיד בדרך הנוכחית.",
+      "points_he": [
+        "ניסוי מוצרי הוא גם ניסוי עסקי – הוא בודק ביקוש וגם מודל עסקי",
+        "חשבונאות חדשנות מודדת התקדמות אמיתית מול מדדים שרק נראים טוב",
+        "שינוי כיוון אסטרטגי הוא לא כישלון אלא תיקון מבוסס נתונים",
+        "קבוצת מיקוד קטנה יכולה לחשוף יותר מסקר עם אלפי משתתפים"
+      ],
+      "apply_he": "נסחו השערה אחת שאפשר לבדוק השבוע מול 5-10 לקוחות אמיתיים – לא בסקר, אלא בהתנהגות בפועל.",
+      "sources": [
+        "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/",
+        "https://www.supersummary.com/the-lean-startup/summary/"
+      ]
+    },
+    {
+      "book_id": "b_zero_to_one",
+      "chapter_index": 2,
+      "chapter_title": "Party Like It's 1999",
+      "chapter_title_he": "לחגוג כמו ב-1999",
+      "idea_he": "החוכמה המקובלת שנולדה מקריסת הדוט-קום היא בעצמה טעות מסוכנת",
+      "body_he": "תיל מראה איך התרסקות בועת הדוט-קום ב-2000 הטביעה חותם כה עמוק בעולם ההייטק, שהיא יצרה 'כללי אצבע' חדשים: לחשוב בצעדים קטנים, להישאר גמישים, לשפר מתחרים קיימים ולהתמקד במוצר ולא במכירות. תיל טוען שהכללים האלה, שנולדו מפחד מקריסה נוספת, הם בדיוק מה שמונע מחברות ליצור דברים חדשים וגדולים כמו גוגל או פייפאל.",
+      "points_he": [
+        "בועות שוק מוכיחות שהחוכמה המקובלת של הרגע לרוב טועה",
+        "אחרי קריסת 1999 עולם ההייטק אימץ כללים זהירים מדי מתוך פחד לחזור על הטעות",
+        "הכללים הזהירים האלה עצמם הפכו למכשול ליצירת חברות פורצות דרך",
+        "לפעמים המסקנה הנכונה מכישלון היא ההפך הגמור ממה שכולם למדו ממנו"
+      ],
+      "apply_he": "זהו 'כלל אצבע' אחד שכולם בתחום שלכם מקבלים כמובן מאליו, ובדקו אם הוא באמת נכון היום.",
+      "sources": [
+        "https://jameshfisher.com/2018/09/14/summary-zero-to-one-c2/",
+        "https://grahammann.net/book-notes/zero-to-one-peter-thiel"
+      ]
+    },
+    {
+      "book_id": "b_zero_to_one",
+      "chapter_index": 3,
+      "chapter_title": "All Happy Companies Are Different",
+      "chapter_title_he": "כל החברות המאושרות שונות זו מזו",
+      "idea_he": "חברות מצליחות הן מונופולים ייחודיים; חברות כושלות כולן דומות – לא ברחו מתחרות",
+      "body_he": "תיל הופך משפט פתיחה מפורסם לעקרון עסקי: כל חברה מאושרת שונה, כי היא פתרה בעיה ייחודית וזכתה למונופול; כל החברות הכושלות דומות – הן לא הצליחו לברוח מתחרות. הוא נותן כדוגמה נגדית את חברות התעופה, שמתחרות ביניהן עד שכמעט אין רווח, מול גוגל, שכמעט ואינה מתחרה על חיפוש ולכן שומרת על רווחיות עצומה.",
+      "points_he": [
+        "מונופול, לא תחרות, הוא מה שמאפשר לחברה לשגשג לאורך זמן",
+        "תחרות מושלמת מבטלת בדיוק את הרווח שהופך חברה לבת-קיימא",
+        "התרבות מפארת תחרות, אבל היזמים המצליחים ביותר נמנעים ממנה",
+        "לזהות בעיה ייחודית ולפתור אותה לבד עדיף על תחרות בבעיה שכולם כבר פותרים"
+      ],
+      "apply_he": "שאלו אם המיזם שלכם נלחם בזירה צפופה של מתחרים – ואם כן, איזו בעיה ייחודית תוציא אתכם משם.",
+      "sources": [
+        "https://jameshfisher.com/2018/09/15/summary-zero-to-one-c3/",
+        "https://www.leapaheadapp.com/en/blog/zero-to-one-summary"
+      ]
+    },
+    {
+      "book_id": "b_zero_to_one",
+      "chapter_index": 4,
+      "chapter_title": "The Ideology of Competition",
+      "chapter_title_he": "האידאולוגיה של התחרות",
+      "idea_he": "תחרות היא אידאולוגיה שגורמת לנו להילחם על דברים קטנים במקום ליצור דברים גדולים",
+      "body_he": "תיל טוען שתחרות אינה רק כוח כלכלי אלא אידאולוגיה שחילחלה לתרבות – מבית הספר ועד עולם העסקים – וגורמת לאנשים ולחברות להתמקד בניצחון על מתחרים קיימים במקום לשאול אם בכלל כדאי להילחם בקרב הזה. יריבות עזה גוררת הפרזה בהערכת הזדמנויות ישנות וחיקוי של מה שכבר עבד, על חשבון יצירת משהו חדש.",
+      "points_he": [
+        "תחרות עצמה, לא רק המוצר, יכולה להפוך למטרה – וזו טעות",
+        "יריבות מתמשכת גוררת חברות להשקיע יותר ויותר במשהו שפחות ופחות משתלם",
+        "חשיבה תחרותית מטופחת מגיל צעיר, גם כשאין בכך תועלת",
+        "השאלה הנכונה היא לא 'איך ננצח את המתחרה' אלא 'האם יש בכלל טעם להתחרות כאן'"
+      ],
+      "apply_he": "זהו זירה שבה אתם מתחרים מתוך הרגל, ושאלו אם יש דרך לעקוף אותה לגמרי.",
+      "sources": [
+        "https://grahammann.net/book-notes/zero-to-one-peter-thiel",
+        "https://auresnotes.com/summary-zero-to-one-peter-thiel/"
+      ]
+    },
+    {
+      "book_id": "b_good_to_great",
+      "chapter_index": 2,
+      "chapter_title": "Level 5 Leadership",
+      "chapter_title_he": "מנהיגות רמה 5",
+      "idea_he": "מנהיגים ברמה 5 משלבים ענווה אישית קיצונית עם רצון מקצועי עז",
+      "body_he": "קולינס פותח בסיפורו של דארווין סמית', מנכ\"ל שקט וביישן שהוביל את קימברלי-קלארק למכור את מפעלי הנייר המסורתיים שלה כדי להתמקד במוצרי נייר צרכניים – החלטה נועזת שהובילה לתשואה עודפת לאורך 25 שנה. קולינס מכנה מנהיגים כאלה 'רמה 5': הם מפנים את השאיפה שלהם לחברה ולא לעצמם, ונמנעים מפולחן אישיות.",
+      "points_he": [
+        "מנהיג רמה 5 משלב ענווה אישית קיצונית עם נחישות מקצועית עזה",
+        "בניגוד למיתוס, מנהיגי-על כריזמטיים לא בהכרח הופכים חברה למצוינת",
+        "מנהיגי רמה 5 מפנים תשבחות החוצה ולוקחים אחריות פנימה כשמשהו משתבש",
+        "בחירת המנהיג הנכון קודמת לכל שינוי אסטרטגי אחר"
+      ],
+      "apply_he": "בפעם הבאה שפרויקט מצליח, שימו לב לאן אתם מפנים את הקרדיט – החוצה לצוות או פנימה אליכם.",
+      "sources": [
+        "https://www.litcharts.com/lit/good-to-great/chapter-2",
+        "https://www.litcharts.com/lit/good-to-great/summary"
+      ]
+    },
+    {
+      "book_id": "b_good_to_great",
+      "chapter_index": 3,
+      "chapter_title": "First Who, Then What",
+      "chapter_title_he": "קודם מי, אחר כך מה",
+      "idea_he": "גייסו את האנשים הנכונים לפני שתחליטו לאן החברה נוסעת",
+      "body_he": "חברות שקפצו ממצוינות לא התחילו באסטרטגיה – הן התחילו באנשים. המנהיגים שלהן גייסו קודם את השחקנים הנכונים לאוטובוס, ורק אחר כך קבעו לאן הוא נוסע. חברות ההשוואה נהגו הפוך: חיפשו 'מנהיג-גאון' אחד שיקבע חזון, ונשארו תלויות בו כשעזב.",
+      "points_he": [
+        "'מי' קודם ל'מה' – גיוס האנשים הנכונים קודם לניסוח האסטרטגיה",
+        "חברות שהסתמכו על מנהיג-גאון אחד קרסו כשהוא עזב",
+        "הצלחה מתמשכת דורשת צוות חזק, לא כוכב יחיד",
+        "אם לא בטוחים אם מישהו מתאים לתפקיד – התשובה כנראה לא"
+      ],
+      "apply_he": "לפני שתתכננו את הצעד האסטרטגי הבא, שאלו אם יש לכם סביב השולחן את האנשים הנכונים לבצע אותו.",
+      "sources": [
+        "https://www.litcharts.com/lit/good-to-great/chapter-3",
+        "https://www.litcharts.com/lit/good-to-great/summary"
+      ]
+    },
+    {
+      "book_id": "b_good_to_great",
+      "chapter_index": 4,
+      "chapter_title": "Confront the Brutal Facts",
+      "chapter_title_he": "התמודדו עם העובדות הקשות",
+      "idea_he": "התמודדו עם העובדות הקשות ביותר – ובו-זמנית שמרו אמונה שתנצחו בסוף",
+      "body_he": "קולינס מביא את סיפורו של סגן-אדמירל ג'יימס סטוקדייל, שבוי המלחמה הבכיר ביותר בהאנוי במשך שמונה שנים, שסבל עינויים חוזרים בלי לדעת אם ומתי ישוחרר. סטוקדייל שרד כי החזיק בו-זמנית בשני קטבים: אמונה בלתי מעורערת שינצח בסוף, וכנות מוחלטת מול העובדות הקשות ביותר של המצב הנוכחי – הפרדוקס שקרוי על שמו.",
+      "points_he": [
+        "חברות מצוינות עימתו את עצמן עם העובדות הקשות ביותר לפני קביעת אסטרטגיה",
+        "אופטימיות עיוורת בלי הכרה במציאות היא מתכון לכישלון",
+        "יצירת סביבה שבה אומרים אמת בקול רם, ולא 'הורגים את השליח', היא תפקיד המנהיג",
+        "פרדוקס סטוקדייל: אמונה שתנצחו בסוף, יחד עם משמעת להתמודד עם המציאות הקשה ביותר עכשיו"
+      ],
+      "apply_he": "כתבו את העובדה הקשה ביותר שאתם נמנעים מלהודות בה לגבי הפרויקט או העסק שלכם.",
+      "sources": [
+        "https://www.jimcollins.com/concepts/confront-the-brutal-facts.html",
+        "https://www.jimcollins.com/concepts/Stockdale-Concept.html"
+      ]
+    },
+    {
+      "book_id": "b_never_split_the_difference",
+      "chapter_index": 2,
+      "chapter_title": "Be a Mirror",
+      "chapter_title_he": "היו מראה",
+      "idea_he": "שיקוף פשוט – חזרה על המילים האחרונות שנאמרו – פותח את הצד השני לדבר",
+      "body_he": "ווס מציג את טכניקת ה'שיקוף': חזרה על שתיים-שלוש המילים האחרונות שהצד השני אמר, בטון רגוע. הטכניקה גורמת לאדם להרגיש שמקשיבים לו ומעודדת אותו להרחיב ולחשוף מידע, כמעט תמיד בלי שירגיש שמפעילים עליו לחץ.",
+      "points_he": [
+        "שיקוף יוצר תחושת דמיון שמעודדת אמון ובניית קשר",
+        "הטכניקה קונה זמן לחשוב בלי לגלות את הקלפים שלכם",
+        "אנשים שממשיכים לדבר חושפים יותר מידע – ומידע הוא כוח במו\"מ",
+        "שיקוף עובד כי אנשים רוצים להרגיש מובנים, לא משוכנעים"
+      ],
+      "apply_he": "בשיחה הבאה, חזרו בעדינות על 2-3 המילים האחרונות שהצד השני אמר במקום לענות מיד, וראו מה הוא מוסיף.",
+      "sources": [
+        "https://villager1598.medium.com/never-split-the-difference-summary-of-chapter-2-b8e704b8575a",
+        "https://www.runn.io/blog/never-split-the-difference-summary"
+      ]
+    },
+    {
+      "book_id": "b_never_split_the_difference",
+      "chapter_index": 3,
+      "chapter_title": "Don't Feel Their Pain, Label It",
+      "chapter_title_he": "אל תרגישו את הכאב שלהם, תייגו אותו",
+      "idea_he": "תייגו את הרגש של הצד השני בקול, ואז שתקו",
+      "body_he": "ווס מוסיף שלב שני: 'תיוג' – זיהוי הרגש שעולה אצל הצד השני וניסוחו במשפט שמתחיל ב'נראה ש...' או 'נשמע כאילו...', בלי לשפוט אותו. אחרי הטלת תווית, הכלל הוא לשתוק: השתיקה נותנת לצד השני מרחב להגיב, לאשר או לתקן את התיוג, ומעמיקה את תחושת ההבנה ההדדית.",
+      "points_he": [
+        "תיוג מתחיל בזיהוי הרגש, לא בפתרון הבעיה",
+        "המשפט תמיד מנוסח כתצפית ('נראה ש...') ולא כאבחנה נחרצת",
+        "אחרי תיוג – שתיקה: מי שמדבר ראשון בדרך כלל מפסיד יתרון",
+        "תיוג רגשות שליליים מפחית את עוצמתם; התעלמות מהם מגבירה אותם"
+      ],
+      "apply_he": "בפעם הבאה שאתם מזהים תסכול אצל הצד השני, אמרו 'נראה שזה מתסכל אותך' ואז שתקו.",
+      "sources": [
+        "https://www.scienceofpeople.com/never-split-difference-summary/",
+        "https://www.runn.io/blog/never-split-the-difference-summary"
+      ]
+    },
+    {
+      "book_id": "b_never_split_the_difference",
+      "chapter_index": 4,
+      "chapter_title": "Beware \"Yes\" – Master \"No\"",
+      "chapter_title_he": "היזהרו מ'כן' – שלטו ב'לא'",
+      "idea_he": "'לא' הוא לא כישלון – הוא ההתחלה האמיתית של המו\"מ",
+      "body_he": "ווס טוען שהמרדף אחרי 'כן' מוקדם הוא טעות: אנשים אומרים 'כן' כדי לצאת מאי-נוחות בלי כוונה אמיתית להתחייב ('כן מזויף'). לעומת זאת, כשנותנים לצד השני להגיד 'לא', הוא מרגיש בטוח ובשליטה, ורק אז הוא מוכן לחשוף מה באמת מפריע לו ולנהל שיחה כנה.",
+      "points_he": [
+        "יש שלושה סוגי 'כן': מזויף, אישור סתמי, והתחייבות אמיתית – רוב ה'כן' המוקדמים מזויפים",
+        "'לא' נותן לצד השני תחושת ביטחון ושליטה שמאפשרת התקדמות אמיתית",
+        "שאלות שמזמינות 'לא' פותחות דלת במקום לסגור אותה",
+        "דחיפה ל'כן' מוקדם גורמת לצד השני להרגיש נלכד ולהתגונן"
+      ],
+      "apply_he": "בפעם הבאה שאתם רוצים תשובה, נסחו שאלה שמזמינה 'לא' במקום 'כן', וראו איך הטון משתנה.",
+      "sources": [
+        "https://www.runn.io/blog/never-split-the-difference-summary",
+        "https://elevatesociety.com/takeaways-never-split-the-difference/"
+      ]
+    },
+    {
+      "book_id": "b_high_output_management",
+      "chapter_index": 2,
+      "chapter_title": "Managing the Breakfast Factory",
+      "chapter_title_he": "ניהול מפעל ארוחת הבוקר",
+      "idea_he": "מדדו תפוקה עם כמה אינדיקטורים ברורים שאפשר לבדוק כל יום",
+      "body_he": "גרוב ממשיך את משל מפעל ארוחת הבוקר וטוען שכל ארגון, לא רק קו ייצור, צריך כמה מדדי תפוקה ברורים ומדידים ולא עשרות דוחות מסובכים. מדדים טובים משלבים אינדיקטור מוביל, שמנבא בעיה לפני שהיא קורית, ואינדיקטור מפגר, שמאשר אם התוצאה בפועל הושגה, ונבדקים בקביעות.",
+      "points_he": [
+        "ניהול הוא בסופו של דבר ניהול תהליך ייצור, גם במשרד ולא רק במפעל",
+        "בחרו מספר קטן של מדדים כמותיים שמייצגים את מה שבאמת חשוב",
+        "שילוב אינדיקטור מוביל ומפגר מונע הפתעות",
+        "מדדים שנבדקים רק פעם ברבעון לא מספיקים לניהול שוטף"
+      ],
+      "apply_he": "בחרו שני מדדים בלבד לצוות שלכם ובדקו אותם השבוע – לא עשרות.",
+      "sources": [
+        "https://readingraphics.com/book-summary-high-output-management/",
+        "https://danlebrero.com/2023/04/12/high-output-management-summary/"
+      ]
+    },
+    {
+      "book_id": "b_high_output_management",
+      "chapter_index": 3,
+      "chapter_title": "Managerial Leverage",
+      "chapter_title_he": "מנוף ניהולי",
+      "idea_he": "מנוף ניהולי: פעולה קצרה של מנהל שמניבה תפוקה גדולה בהרבה",
+      "body_he": "גרוב מגדיר את התפוקה של מנהל לא לפי מה שהוא עושה בעצמו, אלא לפי התפוקה של הצוות שהוא משפיע עליו – 'מנוף ניהולי'. שלוש פעילויות בעלות מנוף גבוה: איסוף מידע, קבלת החלטות, ו'דחיפה' של אחרים לכיוון הרצוי. זמנו של מנהל צריך להיבחן לפי המנוף שהוא יוצר, לא לפי מספר השעות.",
+      "points_he": [
+        "תפוקת המנהל שווה לתפוקת הצוות שלו ועוד תפוקת השכנים שהוא משפיע עליהם",
+        "האצלת סמכויות עם מעקב היא פעולה בעלת מנוף חיובי גבוה",
+        "דחיינות בהחלטות והתערבות מיותרת הן פעולות בעלות מנוף שלילי",
+        "הדרכה של איש צוות אחד יכולה לשפר ביצועים של עשרות אנשים לאורך שנים"
+      ],
+      "apply_he": "השבוע, זהו פעולה ניהולית אחת – החלטה, הדרכה או מידע – שיכולה להשפיע על עשרות שעות עבודה של אחרים.",
+      "sources": [
+        "https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63",
+        "https://danlebrero.com/2023/04/12/high-output-management-summary/"
+      ]
+    },
+    {
+      "book_id": "b_high_output_management",
+      "chapter_index": 4,
+      "chapter_title": "Meetings – The Medium of Managerial Work",
+      "chapter_title_he": "ישיבות – המדיום של עבודת הניהול",
+      "idea_he": "ישיבות הן לא בזבוז זמן – הן המדיום שבו הניהול קורה בפועל",
+      "body_he": "גרוב הופך את התפיסה הרווחת: ישיבה אינה סטייה מהעבודה האמיתית של מנהל אלא כלי העבודה שלו עצמו. הוא מבחין בין ישיבות אחד-על-אחד להעברת מידע וזיהוי בעיות, ישיבות צוות לדיון חופשי מובנה וקבלת החלטות, וישיבות חד-פעמיות שצריכות להישאר נדירות. תהליך החלטה טוב כולל דיון חופשי, החלטה ברורה, ותמיכה מלאה של הקבוצה בביצועה.",
+      "points_he": [
+        "ישיבה מוצלחת דורשת סדר יום ברור והכנה מראש של המנהל המנחה",
+        "אחד-על-אחד סדיר הוא ההזדמנות המרכזית לאתר בעיות לפני שהן מחריפות",
+        "החלטות צריכות להתקבל ברמה הנמוכה ביותר שיש בה מספיק ידע, לא תמיד למעלה",
+        "מנהל שמבלה יותר מרבע מזמנו בישיבות פתע-פתאום כנראה מנהל בצורה כושלת"
+      ],
+      "apply_he": "בדקו את היומן שלכם השבוע: כמה מהישיבות היו מתוכננות מראש וכמה היו כיבוי שריפות?",
+      "sources": [
+        "https://matthewkudija.com/reading-notes/2021-04-11-High-Output-Management.html",
+        "https://danlebrero.com/2023/04/12/high-output-management-summary/"
+      ]
+    },
+    {
+      "book_id": "b_the_innovators_dilemma",
+      "chapter_index": 2,
+      "chapter_title": "Value Networks and the Impetus to Innovate",
+      "chapter_title_he": "רשתות ערך והדחף לחדשנות",
+      "idea_he": "כל מוצר חי בתוך 'רשת ערך' שמגדירה מהי 'תפוקה טובה'",
+      "body_he": "כריסטנסן מציג את המושג 'רשת ערך' – מערכת הספקים, היצרנים והלקוחות שבתוכה מוצר נמדד ומוערך. אותה טכנולוגיה יכולה להיחשב גרועה ברשת ערך אחת ומצוינת בשנייה: בכונני דיסק למחשבי ליבה נמדדים לפי קיבולת ומהירות, ואילו במחשוב נייד נמדדים לפי עמידות, צריכת חשמל וגודל קטן.",
+      "points_he": [
+        "חברות בונות מבנה עלויות ותרבות שמתאימים לרשת הערך שהן פועלות בה",
+        "טכנולוגיה משבשת לרוב נראית נחותה ברשת הערך הקיימת של הלקוחות המובילים",
+        "טכנולוגיה משבשת יוצרת רשת ערך חדשה משלה, עם קריטריוני הצלחה שונים",
+        "חברות מוטות רווחיות נוטות להעדיף חדשנות שמשרתת את רשת הערך שכבר משלמת להן"
+      ],
+      "apply_he": "שאלו איזו רשת ערך אחרת, עם קריטריוני הצלחה שונים לגמרי, קיימת בשוליים של השוק שלכם.",
+      "sources": [
+        "https://www.coursehero.com/lit/The-Innovators-Dilemma-When-New-Technologies-Cause-Great-Firms-to-Fail/part-1-chapter-2-summary/",
+        "https://www.supersummary.com/the-innovators-dilemma/summary/"
+      ]
+    },
+    {
+      "book_id": "b_the_innovators_dilemma",
+      "chapter_index": 3,
+      "chapter_title": "Disruptive Technological Change in the Mechanical Excavator Industry",
+      "chapter_title_he": "שינוי טכנולוגי משבש בתעשיית ציוד החפירה",
+      "idea_he": "תעשיית המחפרים מוכיחה שהדפוס חוזר על עצמו גם הרחק מהיי-טק",
+      "body_he": "כדי להראות שתבנית החדשנות המשבשת אינה ייחודית לדיסקים קשיחים, כריסטנסן עוקב אחרי תעשיית ציוד החפירה, שבה המחפרון ההידראולי – טכנולוגיה שנראתה נחותה בהתחלה – הדיח בהדרגה את מרגמות הכבלים המסורתיות. חברות הכבלים המובילות התמקדו בלקוחות הגדולים שלהן והתעלמו מהשוק הקטן שבו המחפרון החדש כבר היה 'מספיק טוב'.",
+      "points_he": [
+        "הדפוס של חדשנות משבשת חוזר על עצמו בתעשיות שונות לגמרי, לא רק בטכנולוגיה",
+        "חברות מובילות התעלמו מהשוק הקטן שבו הטכנולוגיה החדשה כבר הספיקה",
+        "המוצר החדש השתפר בהדרגה עד שעלה גם על ביצועי השוק המקורי",
+        "התמקדות יתר בלקוחות הגדולים ביותר היא גורם סיכון, לא רק יתרון"
+      ],
+      "apply_he": "זהו טכנולוגיה או שיטה חדשה שעדיין 'לא מספיק טובה' ללקוחות הגדולים שלכם – היא עשויה להיות מספיק טובה למישהו אחר כבר היום.",
+      "sources": [
+        "https://www.supersummary.com/the-innovators-dilemma/summary/",
+        "https://tuningjohn.com/book/innovators/"
+      ]
+    },
+    {
+      "book_id": "b_the_innovators_dilemma",
+      "chapter_index": 4,
+      "chapter_title": "Matching Technology Supply to Market Demand",
+      "chapter_title_he": "התאמת היצע הטכנולוגיה לביקוש השוק",
+      "idea_he": "לקוחות לא רוצים 'יותר טוב' – הם רוצים 'מספיק טוב' במחיר ובנוחות המתאימים להם",
+      "body_he": "כריסטנסן מראה שקצב השיפור הטכנולוגי לרוב עולה על הקצב שבו השוק צריך את השיפור, כך שמוצר 'נחות' יכול עדיין להספיק ואף לעלות על הנדרש בפלח שוק מסוים. כשחברות מקצות משאבים תמיד לפרויקט הרווחי ביותר, הן נדחפות כלפי מעלה בשוק ומזניחות פלחים נמוכים יותר, בדיוק שם שבו הטכנולוגיה המשבשת תופסת אחיזה.",
+      "points_he": [
+        "קצב השיפור הטכנולוגי לרוב מהיר מקצב הצרכים האמיתיים של הלקוחות",
+        "תהליך הקצאת המשאבים הרציונלי דוחף חברות תמיד 'למעלה' בשוק",
+        "התעלמות משווקים 'קטנים מדי' משאירה אותם פתוחים למתחרה משבש",
+        "דוגמת סיגייט: כונן 1.8 אינץ' לא מצא קונה בשוק המחשבים, עד שנמצא לו שימוש בניווט לרכבים"
+      ],
+      "apply_he": "בדקו אם יש פלח לקוחות 'קטן מדי בשבילכם' שכבר מסתפק בפתרון פשוט יותר מהמוצר המוביל שלכם.",
+      "sources": [
+        "https://tuningjohn.com/book/innovators/",
+        "https://medium.com/@rohitrkutum345/summary-of-the-innovators-dilemma-by-clayton-m-christensen-1eb159b878c7"
       ]
     }
   ]

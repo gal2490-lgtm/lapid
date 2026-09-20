@@ -22,7 +22,8 @@ search result, chapter cards cite their grounding sources, and quotes appear onl
 seen verbatim. Run `node scripts/validate.cjs` from the repo root to check the data.
 
 ## Where it runs
-- GitHub Pages, published automatically from `main` by `.github/workflows/pages.yml`.
+- GitHub Pages serves the `gh-pages` branch; `.github/workflows/pages.yml` mirrors `main` into it on every push.
+  Live at https://gal2490-lgtm.github.io/lapid/
   There YouTube plays inline and book covers load from Open Library.
 - As a claude.ai artifact (no external images allowed there) it falls back to typographic
   covers and posters, and videos open on YouTube.

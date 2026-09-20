@@ -12,8 +12,13 @@ articles from selected publications. No goals, no streaks, no notifications, no 
 - On first open the reader picks interests. The feed is assembled locally from the chosen
   interests: chapter cards, videos, articles, "meet the leader" and "book to know" cards,
   interleaved and shuffled with a daily seed. Items already seen sink to the end.
-- Weekly cadence: for each book that has chapter cards, the card shown is chapter
-  `min(week, chapters available)`, where `week` counts from `week_epoch`.
+- Progression: for each book the feed shows the first idea card the reader has not reacted to.
+  A reaction (liked / fine / not for me) opens the next idea. The weekly refresh keeps about
+  three new ideas per active book ahead, and swaps in the next book from the interest's
+  ranked list when a book is exhausted.
+- Personalisation is local: "not for me" on a leader sinks that leader's cards, a liked book
+  surfaces first. Leader portraits come from Wikipedia and publication logos from Clearbit
+  when the host allows external images.
 - Saved items, seen items, theme and chosen interests live in `localStorage` only.
 
 ## Content rules

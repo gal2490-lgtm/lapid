@@ -16,11 +16,19 @@ books/videos/articles stay in their original language.
    idea comes from). Only ideas that are actually in the book, grounded in search results
    (Wikipedia / SparkNotes / LitCharts / publisher pages / reputable summaries), URLs in `sources`.
    If you cannot ground an idea, pick another book.
-4b. Articles must be currently relevant when the reader sees them: never a preview, prediction or
+4b. Articles must still make sense when the reader sees them: never a preview, prediction or
    "who will win" piece about an event that has already happened, and no seasonal content that
-   has expired. Prefer evergreen analysis or news from the last ~30 days.
+   has expired. Older evergreen analysis from a strong publication is fine; freshness is second.
 5. Books: only well-known, real books you are certain exist (correct title, author, year).
    If unsure about any, verify by searching; drop it if unverified.
+   The list of an interest is anchored to ONE strong ranked list from the web ("best/most
+   influential 100 books on <field>" from a major publication, university, or a widely used
+   ranking such as Goodreads, Five Books, Blinkist or the Personal MBA list). Record it in
+   `book_list_source` {name, url}. When a book's ideas are exhausted (all its main ideas have
+   cards, typically 6-12), mark it `"status": "done"` and append the next book from that ranked
+   list with `"status": "queued"` (keep at least 6 books with cards in progress).
+5b. `title_he`: only the title of a real Hebrew edition. If no Hebrew edition exists, OMIT the
+   field. The app then shows the original title. Never invent a Hebrew title.
 6. The only web tool that works is WebSearch. WebFetch/curl are blocked. Do not waste calls on them.
 7. Hebrew style: never write an English word in Hebrew letters (no "טריגר", "פודקאסט", "סטארט-אפ",
    "ניוזלטר", "מיינדסט"). If a Hebrew word exists, use it (גורם מפעיל, חברת הזנק, ידיעון, דפוס חשיבה).
@@ -100,7 +108,7 @@ books/videos/articles stay in their original language.
 - `books`: exactly 30. Mix classics and modern. `chapters_total` = real chapter count if you know it, else omit.
 - `leaders`: exactly 10 living or historically central thought leaders with a real public video presence. Each with exactly 2 videos (talks, interviews, lectures) found via WebSearch (query like `"<name>" interview youtube` or `"<name>" talk site:youtube.com`). Prefer full-length talks/interviews on official channels (TED, podcasts, universities).
 - `publications`: exactly 5 real publications/writers that publish articles in the field (magazines, newsletters, blogs, journals for a lay reader). Each with 3 articles from 2025-2026 found via WebSearch (`site:<domain> <topic>`; add "2026" to the query). Israeli/Hebrew sources are welcome where relevant.
-- `chapters`: exactly 6 cards: the first core idea of 6 different books from your list (the idea the book opens with). Choose the 6 most iconic books. Ground each with at least 2 search results.
+- `chapters`: cards of core ideas, in the book's order. First run: the first idea of 6 different books (the 6 most iconic). Weekly: 3 new ideas per active book (a book is exhausted when its main ideas are covered, typically 6-12 cards). The reader moves through a book by reacting to cards, so always keep ideas ahead of the reader. Ground each card with at least 2 search results.
 
 ## Working method
 - Budget ~60-80 WebSearch calls. Batch several independent searches in one turn.

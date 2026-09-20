@@ -225,6 +225,10 @@
   }
   .c-article .mast .pub { font-family: var(--font-display); font-weight: 900; font-size: 22px; direction: ltr; text-align: left; }
   .c-article .mast .date { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .c-article .mast .logo { width: 34px; height: 34px; border-radius: 8px; object-fit: contain; background: #fff; padding: 3px; border: 1px solid var(--line); margin-inline-end: 10px; align-self: center; }
+  .c-article .mast .pub { flex: 1 1 auto; }
+  .avatar { overflow: hidden; }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .c-article .text { padding: 16px 20px 12px; }
   .c-article .title { font-family: var(--font-display); font-weight: 700; font-size: 21px; line-height: 1.3; direction: ltr; text-align: left; }
   .c-article .summary { margin-top: 12px; color: var(--ink-2); font-size: 15.5px; }
@@ -417,15 +421,18 @@
       const books = data.books || [], leaders = data.leaders || [], pubs = data.publications || [], chapters = data.chapters || [];
       const bookById = Object.fromEntries(books.map(b => [b.id, b]));
 
-      // Chapters: for each book with chapter cards, show the chapter due this week (1 per week, from the week the book entered the feed).
+      // Ideas: for each book, show the first idea the reader has not reacted to yet.
+      // A reaction is what moves a book forward; the weekly refresh keeps ~3 new ideas per book ahead.
       const perBook = {};
       chapters.forEach(c => { (perBook[c.book_id] = perBook[c.book_id] || []).push(c); });
       Object.keys(perBook).forEach(bid => {
         const list = perBook[bid].sort((a, b) => a.chapter_index - b.chapter_index);
-        const due = Math.min(week, list.length);
-        const c = list[due - 1];
-        const book = bookById[bid]; if (!book || !c) return;
-        byType.chapter.push({ type: 'chapter', key: 'ch:' + id + ':' + bid + ':' + c.chapter_index, interest: meta, book, chapter: c, ordinal: list.indexOf(c) + 1, of: book.chapters_total });
+        const book = bookById[bid]; if (!book) return;
+        const keyOf = c => 'ch:' + id + ':' + bid + ':' + c.chapter_index;
+        let c = list.find(x => !state.reactions[keyOf(x)]);
+        const done = !c;
+        if (done) c = list[list.length - 1];
+        byType.chapter.push({ type: 'chapter', key: keyOf(c), interest: meta, book, chapter: c, ordinal: list.indexOf(c) + 1, of: list.length, done, liked: list.some(x => state.reactions[keyOf(x)] === 'up') });
       });
 
       leaders.forEach(L => {
@@ -437,7 +444,13 @@
     }
 
     // Unseen first, then seen (so nothing repeats until everything else has been shown).
-    const rank = it => state.reactions[it.key] === 'down' ? 2 : state.seen[it.key] ? 1 : 0;
+    const disliked = new Set(Object.keys(state.reactions).filter(k => state.reactions[k] === 'down'));
+    const leaderDown = it => it.leader && disliked.has('ld:' + it.interest.id + ':' + it.leader.id);
+    const rank = it => {
+      if (state.reactions[it.key] === 'down' || it.done || leaderDown(it)) return 3;
+      if (state.seen[it.key]) return 1;
+      return it.liked ? -1 : 0;
+    };
     const order = t => shuffle(byType[t], day + hashStr(t)).sort((a, b) => rank(a) - rank(b));
     const q = { chapter: order('chapter'), video: order('video'), article: order('article'), leader: order('leader'), book: order('book') };
     // Rhythm of the feed: a chapter, a video, an article, a chapter, a leader or book, an article …
@@ -515,7 +528,7 @@
     root.appendChild(media);
     const text = el('div', 'text', `${eyebrow('סרטון', it)}
       <h2 class="title">${esc(v.title)}</h2>
-      <div class="who"><div class="avatar">${esc(initials(L.name))}</div><div><div class="n">${esc(L.name_he || L.name)}</div><div class="r">${esc(L.role_he || '')}</div></div></div>
+      <div class="who"><div class="avatar" data-person="${esc(L.name)}">${esc(initials(L.name))}</div><div><div class="n">${esc(L.name_he || L.name)}</div><div class="r">${esc(L.role_he || '')}</div></div></div>
       ${v.blurb_he ? `<p class="blurb">${esc(v.blurb_he)}</p>` : ''}`);
     root.appendChild(text);
   }
@@ -523,7 +536,7 @@
   function renderArticle(root, it) {
     const { pub: P, article: a } = it;
     root.innerHTML = `
-      <div class="mast"><div class="pub">${esc(P.name)}</div><div class="date">${esc(a.published || '')}</div></div>
+      <div class="mast">${state.mediaOK && P.url ? `<img class="logo" alt="" src="https://logo.clearbit.com/${esc(new URL(P.url).hostname)}" onerror="this.remove()">` : ''}<div class="pub">${esc(P.name)}</div><div class="date">${esc(a.published || '')}</div></div>
       <div class="text">${eyebrow('מאמר', it)}
         <h2 class="title" style="margin-top:10px">${esc(a.title)}</h2>
         <p class="summary">${esc(a.summary_he || '')}</p>
@@ -534,7 +547,7 @@
   function renderLeader(root, it) {
     const L = it.leader;
     root.innerHTML = `
-      <div class="hero"><div class="avatar">${esc(initials(L.name))}</div><div><h2 class="name">${esc(L.name)}</h2><div class="name-he">${esc(L.name_he || '')}</div></div></div>
+      <div class="hero"><div class="avatar" data-person="${esc(L.name)}">${esc(initials(L.name))}</div><div><h2 class="name">${esc(L.name)}</h2><div class="name-he">${esc(L.name_he || '')}</div></div></div>
       <div class="text">${eyebrow('מוביל דעה', it)}
         <p class="role" style="margin-top:10px">${esc(L.role_he || '')}</p>
         <p class="why">${esc(L.why_he || '')}</p>
@@ -620,12 +633,12 @@
     if (rendered >= state.items.length) {
       const slot = el('section', 'slot');
       const c = el('article', 'card c-end');
-      c.innerHTML = state.items.length ? '<div><h2>זה הכל להיום.</h2><p>מחר הסדר מתערבב מחדש, ובשבוע הבא נכנס רעיון חדש מכל ספר.</p></div>' : '<div><h2>אין עדיין תוכן.</h2><p>בחר תחומי עניין בהגדרות כדי להדליק את הלפיד.</p></div>';
+      c.innerHTML = state.items.length ? '<div><h2>זה הכל להיום.</h2><p>מחר הסדר מתערבב מחדש, תגובה על כרטיס פותחת את הרעיון הבא מאותו ספר.</p></div>' : '<div><h2>אין עדיין תוכן.</h2><p>בחר תחומי עניין בהגדרות כדי להדליק את הלפיד.</p></div>';
       slot.appendChild(c); frag.appendChild(slot);
     }
     feed.appendChild(frag);
     observeCards();
-    if (state.mediaOK) resolveCovers();
+    if (state.mediaOK) { resolveCovers(); resolvePortraits(); }
   }
 
   let io;
@@ -665,6 +678,25 @@
     }
   }
 
+  // Portraits of thought leaders from Wikipedia (public, no key). Falls back to initials.
+  const portraitCache = store.get('portraits', {});
+  async function resolvePortraits() {
+    const nodes = Array.from(document.querySelectorAll('.avatar[data-person]:not([data-done])'));
+    for (const n of nodes) {
+      n.dataset.done = '1';
+      const name = n.dataset.person;
+      try {
+        if (!(name in portraitCache)) {
+          const r = await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(name.replace(/ /g, '_')));
+          const j = r.ok ? await r.json() : {};
+          portraitCache[name] = (j.type === 'standard' && j.thumbnail && j.thumbnail.source) || '';
+          store.set('portraits', portraitCache);
+        }
+        if (portraitCache[name]) { const img = new Image(); img.alt = ''; img.onload = () => { n.textContent = ''; n.appendChild(img); }; img.src = portraitCache[name]; }
+      } catch (e) { /* keep initials */ }
+    }
+  }
+
   // ---------- onboarding & settings ----------
   function openScreen(html) { const s = el('div', 'screen'); s.innerHTML = '<div class="inner">' + html + '</div>'; $('#app').appendChild(s); return s; }
 
@@ -673,7 +705,7 @@
     const s = openScreen(`
       ${firstTime ? '' : '<div class="toprow"><button class="ghost" id="back">חזרה</button></div>'}
       <h2 style="margin-top:${firstTime ? 0 : 18}px">מה מעניין אותך?</h2>
-      <p class="lede">סמן תחומים. הלפיד מרכיב את התוכן לבד: לכל תחום 30 ספרים מובילים, 10 מובילי דעה ו-5 כתבי עת. הספרים לא מסוכמים פרק-פרק: כל כרטיס הוא רעיון מרכזי אחד מהספר, ורעיון חדש נכנס פעם בשבוע. בלי יעדים, בלי התראות.</p>
+      <p class="lede">סמן תחומים. הלפיד מרכיב את התוכן לבד: לכל תחום 30 ספרים מובילים, 10 מובילי דעה ו-5 כתבי עת. הספרים לא מסוכמים פרק-פרק: כל כרטיס הוא רעיון מרכזי אחד מהספר, כשאתה מגיב על כרטיס, הרעיון הבא מאותו ספר נכנס. כל שבוע נוספים שלושה רעיונות לכל ספר. בלי יעדים, בלי התראות.</p>
       <div class="tiles" id="tiles"></div>
       <button class="cta" id="go" disabled>${firstTime ? 'הדלק את הלפיד' : 'עדכן את התוכן'}</button>
       <p class="fine">אפשר לשנות בכל רגע מההגדרות.</p>`);

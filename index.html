@@ -130,7 +130,8 @@
     position: relative;
   }
   .card .scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; scrollbar-width: none; display: flex; flex-direction: column; }
-  .c-video .text, .c-article .text { margin-block: auto; }
+  .c-article .text { margin-block: auto; }
+  .c-video .text { flex: 0 0 auto; }
   .card .scroll::-webkit-scrollbar { display: none; }
   .eyebrow {
     display: flex; align-items: center; gap: 8px;
@@ -194,11 +195,11 @@
 
   /* video card */
   .c-video .media {
-    position: relative; aspect-ratio: 16 / 9; max-width: 100%;
+    position: relative; flex: 1 1 auto; min-height: 220px; max-width: 100%;
     background: radial-gradient(120% 100% at 30% 20%, var(--tint-2), #0c0b09 75%);
     display: grid; place-items: center; overflow: hidden;
   }
-  .c-video .media.poster { aspect-ratio: 4 / 3; }
+  .c-video .media .dur { position: absolute; bottom: 12px; inset-inline-end: 14px; z-index: 1; font-size: 12px; padding: 3px 8px; border-radius: 999px; background: rgba(0,0,0,.55); color: #fff; }
   .c-video .media .mono { position: absolute; inset: auto -4% -18% auto; font-family: var(--font-display); font-weight: 900; font-size: 150px; line-height: 1; color: var(--tint-ink); opacity: .14; letter-spacing: -.04em; direction: ltr; }
   .c-video .media img, .c-video .media iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; }
   .play {
@@ -450,6 +451,7 @@
     const rank = it => {
       if (state.reactions[it.key] === 'down' || it.done || leaderDown(it)) return 3;
       if (state.seen[it.key]) return 1;
+      if (it.type === 'video' && videoLong(it.video)) return 0.5;
       return it.liked ? -1 : 0;
     };
     const order = t => shuffle(byType[t], day + hashStr(t)).sort((a, b) => rank(a) - rank(b));
@@ -502,9 +504,13 @@
       <div class="bookline"><div class="cover" data-cover="${esc(book.title)}|${esc(book.author)}">${esc(initials(book.title))}</div><div><div class="t">${esc(book.title)}</div><div class="a">${esc(book.author)}${book.year ? ' · ' + book.year : ''}</div></div></div>`;
   }
 
+  const LONG_RE = /podcast|episode|\bep\.? ?\d|full (interview|episode|conversation|talk)|#\d{2,}|\bhours?\b|masterclass|\blive\b|lecture/i;
+  const videoLong = v => v.duration_min ? v.duration_min > 20 : LONG_RE.test(v.title || '');
   function renderVideo(root, it) {
     const { leader: L, video: v } = it;
     const media = el('div', 'media');
+    if (v.duration_min) media.appendChild(el('span', 'dur', esc(v.duration_min) + ' דק׳'));
+    else if (videoLong(v)) media.appendChild(el('span', 'dur', 'שיחה ארוכה'));
     const play = el(state.mediaOK ? 'button' : 'a', 'play', ICON_PLAY);
     play.setAttribute('aria-label', 'נגן');
     if (state.mediaOK) {

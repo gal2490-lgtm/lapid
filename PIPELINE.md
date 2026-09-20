@@ -66,6 +66,7 @@ books/videos/articles stay in their original language.
           "youtube_id": "CjVQJdIrDJ0",
           "title": "Daniel Kahneman: The riddle of experience vs. memory | TED",
           "source_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+          "duration_min": 20,
           "blurb_he": "משפט אחד על מה הסרטון, מבוסס על הכותרת/תקציר בתוצאת החיפוש בלבד"
         }
       ]
@@ -106,7 +107,7 @@ books/videos/articles stay in their original language.
 
 ## Quantities per interest
 - `books`: exactly 30. Mix classics and modern. `chapters_total` = real chapter count if you know it, else omit.
-- `leaders`: exactly 10 living or historically central thought leaders with a real public video presence. Each with exactly 2 videos (talks, interviews, lectures) found via WebSearch (query like `"<name>" interview youtube` or `"<name>" talk site:youtube.com`). Prefer full-length talks/interviews on official channels (TED, podcasts, universities).
+- `leaders`: exactly 10 living or historically central thought leaders with a real public video presence. Each with exactly 2 videos found via WebSearch (query like `"<name>" interview youtube` or `"<name>" talk site:youtube.com`). SHORT wins: prefer clips of 3-15 minutes (TED/TEDx talks, short interviews, single-question clips, highlights) over full podcast episodes or hour-long lectures. If the search result shows a duration, record it as `duration_min` (integer). Never add a video you know is longer than ~25 minutes when a shorter one by the same person exists.
 - `publications`: exactly 5 real publications/writers that publish articles in the field (magazines, newsletters, blogs, journals for a lay reader). Each with 3 articles from 2025-2026 found via WebSearch (`site:<domain> <topic>`; add "2026" to the query). Israeli/Hebrew sources are welcome where relevant.
 - `chapters`: cards of core ideas, in the book's order. First run: the first idea of 6 different books (the 6 most iconic). Weekly: 3 new ideas per active book (a book is exhausted when its main ideas are covered, typically 6-12 cards). The reader moves through a book by reacting to cards, so always keep ideas ahead of the reader. Ground each card with at least 2 search results.
 

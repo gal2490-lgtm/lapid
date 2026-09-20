@@ -1,0 +1,12 @@
+{
+  "name": "לפיד",
+  "short_name": "לפיד",
+  "description": "פיד למידה אישי: ספרים, מובילי דעה וכתבי עת בתחומים שבחרת.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#15120e",
+  "theme_color": "#15120e",
+  "lang": "he",
+  "dir": "rtl",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

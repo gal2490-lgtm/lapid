@@ -1,0 +1,715 @@
+{
+  "id": "thinking",
+  "name_he": "חשיבה, קבלת החלטות ומדע פופולרי",
+  "name_en": "Thinking, Decision-Making & Popular Science",
+  "tagline_he": "כלים לחשוב בבהירות תחת אי-ודאות, להבין הסתברות וסיכון, ולראות את העולם דרך עיניים של מדען סקרן",
+  "books": [
+    {
+      "id": "b_thinking_fast_and_slow",
+      "title": "Thinking, Fast and Slow",
+      "title_he": "לחשוב מהר, לחשוב לאט",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "why_he": "ספר היסוד של חקר ההטיות הקוגניטיביות: שתי מערכות החשיבה שמסבירות למה אנחנו טועים באופן שיטתי",
+      "chapters_total": 38
+    },
+    {
+      "id": "b_thinking_in_bets",
+      "title": "Thinking in Bets",
+      "title_he": "לחשוב בהימורים",
+      "author": "Annie Duke",
+      "year": 2018,
+      "why_he": "אלופת פוקר מלמדת להפריד בין איכות ההחלטה לבין התוצאה, ולחיות בשלום עם אי-ודאות",
+      "chapters_total": 6
+    },
+    {
+      "id": "b_how_to_decide",
+      "title": "How to Decide",
+      "title_he": "איך להחליט",
+      "author": "Annie Duke",
+      "year": 2020,
+      "why_he": "ספר עבודה מעשי עם כלים מוחשיים לקבלת החלטות טובות יותר, מהיר יותר"
+    },
+    {
+      "id": "b_superforecasting",
+      "title": "Superforecasting: The Art and Science of Prediction",
+      "title_he": "חיזוי-על: האמנות והמדע של הניבוי",
+      "author": "Philip E. Tetlock & Dan Gardner",
+      "year": 2015,
+      "why_he": "מחקר ענק הראה שאנשים רגילים עם הרגלי חשיבה נכונים מנבאים טוב יותר ממומחים, והספר מפרט את ההרגלים"
+    },
+    {
+      "id": "b_fooled_by_randomness",
+      "title": "Fooled by Randomness",
+      "title_he": "תעתועי האקראיות",
+      "author": "Nassim Nicholas Taleb",
+      "year": 2001,
+      "why_he": "הספר שפתח את סדרת 'אינצ'רטו' ומראה כמה מההצלחה שאנו מייחסים לכישרון היא בעצם מזל"
+    },
+    {
+      "id": "b_the_black_swan",
+      "title": "The Black Swan: The Impact of the Highly Improbable",
+      "title_he": "הברבור השחור",
+      "author": "Nassim Nicholas Taleb",
+      "year": 2007,
+      "why_he": "אירועים נדירים ובלתי צפויים מעצבים את ההיסטוריה הרבה יותר ממה שהמודלים שלנו מודים"
+    },
+    {
+      "id": "b_antifragile",
+      "title": "Antifragile: Things That Gain from Disorder",
+      "title_he": "אנטי-שביר",
+      "author": "Nassim Nicholas Taleb",
+      "year": 2012,
+      "why_he": "מציג קטגוריה חדשה: מערכות שלא רק שורדות זעזועים אלא מתחזקות מהם, ואיך לבנות כאלה בחיים"
+    },
+    {
+      "id": "b_nudge",
+      "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+      "title_he": "דחיפה קלה",
+      "author": "Richard H. Thaler & Cass R. Sunstein",
+      "year": 2008,
+      "why_he": "הספר שהכניס את 'ארכיטקטורת הבחירה' למדיניות ציבורית ולעסקים בכל העולם"
+    },
+    {
+      "id": "b_predictably_irrational",
+      "title": "Predictably Irrational",
+      "title_he": "לא רציונלי ולא במקרה",
+      "author": "Dan Ariely",
+      "year": 2008,
+      "why_he": "ניסויים משעשעים ומפתיעים שמראים שהאי-רציונליות שלנו שיטתית, ולכן ניתנת לחיזוי"
+    },
+    {
+      "id": "b_noise",
+      "title": "Noise: A Flaw in Human Judgment",
+      "title_he": "רעש: פגם בשיפוט האנושי",
+      "author": "Daniel Kahneman, Olivier Sibony & Cass R. Sunstein",
+      "year": 2021,
+      "why_he": "מעבר להטיות, יש 'רעש': שונות אקראית בשיפוט של אותם אנשים על אותם מקרים, והספר מלמד לצמצם אותה"
+    },
+    {
+      "id": "b_signal_and_noise",
+      "title": "The Signal and the Noise",
+      "title_he": "האות והרעש",
+      "author": "Nate Silver",
+      "year": 2012,
+      "why_he": "מדריך לחשיבה בייסיאנית דרך דוגמאות מבייסבול, פוליטיקה, מזג אוויר ופוקר"
+    },
+    {
+      "id": "b_scout_mindset",
+      "title": "The Scout Mindset",
+      "title_he": "תודעת הסייר",
+      "author": "Julia Galef",
+      "year": 2021,
+      "why_he": "ההבדל בין 'חייל' שמגן על עמדותיו ל'סייר' שרוצה לראות את המפה כפי שהיא, ואיך לעבור לצד השני"
+    },
+    {
+      "id": "b_poor_charlies_almanack",
+      "title": "Poor Charlie's Almanack",
+      "title_he": "האלמנך של צ'רלי מאנגר",
+      "author": "Charles T. Munger (ed. Peter D. Kaufman)",
+      "year": 2005,
+      "why_he": "אוסף הנאומים של שותפו של וורן באפט, ומקור הרעיון של 'סריג מודלים מנטליים' מתחומים שונים"
+    },
+    {
+      "id": "b_great_mental_models",
+      "title": "The Great Mental Models, Volume 1: General Thinking Concepts",
+      "title_he": "המודלים המנטליים הגדולים",
+      "author": "Shane Parrish & Rhiannon Beaubien",
+      "year": 2019,
+      "why_he": "ספר הבסיס של Farnam Street: מפה, טריטוריה, מעגל כשירות, חשיבה מהיסודות ועוד"
+    },
+    {
+      "id": "b_factfulness",
+      "title": "Factfulness",
+      "title_he": "עובדתיות",
+      "author": "Hans Rosling, Ola Rosling & Anna Rosling Rönnlund",
+      "year": 2018,
+      "why_he": "עשרה אינסטינקטים שמעוותים את תמונת העולם שלנו, ונתונים שמראים שהעולם טוב יותר ממה שנדמה"
+    },
+    {
+      "id": "b_thinking_in_systems",
+      "title": "Thinking in Systems: A Primer",
+      "title_he": "לחשוב במערכות",
+      "author": "Donella H. Meadows",
+      "year": 2008,
+      "why_he": "המבוא הקלאסי לחשיבה מערכתית: מאגרים, זרימות, לולאות משוב ונקודות מינוף"
+    },
+    {
+      "id": "b_algorithms_to_live_by",
+      "title": "Algorithms to Live By",
+      "title_he": "אלגוריתמים לחיים",
+      "author": "Brian Christian & Tom Griffiths",
+      "year": 2016,
+      "why_he": "מה מדעי המחשב יכולים ללמד אותנו על מתי להפסיק לחפש, איך לסדר ומתי לחקור מול לנצל"
+    },
+    {
+      "id": "b_art_of_thinking_clearly",
+      "title": "The Art of Thinking Clearly",
+      "title_he": "אמנות החשיבה הבהירה",
+      "author": "Rolf Dobelli",
+      "year": 2013,
+      "why_he": "99 הטיות ומלכודות חשיבה בפרקים קצרצרים, מושלם לקריאה יומית"
+    },
+    {
+      "id": "b_how_not_to_be_wrong",
+      "title": "How Not to Be Wrong: The Power of Mathematical Thinking",
+      "title_he": "איך לא לטעות: כוחה של החשיבה המתמטית",
+      "author": "Jordan Ellenberg",
+      "year": 2014,
+      "why_he": "מתמטיקאי מראה איך רעיונות מתמטיים פשוטים חושפים טעויות בחדשות, בפוליטיקה ובחיים"
+    },
+    {
+      "id": "b_drunkards_walk",
+      "title": "The Drunkard's Walk: How Randomness Rules Our Lives",
+      "title_he": "הליכת השיכור",
+      "author": "Leonard Mlodinow",
+      "year": 2008,
+      "why_he": "מבוא נגיש להסתברות ולאקראיות, מהיסטוריית התורה ועד לשאלה כמה מזל יש בהצלחה"
+    },
+    {
+      "id": "b_sapiens",
+      "title": "Sapiens: A Brief History of Humankind",
+      "title_he": "קיצור תולדות האנושות",
+      "author": "Yuval Noah Harari",
+      "year": 2014,
+      "why_he": "הספר הישראלי שכבש את העולם: איך מין חסר חשיבות שלט בכדור הארץ בזכות היכולת לספר סיפורים",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_short_history_nearly_everything",
+      "title": "A Short History of Nearly Everything",
+      "title_he": "קיצור תולדות כמעט הכול",
+      "author": "Bill Bryson",
+      "year": 2003,
+      "why_he": "הסיור המשעשע והמקיף ביותר במדע, מהמפץ הגדול ועד לתאים שלנו, כתוב לקורא שאינו מדען"
+    },
+    {
+      "id": "b_selfish_gene",
+      "title": "The Selfish Gene",
+      "title_he": "הגן האנוכי",
+      "author": "Richard Dawkins",
+      "year": 1976,
+      "why_he": "הספר ששינה את הדרך שבה מבינים אבולוציה: הגן, לא הפרט או הקבוצה, הוא יחידת הברירה"
+    },
+    {
+      "id": "b_godel_escher_bach",
+      "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+      "title_he": "גדל, אשר, באך",
+      "author": "Douglas R. Hofstadter",
+      "year": 1979,
+      "why_he": "זוכה פוליצר שמחבר לוגיקה, אמנות ומוזיקה כדי לשאול איך תודעה יכולה לצמוח מחומר",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_beginning_of_infinity",
+      "title": "The Beginning of Infinity",
+      "title_he": "תחילת האינסוף",
+      "author": "David Deutsch",
+      "year": 2011,
+      "why_he": "הסברים טובים הם המנוע של כל התקדמות, ופיזיקאי קוונטי טוען שאין גבול למה שאפשר להסביר",
+      "chapters_total": 18
+    },
+    {
+      "id": "b_chaos",
+      "title": "Chaos: Making a New Science",
+      "title_he": "כאוס: מדע חדש נוצר",
+      "author": "James Gleick",
+      "year": 1987,
+      "why_he": "הסיפור של תורת הכאוס ואפקט הפרפר, ולמה מערכות דטרמיניסטיות יכולות להיות בלתי צפויות"
+    },
+    {
+      "id": "b_the_gene",
+      "title": "The Gene: An Intimate History",
+      "title_he": "הגן: היסטוריה אינטימית",
+      "author": "Siddhartha Mukherjee",
+      "year": 2016,
+      "why_he": "היסטוריה של הגנטיקה ממנדל ועד CRISPR, שזורה בסיפור משפחתו של המחבר"
+    },
+    {
+      "id": "b_behave",
+      "title": "Behave: The Biology of Humans at Our Best and Worst",
+      "title_he": "להתנהג: הביולוגיה של בני אדם במיטבם ובמירעם",
+      "author": "Robert M. Sapolsky",
+      "year": 2017,
+      "why_he": "מה קרה במוח שנייה לפני ההתנהגות, ומה קרה שעות, שנים ומיליוני שנים לפני כן"
+    },
+    {
+      "id": "b_seven_brief_lessons",
+      "title": "Seven Brief Lessons on Physics",
+      "title_he": "שבעה שיעורים קצרים בפיזיקה",
+      "author": "Carlo Rovelli",
+      "year": 2014,
+      "why_he": "ספרון שירי ונגיש על יחסות, קוונטים, חורים שחורים וזמן, שנמכר במיליוני עותקים",
+      "chapters_total": 7
+    },
+    {
+      "id": "b_rationality",
+      "title": "Rationality: What It Is, Why It Seems Scarce, Why It Matters",
+      "title_he": "רציונליות",
+      "author": "Steven Pinker",
+      "year": 2021,
+      "why_he": "קורס מרוכז blogיקה, הסתברות, בייס ותורת המשחקים, ולמה רציונליות היא נכס ציבורי"
+    }
+  ],
+  "leaders": [
+    {
+      "id": "p_annie_duke",
+      "name": "Annie Duke",
+      "name_he": "אנני דיוק",
+      "role_he": "אלופת פוקר לשעבר, סופרת ויועצת לקבלת החלטות",
+      "why_he": "הפכה את שולחן הפוקר למעבדה לקבלת החלטות תחת אי-ודאות, ומלמדת מנהלים ומשקיעים לחשוב בהימורים",
+      "videos": [
+        {
+          "youtube_id": "uYNsSeYjkp4",
+          "title": "Thinking in Bets | Annie Duke | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=uYNsSeYjkp4",
+          "blurb_he": "הרצאה בגוגל על מדע קבלת ההחלטות החכמות ועל הרעיון המרכזי של הספר"
+        },
+        {
+          "youtube_id": "svQMODvIGAE",
+          "title": "This will make you a better decision maker | Annie Duke (Thinking In Bets, former pro poker player)",
+          "source_url": "https://www.youtube.com/watch?v=svQMODvIGAE",
+          "blurb_he": "ראיון עם שחקנית הפוקר לשעבר ומומחית קבלת ההחלטות על איך להפוך למקבל החלטות טוב יותר"
+        }
+      ]
+    },
+    {
+      "id": "p_philip_tetlock",
+      "name": "Philip Tetlock",
+      "name_he": "פיליפ טטלוק",
+      "role_he": "פסיכולוג, פרופסור באוניברסיטת פנסילבניה, מייסד-שותף של Good Judgment Project",
+      "why_he": "הראה אמפירית שמומחים מנבאים כמו 'שימפנזה שזורק חצים' ופיתח את מדע חיזוי-העל",
+      "videos": [
+        {
+          "youtube_id": "wG5Frn3so4A",
+          "title": "Philip Tetlock: \"Superforecasting\" the Refugee Crisis",
+          "source_url": "https://www.youtube.com/watch?v=wG5Frn3so4A",
+          "blurb_he": "הרצאה בקרן Long Now שבה טטלוק מדגים איך חיזוי-על עוזר להבין את משבר הפליטים הסורי"
+        },
+        {
+          "youtube_id": "pedNak4S9IE",
+          "title": "Superforecasting | Philip Tetlock",
+          "source_url": "https://www.youtube.com/watch?v=pedNak4S9IE",
+          "blurb_he": "טטלוק מסביר למה הפרשנים שכולנו מקשיבים להם אינם טובים יותר מ'שימפנזה שזורק חצים', ומי כן מנצח אותם"
+        }
+      ]
+    },
+    {
+      "id": "p_nassim_taleb",
+      "name": "Nassim Nicholas Taleb",
+      "name_he": "נסים ניקולס טאלב",
+      "role_he": "מסאי, סטטיסטיקאי, סוחר אופציות לשעבר ואנליסט סיכונים",
+      "why_he": "מחבר סדרת 'אינצ'רטו' שהכניסה לשיח את הברבור השחור, האנטי-שבירות ו'עור במשחק'",
+      "videos": [
+        {
+          "youtube_id": "mkVgnP1chLU",
+          "title": "Nassim Taleb: How to Be Antifragile in a Fragile World | Nassim Nicholas Taleb LATEST INTERVIEW 2025",
+          "source_url": "https://www.youtube.com/watch?v=mkVgnP1chLU",
+          "blurb_he": "ראיון עדכני עם טאלב על איך להיות אנטי-שביר בעולם שביר"
+        },
+        {
+          "youtube_id": "g2LYTUEOn20",
+          "title": "[THE DIGITAL FACTORY] Nassim Nicholas Taleb on Antifragile",
+          "source_url": "https://www.youtube.com/watch?v=g2LYTUEOn20",
+          "blurb_he": "טאלב דן בתכונות של מערכות שמסוגלות להתמודד עם אי-סדר ולהרוויח ממנו"
+        }
+      ]
+    },
+    {
+      "id": "p_richard_thaler",
+      "name": "Richard H. Thaler",
+      "name_he": "ריצ'רד ת'יילר",
+      "role_he": "כלכלן, חתן פרס נובל לכלכלה 2017, אוניברסיטת שיקגו",
+      "why_he": "נחשב לאבי הכלכלה ההתנהגותית ומי שהביא את רעיון ה'דחיפה' לממשלות ולחברות",
+      "videos": [
+        {
+          "youtube_id": "UKEWv35kVMw",
+          "title": "Richard Thaler | Nudge | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=UKEWv35kVMw",
+          "blurb_he": "ת'יילר משוחח בגוגל על המהדורה הסופית של Nudge שכתב עם קאס סאנסטין"
+        },
+        {
+          "youtube_id": "AZExnUKfik0",
+          "title": "Richard H. Thaler on nudges and choice architecture",
+          "source_url": "https://www.youtube.com/watch?v=AZExnUKfik0",
+          "blurb_he": "חתן פרס נובל מסביר מהי דחיפה ומהי ארכיטקטורת בחירה"
+        }
+      ]
+    },
+    {
+      "id": "p_dan_ariely",
+      "name": "Dan Ariely",
+      "name_he": "דן אריאלי",
+      "role_he": "פרופסור לפסיכולוגיה ולכלכלה התנהגותית באוניברסיטת דיוק",
+      "why_he": "החוקר הישראלי-אמריקאי שהפך את הכלכלה ההתנהגותית לפופולרית באמצעות ניסויים יצירתיים",
+      "videos": [
+        {
+          "youtube_id": "9X68dm92HVI",
+          "title": "Are we in control of our decisions? | Dan Ariely",
+          "source_url": "https://www.youtube.com/watch?v=9X68dm92HVI",
+          "blurb_he": "הרצאת TED שבה אריאלי משתמש באשליות ראייה ובממצאים מפתיעים כדי להראות שאיננו רציונליים כפי שנדמה לנו"
+        },
+        {
+          "youtube_id": "VZv--sm9XXU",
+          "title": "Predictabily Irrational | Dan Ariely | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=VZv--sm9XXU",
+          "blurb_he": "הרצאה בגוגל על הספר 'לא רציונלי ולא במקרה'"
+        }
+      ]
+    },
+    {
+      "id": "p_julia_galef",
+      "name": "Julia Galef",
+      "name_he": "ג'וליה גאלף",
+      "role_he": "סופרת, מנחת ה-podcast Rationally Speaking, ממייסדות מרכז לרציונליות יישומית",
+      "why_he": "טבעה את ההבחנה בין 'תודעת החייל' ל'תודעת הסייר' והפכה את הרציונליות לנגישה ואנושית",
+      "videos": [
+        {
+          "youtube_id": "3MYEtQ5Zdn8",
+          "title": "Why \"scout mindset\" is crucial to good judgment | Julia Galef | TEDxPSU",
+          "source_url": "https://www.youtube.com/watch?v=3MYEtQ5Zdn8",
+          "blurb_he": "הרצאת TEDx שנצפתה מיליוני פעמים: האם אתה חייל שמגן על עמדתו או סייר שמונע מסקרנות?"
+        },
+        {
+          "youtube_id": "NRRRKzAJbHg",
+          "title": "Mindscape 143 | Julia Galef on Openness, Bias, and Rationality",
+          "source_url": "https://www.youtube.com/watch?v=NRRRKzAJbHg",
+          "blurb_he": "שיחה עם הפיזיקאי שון קרול בתוכנית ה-podcast Mindscape על פתיחות, הטיות ורציונליות"
+        }
+      ]
+    },
+    {
+      "id": "p_yuval_noah_harari",
+      "name": "Yuval Noah Harari",
+      "name_he": "יובל נח הררי",
+      "role_he": "היסטוריון, פרופסור באוניברסיטה העברית, מחבר 'קיצור תולדות האנושות'",
+      "why_he": "ההיסטוריון הישראלי שהפך לאחד הקולות המשפיעים בעולם על העבר והעתיד של המין האנושי",
+      "videos": [
+        {
+          "youtube_id": "LWiM-LuRe6w",
+          "title": "AI and the future of humanity | Yuval Noah Harari at the Frontiers Forum",
+          "source_url": "https://www.youtube.com/watch?v=LWiM-LuRe6w",
+          "blurb_he": "הרצאה מרכזית ושאלות ותשובות על בינה מלאכותית ועתיד האנושות"
+        },
+        {
+          "youtube_id": "Bw9P_ZXWDJU",
+          "title": "21 Lessons for the 21st Century | Yuval Noah Harari | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=Bw9P_ZXWDJU",
+          "blurb_he": "הררי בגוגל על ספרו '21 מחשבות על המאה ה-21'"
+        }
+      ]
+    },
+    {
+      "id": "p_richard_dawkins",
+      "name": "Richard Dawkins",
+      "name_he": "ריצ'רד דוקינס",
+      "role_he": "ביולוג אבולוציוני, פרופסור אמריטוס באוקספורד",
+      "why_he": "מחבר 'הגן האנוכי', אחד מספרי המדע המשפיעים בכל הזמנים, ומי שטבע את המונח 'מם'",
+      "videos": [
+        {
+          "youtube_id": "KZEsqLAER0Q",
+          "title": "Revolutionising Science: The Selfish Gene - Richard Dawkins & Derren Brown | Intelligence Squared",
+          "source_url": "https://www.youtube.com/watch?v=KZEsqLAER0Q",
+          "blurb_he": "אירוע לציון 40 שנה לספר פורץ הדרך, בשיחה עם דרן בראון"
+        },
+        {
+          "youtube_id": "j9p2F2oa0_k",
+          "title": "Richard Dawkins - The Selfish Gene explained",
+          "source_url": "https://www.youtube.com/watch?v=j9p2F2oa0_k",
+          "blurb_he": "דוקינס מספר איך הגיע לרעיון 'הגן האנוכי' שעומד בבסיס ספרו מ-1976"
+        }
+      ]
+    },
+    {
+      "id": "p_david_deutsch",
+      "name": "David Deutsch",
+      "name_he": "דיוויד דויטש",
+      "role_he": "פיזיקאי באוקספורד, מחלוצי החישוב הקוונטי",
+      "why_he": "פילוסוף המדע שטוען שהסברים טובים הם מקור כל ההתקדמות ושאין גבול לידע האנושי",
+      "videos": [
+        {
+          "youtube_id": "IVA2bK9qjzE",
+          "title": "The beginning of infinity | David Deutsch | Strange Loop | Ep 3",
+          "source_url": "https://www.youtube.com/watch?v=IVA2bK9qjzE",
+          "blurb_he": "חלוץ החישוב הקוונטי בשיחה עם גוסטב סודרסטרום מספוטיפיי ויואל הלרמרק מ-Sana"
+        },
+        {
+          "youtube_id": "vKO8YRwVVu8",
+          "title": "The Popperian Podcast #1 – David Deutsch – 'Karl Popper and the Beginning of Infinity'",
+          "source_url": "https://www.youtube.com/watch?v=vKO8YRwVVu8",
+          "blurb_he": "ראיון על קארל פופר, על תורת הידע ועל הרעיונות של 'תחילת האינסוף'"
+        }
+      ]
+    },
+    {
+      "id": "p_robert_sapolsky",
+      "name": "Robert Sapolsky",
+      "name_he": "רוברט ספולסקי",
+      "role_he": "נוירואנדוקרינולוג ופרימטולוג, פרופסור בסטנפורד",
+      "why_he": "מרצה אגדי שסדרת ההרצאות שלו בסטנפורד על ביולוגיה של התנהגות נצפתה על ידי מיליונים",
+      "videos": [
+        {
+          "youtube_id": "pcPZ0Z0bO1o",
+          "title": "Mindscape 134 | Robert Sapolsky on Why We Behave the Way We Do",
+          "source_url": "https://www.youtube.com/watch?v=pcPZ0Z0bO1o",
+          "blurb_he": "שיחה בתוכנית ה-podcast Mindscape על למה אנחנו מתנהגים כפי שאנחנו מתנהגים ועל שאלת הרצון החופשי"
+        },
+        {
+          "youtube_id": "5izfiuLvRpk",
+          "title": "2. Human Behavioral Biology: Evolution of Behavior 1 by Robert Sapolsky",
+          "source_url": "https://www.youtube.com/watch?v=5izfiuLvRpk",
+          "blurb_he": "הרצאה מסדרת הקורס של ספולסקי בסטנפורד על האבולוציה של ההתנהגות"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_farnam_street",
+      "name": "Farnam Street",
+      "url": "https://fs.blog",
+      "desc_he": "ה-blog והידיעון של שיין פאריש על מודלים מנטליים, קבלת החלטות וחשיבה בהירה",
+      "articles": [
+        {
+          "title": "Surprises",
+          "url": "https://fs.blog/brain-food/august-23-2026/",
+          "published": "2026-08",
+          "summary_he": "גיליון Brain Food עם טיפ לקבלת החלטות: אם אינך מצליח להכריע בין שני מסלולים, בחר בזה שאינו מספק משוב מיידי."
+        },
+        {
+          "title": "The Power of Listening",
+          "url": "https://fs.blog/brain-food/august-9-2026/",
+          "published": "2026-08",
+          "summary_he": "גיליון Brain Food על זיהוי מגמות, על חשיבות הפסיכולוגיה והאסטרטגיה, ועל איך לחשוב על רכישות, גיוס והקצאת הון."
+        },
+        {
+          "title": "Be Your Best in 2026: The Most Important Lessons from The Knowledge Project (2025)",
+          "url": "https://fs.blog/knowledge-project-podcast/best-of-2025/",
+          "published": "2025-12",
+          "summary_he": "סיכום שנת 2025 של ה-podcast The Knowledge Project: תובנות מעשיות על קבלת החלטות, מנהיגות, הכנה, יחסים, אמון וביצועים."
+        }
+      ]
+    },
+    {
+      "id": "pub_quanta_magazine",
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org",
+      "desc_he": "מגזין מדע עצמאי במימון קרן סימונס, המסקר פיזיקה, מתמטיקה, ביולוגיה ומדעי המחשב לקורא הסקרן",
+      "articles": [
+        {
+          "title": "The Hidden Mathematical Dance Inside Plant Cells",
+          "url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+          "published": "2026-05",
+          "summary_he": "חוקרים פותרים תעלומה בפיזיקה של הכלורופלסט: איך כל אברון מאזן בין התיאבון של הצמח לאור לבין הסלידה שלו מאור רב מדי."
+        },
+        {
+          "title": "What Physical 'Life Force' Turns Biology's Wheels?",
+          "url": "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/",
+          "published": "2026-04",
+          "summary_he": "מחקר ממרץ 2026 אישר שמערכת המנוע של השוטון החיידקי רגישה למולקולת איתות בודדת, והחלקים האחרונים בפאזל נופלים למקומם."
+        },
+        {
+          "title": "Genes Have Harnessed Physics to Help Grow Living Things",
+          "url": "https://www.quantamagazine.org/genes-have-harnessed-physics-to-help-grow-living-things-20251010/",
+          "published": "2025-10",
+          "summary_he": "על האופן שבו גנים רותמים עקרונות פיזיקליים כדי לבנות ולגדל יצורים חיים."
+        }
+      ]
+    },
+    {
+      "id": "pub_nautilus",
+      "name": "Nautilus",
+      "url": "https://nautil.us",
+      "desc_he": "מגזין מדע ותרבות שמחבר בין מדע, פילוסופיה ואמנות בסיפורים ארוכים ומעמיקים",
+      "articles": [
+        {
+          "title": "We Finally Know Tyrannosaurus Rex's Body Temperature",
+          "url": "https://nautil.us/we-finally-know-tyrannosaurus-rexs-body-temperature-1285067",
+          "published": "2026-09",
+          "summary_he": "חוקרים מ-UCLA קבעו את טמפרטורת הגוף הפנימית של טירנוזאורוס רקס באמצעות שן אחת בלבד."
+        },
+        {
+          "title": "Making AI More Human",
+          "url": "https://nautil.us/making-ai-more-human-1279425",
+          "published": "2026-04",
+          "summary_he": "מקבץ טכנולוגיה: חרקים סייבורגיים, וחשש מנוכלים שמזייפים בקול את קולם של יקירינו."
+        },
+        {
+          "title": "Can We Protect Science?",
+          "url": "https://nautil.us/can-we-protect-science-1264227",
+          "published": "2026-01",
+          "summary_he": "על הגנה על המדע באמצעות שמירה על התנאים שמאפשרים לו לפרוח: חופש חקירה ופתיחות לתיקון."
+        }
+      ]
+    },
+    {
+      "id": "pub_aeon",
+      "name": "Aeon",
+      "url": "https://aeon.co",
+      "desc_he": "מגזין מסות דיגיטלי על פילוסופיה, מדע, פסיכולוגיה וחברה, בכתיבה עמוקה ונגישה",
+      "articles": [
+        {
+          "title": "Silicon Valley has a science fiction problem",
+          "url": "https://aeon.co/essays/silicon-valley-has-a-science-fiction-problem",
+          "published": "2026-08",
+          "summary_he": "איך ספרות מדע בדיוני מעצבת את חזונות העתיד של עמק הסיליקון ומספקת למנהיגי הטכנולוגיה מסגרות נרטיביות."
+        },
+        {
+          "title": "Humans did not invent art. It was the other way around",
+          "url": "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around",
+          "published": "2026-07",
+          "summary_he": "מסה על המדע האמפירי ועל הציוד הקוגניטיבי האנושי הדרוש כדי לחשוב על העולם, ועל תפקידה של האמנות בכך."
+        },
+        {
+          "title": "What we can't measure about AI – yet",
+          "url": "https://aeon.co/essays/what-we-cant-measure-about-ai-yet",
+          "published": "2026-06",
+          "summary_he": "מסה שבוחנת בינה מלאכותית גנרטיבית ושואלת עד כמה בינה מלאכותית באמת אינטליגנטית."
+        }
+      ]
+    },
+    {
+      "id": "pub_davidson_institute",
+      "name": "מכון דוידסון לחינוך מדעי",
+      "url": "https://davidson.weizmann.ac.il",
+      "desc_he": "הזרוע החינוכית של מכון ויצמן למדע: מגזין מדע פופולרי בעברית עם חדשות, הסברים ומדורים קבועים",
+      "articles": [
+        {
+          "title": "תעלומת הגלקסיות המוקדמות: השבוע בחלל",
+          "url": "https://davidson.weizmann.ac.il/online/sciencenews/%D7%AA%D7%A2%D7%9C%D7%95%D7%9E%D7%AA-%D7%94%D7%92%D7%9C%D7%A7%D7%A1%D7%99%D7%95%D7%AA-%D7%94%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%95%D7%AA-%D7%94%D7%A9%D7%91%D7%95%D7%A2-%D7%91%D7%97%D7%9C%D7%9C",
+          "published": "2025-01",
+          "summary_he": "מדור 'השבוע בחלל' על תעלומת הגלקסיות המוקדמות שנצפו ביקום הצעיר."
+        },
+        {
+          "title": "\"החוליה החסרה\" בהיווצרות חור שחור: השבוע בחלל",
+          "url": "https://davidson.weizmann.ac.il/online/sciencenews/%D7%94%D7%97%D7%95%D7%9C%D7%99%D7%94-%D7%94%D7%97%D7%A1%D7%A8%D7%94-%D7%91%D7%94%D7%99%D7%95%D7%95%D7%A6%D7%A8%D7%95%D7%AA-%D7%97%D7%95%D7%A8-%D7%A9%D7%97%D7%95%D7%A8-%D7%94%D7%A9%D7%91%D7%95%D7%A2-%D7%91%D7%97%D7%9C%D7%9C",
+          "published": "2025-01",
+          "summary_he": "מדור 'השבוע בחלל' על תצפית שמתוארת כ'חוליה חסרה' בהבנת האופן שבו נוצרים חורים שחורים."
+        },
+        {
+          "title": "האויב שבשער: מאין תגיע המגפה הבאה?",
+          "url": "https://davidson.weizmann.ac.il/online/sciencepanorama/%D7%94%D7%90%D7%95%D7%99%D7%91-%D7%A9%D7%91%D7%A9%D7%A2%D7%A8-%D7%9E%D7%90%D7%99%D7%9F-%D7%AA%D7%92%D7%99%D7%A2-%D7%94%D7%9E%D7%92%D7%A4%D7%94-%D7%94%D7%91%D7%90%D7%94",
+          "published": "2025-01",
+          "summary_he": "כתבת מגזין ששואלת מאין עלולה להגיע המגפה הבאה ואיך מדענים מנסים להיערך לכך."
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "book_id": "b_thinking_in_bets",
+      "chapter_index": 1,
+      "chapter_title": "Life Is Poker, Not Chess",
+      "chapter_title_he": "החיים הם פוקר, לא שחמט",
+      "idea_he": "הפרד בין איכות ההחלטה לבין התוצאה: החיים הם פוקר, לא שחמט",
+      "body_he": "בשחמט אין מידע חבוי וכמעט אין מזל, ולכן השחקן הטוב יותר כמעט תמיד מנצח. בפוקר ובחיים יש משתנים לא ידועים ומזל, ולכן החלטה מצוינת יכולה להסתיים רע והחלטה גרועה יכולה להצליח. דיוק מכנה את הנטייה לשפוט החלטות לפי התוצאה 'resulting' ומציעה במקומה לחשוב על כל החלטה כהימור בתנאי אי-ודאות.",
+      "points_he": [
+        "שני דברים בלבד קובעים איך חיינו יתגלגלו: איכות ההחלטות שלנו ומזל",
+        "תוצאה טובה אינה מוכיחה שההחלטה הייתה טובה, ולהפך",
+        "להגיד 'אני לא בטוח' זה לא חולשה אלא נקודת פתיחה לחשיבה נכונה"
+      ],
+      "apply_he": "בפעם הבאה שתשפוט החלטה (שלך או של אחר), שאל קודם 'מה היה ידוע בזמן ההחלטה?' ורק אחר כך 'מה יצא מזה?'",
+      "sources": [
+        "https://grahammann.net/book-notes/thinking-in-bets-annie-duke",
+        "https://readingraphics.com/book-summary-thinking-in-bets/",
+        "https://evansamek.substack.com/p/thinking-in-bets-by-annie-duke"
+      ]
+    },
+    {
+      "book_id": "b_superforecasting",
+      "chapter_index": 1,
+      "chapter_title": "An Optimistic Skeptic",
+      "chapter_title_he": "ספקן אופטימי",
+      "idea_he": "אפשר לחזות את העתיד, במידה מסוימת, וזו מיומנות שאפשר ללמוד",
+      "body_he": "טטלוק התפרסם כמי שהוכיח שמומחים חוזים לא יותר טוב מ'שימפנזה שזורק חצים', אבל הוא מציג עמדה מורכבת יותר: בין המלגלגים על כל תחזית לבין המגינים על המומחים יש מקום לעמדה סבירה. במחקר ענק בחסות סוכנות המודיעין IARPA גויסו אלפי אנשים רגילים ונבדק האם אימון ועבודה בצוותים משפרים תחזיות. המסקנה: אדם אינטליגנטי, פתוח וחרוץ יכול לטפח את המיומנויות הדרושות.",
+      "points_he": [
+        "רוב התחזיות בתקשורת לעולם לא נבדקות מול המציאות, ולכן אין להן ערך לימודי",
+        "יש אנשים שחוזים טוב באופן עקבי, וההבדל הוא בשיטת החשיבה ולא בידע",
+        "ספקנות בריאה: לא לזלזל בכל תחזית, אבל לדרוש מדידה"
+      ],
+      "apply_he": "רשום היום תחזית אחת בהסתברות מספרית (למשל 70%) על משהו שיתברר בחודש הקרוב, וחזור לבדוק אותה",
+      "sources": [
+        "https://lifeitself.org/blog/notes-on-tetlock-and-gardners-superforecasting",
+        "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/executive-summary-superforecasting/",
+        "http://faculty.bard.edu/hhaggard/teaching/sci127Sp20/notes/TetlockGardnerSuperforecasting1.pdf"
+      ]
+    },
+    {
+      "book_id": "b_the_black_swan",
+      "chapter_index": 1,
+      "chapter_title": "The Apprenticeship of an Empirical Skeptic",
+      "chapter_title_he": "חניכותו של ספקן אמפירי",
+      "idea_he": "שלוש אשליות של האטימות: למה ההיסטוריה נראית ברורה רק בדיעבד",
+      "body_he": "טאלב מספר על ילדותו בלבנון ועל מלחמת האזרחים שאיש לא צפה, ומסביר איך הפך ל'ספקן אמפירי' שמעדיף עדות על פני סיפורים. הוא מציג את 'שלישיית האטימות': אשליית ההבנה (העולם מורכב יותר ממה שנדמה לנו), העיוות שבדיעבד (דברים נראים ברורים רק אחרי שקרו), והערכת-יתר של מידע עובדתי ושל מומחים. המסקנה: מה שאיננו יודעים חשוב הרבה יותר ממה שאנחנו יודעים.",
+      "points_he": [
+        "אשליית ההבנה: כולם חושבים שהם מבינים מה קורה, אבל העולם מורכב יותר",
+        "עיוות בדיעבד: ההיסטוריה נראית מסודרת רק כשמסתכלים אחורה",
+        "הערכת-יתר של עובדות ומומחים לעומת מה שאיננו יודעים"
+      ],
+      "apply_he": "כשמישהו מסביר בביטחון 'למה' משהו קרה, שאל את עצמך האם היה אפשר לחזות זאת לפני שקרה",
+      "sources": [
+        "https://www.bookrags.com/studyguide-the-black-swan/chapanal002.html",
+        "https://www.cxoadvisory.com/big-ideas/the-black-swan-the-impact-of-the-highly-improbable-chapter-by-chapter-review/",
+        "https://auresnotes.com/summary-the-black-swan-nassim-taleb/"
+      ]
+    },
+    {
+      "book_id": "b_sapiens",
+      "chapter_index": 1,
+      "chapter_title": "An Animal of No Significance",
+      "chapter_title_he": "חיה חסרת חשיבות",
+      "idea_he": "במשך רוב ההיסטוריה, ההומו סאפיינס היה רק אחד מכמה מיני אדם חסרי חשיבות",
+      "body_he": "הררי פותח בהזכרה מצמררת: במשך רוב קיומנו היינו חיות חסרות חשיבות, ללא השפעה על הסביבה יותר מגורילות או מדוזות. מלפני כשני מיליון שנה ועד לפני כעשרת אלפים שנה חיו על כדור הארץ לפחות שישה מיני אדם במקביל: ניאנדרטלים באירופה, הומו ארקטוס באסיה, הומו פלורסיינסיס הגמדי באינדונזיה, דניסובה בסיביר ועוד. כולם נעלמו, ואחת האפשרויות היא שהסאפיינס דחק אותם, בין בתחרות על משאבים ובין באלימות.",
+      "points_he": [
+        "לפחות שישה מיני אדם חיו בו-זמנית; 'אדם' אינו שם נרדף ל'סאפיינס'",
+        "התכונה הבולטת של כל מיני האדם: מוח גדול במיוחד, וילדים שנולדים לא-בשלים וניתנים לחינוך",
+        "היעלמות המינים האחרים: תחרות על משאבים, אלימות, ואולי גם התמזגות"
+      ],
+      "apply_he": "בפעם הבאה שתחשוב על 'הטבע האנושי', זכור שרוב התכונות שאתה מייחס לו הן צעירות מאוד בקנה מידה אבולוציוני",
+      "quote": "The most important thing to know about prehistoric humans is that they were insignificant animals with no more impact on their environment than gorillas, fireflies or jellyfish.",
+      "sources": [
+        "https://www.litcharts.com/lit/sapiens/chapter-1-an-animal-of-no-significance",
+        "https://saurabhdashora.com/sapiens-chapter-1-summary-analysis/",
+        "https://medium.com/reading-collaboration/1-an-animal-of-no-significance-1fe20a0a8f17"
+      ]
+    },
+    {
+      "book_id": "b_selfish_gene",
+      "chapter_index": 1,
+      "chapter_title": "Why Are People?",
+      "chapter_title_he": "למה יש אנשים?",
+      "idea_he": "אנחנו מכונות הישרדות שנבנו על ידי גנים 'אנוכיים'",
+      "body_he": "דוקינס פותח בשאלה שנשמעת ילדותית, 'למה יש אנשים בכלל?', וטוען שנדרשו שלושה מיליארד שנים ודרווין אחד כדי לענות עליה. הוא רוצה להבין אנוכיות ואלטרואיזם מנקודת מבט אבולוציונית, כי הן שולטות בכל כך הרבה מחיינו: אהבה, שנאה, גניבה, נדיבות. הטעות של חוקרים כמו קונרד לורנץ, לדבריו, היא המחשבה שהאבולוציה פועלת לטובת הקבוצה או המין; למעשה כל בעלי החיים הם מכונות שנוצרו על ידי הגנים שלהם, והתכונה הבולטת של גן מצליח היא 'אנוכיות חסרת רחמים'.",
+      "points_he": [
+        "יחידת הברירה הטבעית היא הגן, לא הפרט ולא הקבוצה",
+        "הספר עוסק ב'ביולוגיה של האנוכיות והאלטרואיזם', לא בהמלצה מוסרית",
+        "האבולוציה יכולה להסביר גם את התפתחות הרעיונות (תרבות), לא רק את הגנים"
+      ],
+      "apply_he": "כשאתה שומע הסבר 'זה טוב למין' על התנהגות של בעלי חיים, שאל איך זה משרת את הגנים של הפרט",
+      "sources": [
+        "https://www.litcharts.com/lit/the-selfish-gene/chapter-1-why-are-people",
+        "https://www.supersummary.com/the-selfish-gene/chapters-1-3/",
+        "https://www.bookrags.com/studyguide-the-selfish-gene/chapanal001.html"
+      ]
+    },
+    {
+      "book_id": "b_factfulness",
+      "chapter_index": 1,
+      "chapter_title": "The Gap Instinct",
+      "chapter_title_he": "אינסטינקט הפער",
+      "idea_he": "העולם אינו מחולק ל'מפותח' ו'מתפתח'; רוב האנושות באמצע",
+      "body_he": "אינסטינקט הפער הוא הנטייה לחלק את העולם לשתי קבוצות מנוגדות, 'אנחנו' ו'הם', עשירים ועניים, עם תהום ביניהן. במציאות, רוב האנשים בעולם אינם עשירים מאוד ולא עניים מאוד, אלא שייכים למעמד ביניים הולך וגדל. רוסלינג מציע במקום זאת ארבע רמות הכנסה: עוני קיצוני נמצא רק ברמה 1, ורוב האנושות חיה ברמות 2 ו-3. התקשורת מנציחה את הפער כי סיפורים קיצוניים מושכים תשומת לב.",
+      "points_he": [
+        "חשיבה בינארית (שחור/לבן, אנחנו/הם) מעוותת את תמונת העולם",
+        "מודל ארבע הרמות מדויק יותר מ'מדינות מפותחות ומתפתחות'",
+        "כדי לשלוט באינסטינקט הפער: חפש את הרוב, לא את הקצוות"
+      ],
+      "apply_he": "כשאתה רואה השוואה בין שתי קבוצות, שאל איפה נמצא הרוב ואם הפער באמת קיים או שהוא חפיפה",
+      "sources": [
+        "https://saatnyarehatsejenak.medium.com/a-summary-of-factfulness-chapter-1-the-gap-instinct-206717c65a1e",
+        "https://marklooi.medium.com/summary-and-commentary-on-roslings-factfulness-8aa52621d96f",
+        "https://readingraphics.com/book-summary-factfulness/"
+      ]
+    }
+  ]
+}

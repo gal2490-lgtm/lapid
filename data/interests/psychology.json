@@ -1,0 +1,736 @@
+{
+  "id": "psychology",
+  "name_he": "פסיכולוגיה והתנהגות אנושית",
+  "name_en": "Psychology & Human Behavior",
+  "tagline_he": "להבין למה אנשים (וגם אתה) חושבים, מרגישים ומתנהגים כפי שהם — ולהשתמש בזה כדי להחליט, להשפיע ולחיות טוב יותר.",
+  "books": [
+    {
+      "id": "b_thinking_fast_and_slow",
+      "title": "Thinking, Fast and Slow",
+      "title_he": "לחשוב מהר, לחשוב לאט",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "why_he": "הספר שהפך את חקר ההטיות הקוגניטיביות לשפה משותפת — מערכת 1 ומערכת 2 הן הבסיס לכל דיון על קבלת החלטות.",
+      "chapters_total": 38
+    },
+    {
+      "id": "b_influence",
+      "title": "Influence: The Psychology of Persuasion",
+      "title_he": "השפעה: הפסיכולוגיה של השכנוע",
+      "author": "Robert B. Cialdini",
+      "year": 1984,
+      "why_he": "הספר הקלאסי על עקרונות השכנוע — הדדיות, מחויבות, הוכחה חברתית, חיבה, סמכות ומחסור — שמסביר למה אנחנו אומרים 'כן'."
+    },
+    {
+      "id": "b_mans_search_for_meaning",
+      "title": "Man's Search for Meaning",
+      "title_he": "האדם מחפש משמעות",
+      "author": "Viktor E. Frankl",
+      "year": 1946,
+      "why_he": "עדות ותורה פסיכולוגית מתוך מחנות הריכוז שמראה שגם בסבל קיצוני האדם שומר על חופש הבחירה ועל הצורך במשמעות."
+    },
+    {
+      "id": "b_body_keeps_the_score",
+      "title": "The Body Keeps the Score",
+      "title_he": "נרשם בגוף",
+      "author": "Bessel van der Kolk",
+      "year": 2014,
+      "why_he": "הספר שהגדיר מחדש את הבנת הטראומה — כיצד היא נרשמת במוח ובגוף ואילו דרכי ריפוי באמת עובדות.",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_emotional_intelligence",
+      "title": "Emotional Intelligence",
+      "title_he": "אינטליגנציה רגשית",
+      "author": "Daniel Goleman",
+      "year": 1995,
+      "why_he": "הספר שהכניס את המושג 'אינטליגנציה רגשית' לשיח הציבורי והראה שניהול רגשות חשוב להצלחה לא פחות מ-IQ.",
+      "chapters_total": 16
+    },
+    {
+      "id": "b_predictably_irrational",
+      "title": "Predictably Irrational",
+      "title_he": "לא רציונלי ולא במקרה",
+      "author": "Dan Ariely",
+      "year": 2008,
+      "why_he": "חוקר ישראלי-אמריקאי מראה בניסויים מבריקים שאנחנו לא-רציונליים בדרכים עקביות וניתנות לחיזוי.",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_grit",
+      "title": "Grit: The Power of Passion and Perseverance",
+      "title_he": "גריט: הכוח של תשוקה והתמדה",
+      "author": "Angela Duckworth",
+      "year": 2016,
+      "why_he": "מחקר פורץ דרך שמראה שהתמדה ותשוקה לטווח ארוך מנבאות הצלחה יותר מכישרון.",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_happiness_hypothesis",
+      "title": "The Happiness Hypothesis",
+      "title_he": "השערת האושר",
+      "author": "Jonathan Haidt",
+      "year": 2006,
+      "why_he": "חיבור בין חוכמה עתיקה לפסיכולוגיה מודרנית, עם דימוי הרוכב והפיל שמסביר את המאבק בין ההיגיון לרגש.",
+      "chapters_total": 11
+    },
+    {
+      "id": "b_righteous_mind",
+      "title": "The Righteous Mind",
+      "title_he": "המוח המוסרי",
+      "author": "Jonathan Haidt",
+      "year": 2012,
+      "why_he": "הסבר פסיכולוגי לשאלה למה אנשים טובים חלוקים כל כך בפוליטיקה ובדת — האינטואיציה קודמת, הנימוק מגיע אחריה.",
+      "chapters_total": 12
+    },
+    {
+      "id": "b_anxious_generation",
+      "title": "The Anxious Generation",
+      "title_he": "הדור החרד",
+      "author": "Jonathan Haidt",
+      "year": 2024,
+      "why_he": "הטענה המשפיעה ביותר של העשור על הקשר בין סמארטפונים ורשתות חברתיות לבין משבר בריאות הנפש של בני הנוער."
+    },
+    {
+      "id": "b_daring_greatly",
+      "title": "Daring Greatly",
+      "title_he": "להעז בגדול",
+      "author": "Brené Brown",
+      "year": 2012,
+      "why_he": "הספר שהפך את הפגיעות מחולשה למקור של אומץ, חיבור ויצירתיות, על בסיס מחקר איכותני של שנים."
+    },
+    {
+      "id": "b_give_and_take",
+      "title": "Give and Take",
+      "title_he": "לתת ולקחת",
+      "author": "Adam Grant",
+      "year": 2013,
+      "why_he": "מחקר ארגוני שמראה שנותנים — לא לוקחים — נמצאים בראש סולם ההצלחה, אם הם נותנים בחוכמה.",
+      "chapters_total": 9
+    },
+    {
+      "id": "b_think_again",
+      "title": "Think Again",
+      "title_he": "לחשוב מחדש",
+      "author": "Adam Grant",
+      "year": 2021,
+      "why_he": "מדריך לחשיבה מחדש ולשינוי דעה — היכולת לומר 'טעיתי' כמיומנות חשובה בעולם משתנה.",
+      "chapters_total": 11
+    },
+    {
+      "id": "b_mindset",
+      "title": "Mindset: The New Psychology of Success",
+      "title_he": "כוחה של נחישות",
+      "author": "Carol S. Dweck",
+      "year": 2006,
+      "why_he": "ההבחנה בין דפוס חשיבה מקובע לדפוס חשיבה מתפתח שינתה את החינוך, הניהול והספורט.",
+      "chapters_total": 8
+    },
+    {
+      "id": "b_flow",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "title_he": "זרימה: הפסיכולוגיה של החוויה המיטבית",
+      "author": "Mihaly Csikszentmihalyi",
+      "year": 1990,
+      "why_he": "הספר שהגדיר את מצב ה'זרימה' — ההתמקדות המוחלטת שהופכת עבודה ופנאי למקור אושר.",
+      "chapters_total": 10
+    },
+    {
+      "id": "b_stumbling_on_happiness",
+      "title": "Stumbling on Happiness",
+      "title_he": "נתקלים באושר",
+      "author": "Daniel Gilbert",
+      "year": 2006,
+      "why_he": "פסיכולוג מהרווארד מסביר בהומור למה אנחנו גרועים כל כך בחיזוי מה יעשה אותנו מאושרים."
+    },
+    {
+      "id": "b_drive",
+      "title": "Drive: The Surprising Truth About What Motivates Us",
+      "title_he": "מוטיבציה: האמת המפתיעה על מה שמניע אותנו",
+      "author": "Daniel H. Pink",
+      "year": 2009,
+      "why_he": "סינתזה נגישה של מחקרי המוטיבציה: אוטונומיה, מיומנות ותכלית מניעות יותר ממקל וגזר."
+    },
+    {
+      "id": "b_power_of_habit",
+      "title": "The Power of Habit",
+      "title_he": "כוחו של הרגל",
+      "author": "Charles Duhigg",
+      "year": 2012,
+      "why_he": "הסבר של לולאת ההרגל — רמז, שגרה, גמול — שהפך את מדע ההרגלים לכלי מעשי לכל אחד.",
+      "chapters_total": 9
+    },
+    {
+      "id": "b_atomic_habits",
+      "title": "Atomic Habits",
+      "title_he": "הרגלים אטומיים",
+      "author": "James Clear",
+      "year": 2018,
+      "why_he": "ספר ההרגלים הנמכר ביותר בעולם — שיטה פשוטה לבניית שינויים קטנים שמצטברים לתוצאות גדולות.",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_how_emotions_are_made",
+      "title": "How Emotions Are Made",
+      "title_he": "איך נוצרים רגשות",
+      "author": "Lisa Feldman Barrett",
+      "year": 2017,
+      "why_he": "תיאוריית הרגש הנבנה — הרגשות אינם תגובות מולדות אלא חיזויים שהמוח בונה, וזה משנה איך אפשר לנהל אותם.",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_quiet",
+      "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+      "title_he": "שקט: כוחם של המופנמים",
+      "author": "Susan Cain",
+      "year": 2012,
+      "why_he": "הספר שהחזיר למופנמים את הכבוד והראה את הערך של שקט, הקשבה ועומק בעולם שמעריץ מוחצנות.",
+      "chapters_total": 11
+    },
+    {
+      "id": "b_nudge",
+      "title": "Nudge",
+      "title_he": "דחיפה קלה",
+      "author": "Richard H. Thaler & Cass R. Sunstein",
+      "year": 2008,
+      "why_he": "הספר שהפך את הכלכלה ההתנהגותית למדיניות — איך ארכיטקטורת בחירה משפיעה על החלטות מבלי לכפות."
+    },
+    {
+      "id": "b_blank_slate",
+      "title": "The Blank Slate",
+      "title_he": "הלוח החלק",
+      "author": "Steven Pinker",
+      "year": 2002,
+      "why_he": "טיעון חד נגד הרעיון שהאדם נולד 'לוח חלק' — הטבע האנושי קיים ומעצב את ההתנהגות שלנו."
+    },
+    {
+      "id": "b_mating_in_captivity",
+      "title": "Mating in Captivity",
+      "title_he": "זוגיות בשבי: תשוקה ואינטימיות",
+      "author": "Esther Perel",
+      "year": 2006,
+      "why_he": "הספר שהציב את המתח בין ביטחון לתשוקה במרכז השיח על זוגיות ארוכת טווח."
+    },
+    {
+      "id": "b_attached",
+      "title": "Attached",
+      "title_he": "מחוברים: מדע ההתקשרות בזוגיות",
+      "author": "Amir Levine & Rachel Heller",
+      "year": 2010,
+      "why_he": "הספר שהנגיש את תיאוריית ההתקשרות למבוגרים — חרד, נמנע ובטוח — ככלי להבנת מערכות יחסים."
+    },
+    {
+      "id": "b_lucifer_effect",
+      "title": "The Lucifer Effect",
+      "title_he": "אפקט לוציפר",
+      "author": "Philip Zimbardo",
+      "year": 2007,
+      "why_he": "מחבר ניסוי הכלא של סטנפורד מסביר איך מצבים ומערכות הופכים אנשים רגילים לאכזריים.",
+      "chapters_total": 16
+    },
+    {
+      "id": "b_obedience_to_authority",
+      "title": "Obedience to Authority",
+      "title_he": "ציות לסמכות",
+      "author": "Stanley Milgram",
+      "year": 1974,
+      "why_he": "הדיווח המקורי על ניסויי הציות המפורסמים ביותר בפסיכולוגיה החברתית — עד כמה רחוק אנשים ילכו בפקודה."
+    },
+    {
+      "id": "b_behave",
+      "title": "Behave: The Biology of Humans at Our Best and Worst",
+      "title_he": "התנהגות: הביולוגיה של האדם במיטבו ובגרוע שבו",
+      "author": "Robert M. Sapolsky",
+      "year": 2017,
+      "why_he": "סינתזה מונומנטלית של נוירוביולוגיה, הורמונים, התפתחות ותרבות שמסבירה כל התנהגות אנושית מרגע לפני ועד אלפי שנים אחורה.",
+      "chapters_total": 17
+    },
+    {
+      "id": "b_nonviolent_communication",
+      "title": "Nonviolent Communication",
+      "title_he": "תקשורת לא אלימה",
+      "author": "Marshall B. Rosenberg",
+      "year": 1999,
+      "why_he": "שיטה מעשית לתקשורת של תצפית, רגש, צורך ובקשה שמשמשת במשפחות, ארגונים וגישור עולמי."
+    },
+    {
+      "id": "b_seven_principles_marriage",
+      "title": "The Seven Principles for Making Marriage Work",
+      "title_he": "שבעת העקרונות לנישואים מוצלחים",
+      "author": "John M. Gottman & Nan Silver",
+      "year": 1999,
+      "why_he": "מבוסס על עשרות שנות תצפית ב'מעבדת האהבה' של גוטמן — מה באמת מבדיל זוגות שנשארים יחד."
+    }
+  ],
+  "leaders": [
+    {
+      "id": "p_daniel_kahneman",
+      "name": "Daniel Kahneman",
+      "name_he": "דניאל כהנמן",
+      "role_he": "פסיכולוג ישראלי-אמריקאי, חתן פרס נובל לכלכלה",
+      "why_he": "אבי חקר ההטיות הקוגניטיביות ותורת הערך; ספרו 'לחשוב מהר, לחשוב לאט' עיצב דור שלם של חשיבה על החלטות.",
+      "videos": [
+        {
+          "youtube_id": "CjVQJdIrDJ0",
+          "title": "Thinking, Fast and Slow | Daniel Kahneman | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+          "blurb_he": "הרצאה של כהנמן בגוגל על ספרו 'לחשוב מהר, לחשוב לאט' ושתי מערכות החשיבה."
+        },
+        {
+          "youtube_id": "mfcZL3BU_DU",
+          "title": "Learning To Filter Out Noise In Our Chaotic World - Daniel Kahneman [2023] | Intelligence Squared",
+          "source_url": "https://www.youtube.com/watch?v=mfcZL3BU_DU",
+          "blurb_he": "שיחה של כהנמן ב-Intelligence Squared על סינון 'רעש' וקבלת החלטות בעולם כאוטי."
+        }
+      ]
+    },
+    {
+      "id": "p_robert_cialdini",
+      "name": "Robert Cialdini",
+      "name_he": "רוברט צ'אלדיני",
+      "role_he": "פסיכולוג חברתי, פרופסור אמריטוס באוניברסיטת אריזונה סטייט",
+      "why_he": "המומחה המוביל בעולם למדע השכנוע; עקרונות ההשפעה שלו מלמדים בכל קורס שיווק, משא ומתן ומנהיגות.",
+      "videos": [
+        {
+          "youtube_id": "QADrD9M1Ldk",
+          "title": "Hsu Untied interview with Robert Cialdini, Author of “Influence” and “Pre-Suasion”",
+          "source_url": "https://www.youtube.com/watch?v=QADrD9M1Ldk",
+          "blurb_he": "ראיון עם צ'אלדיני על ספריו 'השפעה' ו-'Pre-Suasion' ועל מדע השכנוע."
+        },
+        {
+          "youtube_id": "QMEHeh7RKSw",
+          "title": "Robert Cialdini Explains the 7 Principles of Influence (Why we say Yes)",
+          "source_url": "https://www.youtube.com/watch?v=QMEHeh7RKSw",
+          "blurb_he": "צ'אלדיני מסביר את שבעת עקרונות ההשפעה ולמה אנחנו אומרים 'כן'."
+        }
+      ]
+    },
+    {
+      "id": "p_adam_grant",
+      "name": "Adam Grant",
+      "name_he": "אדם גרנט",
+      "role_he": "פסיכולוג ארגוני, פרופסור בבית הספר וורטון",
+      "why_he": "מהחוקרים הפופולריים ביותר של מוטיבציה, מקוריות ומשמעות בעבודה, עם ספרים רבי-מכר והרצאות TED נצפות מאוד.",
+      "videos": [
+        {
+          "youtube_id": "fxbCHn6gE3U",
+          "title": "The surprising habits of original thinkers | Adam Grant | TED",
+          "source_url": "https://www.youtube.com/watch?v=fxbCHn6gE3U",
+          "blurb_he": "הרצאת TED על ההרגלים המפתיעים של חושבים מקוריים — ולמה מי שנכשל הכי הרבה הוא מי שמנסה הכי הרבה."
+        },
+        {
+          "youtube_id": "a3zPgyvCiJI",
+          "title": "Adam Grant: How to stop languishing and start finding flow | TED",
+          "source_url": "https://www.youtube.com/watch?v=a3zPgyvCiJI",
+          "blurb_he": "הרצאת TED על תחושת ה'דשדוש' (languishing) ואיך למצוא זרימה במקומה."
+        }
+      ]
+    },
+    {
+      "id": "p_brene_brown",
+      "name": "Brené Brown",
+      "name_he": "ברנה בראון",
+      "role_he": "חוקרת ופרופסור באוניברסיטת יוסטון, חוקרת פגיעות, בושה ואומץ",
+      "why_he": "הרצאת ה-TED שלה על כוחה של הפגיעות היא מהנצפות בהיסטוריה, וספריה שינו את השיח על אומץ ומנהיגות.",
+      "videos": [
+        {
+          "youtube_id": "iCvmsMzlF7o",
+          "title": "The power of vulnerability | Brené Brown",
+          "source_url": "https://www.youtube.com/watch?v=iCvmsMzlF7o",
+          "blurb_he": "הרצאת ה-TEDx המפורסמת מיוסטון 2010 על כוחה של הפגיעות והחיבור האנושי."
+        },
+        {
+          "youtube_id": "sE8NKjjKKa0",
+          "title": "Brené Brown on Courage, Vulnerability, and Living Wholeheartedly",
+          "source_url": "https://www.youtube.com/watch?v=sE8NKjjKKa0",
+          "blurb_he": "שיחה של בראון על אומץ, פגיעות, בושה והכוח שבלהופיע באמת."
+        }
+      ]
+    },
+    {
+      "id": "p_jonathan_haidt",
+      "name": "Jonathan Haidt",
+      "name_he": "ג'ונתן היידט",
+      "role_he": "פסיכולוג חברתי, פרופסור באוניברסיטת ניו יורק (NYU Stern)",
+      "why_he": "מהקולות המשפיעים בפסיכולוגיה המוסרית, ומאז 'הדור החרד' — הקול המרכזי בדיון על סמארטפונים ובריאות הנפש של ילדים.",
+      "videos": [
+        {
+          "youtube_id": "Z-nBEX1FgBk",
+          "title": "Jonathan Haidt on Smartphones and Children | Interview",
+          "source_url": "https://www.youtube.com/watch?v=Z-nBEX1FgBk",
+          "blurb_he": "ראיון שבו היידט טוען שסמארטפונים ורשתות חברתיות הם הגורם לעלייה בבעיות הנפש של צעירים."
+        },
+        {
+          "youtube_id": "Ey4XhHqnkuQ",
+          "title": "The Anxious Generation with Jonathan Haidt | What Now? with Trevor Noah Podcast",
+          "source_url": "https://www.youtube.com/watch?v=Ey4XhHqnkuQ",
+          "blurb_he": "שיחה עם טרבור נואה על 'הדור החרד' ואיך הטלפונים והרשתות פוגעים בדור Z."
+        }
+      ]
+    },
+    {
+      "id": "p_angela_duckworth",
+      "name": "Angela Duckworth",
+      "name_he": "אנג'לה דאקוורת'",
+      "role_he": "פסיכולוגית, פרופסור באוניברסיטת פנסילבניה, מחברת 'גריט'",
+      "why_he": "חוקרת האופי וההתמדה שהפכה את המושג 'גריט' לנחלת הכלל בחינוך ובעולם העסקים.",
+      "videos": [
+        {
+          "youtube_id": "W-ONEAcBeTk",
+          "title": "Grit: The Power of Passion and Perseverance | Angela Duckworth | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=W-ONEAcBeTk",
+          "blurb_he": "הרצאה בגוגל ניו יורק על ספרה 'גריט' — כוחן של תשוקה והתמדה."
+        },
+        {
+          "youtube_id": "1TQ4gezRQh4",
+          "title": "How to turn grit into a lifelong habit | Angela Duckworth | The TED Interview",
+          "source_url": "https://www.youtube.com/watch?v=1TQ4gezRQh4",
+          "blurb_he": "ראיון TED על איך להפוך את הגריט להרגל לכל החיים."
+        }
+      ]
+    },
+    {
+      "id": "p_steven_pinker",
+      "name": "Steven Pinker",
+      "name_he": "סטיבן פינקר",
+      "role_he": "פסיכולוג קוגניטיבי ובלשן, פרופסור באוניברסיטת הרווארד",
+      "why_he": "מהאינטלקטואלים הציבוריים המשפיעים בעולם — כותב על טבע האדם, שפה, רציונליות וקדמה.",
+      "videos": [
+        {
+          "youtube_id": "GZKU7TgR6IU",
+          "title": "How Common Knowledge Shapes the World | Steven Pinker | TED",
+          "source_url": "https://www.youtube.com/watch?v=GZKU7TgR6IU",
+          "blurb_he": "הרצאת TED על 'ידע משותף' כמנוע הסודי של החיים החברתיים — מתיאום פגישות ועד דיפלומטיה."
+        },
+        {
+          "youtube_id": "zkPOHB2rRkc",
+          "title": "Enlightenment Now... | Steven Pinker | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=zkPOHB2rRkc",
+          "blurb_he": "הרצאה בגוגל על ספרו 'Enlightenment Now' — קדמה, תבונה ושגשוג אנושי."
+        }
+      ]
+    },
+    {
+      "id": "p_esther_perel",
+      "name": "Esther Perel",
+      "name_he": "אסתר פרל",
+      "role_he": "פסיכותרפיסטית זוגית, מחברת ומנחת ה-podcast Where Should We Begin?",
+      "why_he": "הקול הבולט בעולם על תשוקה, אינטימיות ובגידה בזוגיות מודרנית, עם הרצאות TED שנצפו עשרות מיליוני פעמים.",
+      "videos": [
+        {
+          "youtube_id": "P2AUat93a8Q",
+          "title": "Rethinking infidelity ... a talk for anyone who has ever loved | Esther Perel | TED",
+          "source_url": "https://www.youtube.com/watch?v=P2AUat93a8Q",
+          "blurb_he": "הרצאת TED שבוחנת למה אנשים בוגדים ולמה בגידה כל כך טראומטית."
+        },
+        {
+          "youtube_id": "71EjQLIMq_s",
+          "title": "Why Remote Work Feels Lonely: Esther Perel Talks to a Newsroom During Covid | Where Should We Begin?",
+          "source_url": "https://www.youtube.com/watch?v=71EjQLIMq_s",
+          "blurb_he": "פרל משוחחת עם צוות מערכת עיתון על הבדידות של עבודה מרחוק בתקופת הקורונה."
+        }
+      ]
+    },
+    {
+      "id": "p_andrew_huberman",
+      "name": "Andrew Huberman",
+      "name_he": "אנדרו הוברמן",
+      "role_he": "נוירוביולוג, פרופסור בסטנפורד ומנחה ה-podcast Huberman Lab",
+      "why_he": "הפך את מדעי המוח לכלים יומיומיים לשינה, מיקוד ומוטיבציה, עם אחד התוכניות podcast המדעיים הנשמעים בעולם.",
+      "videos": [
+        {
+          "youtube_id": "qOlMacXOirw",
+          "title": "Andrew Huberman - The Keys to Healthy Living | Prof G Conversations",
+          "source_url": "https://www.youtube.com/watch?v=qOlMacXOirw",
+          "blurb_he": "שיחה עם סקוט גאלוויי על המפתחות לחיים בריאים."
+        },
+        {
+          "youtube_id": "UmDszWABTr4",
+          "title": "Andrew Huberman's full backstory from childhood to podcast | Andrew Huberman & Peter Attia",
+          "source_url": "https://www.youtube.com/watch?v=UmDszWABTr4",
+          "blurb_he": "הוברמן מספר לפיטר אטיה את סיפור חייו — מהילדות ועד ה-podcast."
+        }
+      ]
+    },
+    {
+      "id": "p_lisa_feldman_barrett",
+      "name": "Lisa Feldman Barrett",
+      "name_he": "ליסה פלדמן בארט",
+      "role_he": "נוירו-מדענית ופרופסור מצטיינת לפסיכולוגיה באוניברסיטת נורת'איסטרן",
+      "why_he": "מהחוקרות המצוטטות בעולם בתחום הרגש; תיאוריית הרגש הנבנה שלה מאתגרת את ההנחה שרגשות הם תגובות מולדות.",
+      "videos": [
+        {
+          "youtube_id": "FeRgqJVALMQ",
+          "title": "Dr. Lisa Feldman Barrett: How to Understand Emotions | Huberman Lab Podcast",
+          "source_url": "https://www.youtube.com/watch?v=FeRgqJVALMQ",
+          "blurb_he": "שיחה בתוכנית ה-podcast של הוברמן על איך להבין רגשות ומה המוח באמת עושה."
+        },
+        {
+          "youtube_id": "HlJQXfL_GeM",
+          "title": "Can Machines Perceive Emotion? | Dr. Lisa Feldman Barrett | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=HlJQXfL_GeM",
+          "blurb_he": "הרצאה בגוגל: האם מכונות יכולות לזהות רגשות — ומה זה מלמד על הרגש האנושי."
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_psychology_today",
+      "name": "Psychology Today",
+      "url": "https://www.psychologytoday.com",
+      "desc_he": "המגזין הפופולרי הוותיק לפסיכולוגיה, עם blogs של חוקרים ומטפלים על הטיות, בריאות הנפש ויחסים.",
+      "articles": [
+        {
+          "title": "The Negativity Bias Impacts Everything in Our Lives | Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/beyond-stress-and-burnout/202603/the-negativity-bias-impacts-everything-in-our-lives",
+          "published": "2026-03",
+          "summary_he": "האבולוציה גרמה לנו להתמקד בשלילי כדי לשרוד, אבל ההתמקדות הזו יוצרת הטיות קוגניטיביות ודפוסי חשיבה והתנהגות מזיקים."
+        },
+        {
+          "title": "Debugging Overconfidence: Is AI Too Sure of Itself? | Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/consumed/202602/debugging-overconfidence-is-ai-too-sure-of-itself",
+          "published": "2026-02",
+          "summary_he": "הבינה המלאכותית יורשת הטיות אנושיות דרך נתוני האימון, הנחות המודל ומשוב המשתמשים — ובטחון-יתר הופך נפוץ בתשובות של מודלי שפה."
+        },
+        {
+          "title": "All Thinking Is Biased Thinking | Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/in-control/202604/all-thinking-is-biased-thinking",
+          "published": "2026-04",
+          "summary_he": "חשיבה לעולם אינה 'טהורה' ואובייקטיבית; מנקודת מבט מסוימת, כל חשיבה היא חשיבה מוטה."
+        }
+      ]
+    },
+    {
+      "id": "pub_greater_good",
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu",
+      "desc_he": "מגזין מרכז Greater Good באוניברסיטת ברקלי, שמתרגם מחקר על אושר, חמלה וקשרים חברתיים לחיים משמעותיים.",
+      "articles": [
+        {
+          "title": "In the Face of Crisis, Psychologists Urge a Return to the Basics",
+          "url": "https://greatergood.berkeley.edu/article/item/in_the_face_of_crisis_psychologists_urge_a_return_to_the_basics",
+          "published": "2026-09",
+          "summary_he": "פסיכולוגים ממליצים לחזור ליסודות מול הבינה המלאכותית ומשברים גלובליים: לטפל בגוף, להיפגש פנים אל פנים ולדאוג לכל בני האדם."
+        },
+        {
+          "title": "Can Consciousness Exist Without a Body?",
+          "url": "https://greatergood.berkeley.edu/article/item/can_consciousness_exist_without_a_body",
+          "published": "2026-09",
+          "summary_he": "שיחה עם הנוירו-מדען אנטוניו דמסיו על מדע התודעה, איך היא פועלת בגוף וכיצד היא נועדה לשמור אותנו בחיים."
+        },
+        {
+          "title": "Five Ways to Feel More Loved | Greater Good",
+          "url": "https://greatergood.berkeley.edu/article/item/five_ways_to_feel_more_loved",
+          "published": "2026-02",
+          "summary_he": "הארי רייס וסוניה ליובומירסקי משלבים מחקר אושר ומדע היחסים לחמש דרכים להרגיש יותר אהובים."
+        }
+      ]
+    },
+    {
+      "id": "pub_psyche",
+      "name": "Psyche (Aeon)",
+      "url": "https://psyche.co",
+      "desc_he": "מגזין דיגיטלי מבית Aeon שעוזר להבין את העצמי ולחיות טוב, עם מאמרים ומדריכים על רגשות, בריאות הנפש ויחסים.",
+      "articles": [
+        {
+          "title": "IQ scores are falling but, no, we’re not growing more stupid | Psyche Ideas",
+          "url": "https://psyche.co/ideas/iq-scores-are-falling-but-no-were-not-growing-more-stupid",
+          "published": "2026",
+          "summary_he": "ציוני ה-IQ יורדים, אבל זה לא אומר שאנחנו נעשים טיפשים — יכולות שנמדדו לפני עשורים אולי כבר לא רלוונטיות, והמבחנים נושאים הטיות תרבותיות."
+        },
+        {
+          "title": "These lessons in scepticism could make the world a better place | Psyche Ideas",
+          "url": "https://psyche.co/ideas/these-lessons-in-scepticism-could-make-the-world-a-better-place",
+          "published": "2026",
+          "summary_he": "פרופסור לפילוסופיה, מחבר הספר How to Be a (Happy) Skeptic (2026), על החשיבות של ספק וסקפטיות בשיח המודרני."
+        },
+        {
+          "title": "The cure for body dissatisfaction that doesn’t involve the body | Psyche Ideas",
+          "url": "https://psyche.co/ideas/the-cure-for-body-dissatisfaction-that-doesnt-involve-the-body",
+          "published": "2026",
+          "summary_he": "התבוננות בטבע יכולה לרפא דימוי גוף שלילי — מחקרים מראים שאנחנו מעריכים את גופנו יותר בסביבה טבעית."
+        }
+      ]
+    },
+    {
+      "id": "pub_nautilus",
+      "name": "Nautilus",
+      "url": "https://nautil.us",
+      "desc_he": "מגזין מדע ותרבות עם כתיבה מעמיקה על המוח, הפסיכולוגיה והשאלות הגדולות של ההתנהגות האנושית.",
+      "articles": [
+        {
+          "title": "What Do People Think About?",
+          "url": "https://nautil.us/what-do-people-think-about-1283364",
+          "published": "2026-08",
+          "summary_he": "פילוסופים האמינו שמי שאנחנו נקבע על ידי המחשבות שלנו — אז על מה אנשים באמת חושבים במהלך היום?"
+        },
+        {
+          "title": "Defending Our Consciousness Against the Algorithms",
+          "url": "https://nautil.us/defending-our-consciousness-against-the-algorithms-1279260",
+          "published": "2026-08",
+          "summary_he": "איך אינטראקציה עם צ'אטבוטים חברתיים ואלגוריתמים עלולה לכרסם בתחושת האנושיות שלנו, ומה אפשר לעשות כדי להגן על התודעה."
+        },
+        {
+          "title": "I’m Part of the Team Writing the Next Bible of Psychiatry—For the First Time, the DSM Will Use Biology to Understand Mental Disorders - Nautilus",
+          "url": "https://nautil.us/im-part-of-the-team-writing-the-next-bible-of-psychiatry-for-the-first-time-the-dsm-will-use-biology-to-understand-mental-disorders-1284613",
+          "published": "2026-08",
+          "summary_he": "חבר בוועדה האסטרטגית של ה-DSM מספר על התוכנית להכניס לראשונה ביולוגיה למדריך האבחון הפסיכיאטרי."
+        }
+      ]
+    },
+    {
+      "id": "pub_alaxon",
+      "name": "אלכסון",
+      "url": "https://alaxon.co.il",
+      "desc_he": "כתב עת דיגיטלי ישראלי לרעיונות, שמתרגם ומפרסם מאמרי עומק בפסיכולוגיה, פילוסופיה ומדע בעברית.",
+      "articles": [
+        {
+          "title": "תכתבו לכם חיים – אלכסון",
+          "url": "https://alaxon.co.il/article/%D7%AA%D7%9B%D7%AA%D7%91%D7%95-%D7%9C%D7%9B%D7%9D-%D7%97%D7%99%D7%99%D7%9D",
+          "published": "2026-05",
+          "summary_he": "מאמר מתורגם מ-Psychology Today (תרגום: תומר בן אהרון) על כתיבה ככלי לעיצוב סיפור החיים שלנו."
+        },
+        {
+          "title": "חזק באי-וודאות – אלכסון",
+          "url": "https://alaxon.co.il/thought/%D7%97%D7%96%D7%A7-%D7%91%D7%90%D7%99-%D7%95%D7%95%D7%93%D7%90%D7%95%D7%AA",
+          "published": "2026-06",
+          "summary_he": "מאמר מאת כרמן לאה דאגה (מתוך AEON) על היכולת להחזיק מעמד ולהתחזק דווקא בתנאים של אי-ודאות."
+        },
+        {
+          "title": "לשפוך את מילגרם עם המים – אלכסון",
+          "url": "https://alaxon.co.il/article/%D7%9C%D7%A9%D7%A4%D7%95%D7%9A-%D7%90%D7%AA-%D7%9E%D7%99%D7%9C%D7%92%D7%A8%D7%9D-%D7%A2%D7%9D-%D7%94%D7%9E%D7%99%D7%9D/",
+          "published": "2026-06",
+          "summary_he": "קרול טבריס (מתוך APS Observer) על הביקורת העכשווית על ניסויי הציות של מילגרם — ומה בכל זאת כדאי לשמור מהם."
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "book_id": "b_thinking_fast_and_slow",
+      "chapter_index": 1,
+      "chapter_title": "The Characters of the Story",
+      "chapter_title_he": "הדמויות של הסיפור",
+      "idea_he": "שתי מערכות חשיבה: המהירה והאוטומטית מול האיטית והמאומצת",
+      "body_he": "כהנמן מציג את המודל שעליו בנויה כל תורת ההטיות: מערכת 1 פועלת מהר, אוטומטית ובלי מאמץ מודע — היא מזהה פרצוף כועס, קוראת מילה ומאתרת מאיפה מגיע רעש. מערכת 2 היא איטית, סדרתית ודורשת ריכוז — היא שמבצעת חישובים מורכבים ומחליטה החלטות מכוונות. הבעיה: מערכת 1 אי אפשר לכבות, ומערכת 2 עצלה ונוטה לאשר את מה שמערכת 1 כבר הציעה.",
+      "points_he": [
+        "מערכת 1 היא מהירה, מקבילית, בלתי-רצונית ותמיד פעילה",
+        "מערכת 2 היא איטית, מאומצת ומתעייפת בקלות — ולכן קל להסיח אותה",
+        "'מערכת 1' ו'מערכת 2' הם כינויים לדמויות בסיפור, לא אזורים במוח",
+        "רוב מה שאנחנו חושבים ועושים נובע ממערכת 1, גם כשנדמה לנו אחרת"
+      ],
+      "apply_he": "לפני ההחלטה החשובה הבאה שלך, עצור ושאל: האם זו תשובה של מערכת 1 (תחושת בטן מיידית) או שמערכת 2 באמת בדקה אותה?",
+      "quote": "System 2 allocates attention to the effortful mental activities that demand it, including complex computations.",
+      "sources": [
+        "https://www.sparknotes.com/lit/thinking-fast-and-slow/section1/",
+        "https://yukaichou.com/readalong/op-book-insights-ch-1-characters-story-thinking-fast-slow/",
+        "https://plasubtil.wordpress.com/2015/11/05/thinking-fast-and-slow-chapter-1-the-characters-of-the-story/",
+        "https://www.scientificamerican.com/article/kahneman-excerpt-thinking-fast-and-slow/"
+      ]
+    },
+    {
+      "book_id": "b_influence",
+      "chapter_index": 1,
+      "chapter_title": "Weapons of Influence",
+      "chapter_title_he": "כלי הנשק של ההשפעה",
+      "idea_he": "Click, Whirr: תגובות אוטומטיות שמפעילים בנו כמו כפתור",
+      "body_he": "צ'אלדיני פותח בדוגמה של תרנגולת הודו שמגוננת על כל מה שמשמיע 'צ'יפ-צ'יפ' — אפילו על אויב. גם לבני אדם יש 'דפוסי פעולה קבועים' שמופעלים על ידי גירוי אחד: 'Click' — והתוכנית מופעלת, 'Whirr' — ורצף ההתנהגות מתגלגל. בעולם מורכב אנחנו חייבים קיצורי דרך כאלה (יקר = טוב, מומחה אמר = נכון), אבל מי שמכיר את הגורמים המפעילים יכול לנצל אותם נגדנו.",
+      "points_he": [
+        "דפוסי פעולה קבועים מופעלים על ידי 'תכונה מפעילה' אחת ולא על ידי המצב כולו",
+        "הקיצורים הם בדרך כלל יעילים — הבעיה מתחילה כשמישהו מפעיל אותם בכוונה",
+        "דוגמה: מחיר גבוה גורם לנו לתפוס מוצר כאיכותי יותר",
+        "השאלה המרכזית של הספר: אילו עקרונות פסיכולוגיים גורמים לאדם להגיד 'כן'"
+      ],
+      "apply_he": "בפעם הבאה שאתה אומר 'כן' מהר, שאל את עצמך איזה גורם מפעיל הופעל — מחיר, סמכות, מחסור — ואם היית מסכים גם בלעדיו.",
+      "quote": "Click and the appropriate tape is activated; whirr and out rolls the standard sequence of behaviors",
+      "sources": [
+        "https://www.supersummary.com/influence/chapter-1-summary/",
+        "https://sites.google.com/site/724ecialdiniwiki/chapter-1-weapons-of-influence",
+        "https://www.media-studies.ca/articles/influence.htm"
+      ]
+    },
+    {
+      "book_id": "b_mans_search_for_meaning",
+      "chapter_index": 1,
+      "chapter_title": "Experiences in a Concentration Camp",
+      "chapter_title_he": "חוויות במחנה ריכוז",
+      "idea_he": "שלושה שלבים נפשיים של האסיר: הלם, אדישות, שחרור",
+      "body_he": "פרנקל, פסיכיאטר שניצל מאושוויץ, מתאר את חיי המחנה לא כזיכרונות אלא כתצפית פסיכולוגית. בשלב הראשון שולט ההלם, יחד עם 'אשליית החנינה' — האמונה שנינצל ברגע האחרון. בשלב השני מגיעה אדישות, 'מוות רגשי' שמשמש מנגנון הגנה הכרחי כשכל הכוחות מופנים להישרדות. השלב השלישי, השחרור, מביא איתו קושי משלו — לחזור לחיים ולהרגיש שוב.",
+      "points_he": [
+        "שלב 1 — הלם: הגעה, סלקציה, ומחשבות על התאבדות אצל כמעט כולם",
+        "שלב 2 — אדישות: סבל ומוות של אחרים כבר לא מעוררים רגש; הפנטזיות מתרכזות באוכל",
+        "האדישות היא הגנה נחוצה, לא פגם מוסרי",
+        "שלב 3 — שחרור: החופש עצמו דורש הסתגלות נפשית"
+      ],
+      "apply_he": "כשאתה נתקל בסבל שלא ניתן לשנות, שאל לא 'למה זה קורה לי' אלא 'מה אני בוחר לעשות עם זה' — זו נקודת המוצא של פרנקל.",
+      "sources": [
+        "https://www.litcharts.com/lit/man-s-search-for-meaning/experiences-in-a-concentration-camp",
+        "https://www.sparknotes.com/lit/mans-search-for-meaning/summary-and-analysis/",
+        "https://www.enotes.com/topics/mans-search-for-meaning/chapter-summaries"
+      ]
+    },
+    {
+      "book_id": "b_body_keeps_the_score",
+      "chapter_index": 1,
+      "chapter_title": "Lessons from Vietnam Veterans",
+      "chapter_title_he": "לקחים מיוצאי מלחמת וייטנאם",
+      "idea_he": "טראומה לא נעלמת — היא חיה בגוף ומעצבת את ההווה",
+      "body_he": "ואן דר קולק מתחיל ביומו הראשון כפסיכיאטר במרפאת יוצאי הצבא בבוסטון ב-1978, כשהוא פוגש את טום — עורך דין מצליח ואב לשניים שסובל מסיוטים והתפרצויות זעם ומרגיש 'מת מבפנים'. טום מסרב לתרופה לסיוטים כי הוא חושש שאם הם ייעלמו, מות חבריו יהיה לשווא. כשואן דר קולק מחפש ספרות על טראומת מלחמה, הוא מגלה שאין אפילו ספר אחד — ומתחיל מחקר שמשווה יוצאי צבא לנפגעי התעללות בילדות ומגלה שאותה קהות רגשית משותפת לשניהם.",
+      "points_he": [
+        "טראומה יכולה להסתתר מאחורי חיים שנראים מבחוץ נורמליים לחלוטין",
+        "הסימפטומים (סיוטים, קהות, זעם) הם ניסיון של הנפש להחזיק בזיכרון ובנאמנות",
+        "PTSD הוכר כאבחנה רשמית רק ב-1980, בזכות יוצאי וייטנאם",
+        "נפגעי מלחמה ונפגעי התעללות בילדות חולקים דפוסים דומים של ניתוק רגשי"
+      ],
+      "apply_he": "אם מישהו קרוב מגיב בקהות או בזעם לא פרופורציונלי, נסה לשאול 'מה קרה לך' במקום 'מה לא בסדר איתך'.",
+      "quote": "the VA didn't have a single book about any of these conditions",
+      "sources": [
+        "https://www.supersummary.com/the-body-keeps-the-score/part-1/",
+        "https://doctorlib.org/travma/body-keeps-score/1.html",
+        "https://www.penguinrandomhouse.ca/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/9780143127741/excerpt"
+      ]
+    },
+    {
+      "book_id": "b_emotional_intelligence",
+      "chapter_index": 1,
+      "chapter_title": "What Are Emotions For?",
+      "chapter_title_he": "בשביל מה יש רגשות?",
+      "idea_he": "הרגשות הם מנגנון הישרדות עתיק שמניע אותנו לפעולה",
+      "body_he": "גולמן פותח בשאלה למה הרגשות גוברים כל כך הרבה פעמים על ההיגיון, ומשיב: כי יש בזה היגיון אבולוציוני. כל רגש בסיסי — כעס, פחד, שמחה, אהבה, הפתעה, גועל, עצב — מכין את הגוף לתגובה ספציפית. המעגלים הרגשיים שירשנו התפתחו לאורך אלפי דורות, והאמיגדלה סורקת כל מצב ושואלת 'האם זה יפגע בי?' — ואם כן, היא שולחת אזעקה לכל הגוף עוד לפני שהמוח הרציונלי הספיק להבין.",
+      "points_he": [
+        "רגשות הם דחפים לפעולה שעזרו לאדם לשרוד, בדומה לאינסטינקטים",
+        "כל רגש בסיסי מפעיל תגובה גופנית מובחנת (למשל דם לידיים בכעס)",
+        "האמיגדלה יכולה 'לחטוף' את המוח הרציונלי במצבי איום",
+        "ירשנו מוח רגשי שהותאם לעולם אחר — ולכן הוא לפעמים מגיב לא במקום"
+      ],
+      "apply_he": "כשאתה מרגיש גל של כעס או פחד, זהה שזו האמיגדלה שמגיבה — ותן לעצמך כמה שניות לפני שאתה פועל.",
+      "sources": [
+        "https://www.bookrags.com/studyguide-emotional-intelligence/chapanal001.html",
+        "https://www.shortform.com/summary/emotional-intelligence-summary-daniel-goleman",
+        "https://www.runn.io/blog/emotional-intelligence-summary"
+      ]
+    },
+    {
+      "book_id": "b_predictably_irrational",
+      "chapter_index": 1,
+      "chapter_title": "The Truth About Relativity",
+      "chapter_title_he": "האמת על היחסיות",
+      "idea_he": "אנחנו לא יודעים כמה משהו שווה — רק כמה הוא שווה בהשוואה",
+      "body_he": "אריאלי פותח במודעה של ה'אקונומיסט': מנוי אינטרנט ב-59 דולר, מנוי מודפס ב-125 דולר, ומנוי משולב (מודפס + אינטרנט) גם הוא ב-125 דולר. אף אחד לא בוחר במודפס בלבד — אבל עצם קיומו של ה'פיתיון' הזה גרם ל-84% מהסטודנטים בניסוי לבחור במנוי המשולב היקר. אנחנו כמעט אף פעם לא מעריכים דברים בערכם המוחלט, אלא ביחס לאפשרויות שמוצגות לידם — וזה עובד גם בבחירת בני זוג.",
+      "points_he": [
+        "אנחנו מחליטים על בסיס יתרון יחסי, לא על בסיס ערך מוחלט",
+        "אפקט הפיתיון (decoy): אפשרות שאף אחד לא בוחר משנה את מה שכולם בוחרים",
+        "בניסוי The Economist: 84% בחרו במשולב עם הפיתיון, לעומת 16% בלבד באינטרנט",
+        "היחסיות משפיעה גם על מי נראה לנו אטרקטיבי כשמציבים לידו 'גרסה פחות טובה' שלו"
+      ],
+      "apply_he": "לפני קנייה, הסתר מעצמך את האפשרות 'האמצעית' ושאל אם היית קונה את המוצר במחירו גם אם היה מוצג לבד.",
+      "sources": [
+        "https://whistlinginthewind.org/2013/01/11/predictably-irrational-chapter-1-the-truth-about-relativity/",
+        "https://readingraphics.com/book-summary-predictably-irrational/",
+        "https://dansilvestre.com/summaries/predictably-irrational-summary/",
+        "https://en.wikipedia.org/wiki/Predictably_Irrational"
+      ]
+    }
+  ]
+}

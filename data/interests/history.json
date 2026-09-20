@@ -1,0 +1,733 @@
+{
+  "id": "history",
+  "name_he": "היסטוריה, אסטרטגיה וביוגרפיות",
+  "name_en": "History, Strategy & Biography",
+  "tagline_he": "להבין איך אימפריות, מנהיגים ובוני חברות קמו ונפלו — כדי לקבל החלטות טובות יותר היום.",
+  "books": [
+    {
+      "id": "b_the_art_of_war",
+      "title": "The Art of War",
+      "title_he": "אמנות המלחמה",
+      "author": "Sun Tzu",
+      "year": -500,
+      "why_he": "הטקסט האסטרטגי העתיק והמצוטט ביותר בעולם — תכנון, הונאה וניצחון ללא קרב.",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_on_war",
+      "title": "On War",
+      "title_he": "על המלחמה",
+      "author": "Carl von Clausewitz",
+      "year": 1832,
+      "why_he": "היצירה שהגדירה את המלחמה כהמשך המדיניות באמצעים אחרים, ועדיין נלמדת בכל מכללה צבאית."
+    },
+    {
+      "id": "b_sapiens",
+      "title": "Sapiens: A Brief History of Humankind",
+      "title_he": "קיצור תולדות האנושות",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "why_he": "ההיסטוריה של המין האנושי בכרך אחד, מהמהפכה הקוגניטיבית ועד למהפכה המדעית.",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_guns_germs_and_steel",
+      "title": "Guns, Germs, and Steel",
+      "title_he": "רובים, חיידקים ופלדה",
+      "author": "Jared Diamond",
+      "year": 1997,
+      "why_he": "זוכה פוליצר שמסביר למה גיאוגרפיה וסביבה, ולא ביולוגיה, עיצבו את גורל החברות.",
+      "chapters_total": 19
+    },
+    {
+      "id": "b_the_guns_of_august",
+      "title": "The Guns of August",
+      "title_he": "תותחי אוגוסט",
+      "author": "Barbara W. Tuchman",
+      "year": 1962,
+      "why_he": "הסיפור הקלאסי על החודש הראשון של מלחמת העולם הראשונה ועל איך מנהיגים מחליקים למלחמה.",
+      "chapters_total": 22
+    },
+    {
+      "id": "b_team_of_rivals",
+      "title": "Team of Rivals: The Political Genius of Abraham Lincoln",
+      "title_he": "צוות של יריבים: הגאונות הפוליטית של אברהם לינקולן",
+      "author": "Doris Kearns Goodwin",
+      "year": 2005,
+      "why_he": "איך לינקולן הכניס את יריביו הפוליטיים לקבינט שלו והפך אותם לשותפים — שיעור במנהיגות.",
+      "chapters_total": 26
+    },
+    {
+      "id": "b_steve_jobs",
+      "title": "Steve Jobs",
+      "title_he": "סטיב ג'ובס",
+      "author": "Walter Isaacson",
+      "year": 2011,
+      "why_he": "הביוגרפיה המוסמכת של האיש שבנה את אפל, על סמך עשרות ראיונות איתו ועם סביבתו.",
+      "chapters_total": 42
+    },
+    {
+      "id": "b_elon_musk",
+      "title": "Elon Musk",
+      "title_he": "אילון מאסק",
+      "author": "Walter Isaacson",
+      "year": 2023,
+      "why_he": "שנתיים של צל אחרי היזם השנוי במחלוקת ביותר של דורנו — טסלה, ספייס-אקס וTwitter מבפנים."
+    },
+    {
+      "id": "b_leonardo_da_vinci",
+      "title": "Leonardo da Vinci",
+      "title_he": "לאונרדו דה וינצ'י",
+      "author": "Walter Isaacson",
+      "year": 2017,
+      "why_he": "ביוגרפיה שמראה איך סקרנות חסרת גבולות וחיבור בין אמנות למדע יוצרים גאונות."
+    },
+    {
+      "id": "b_titan",
+      "title": "Titan: The Life of John D. Rockefeller, Sr.",
+      "title_he": "טיטאן: חייו של ג'ון ד. רוקפלר",
+      "author": "Ron Chernow",
+      "year": 1998,
+      "why_he": "הביוגרפיה המקיפה של האיש העשיר בהיסטוריה המודרנית ושל בניית סטנדרד אויל."
+    },
+    {
+      "id": "b_the_power_broker",
+      "title": "The Power Broker: Robert Moses and the Fall of New York",
+      "title_he": "מתווך הכוח: רוברט מוזס ונפילתה של ניו יורק",
+      "author": "Robert A. Caro",
+      "year": 1974,
+      "why_he": "מחקר מונומנטלי על איך כוח נצבר ומופעל בפועל, דרך האיש שעיצב את ניו יורק בלי להיבחר מעולם."
+    },
+    {
+      "id": "b_a_promised_land",
+      "title": "A Promised Land",
+      "title_he": "ארץ מובטחת",
+      "author": "Barack Obama",
+      "year": 2020,
+      "why_he": "זיכרונות נשיאותיים מגוף ראשון על הדרך לבית הלבן ועל קבלת החלטות בקדנציה הראשונה."
+    },
+    {
+      "id": "b_churchill_walking_with_destiny",
+      "title": "Churchill: Walking with Destiny",
+      "title_he": "צ'רצ'יל: הולך עם הגורל",
+      "author": "Andrew Roberts",
+      "year": 2018,
+      "why_he": "הביוגרפיה החד-כרכית המובילה של צ'רצ'יל, המבוססת על מקורות חדשים כולל יומני המלך ג'ורג' השישי."
+    },
+    {
+      "id": "b_alexander_hamilton",
+      "title": "Alexander Hamilton",
+      "title_he": "אלכסנדר המילטון",
+      "author": "Ron Chernow",
+      "year": 2004,
+      "why_he": "הביוגרפיה שהולידה את המחזמר — סיפורו של המהגר היתום שבנה את המערכת הפיננסית האמריקאית."
+    },
+    {
+      "id": "b_rise_and_fall_of_the_third_reich",
+      "title": "The Rise and Fall of the Third Reich",
+      "title_he": "עלייתו ונפילתו של הרייך השלישי",
+      "author": "William L. Shirer",
+      "year": 1960,
+      "why_he": "ההיסטוריה הקלאסית של גרמניה הנאצית, שנכתבה על ידי עיתונאי שראה את הדברים מקרוב."
+    },
+    {
+      "id": "b_destined_for_war",
+      "title": "Destined for War: Can America and China Escape Thucydides's Trap?",
+      "title_he": "נועדו למלחמה: האם ארה\"ב וסין יכולות להימלט ממלכודת תוקידידס?",
+      "author": "Graham Allison",
+      "year": 2017,
+      "why_he": "הספר שטבע את 'מלכודת תוקידידס' ובחן 16 מקרים היסטוריים של מעצמה עולה מול מעצמה שלטת."
+    },
+    {
+      "id": "b_the_lessons_of_history",
+      "title": "The Lessons of History",
+      "title_he": "לקחי ההיסטוריה",
+      "author": "Will Durant & Ariel Durant",
+      "year": 1968,
+      "why_he": "תמצית של אלפי שנות היסטוריה במאה עמודים — הדפוסים החוזרים בכלכלה, בדת, במלחמה ובממשל.",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_the_prince",
+      "title": "The Prince",
+      "title_he": "הנסיך",
+      "author": "Niccolò Machiavelli",
+      "year": 1532,
+      "why_he": "המדריך המקורי לכוח פוליטי — איך שליטים משיגים ושומרים שלטון בעולם כפי שהוא.",
+      "chapters_total": 26
+    },
+    {
+      "id": "b_meditations",
+      "title": "Meditations",
+      "title_he": "מחשבות לעצמי",
+      "author": "Marcus Aurelius",
+      "year": 180,
+      "why_he": "היומן הפרטי של קיסר רומי שהפך לספר הסטואי הנקרא ביותר על מנהיגות ושליטה עצמית.",
+      "chapters_total": 12
+    },
+    {
+      "id": "b_start_up_nation",
+      "title": "Start-up Nation: The Story of Israel's Economic Miracle",
+      "title_he": "מדינת חברת ההזנק",
+      "author": "Dan Senor & Saul Singer",
+      "year": 2009,
+      "why_he": "הספר שהסביר לעולם איך מדינה קטנה ומאוימת הפכה למעצמת חדשנות — צבא, עלייה וחוצפה."
+    },
+    {
+      "id": "b_israel_concise_history",
+      "title": "Israel: A Concise History of a Nation Reborn",
+      "title_he": "ישראל: היסטוריה תמציתית של אומה שנולדה מחדש",
+      "author": "Daniel Gordis",
+      "year": 2016,
+      "why_he": "היסטוריה קריאה ומאוזנת של הציונות ומדינת ישראל, מהרצל ועד ימינו."
+    },
+    {
+      "id": "b_the_wright_brothers",
+      "title": "The Wright Brothers",
+      "title_he": "האחים רייט",
+      "author": "David McCullough",
+      "year": 2015,
+      "why_he": "סיפורם של שני אחים ללא תואר אקדמי שפתרו את בעיית הטיסה בעקשנות ובניסוי שיטתי."
+    },
+    {
+      "id": "b_endurance",
+      "title": "Endurance: Shackleton's Incredible Voyage",
+      "title_he": "אנדיורנס: מסעו המדהים של שקלטון",
+      "author": "Alfred Lansing",
+      "year": 1959,
+      "why_he": "סיפור ההישרדות האנטארקטי שהפך לספר החובה על מנהיגות במשבר."
+    },
+    {
+      "id": "b_genghis_khan",
+      "title": "Genghis Khan and the Making of the Modern World",
+      "title_he": "ג'ינגיס חאן ויצירת העולם המודרני",
+      "author": "Jack Weatherford",
+      "year": 2004,
+      "why_he": "הערכה מחודשת של המונגולים כבוני סחר, חוק ותקשורת בין-יבשתית — לא רק ככובשים."
+    },
+    {
+      "id": "b_postwar",
+      "title": "Postwar: A History of Europe Since 1945",
+      "title_he": "אחרי המלחמה: היסטוריה של אירופה מ-1945",
+      "author": "Tony Judt",
+      "year": 2005,
+      "why_he": "ההיסטוריה המקיפה של אירופה שאחרי מלחמת העולם השנייה — שיקום, מלחמה קרה ואיחוד."
+    },
+    {
+      "id": "b_the_silk_roads",
+      "title": "The Silk Roads: A New History of the World",
+      "title_he": "דרכי המשי: היסטוריה חדשה של העולם",
+      "author": "Peter Frankopan",
+      "year": 2015,
+      "why_he": "היסטוריה עולמית שמעבירה את מרכז הכובד מאירופה למזרח התיכון ולמרכז אסיה."
+    },
+    {
+      "id": "b_1776",
+      "title": "1776",
+      "title_he": "1776",
+      "author": "David McCullough",
+      "year": 2005,
+      "why_he": "שנה אחת קריטית במהפכה האמריקאית, דרך עיניהם של וושינגטון וחייליו."
+    },
+    {
+      "id": "b_undaunted_courage",
+      "title": "Undaunted Courage",
+      "title_he": "אומץ ללא חת",
+      "author": "Stephen E. Ambrose",
+      "year": 1996,
+      "why_he": "מסע לואיס וקלארק — סיפור של חקר, מנהיגות בשטח ובניית אומה."
+    },
+    {
+      "id": "b_longitude",
+      "title": "Longitude",
+      "title_he": "קו האורך",
+      "author": "Dava Sobel",
+      "year": 1995,
+      "why_he": "איך שען אחד פתר את הבעיה המדעית הגדולה של תקופתו ושינה את הניווט הימי."
+    },
+    {
+      "id": "b_the_splendid_and_the_vile",
+      "title": "The Splendid and the Vile",
+      "title_he": "המפואר והנתעב",
+      "author": "Erik Larson",
+      "year": 2020,
+      "why_he": "השנה הראשונה של צ'רצ'יל כראש ממשלה בזמן הבליץ — מנהיגות תחת אש, יום אחר יום."
+    }
+  ],
+  "leaders": [
+    {
+      "id": "p_walter_isaacson",
+      "name": "Walter Isaacson",
+      "name_he": "וולטר אייזקסון",
+      "role_he": "ביוגרף, פרופסור באוניברסיטת טוליין, לשעבר עורך TIME ומנכ\"ל CNN",
+      "why_he": "הביוגרף המשפיע ביותר של דורנו — ג'ובס, מאסק, לאונרדו, איינשטיין ופרנקלין.",
+      "videos": [
+        {
+          "youtube_id": "wUsHHNmUWno",
+          "title": "Walter Isaacson interview on his latest biography, \"Elon Musk\"",
+          "source_url": "https://www.youtube.com/watch?v=wUsHHNmUWno",
+          "blurb_he": "אייזקסון משוחח עם דיוויד רובנשטיין על הביוגרפיה של אילון מאסק."
+        },
+        {
+          "youtube_id": "kXqVlrZwzS8",
+          "title": "Walter Isaacson: The Making of a Genius",
+          "source_url": "https://www.youtube.com/watch?v=kXqVlrZwzS8",
+          "blurb_he": "שיחה על ספרו על לאונרדו דה וינצ'י ועל מה שיוצר גאונות."
+        }
+      ]
+    },
+    {
+      "id": "p_yuval_noah_harari",
+      "name": "Yuval Noah Harari",
+      "name_he": "יובל נח הררי",
+      "role_he": "היסטוריון, מרצה באוניברסיטה העברית, מחבר 'קיצור תולדות האנושות'",
+      "why_he": "ההיסטוריון הישראלי הנקרא ביותר בעולם, שמחבר בין היסטוריה ארוכת טווח לשאלות של טכנולוגיה ועתיד.",
+      "videos": [
+        {
+          "youtube_id": "Bw9P_ZXWDJU",
+          "title": "21 Lessons for the 21st Century | Yuval Noah Harari | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=Bw9P_ZXWDJU",
+          "blurb_he": "הרצאה בגוגל על ספרו '21 מחשבות על המאה ה-21'."
+        },
+        {
+          "youtube_id": "FNZhxTtOL-I",
+          "title": "The full-length interview with Yuval Noah Harari | The Economist",
+          "source_url": "https://www.youtube.com/watch?v=FNZhxTtOL-I",
+          "blurb_he": "ראיון מלא עם The Economist על גישתו רחבת היריעה להיסטוריה."
+        }
+      ]
+    },
+    {
+      "id": "p_niall_ferguson",
+      "name": "Niall Ferguson",
+      "name_he": "ניאל פרגוסון",
+      "role_he": "היסטוריון, עמית בכיר במכון הובר, מייסד-שותף של אוניברסיטת אוסטין",
+      "why_he": "היסטוריון כלכלי ופוליטי שמיישם היסטוריה על גיאופוליטיקה ושווקים בזמן אמת.",
+      "videos": [
+        {
+          "youtube_id": "vDBZeHhx3YE",
+          "title": "Conflict: Niall Ferguson on Ukraine, Taiwan, and His War of Words with V. P. Vance",
+          "source_url": "https://www.youtube.com/watch?v=vDBZeHhx3YE",
+          "blurb_he": "ראיון ב-Uncommon Knowledge על אוקראינה, טייוואן וסכסוכים גיאופוליטיים."
+        },
+        {
+          "youtube_id": "OQ4bfsElVNs",
+          "title": "Niall Ferguson on What History Teaches Us About Covid-19",
+          "source_url": "https://www.youtube.com/watch?v=OQ4bfsElVNs",
+          "blurb_he": "שיחה עם ראנה מיטר על מה ההיסטוריה מלמדת על מגפות ואסונות."
+        }
+      ]
+    },
+    {
+      "id": "p_andrew_roberts",
+      "name": "Andrew Roberts",
+      "name_he": "אנדרו רוברטס",
+      "role_he": "היסטוריון בריטי, ביוגרף של צ'רצ'יל ונפוליאון, חבר בית הלורדים",
+      "why_he": "הביוגרף המוביל של צ'רצ'יל וסמכות על מנהיגות צבאית ומדינית.",
+      "videos": [
+        {
+          "youtube_id": "iLJB2f5HUeA",
+          "title": "Why Churchill Still Matters: Andrew Roberts on Great Men in History",
+          "source_url": "https://www.youtube.com/watch?v=iLJB2f5HUeA",
+          "blurb_he": "ראיון עם פיטר רובינסון על צ'רצ'יל ועל תפקידם של אנשים גדולים בהיסטוריה."
+        },
+        {
+          "youtube_id": "gidN8ajUPZc",
+          "title": "\"Churchill and the Historians\" - Andrew Roberts",
+          "source_url": "https://www.youtube.com/watch?v=gidN8ajUPZc",
+          "blurb_he": "הרצאה בהילסדייל קולג' על צ'רצ'יל ועל האופן שבו היסטוריונים שפטו אותו."
+        }
+      ]
+    },
+    {
+      "id": "p_dan_carlin",
+      "name": "Dan Carlin",
+      "name_he": "דן קרלין",
+      "role_he": "עיתונאי ומגיש podcast, יוצר Hardcore History",
+      "why_he": "המגיש podcast שהפך היסטוריה צבאית לסיפורים בני שעות ששומעים מיליונים.",
+      "videos": [
+        {
+          "youtube_id": "_zgctx6nmCw",
+          "title": "Dan Carlin | The New Golden Age of Oral Historical Storytelling | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=_zgctx6nmCw",
+          "blurb_he": "הרצאה בגוגל על תור הזהב החדש של סיפור היסטורי בעל-פה."
+        },
+        {
+          "youtube_id": "dOcKxMwQjhc",
+          "title": "A Hardcore Conversation With Dan Carlin",
+          "source_url": "https://www.youtube.com/watch?v=dOcKxMwQjhc",
+          "blurb_he": "שיחה עם קרלין בכנס התוכניות podcast Sound Education באוניברסיטת הרווארד."
+        }
+      ]
+    },
+    {
+      "id": "p_doris_kearns_goodwin",
+      "name": "Doris Kearns Goodwin",
+      "name_he": "דוריס קרנס גודווין",
+      "role_he": "היסטוריונית נשיאותית, זוכת פרס פוליצר",
+      "why_he": "הסמכות המובילה על מנהיגות נשיאותית — לינקולן, רוזוולט, ג'ונסון.",
+      "videos": [
+        {
+          "youtube_id": "IYt5KAODwJs",
+          "title": "The David Rubenstein Show: Doris Kearns Goodwin",
+          "source_url": "https://www.youtube.com/watch?v=IYt5KAODwJs",
+          "blurb_he": "דיוויד רובנשטיין משוחח עם גודווין על הנשיאים שעליהם כתבה."
+        },
+        {
+          "youtube_id": "GMz0VNlZiqY",
+          "title": "Doris Kearns Goodwin in conversation with Frank Buckley at Live Talks Los Angeles",
+          "source_url": "https://www.youtube.com/watch?v=GMz0VNlZiqY",
+          "blurb_he": "שיחה על ספרה 'Leadership: In Turbulent Times'."
+        }
+      ]
+    },
+    {
+      "id": "p_ron_chernow",
+      "name": "Ron Chernow",
+      "name_he": "רון צ'רנו",
+      "role_he": "ביוגרף, זוכה פרס פוליצר — המילטון, וושינגטון, גרנט, רוקפלר",
+      "why_he": "הביוגרף שסיפורי חייהם של בוני אמריקה בידיו הפכו לתרבות פופולרית.",
+      "videos": [
+        {
+          "youtube_id": "7q_0ClFH_8A",
+          "title": "Ron Chernow: Hamilton and Washington (Full Length)",
+          "source_url": "https://www.youtube.com/watch?v=7q_0ClFH_8A",
+          "blurb_he": "דיון על היחסים הייחודיים בין אלכסנדר המילטון לג'ורג' וושינגטון."
+        },
+        {
+          "youtube_id": "xnVPLtx6sJs",
+          "title": "Talks at GS – Ron Chernow: Lessons in Leadership – The Unlikely Rise of Ulysses S. Grant",
+          "source_url": "https://www.youtube.com/watch?v=xnVPLtx6sJs",
+          "blurb_he": "לויד בלנקפיין מגולדמן זאקס משוחח עם צ'רנו על הביוגרפיה של גרנט ועל מנהיגות."
+        }
+      ]
+    },
+    {
+      "id": "p_graham_allison",
+      "name": "Graham Allison",
+      "name_he": "גרהם אליסון",
+      "role_he": "פרופסור בבית הספר קנדי בהרווארד, לשעבר דיקן ועוזר שר ההגנה",
+      "why_he": "טבע את 'מלכודת תוקידידס' והפך את ההיסטוריה של יריבות מעצמות לכלי מדיניות.",
+      "videos": [
+        {
+          "youtube_id": "GAJ6SXMb-YI",
+          "title": "Graham Allison: Unpacking Thucydides's Trap",
+          "source_url": "https://www.youtube.com/watch?v=GAJ6SXMb-YI",
+          "blurb_he": "אליסון מציג את ספרו 'Destined for War' ואת רעיון מלכודת תוקידידס."
+        },
+        {
+          "youtube_id": "rKBiaCa7wVk",
+          "title": "Graham Allison on the Thucydides Trap | Munich Security Conference 2020",
+          "source_url": "https://www.youtube.com/watch?v=rKBiaCa7wVk",
+          "blurb_he": "שיחה בוועידת הביטחון של מינכן על ארה\"ב, סין והסיכון למלחמה."
+        }
+      ]
+    },
+    {
+      "id": "p_peter_frankopan",
+      "name": "Peter Frankopan",
+      "name_he": "פיטר פרנקופן",
+      "role_he": "פרופסור להיסטוריה גלובלית באוקספורד, מחבר 'דרכי המשי'",
+      "why_he": "ההיסטוריון שהעביר את מרכז הכובד של ההיסטוריה העולמית מאירופה לאסיה.",
+      "videos": [
+        {
+          "youtube_id": "8AzcYynIL9c",
+          "title": "The Silk Roads: A Decade On - Peter Frankopan, Professor of Global History at Oxford",
+          "source_url": "https://www.youtube.com/watch?v=8AzcYynIL9c",
+          "blurb_he": "עשור אחרי 'דרכי המשי' — פרנקופן חוזר לתזה של הספר."
+        },
+        {
+          "youtube_id": "A2WvFtN1iSk",
+          "title": "2024 Annual Tang Lecture | Conceptualising the Silk Roads: Some Suggestions | Peter Frankopan",
+          "source_url": "https://www.youtube.com/watch?v=A2WvFtN1iSk",
+          "blurb_he": "הרצאת טאנג השנתית 2024 על איך לחשוב על דרכי המשי."
+        }
+      ]
+    },
+    {
+      "id": "p_simon_sebag_montefiore",
+      "name": "Simon Sebag Montefiore",
+      "name_he": "סיימון סבאג מונטיפיורי",
+      "role_he": "היסטוריון וסופר בריטי, מחבר 'ירושלים: ביוגרפיה' ו-'The World'",
+      "why_he": "היסטוריון פופולרי שכתב את הביוגרפיות של ירושלים, סטלין והמזרח התיכון המודרני.",
+      "videos": [
+        {
+          "youtube_id": "Rm9UErAqYSA",
+          "title": "The Full History of the Creation of Israel | Simon Sebag Montefiore",
+          "source_url": "https://www.youtube.com/watch?v=Rm9UErAqYSA",
+          "blurb_he": "מונטיפיורי פורש את ההיסטוריה המלאה של הקמת מדינת ישראל."
+        },
+        {
+          "youtube_id": "yOM3raQeR7o",
+          "title": "An evening with Simon Sebag Montefiore",
+          "source_url": "https://www.youtube.com/watch?v=yOM3raQeR7o",
+          "blurb_he": "שיחה עם פרופ' סול דיוויד על ספרו 'The World' — היסטוריה של העולם דרך משפחות."
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_foreign_affairs",
+      "name": "Foreign Affairs",
+      "url": "https://www.foreignaffairs.com",
+      "desc_he": "כתב העת המוביל בעולם למדיניות חוץ ואסטרטגיה רבתי, בהוצאת המועצה ליחסי חוץ.",
+      "articles": [
+        {
+          "title": "West Asia: A New American Grand Strategy in the Middle East",
+          "url": "https://www.foreignaffairs.com/reviews/west-asia-new-american-grand-strategy-middle-east",
+          "published": "2026-09",
+          "summary_he": "ביקורת ספר על אסטרטגיה אמריקאית חדשה במזרח התיכון ועל השינויים האזוריים שמעצבים אותה."
+        },
+        {
+          "title": "Iran's New Grand Strategy: How a Remade Islamic Republic Will Reshape the Middle East",
+          "url": "https://www.foreignaffairs.com/iran/irans-new-grand-strategy",
+          "published": "2026-06",
+          "summary_he": "ניתוח האסטרטגיה הרבתי החדשה של איראן ואיך רפובליקה אסלאמית משתנה תעצב מחדש את האזור."
+        },
+        {
+          "title": "A Grand Strategy of Consolidation: How Trump Can Revitalize American Power",
+          "url": "https://www.foreignaffairs.com/united-states/trump-grand-strategy-consolidation-wes-mitchell",
+          "published": "2026",
+          "summary_he": "על אסטרטגיית ההגנה הלאומית של 2026 — מיקוד בחצי הכדור המערבי ובסין, וצמצום מבוקר של המאמץ באירופה ובמזרח התיכון."
+        }
+      ]
+    },
+    {
+      "id": "pub_war_on_the_rocks",
+      "name": "War on the Rocks",
+      "url": "https://warontherocks.com",
+      "desc_he": "אתר ניתוח ותוכניות podcast לביטחון לאומי, אסטרטגיה והיסטוריה צבאית, שכותבים בו אנשי מקצוע מנוסים.",
+      "articles": [
+        {
+          "title": "The Next School of War: Educating for Tomorrow's Battlefield",
+          "url": "https://warontherocks.com/the-next-school-of-war-educating-for-tomorrows-battlefield/",
+          "published": "2026-08",
+          "summary_he": "תא\"ל מתיו טרייסי ובנג'מין ג'נסן על איך החינוך הצבאי צריך להתפתח יחד עם השתנות המלחמה."
+        },
+        {
+          "title": "The Navy's Latest Is Not a Plan, Not a Strategy, and Not Fighting Instructions",
+          "url": "https://warontherocks.com/the-navys-latest-is-not-a-plan-not-a-strategy-and-not-fighting-instructions/",
+          "published": "2026-04",
+          "summary_he": "ביקורת על מסמך הנחיות הלחימה של הצי האמריקאי ל-2026 ועל מה שחסר בו כאסטרטגיה."
+        },
+        {
+          "title": "A Claim to Lead, a Hesitation to Act: Germany's New Military Strategy",
+          "url": "https://warontherocks.com/a-claim-to-lead-a-hesitation-to-act-germanys-new-military-strategy/",
+          "published": "2026-06",
+          "summary_he": "ניתוח האסטרטגיה הצבאית החדשה של גרמניה מול ציר זמן האיום של 2026–2028."
+        }
+      ]
+    },
+    {
+      "id": "pub_engelsberg_ideas",
+      "name": "Engelsberg Ideas",
+      "url": "https://engelsbergideas.com",
+      "desc_he": "מאמרים ארוכים מחוקרים ופרשנים מובילים על היסטוריה, מדינאות, מלחמה, פילוסופיה ותרבות.",
+      "articles": [
+        {
+          "title": "China's century of purges",
+          "url": "https://engelsbergideas.com/essays/chinas-century-of-purges/",
+          "published": "2026",
+          "summary_he": "מסה על מאה שנות טיהורים בצבא הסיני, על רקע החקירה נגד הגנרל ג'אנג יושיה בינואר 2026."
+        },
+        {
+          "title": "Can the United Nations survive?",
+          "url": "https://engelsbergideas.com/essays/can-the-united-nations-survive/",
+          "published": "2026",
+          "summary_he": "לרגל 80 שנה לאו\"ם — האם הארגון יכול לשרוד, בעולם שלא ראה מלחמה גדולה נוספת מאז הקמתו."
+        },
+        {
+          "title": "The Democrats' narrow path back to power",
+          "url": "https://engelsbergideas.com/notebook/the-democrats-narrow-path-back-to-power/",
+          "published": "2026",
+          "summary_he": "מה ההיסטוריה אומרת על בחירות האמצע של 2026 ועל הדרך של הדמוקרטים חזרה לשלטון."
+        }
+      ]
+    },
+    {
+      "id": "pub_tablet_magazine",
+      "name": "Tablet Magazine",
+      "url": "https://www.tabletmag.com",
+      "desc_he": "מגזין יהודי-אמריקאי לחדשות, רעיונות ותרבות, עם מדור היסטוריה חזק.",
+      "articles": [
+        {
+          "title": "The Red House Report",
+          "url": "https://www.tabletmag.com/sections/history/articles/red-house-report",
+          "published": "2026-01",
+          "summary_he": "אדם לבור על מסמכי הקונגרס היהודי העולמי מ-1996 בנוגע לסירוב הבנקים השווייצריים להחזיר פיקדונות של קורבנות השואה."
+        },
+        {
+          "title": "A World Without Money",
+          "url": "https://www.tabletmag.com/sections/news/articles/world-after-last-pruta",
+          "published": "2026-07",
+          "summary_he": "פרדריק קאופמן פותח לפני כ-3,000 שנה, כשנסיך בן 16 בשם עוזיהו הפך למלך יהודה — מסה על כסף והיסטוריה."
+        },
+        {
+          "title": "What Mohamed Atta Was Trying to Tell Us",
+          "url": "https://www.tabletmag.com/sections/news/articles/mohamed-atta-25-years-911",
+          "published": "2026-09",
+          "summary_he": "25 שנה ל-11 בספטמבר — למה יש להבין את 2026 כצומת דרכים נוסף בחיי הרפובליקה האמריקאית."
+        }
+      ]
+    },
+    {
+      "id": "pub_haaretz",
+      "name": "הארץ",
+      "url": "https://www.haaretz.co.il",
+      "desc_he": "העיתון הישראלי הוותיק, עם מדורי עיון ודעות שעוסקים בהיסטוריה, בזיכרון קולקטיבי ובלקחיהם.",
+      "articles": [
+        {
+          "title": "מה אפשר ללמוד מההסתבכות האמריקאית הראשונה מעבר לים",
+          "url": "https://www.haaretz.co.il/literature/study/2026-08-11/ty-article-magazine/0000019f-f15d-db94-a3df-fddfdbf70000",
+          "published": "2026-08",
+          "summary_he": "מאמר עיון שמשווה בין אירועים היסטוריים למדיניות אמריקאית לאורך תקופות שונות."
+        },
+        {
+          "title": "לשימוש הסלקטיבי שעושה הימין בהיסטוריה יש מחיר ציבורי ומדיני כבד",
+          "url": "https://www.haaretz.co.il/opinions/2026-06-04/ty-article-opinion/.premium/0000019e-91f1-d7a4-a9bf-f5f978280000",
+          "published": "2026-06",
+          "summary_he": "מאמר דעה על הוויכוח הפוליטי בישראל כמאבק על זיכרון קולקטיבי והיסטוריה."
+        },
+        {
+          "title": "המופע האורקולי בבקעת הקהילות ביד ושם הוא מופת של זלזול",
+          "url": "https://www.haaretz.co.il/gallery/architecture/2026-08-31/ty-article-magazine/.premium/000001a0-1e4d-d0e6-a9b9-5e7f09450000",
+          "published": "2026-08",
+          "summary_he": "ביקורת על מופע אורקולי חדש ביד ושם המציג 2,000 שנות היסטוריה יהודית."
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "book_id": "b_the_art_of_war",
+      "chapter_index": 1,
+      "chapter_title": "Laying Plans",
+      "chapter_title_he": "הנחת תוכניות",
+      "idea_he": "חמישה גורמים מכריעים את המלחמה עוד לפני שהיא מתחילה",
+      "body_he": "סון דזה פותח בכך שהמלחמה היא עניין חיוני למדינה, ולכן חובה לחקור אותה לעומק. הוא מונה חמישה גורמים — החוק המוסרי, השמיים, הארץ, המפקד והשיטה והמשמעת — והשוואת שני הצדדים לפיהם מגלה מי ינצח. תכנון טוב חשוב יותר מהסתערות לקרב: ההכנה מכריעה את רוב הקרב.",
+      "points_he": [
+        "החוק המוסרי: העם צריך להיות בהסכמה עם מנהיגיו לפני שיוצאים למלחמה",
+        "שמיים וארץ: תנאי מזג אוויר ועיתוי, ושטח, מרחקים וסכנות",
+        "המפקד נמדד בחוכמה, כנות, חסד, אומץ וקפדנות; השיטה — בניהול ומשמעת",
+        "השוו את שני הצדדים בחמשת הגורמים ותדעו מי חזק ומי חלש"
+      ],
+      "apply_he": "לפני ההחלטה הבאה, כתבו את חמשת הגורמים כטבלה ודרגו את עצמכם מול המתחרה בכל אחד.",
+      "sources": [
+        "https://www.litcharts.com/lit/the-art-of-war/chapter-1",
+        "https://www.ebsco.com/research-starters/literature-and-writing/analysis-excerpt-art-war-chapter-1",
+        "https://www.sparknotes.com/lit/the-art-of-war/section1/",
+        "https://suntzusaid.com/book/1"
+      ]
+    },
+    {
+      "book_id": "b_sapiens",
+      "chapter_index": 1,
+      "chapter_title": "An Animal of No Significance",
+      "chapter_title_he": "חיה חסרת חשיבות",
+      "idea_he": "במשך רוב ההיסטוריה היינו רק אחד מכמה מיני אדם",
+      "body_he": "הררי פותח בקנה מידה קוסמי — מהמפץ הגדול ועד להופעת בני אדם — ומזכיר שבמשך 2.5 מיליון שנה חיות דמויות אדם שוטטו על כדור הארץ בלי להשפיע עליו יותר מגורילות או גחליליות. לפני כ-2 מיליון עד 10,000 שנה חיו במקביל לפחות שישה מיני אדם, ביניהם הניאנדרטלים ודניסובה, וכולם נעלמו — ייתכן שההומו ספיינס דחק אותם. שלוש מהפכות — הקוגניטיבית, החקלאית והמדעית — הן שהפכו את המין השולי הזה לשליט הפלנטה.",
+      "points_he": [
+        "שלוש מהפכות מארגנות את הספר: קוגניטיבית (לפני 70,000 שנה), חקלאית (12,000) ומדעית (500)",
+        "לפחות שישה מיני אדם חיו במקביל — ניאנדרטלים, הומו ארקטוס, פלורסיינסיס, דניסובה ועוד",
+        "המוח האנושי גדול במיוחד וזולל אנרגיה: 2–3% ממשקל הגוף, כרבע מצריכת האנרגיה",
+        "אחת ההשערות להיעלמות המינים האחרים: תחרות על משאבים שהפכה לאלימות"
+      ],
+      "apply_he": "כשאתם מרגישים שהחברה או המוצר שלכם 'בלתי נמנעים', זכרו שהספיינס עצמו היה חיה שולית — עליונות היא תמיד זמנית.",
+      "quote": "prehistoric humans were insignificant animals with no more impact on their environment than gorillas, fireflies or jellyfish.",
+      "sources": [
+        "https://www.litcharts.com/lit/sapiens/chapter-1-an-animal-of-no-significance",
+        "https://medium.com/reading-collaboration/1-an-animal-of-no-significance-1fe20a0a8f17",
+        "https://saurabhdashora.com/sapiens-chapter-1-summary-analysis/",
+        "https://www.supersummary.com/sapiens/part-1/"
+      ]
+    },
+    {
+      "book_id": "b_guns_germs_and_steel",
+      "chapter_index": 1,
+      "chapter_title": "Prologue: Yali's Question",
+      "chapter_title_he": "פרולוג: השאלה של יאלי",
+      "idea_he": "סביבה, לא ביולוגיה, קבעה מי יכבוש את מי",
+      "body_he": "ביולי 1972, על חוף בגינאה החדשה, שואל הפוליטיקאי המקומי יאלי את דיימונד למה האנשים הלבנים פיתחו כל כך הרבה 'מטען' (סחורות) ולאנשיו יש כה מעט. הספר כולו הוא ניסיון לענות על השאלה. תשובתו של דיימונד במשפט אחד: ההיסטוריה התנהלה במסלולים שונים לעמים שונים בגלל הבדלים בסביבתם, ולא בגלל הבדלים ביולוגיים ביניהם.",
+      "points_he": [
+        "השאלה של יאלי היא המנוע של הספר: למה אי-השוויון בין חברות?",
+        "מקריות גיאוגרפית אפשרה לאירואסים לפתח 'רובים, חיידקים ופלדה' ולכבוש",
+        "דיימונד דוחה הסברים של עליונות אינטלקטואלית, תרבותית או ביולוגית",
+        "נקודת ההתחלה להשוואה בין היבשות: 11,000 לפנה\"ס, תחילת החיים בכפרים"
+      ],
+      "apply_he": "כשאתם מנתחים למה מתחרה הצליח, חפשו קודם את יתרונות הסביבה שלו (שוק, הון, תזמון) לפני שמייחסים הכול לכישרון.",
+      "quote": "Why is it that you white people developed so much cargo … but we black people had little cargo of our own?",
+      "sources": [
+        "https://www.litcharts.com/lit/guns-germs-and-steel/prologue-yali-s-question",
+        "https://www.enotes.com/topics/guns-germs-steel/questions/yali-s-question-in-guns-germs-and-steel-3135939",
+        "https://study.com/academy/lesson/guns-germs-and-steel-prologue-summary.html",
+        "https://www.litcharts.com/lit/guns-germs-and-steel/chapter-1-up-to-the-starting-line"
+      ]
+    },
+    {
+      "book_id": "b_on_war",
+      "chapter_index": 1,
+      "chapter_title": "What is War?",
+      "chapter_title_he": "מהי מלחמה?",
+      "idea_he": "מלחמה היא אקט של אלימות שנועד לכפות את רצוננו על היריב",
+      "body_he": "קלאוזביץ מגדיר מלחמה כדו-קרב בקנה מידה גדול: אקט של אלימות שמטרתו לכפות על היריב למלא את רצוננו — האלימות היא האמצעי, כפיית הרצון היא המטרה. בתיאוריה המלחמה נוטה לקיצוניות ('מלחמה מוחלטת'), כי אף צד לא מרסן את עצמו עד שהיריב מנוטרל לחלוטין. אבל במציאות גורמים כמו פוליטיקה, מקריות ורגש ממתנים אותה — ומכאן הרעיון המפורסם שהמלחמה היא המשך המדיניות באמצעים אחרים.",
+      "points_he": [
+        "הגדרה: מלחמה היא 'דו-קרב בקנה מידה נרחב' שמטרתו לפרוק את היריב מנשקו",
+        "'מלחמה מוחלטת' היא אידיאל תיאורטי; המציאות תמיד ממתנת אותה",
+        "המלחמה איננה רק אקט פוליטי אלא כלי פוליטי אמיתי — המשך המדיניות באמצעים אחרים",
+        "השילוש: אלימות ושנאה יסודיות, משחק המקריות וההסתברות, וכפיפות לתבונה כמכשיר מדיניות"
+      ],
+      "apply_he": "לפני כל 'מלחמה' עסקית או ארגונית, שאלו איזו מטרה מדינית היא משרתת — ואם אין תשובה, אל תילחמו.",
+      "quote": "an act of violence to compel our opponent to fulfil our will",
+      "sources": [
+        "https://www.supersummary.com/on-war/book-1-chapters-1-8-summary/",
+        "https://clausewitzstudies.org/readings/OnWar1873/BK1ch01.html",
+        "https://www.coursehero.com/lit/On-War/book-1-chapter-1-summary/",
+        "https://clausewitzstudies.org/readings/Bassford/Trinity/TRININTR.htm"
+      ]
+    },
+    {
+      "book_id": "b_the_lessons_of_history",
+      "chapter_index": 1,
+      "chapter_title": "Hesitations",
+      "chapter_title_he": "היסוסים",
+      "idea_he": "ללמוד מההיסטוריה מתחיל בענווה על גבולות הידע",
+      "body_he": "הפרק הפותח הוא הקדמה שמדגישה ענווה: האדם הוא רגע בזמן אסטרונומי, והידע ההיסטורי שלנו חלקי ומוטה. הדוראנטים שואלים מה בכלל התועלת בלימוד היסטוריה — האם היא רק בידור של עלייה ונפילת אומות, האם היא מלמדת על טבע האדם, האם היא מאירה את ההווה ומאפשרת לחזות את העתיד. הם מודים שדחיסת מאה מאות שנים למאה עמודים היא מפעל מסוכן — וממשיכים בכל זאת.",
+      "points_he": [
+        "ההיסטוריון ניצב מול שאלת התועלת: בידור, הבנת טבע האדם, הנחיה למדיניות או חיזוי",
+        "הידע ההיסטורי מוגבל ומוטה, ולכן יש להיזהר מביטחון-יתר במסקנות",
+        "הגישה: לטפל בהיסטוריה כפילוסופיה — לחפש דפוסים ולא רק עובדות",
+        "האדם הוא 'רגע בזמן אסטרונומי' — קנה מידה שמחייב צניעות"
+      ],
+      "apply_he": "כשאתם מסיקים 'לקח' מאירוע עבר, נסחו אותו בצורה מהוססת ובדקו אם הוא מחזיק גם בשלושה מקרים אחרים.",
+      "quote": "It is a precarious enterprise, and only a fool would try to compress a hundred centuries into a hundred pages of hazardous conclusions. We proceed.",
+      "sources": [
+        "https://medium.com/@aaronvarley_99163/summary-of-the-lessons-of-history-by-will-and-ariel-durant-f0117fa1fa3c",
+        "https://bobsbeenreading.com/2023/01/30/the-lessons-of-history-by-will-and-ariel-durant/",
+        "https://en.wikipedia.org/wiki/The_Lessons_of_History",
+        "https://lanredahunsi.com/book-summary-the-lessons-of-history-by-will-and-ariel-durant/"
+      ]
+    },
+    {
+      "book_id": "b_team_of_rivals",
+      "chapter_index": 1,
+      "chapter_title": "Four Men Waiting",
+      "chapter_title_he": "ארבעה גברים ממתינים",
+      "idea_he": "ארבעה יריבים מחכים לטלגרף — ורק אחד ייבחר",
+      "body_he": "ב-18 במאי 1860, יום המינוי הרפובליקני לנשיאות, לינקולן מתעורר מוקדם בספרינגפילד, נרגש וחרד. הפרק מציג את ארבעת המועמדים שממתינים לתוצאות הוועידה דרך הטלגרף: הסנאטור ויליאם סיוארד מניו יורק, המועמד המוביל; מושל אוהיו סלמון צ'ייס, אהוב האגף הרדיקלי; אדוארד בייטס ממיזורי, בחירת השמרנים; ולינקולן עצמו. לינקולן מתקשה להתרכז במשרד עורכי הדין המבולגן שלו, משוטט ברחובות ובודק מברקים — אחרי 25 שנה בעיר, עם בית צנוע אך נוכחות ציבורית חזקה וחברים נאמנים.",
+      "points_he": [
+        "ארבעה מועמדים: סיוארד (המוביל), צ'ייס (הרדיקלים), בייטס (השמרנים) ולינקולן",
+        "לינקולן היה האאוטסיידר — עורך דין מספרינגפילד, לא סנאטור ולא מושל",
+        "הפרק בונה את הבסיס לכל הספר: היריבים האלה יהפכו לחברי הקבינט שלו",
+        "רשת של חברים נאמנים ונוכחות ציבורית מקומית היו הנכס הפוליטי של לינקולן"
+      ],
+      "apply_he": "זהו את שלושת 'היריבים' החזקים ביותר בסביבתכם ושאלו איך הם היו נראים כשותפים במקום כמתחרים.",
+      "sources": [
+        "https://www.npr.org/2010/01/01/138053988/excerpt-team-of-rivals",
+        "https://www.bookreporter.com/reviews/team-of-rivals-the-political-genius-of-abraham-lincoln/excerpt",
+        "https://www.bookey.app/book/team-of-rivals",
+        "https://en.wikipedia.org/wiki/Team_of_Rivals"
+      ]
+    }
+  ]
+}

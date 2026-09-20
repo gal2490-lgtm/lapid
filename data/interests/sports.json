@@ -1,0 +1,714 @@
+{
+  "id": "sports",
+  "name_he": "אנליטיקה, ביצועים וחשיבה בספורט",
+  "name_en": "Sports Analytics & Performance",
+  "tagline_he": "איך נתונים, פסיכולוגיה של ביצועים ומנהיגות של מאמנים גדולים הופכים כישרון להצלחה שיטתית",
+  "books": [
+    {
+      "id": "b_moneyball",
+      "title": "Moneyball: The Art of Winning an Unfair Game",
+      "title_he": "מאניבול: אמנות הניצחון במשחק לא הוגן",
+      "author": "Michael Lewis",
+      "year": 2003,
+      "why_he": "הספר שהכניס את האנליטיקה לתודעה הציבורית: איך אוקלנד עם תקציב זעום ניצחה בעזרת סטטיסטיקה שאחרים זלזלו בה",
+      "chapters_total": 12
+    },
+    {
+      "id": "b_the_numbers_game",
+      "title": "The Numbers Game: Why Everything You Know About Soccer Is Wrong",
+      "title_he": "משחק המספרים: למה כל מה שאתם יודעים על כדורגל שגוי",
+      "author": "Chris Anderson & David Sally",
+      "year": 2013,
+      "why_he": "ה'מאניבול של הכדורגל': שני אקדמאים מפרקים מיתוסים על שערים, קרנות ומזל בעזרת נתונים"
+    },
+    {
+      "id": "b_scorecasting",
+      "title": "Scorecasting: The Hidden Influences Behind How Sports Are Played and Games Are Won",
+      "title_he": "סקורקאסטינג: ההשפעות הנסתרות על איך משחקים ומנצחים",
+      "author": "Tobias J. Moskowitz & L. Jon Wertheim",
+      "year": 2011,
+      "why_he": "כלכלן התנהגותי ועיתונאי ספורט חושפים את יתרון הבית, הטיות שופטים ואמונות טפלות דרך מספרים"
+    },
+    {
+      "id": "b_soccernomics",
+      "title": "Soccernomics",
+      "title_he": "סוקרנומיקס",
+      "author": "Simon Kuper & Stefan Szymanski",
+      "year": 2009,
+      "why_he": "ה'פריקונומיקס' של הכדורגל: למה אנגליה מפסידה, למה מועדונים מפסידים כסף ואיזה מדינות באמת מצטיינות"
+    },
+    {
+      "id": "b_the_book_playing_the_percentages",
+      "title": "The Book: Playing the Percentages in Baseball",
+      "title_he": "הספר: לשחק לפי האחוזים בבייסבול",
+      "author": "Tom Tango, Mitchel Lichtman & Andrew Dolphin",
+      "year": 2007,
+      "why_he": "התנ\"ך של הסייברמטריקה המודרנית: ניתוח מתמטי מדוקדק של החלטות במשחק, מהקרבה ועד סדר החבטה"
+    },
+    {
+      "id": "b_inner_game_of_tennis",
+      "title": "The Inner Game of Tennis",
+      "title_he": "המשחק הפנימי של הטניס",
+      "author": "W. Timothy Gallwey",
+      "year": 1974,
+      "why_he": "אבי הפסיכולוגיה של הביצועים: איך להשתיק את הקול המבקר בראש ולתת לגוף לעשות את מה שהוא יודע",
+      "chapters_total": 10
+    },
+    {
+      "id": "b_legacy",
+      "title": "Legacy: What the All Blacks Can Teach Us About the Business of Life",
+      "title_he": "מורשת: מה האול בלאקס יכולים ללמד אותנו על החיים",
+      "author": "James Kerr",
+      "year": 2013,
+      "why_he": "15 שיעורי מנהיגות מהנבחרת המצליחה בהיסטוריה של הספורט, מ'לטאטא את המלתחה' ועד מורשת",
+      "chapters_total": 15
+    },
+    {
+      "id": "b_peak",
+      "title": "Peak: Secrets from the New Science of Expertise",
+      "title_he": "שיא: סודות ממדע המומחיות החדש",
+      "author": "Anders Ericsson & Robert Pool",
+      "year": 2016,
+      "why_he": "החוקר שמאחורי 'עשרת אלפים השעות' מסביר בעצמו מהו אימון מכוון ולמה כישרון מולד הוא סיפור מוגזם",
+      "chapters_total": 9
+    },
+    {
+      "id": "b_range",
+      "title": "Range: Why Generalists Triumph in a Specialized World",
+      "title_he": "טווח: למה גנרליסטים מנצחים בעולם של מומחים",
+      "author": "David Epstein",
+      "year": 2019,
+      "why_he": "טייגר או פדרר? הספר שמערער על פולחן ההתמחות המוקדמת בספורט ובחיים",
+      "chapters_total": 12
+    },
+    {
+      "id": "b_mind_gym",
+      "title": "Mind Gym: An Athlete's Guide to Inner Excellence",
+      "title_he": "חדר כושר לנפש: מדריך הספורטאי למצוינות פנימית",
+      "author": "Gary Mack & David Casstevens",
+      "year": 2001,
+      "why_he": "פסיכולוג ספורט של קבוצות מקצועניות בשיעורים קצרים וישימים על ביטחון, מיקוד והתמודדות עם לחץ"
+    },
+    {
+      "id": "b_relentless",
+      "title": "Relentless: From Good to Great to Unstoppable",
+      "title_he": "ללא רחמים: מטוב למצוין לבלתי ניתן לעצירה",
+      "author": "Tim S. Grover",
+      "year": 2013,
+      "why_he": "המאמן של מייקל ג'ורדן וקובי בראיינט על המנטליות הבלתי מתפשרת של ה'קלינרים' בפסגה"
+    },
+    {
+      "id": "b_captain_class",
+      "title": "The Captain Class: The Hidden Force That Creates the World's Greatest Teams",
+      "title_he": "מעמד הקפטנים: הכוח הנסתר שיוצר את הקבוצות הגדולות בעולם",
+      "author": "Sam Walker",
+      "year": 2017,
+      "why_he": "מחקר על 16 השושלות הגדולות בספורט מגלה מכנה משותף מפתיע: קפטן מסוג מסוים, לא הכוכב הגדול"
+    },
+    {
+      "id": "b_eleven_rings",
+      "title": "Eleven Rings: The Soul of Success",
+      "title_he": "אחת-עשרה טבעות: נשמת ההצלחה",
+      "author": "Phil Jackson & Hugh Delehanty",
+      "year": 2013,
+      "why_he": "המאמן עם הכי הרבה אליפויות NBA מסביר איך מיינדפולנס, פילוסופיית זן ואמון בנו את שושלות הבולס והלייקרס"
+    },
+    {
+      "id": "b_leading_ferguson",
+      "title": "Leading: Learning from Life and My Years at Manchester United",
+      "title_he": "להוביל: לקחים מהחיים ומשנותיי במנצ'סטר יונייטד",
+      "author": "Alex Ferguson & Michael Moritz",
+      "year": 2015,
+      "why_he": "26 שנים של שליטה במנצ'סטר יונייטד מפורקות לעקרונות מנהיגות: משמעת, תצפית, שליטה ובניית ארגון"
+    },
+    {
+      "id": "b_open_agassi",
+      "title": "Open: An Autobiography",
+      "title_he": "פתוח: אוטוביוגרפיה",
+      "author": "Andre Agassi",
+      "year": 2009,
+      "why_he": "האוטוביוגרפיה הכנה ביותר בספורט: אלוף ששנא טניס מספר על לחץ, אב דורסני ומציאת משמעות בביצוע"
+    },
+    {
+      "id": "b_shoe_dog",
+      "title": "Shoe Dog: A Memoir by the Creator of Nike",
+      "title_he": "שו דוג: זיכרונותיו של מייסד נייקי",
+      "author": "Phil Knight",
+      "year": 2016,
+      "why_he": "סיפור הקמת נייקי מרץ אחד ומכונית סטיישן: אובססיה לספורט, סיכון ומאמן אתלטיקה שהפך לשותף"
+    },
+    {
+      "id": "b_sports_gene",
+      "title": "The Sports Gene: Inside the Science of Extraordinary Athletic Performance",
+      "title_he": "הגן הספורטיבי: המדע שמאחורי ביצועים אתלטיים יוצאי דופן",
+      "author": "David Epstein",
+      "year": 2013,
+      "why_he": "טבע מול טיפוח בספורט העילית: מה באמת נקבע בגנים ומה באימון, על בסיס מחקר ולא מיתוסים",
+      "chapters_total": 16
+    },
+    {
+      "id": "b_signal_and_noise",
+      "title": "The Signal and the Noise: Why So Many Predictions Fail—but Some Don't",
+      "title_he": "האות והרעש: למה כל כך הרבה תחזיות נכשלות, וכמה מצליחות",
+      "author": "Nate Silver",
+      "year": 2012,
+      "why_he": "מייסד FiveThirtyEight שהתחיל בחיזוי בייסבול מלמד חשיבה הסתברותית, מבייסבול ועד פוקר ובחירות",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_sprawlball",
+      "title": "SprawlBall: A Visual Tour of the New Era of the NBA",
+      "title_he": "ספרולבול: מסע חזותי בעידן החדש של ה-NBA",
+      "author": "Kirk Goldsberry",
+      "year": 2019,
+      "why_he": "הגיאוגרף שהמציא את מפות הזריקות מראה איך השלשה שינתה את הכדורסל, בגרפיקה שאי אפשר להתווכח איתה"
+    },
+    {
+      "id": "b_how_to_win_the_premier_league",
+      "title": "How to Win the Premier League: The Inside Story of Football's Data Revolution",
+      "title_he": "איך לזכות בפרמייר ליג: הסיפור הפנימי של מהפכת הנתונים בכדורגל",
+      "author": "Ian Graham",
+      "year": 2024,
+      "why_he": "מנהל המחקר של ליברפול בעידן קלופ חושף איך מודלים סטטיסטיים הביאו את סלאח, ואן דייק ואת האליפות"
+    },
+    {
+      "id": "b_basketball_on_paper",
+      "title": "Basketball on Paper: Rules and Tools for Performance Analysis",
+      "title_he": "כדורסל על הנייר: כללים וכלים לניתוח ביצועים",
+      "author": "Dean Oliver",
+      "year": 2004,
+      "why_he": "אבי האנליטיקה בכדורסל וארבעת הגורמים: הספר שעליו נבנו מחלקות הנתונים של כל קבוצות ה-NBA"
+    },
+    {
+      "id": "b_new_bill_james_historical_abstract",
+      "title": "The New Bill James Historical Baseball Abstract",
+      "title_he": "התקציר ההיסטורי החדש של ביל ג'יימס לבייסבול",
+      "author": "Bill James",
+      "year": 2001,
+      "why_he": "יצירת המופת של אבי הסייברמטריקה: דירוג שחקנים לאורך ההיסטוריה עם שיטה, הומור וספקנות מדעית"
+    },
+    {
+      "id": "b_inverting_the_pyramid",
+      "title": "Inverting the Pyramid: The History of Football Tactics",
+      "title_he": "להפוך את הפירמידה: ההיסטוריה של הטקטיקה בכדורגל",
+      "author": "Jonathan Wilson",
+      "year": 2008,
+      "why_he": "ההיסטוריה המקיפה של הטקטיקה בכדורגל: כדי להבין את גווארדיולה צריך להבין מאיפה הגיע ה-4-4-2"
+    },
+    {
+      "id": "b_talent_code",
+      "title": "The Talent Code: Greatness Isn't Born. It's Grown.",
+      "title_he": "קוד הכישרון: גדולה לא נולדת, היא מגודלת",
+      "author": "Daniel Coyle",
+      "year": 2009,
+      "why_he": "מסע ל'חממות כישרון' בעולם, ממגרשי הכדורגל בברזיל ועד אקדמיות טניס, ומה שמאחד אותן: אימון עמוק",
+      "chapters_total": 10
+    },
+    {
+      "id": "b_culture_code",
+      "title": "The Culture Code: The Secrets of Highly Successful Groups",
+      "title_he": "קוד התרבות: סודותיהן של קבוצות מצליחות במיוחד",
+      "author": "Daniel Coyle",
+      "year": 2018,
+      "why_he": "מהספרס של פופוביץ' ועד הנייבי סילס: שלושת המנגנונים שבונים תרבות קבוצתית מנצחת",
+      "chapters_total": 17
+    },
+    {
+      "id": "b_endure",
+      "title": "Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance",
+      "title_he": "לעמוד: גוף, נפש והגבולות הגמישים במפתיע של הביצוע האנושי",
+      "author": "Alex Hutchinson",
+      "year": 2018,
+      "why_he": "עיתונאי מדע ורץ לשעבר בוחן מה באמת קובע את גבול הסיבולת: השרירים, הלב או המוח"
+    },
+    {
+      "id": "b_mindset",
+      "title": "Mindset: The New Psychology of Success",
+      "title_he": "דפוס חשיבה: הפסיכולוגיה החדשה של ההצלחה",
+      "author": "Carol S. Dweck",
+      "year": 2006,
+      "why_he": "תפיסת הצמיחה מול תפיסה קבועה, המסגרת שכמעט כל מאמן ופסיכולוג ספורט מודרני משתמש בה",
+      "chapters_total": 8
+    },
+    {
+      "id": "b_score_takes_care_of_itself",
+      "title": "The Score Takes Care of Itself: My Philosophy of Leadership",
+      "title_he": "התוצאה תדאג לעצמה: הפילוסופיה שלי למנהיגות",
+      "author": "Bill Walsh, Steve Jamison & Craig Walsh",
+      "year": 2009,
+      "why_he": "המאמן שבנה את שושלת ה-49ers מסביר את 'תקן הביצוע': התמקדות בתהליך ולא בתוצאה"
+    },
+    {
+      "id": "b_wooden_on_leadership",
+      "title": "Wooden on Leadership",
+      "title_he": "וודן על מנהיגות",
+      "author": "John Wooden & Steve Jamison",
+      "year": 2005,
+      "why_he": "פירמידת ההצלחה של המאמן עם 10 אליפויות NCAA: מנהיגות שקטה שמתחילה בלגרוב נכון את הגרביים"
+    },
+    {
+      "id": "b_mvp_machine",
+      "title": "The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players",
+      "title_he": "מכונת ה-MVP: איך הנון-קונפורמיסטים של הבייסבול בונים שחקנים טובים יותר בעזרת נתונים",
+      "author": "Ben Lindbergh & Travis Sawchik",
+      "year": 2019,
+      "why_he": "הדור הבא אחרי מאניבול: לא רק למצוא שחקנים מוערכים בחסר, אלא לשפר שחקנים בעזרת טכנולוגיה ונתונים"
+    }
+  ],
+  "leaders": [
+    {
+      "id": "p_daryl_morey",
+      "name": "Daryl Morey",
+      "name_he": "דריל מורי",
+      "role_he": "נשיא פעילות הכדורסל של פילדלפיה 76ers, ממייסדי כנס סלואן לאנליטיקה בספורט",
+      "why_he": "המנהל הכללי שהביא את 'מוריבול' ל-NBA: זריקות שלשה, זריקות מהצבע וקבלת החלטות מבוססת נתונים",
+      "videos": [
+        {
+          "youtube_id": "SofJPu7IJ30",
+          "title": "Sixers Daryl Morey Uses AI Artificial Intelligence to Make Decisions - MIT Sloan Sports Conference",
+          "source_url": "https://www.youtube.com/watch?v=SofJPu7IJ30",
+          "blurb_he": "מורי בכנס סלואן 2025 על איך מודלי שפה ובינה מלאכותית עוזרים לו בקבלת החלטות כמנהל כללי"
+        },
+        {
+          "youtube_id": "_yuHdVlJHcg",
+          "title": "Daryl Morey and Nate Silver talk NBA Championship and U.S. Election outcomes | #RiskyBusiness",
+          "source_url": "https://www.youtube.com/watch?v=_yuHdVlJHcg",
+          "blurb_he": "שיחה בין מורי לנייט סילבר בתוכנית ה-podcast Risky Business על סיכויי אליפות ב-NBA וחיזוי תוצאות"
+        }
+      ]
+    },
+    {
+      "id": "p_nate_silver",
+      "name": "Nate Silver",
+      "name_he": "נייט סילבר",
+      "role_he": "סטטיסטיקאי, מייסד FiveThirtyEight וכותב הידיעון Silver Bulletin",
+      "why_he": "התחיל בחיזוי ביצועי שחקני בייסבול (PECOTA) והפך לסמל של חשיבה הסתברותית בספורט, פוקר ופוליטיקה",
+      "videos": [
+        {
+          "youtube_id": "k4os4WTRjgM",
+          "title": "Nate Silver - Smart vs. Stupid Risk Taking | Prof G Conversations",
+          "source_url": "https://www.youtube.com/watch?v=k4os4WTRjgM",
+          "blurb_he": "סילבר משוחח עם סקוט גאלוויי על ספרו On the Edge ועל ההבדל בין נטילת סיכונים חכמה לטיפשה"
+        },
+        {
+          "youtube_id": "oJHhyKM84ww",
+          "title": "Nate Silver: On the Edge",
+          "source_url": "https://www.youtube.com/watch?v=oJHhyKM84ww",
+          "blurb_he": "הרצאה של סילבר על ספרו On the Edge: אמנות הסיכון והחשיבה של אנשי ה'נהר' - מהמרים, משקיעים ואנליסטים"
+        }
+      ]
+    },
+    {
+      "id": "p_bill_james",
+      "name": "Bill James",
+      "name_he": "ביל ג'יימס",
+      "role_he": "אבי הסייברמטריקה, סופר ולשעבר יועץ בכיר לבוסטון רד סוקס",
+      "why_he": "האיש שהמציא את ניתוח הבייסבול המדעי בשנות ה-70 מהמרתף, והשפיע על כל מהפכת האנליטיקה שבאה אחריו",
+      "videos": [
+        {
+          "youtube_id": "KngpvKxAHNc",
+          "title": "Sabermetrics Interview with Bill James part 1",
+          "source_url": "https://www.youtube.com/watch?v=KngpvKxAHNc",
+          "blurb_he": "ראיון עם ביל ג'יימס, 'הסנדק של הסייברמטריקה', על מקורות הגישה הסטטיסטית לבייסבול"
+        },
+        {
+          "youtube_id": "GaeIpMMfshg",
+          "title": "Beat the Shift Podcast – Sabermetrics Episode w/ Bill James",
+          "source_url": "https://www.youtube.com/watch?v=GaeIpMMfshg",
+          "blurb_he": "ג'יימס מתארח בתוכנית ה-podcast Beat the Shift לפרק שמוקדש לסייברמטריקה"
+        }
+      ]
+    },
+    {
+      "id": "p_billy_beane",
+      "name": "Billy Beane",
+      "name_he": "בילי בין",
+      "role_he": "לשעבר מנהל כללי של אוקלנד אתלטיקס, גיבור 'מאניבול'",
+      "why_he": "הוכיח בשטח שאפשר להתחרות בקבוצות עשירות פי שלושה על ידי קניית ניצחונות בזול דרך סטטיסטיקה",
+      "videos": [
+        {
+          "youtube_id": "Aj2nmCwnpqo",
+          "title": "Voices in the Field: Billy Beane of \"Moneyball\" Fame Shares Insights on Analytics in Sports | EP111",
+          "source_url": "https://www.youtube.com/watch?v=Aj2nmCwnpqo",
+          "blurb_he": "בין, כיום יועץ בכיר באתלטיקס, משתף תובנות על עולם האנליטיקה בספורט המקצועני והתפתחותו"
+        },
+        {
+          "youtube_id": "QCDtLvNqiu4",
+          "title": "Oakland A's GM Billy Beane talks 'Moneyball' and Las Vegas Aviators",
+          "source_url": "https://www.youtube.com/watch?v=QCDtLvNqiu4",
+          "blurb_he": "ראיון עם בין על 'מאניבול' ועל קבוצת הפיתוח של האתלטיקס בלאס וגאס"
+        }
+      ]
+    },
+    {
+      "id": "p_steve_kerr",
+      "name": "Steve Kerr",
+      "name_he": "סטיב קר",
+      "role_he": "מאמן גולדן סטייט ווריורס, זוכה 9 אליפויות NBA כשחקן וכמאמן",
+      "why_he": "בנה שושלת סביב תרבות של שמחה, תחרותיות ופגיעוּת, והפך למודל למנהיגות מודרנית בספורט ובעסקים",
+      "videos": [
+        {
+          "youtube_id": "AQxf75bYrdA",
+          "title": "View From The Top: Steve Kerr On Leadership",
+          "source_url": "https://www.youtube.com/watch?v=AQxf75bYrdA",
+          "blurb_he": "קר בסדרת View From The Top של סטנפורד על מנהיגות, ולמה מנהיג נתפס חזק יותר כשהוא מודה שאין לו את כל התשובות"
+        },
+        {
+          "youtube_id": "VAl-dNaVU18",
+          "title": "Steve Kerr shares lessons that earned him 9 NBA championships",
+          "source_url": "https://www.youtube.com/watch?v=VAl-dNaVU18",
+          "blurb_he": "שיחה עם קר על מנהיגות, דפוס חשיבה ותרבות של אליפות שמאחורי 9 טבעות ה-NBA שלו"
+        }
+      ]
+    },
+    {
+      "id": "p_pep_guardiola",
+      "name": "Pep Guardiola",
+      "name_he": "פפ גווארדיולה",
+      "role_he": "מאמן כדורגל, לשעבר מאמן ברצלונה, באיירן מינכן ומנצ'סטר סיטי",
+      "why_he": "המאמן המשפיע ביותר בדורו: החזקת כדור, פוזיציונליות ואובססיה לפרטים ששינו את הטקטיקה של הכדורגל העולמי",
+      "videos": [
+        {
+          "youtube_id": "YBm6JIS12yE",
+          "title": "Pep Guardiola's Most Candid Interview Yet | On Spain, Brazil, Man City & the World Cup",
+          "source_url": "https://www.youtube.com/watch?v=YBm6JIS12yE",
+          "blurb_he": "ראיון בלעדי וגלוי עם גווארדיולה על ספרד, ברזיל, השנים במנצ'סטר סיטי והמונדיאל"
+        },
+        {
+          "youtube_id": "cIz5YS3J8Vw",
+          "title": "\"What a time\" 😍 | Pep Guardiola FULL post-match interview after final game",
+          "source_url": "https://www.youtube.com/watch?v=cIz5YS3J8Vw",
+          "blurb_he": "ראיון הפרידה המלא של גווארדיולה אחרי המשחק האחרון שלו כמאמן מנצ'סטר סיטי"
+        }
+      ]
+    },
+    {
+      "id": "p_david_epstein",
+      "name": "David Epstein",
+      "name_he": "דיוויד אפשטיין",
+      "role_he": "עיתונאי מדע, מחבר 'הגן הספורטיבי' ו'טווח'",
+      "why_he": "הקול המוביל נגד פולחן ההתמחות המוקדמת: מראה בעזרת מחקר שספורטאים גדולים מגיעים ממסלולים מגוונים",
+      "videos": [
+        {
+          "youtube_id": "Jd6QQBP3rO8",
+          "title": "David Epstein in Conversation with Malcolm Gladwell",
+          "source_url": "https://www.youtube.com/watch?v=Jd6QQBP3rO8",
+          "blurb_he": "אפשטיין בשיחה עם מלקולם גלדוול על 'טווח' ועל הוויכוח ביניהם בשאלת ההתמחות המוקדמת"
+        },
+        {
+          "youtube_id": "w1iGP7rpEK0",
+          "title": "David Epstein - Lessons from Range: Developing High Performance Teams",
+          "source_url": "https://www.youtube.com/watch?v=w1iGP7rpEK0",
+          "blurb_he": "הרצאה של אפשטיין על לקחים מ'טווח' לבניית צוותים בעלי ביצועים גבוהים"
+        }
+      ]
+    },
+    {
+      "id": "p_andy_galpin",
+      "name": "Andy Galpin",
+      "name_he": "אנדי גלפין",
+      "role_he": "מדען ביצועים, מנהל המרכז לביצועים אנושיים באוניברסיטת פרקר, מנחה ה-podcast Perform",
+      "why_he": "פיזיולוג עם מעל 100 מאמרים מדעיים שעבד עם ספורטאי UFC, MLB, NBA ואולימפיאדה, ומתרגם מדע אימון לשפה ברורה",
+      "videos": [
+        {
+          "youtube_id": "oNkDA2F7CjM",
+          "title": "Dr. Andy Galpin: How to Build Physical Endurance & Lose Fat | Huberman Lab Guest Series",
+          "source_url": "https://www.youtube.com/watch?v=oNkDA2F7CjM",
+          "blurb_he": "פרק מסדרת האורחים של גלפין ב-Huberman Lab על בניית סיבולת גופנית והפחתת שומן"
+        },
+        {
+          "youtube_id": "kUFx68VsZJY",
+          "title": "Build Muscle Size, Strength & Power With Science-Backed Programs | Perform with Dr. Andy Galpin",
+          "source_url": "https://www.youtube.com/watch?v=kUFx68VsZJY",
+          "blurb_he": "פרק מה-podcast Perform על בניית מסת שריר, כוח ועוצמה בעזרת תוכניות אימון מבוססות מדע"
+        }
+      ]
+    },
+    {
+      "id": "p_ian_graham",
+      "name": "Ian Graham",
+      "name_he": "איאן גרהם",
+      "role_he": "לשעבר מנהל המחקר של ליברפול, מחבר How to Win the Premier League",
+      "why_he": "הפיזיקאי שבנה את מחלקת הנתונים של ליברפול בעידן קלופ והצביע על סלאח לפני שהפך לכוכב עולמי",
+      "videos": [
+        {
+          "youtube_id": "bgaEJlBLpLE",
+          "title": "Behind the Scenes With Ian Graham, the Director of Research at Jurgen Klopp's Liverpool",
+          "source_url": "https://www.youtube.com/watch?v=bgaEJlBLpLE",
+          "blurb_he": "מבט מאחורי הקלעים עם גרהם על עבודת מחלקת המחקר של ליברפול תחת יורגן קלופ"
+        },
+        {
+          "youtube_id": "4TwdfRwq6qI",
+          "title": "Liverpool's former head of research discusses football's 'data revolution'",
+          "source_url": "https://www.youtube.com/watch?v=4TwdfRwq6qI",
+          "blurb_he": "ראיון ב-Sky Sports News עם גרהם על מהפכת הנתונים בכדורגל"
+        }
+      ]
+    },
+    {
+      "id": "p_kirk_goldsberry",
+      "name": "Kirk Goldsberry",
+      "name_he": "קירק גולדסברי",
+      "role_he": "גיאוגרף, אנליסט כדורסל ומחבר SprawlBall, לשעבר סגן נשיא לאסטרטגיה בסן אנטוניו ספרס",
+      "why_he": "המציא את מפות הזריקות המרחביות ששינו איך ה-NBA מבין את הזריקה, והפך נתונים לתמונות שכולם מבינים",
+      "videos": [
+        {
+          "youtube_id": "uOnfbMka5-M",
+          "title": "Kirk Goldsberry Talk \"Mapping the Modern NBA\"",
+          "source_url": "https://www.youtube.com/watch?v=uOnfbMka5-M",
+          "blurb_he": "הרצאה של גולדסברי על מיפוי ה-NBA המודרני בעזרת נתוני זריקות מרחביים"
+        },
+        {
+          "youtube_id": "iVLZl0gQrNY",
+          "title": "Show me the Numbers | Kirk Goldsberry | Best-Selling Author & Sports Analytics Expert",
+          "source_url": "https://www.youtube.com/watch?v=iVLZl0gQrNY",
+          "blurb_he": "גולדסברי מראה איך נתונים מרחביים שינו את הכדורסל, בעזרת נתוני זריקות שמסבירים את השינוי בבחירת הזריקה"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_the_ringer",
+      "name": "The Ringer",
+      "url": "https://www.theringer.com",
+      "desc_he": "אתר הספורט והתרבות של ביל סימונס, עם כיסוי NBA עמוק שמשלב אנליטיקה, מבחן העין ותוכניות podcast",
+      "articles": [
+        {
+          "title": "How Did the NBA Analytics Discourse Get So Stupid?",
+          "url": "https://www.theringer.com/2026/08/03/nba/jaylen-brown-trade-analytics-stats-eye-test",
+          "published": "2026-08",
+          "summary_he": "בעקבות טרייד ג'יילן בראון והצהרת בראד סטיבנס שמזערה את תפקיד האנליטיקה בהחלטה, המאמר בוחן איך הדיון על סטטיסטיקה מול מבחן העין ב-NBA הידרדר."
+        },
+        {
+          "title": "Can History Tell Us Who Will Win the 2026 NBA Title?",
+          "url": "https://www.theringer.com/2026/04/15/nba/nba-title-prediction-2026-championship-history",
+          "published": "2026-04",
+          "summary_he": "ניתוח היסטורי שמראה שנט רייטינג בעונה הסדירה הוא המנבא החזק ביותר להצלחה בסדרת ה-playoff: תשע אלופות מאז 2000 דורגו ראשונות במדד."
+        },
+        {
+          "title": "The LeBron Sweepstakes. Plus, Analytics in the NBA.",
+          "url": "https://www.theringer.com/podcasts/real-ones/2026/07/07/the-lebron-sweepstakes-plus-analytics-in-the-nba",
+          "published": "2026-07",
+          "summary_he": "פרק podcast Real Ones: מייקל פינה ולוגן דנים בחופש הפעולה של לברון ובשאלה איזה תפקיד צריכה האנליטיקה למלא ב-NBA אחרי טרייד ג'יילן בראון."
+        }
+      ]
+    },
+    {
+      "id": "pub_silver_bulletin",
+      "name": "Silver Bulletin (Nate Silver)",
+      "url": "https://www.natesilver.net",
+      "desc_he": "הידיעון של נייט סילבר, ממשיכו של FiveThirtyEight: מודלים סטטיסטיים ל-NFL, כדורגל בינלאומי ומארס מאדנס לצד חשיבה הסתברותית",
+      "articles": [
+        {
+          "title": "2026 ELWAY NFL projections",
+          "url": "https://www.natesilver.net/p/2026-elway-nfl-ratings-projections-playoff-odds",
+          "published": "2026-09",
+          "summary_he": "דירוגי קבוצות, סיכויי playoff וSuper Bowl ותחזית לכל משחק מהמודל ELWAY של Silver Bulletin לעונת 2026 ב-NFL."
+        },
+        {
+          "title": "Inside ELWAY's 2026 NFL forecast",
+          "url": "https://www.natesilver.net/p/inside-elways-2026-nfl-forecast",
+          "published": "2026-09",
+          "summary_he": "מבט לתוך התחזית: הראמס הם הקבוצה הטובה ביותר כשהיא בריאה, הבילס מובילים בדירוג מתוקנן פציעות, ורמת השוויון בליגה גבוהה מהרגיל."
+        }
+      ]
+    },
+    {
+      "id": "pub_hudl_statsbomb",
+      "name": "Hudl Statsbomb Blog",
+      "url": "https://www.hudl.com/blog/elite/statsbomb",
+      "desc_he": "ה-blog של StatsBomb (כיום חלק מ-Hudl), ספקית נתוני הכדורגל המתקדמים, עם ניתוחים על מדדים כמו xG, OBV ואחריות הגנתית",
+      "articles": [
+        {
+          "title": "The J1 League You Didn't See: A Hudl Statsbomb Data Analysis",
+          "url": "https://www.hudl.com/blog/j1-league-analysis-hudl-statsbomb",
+          "published": "2026-09",
+          "summary_he": "ניתוח עונת 2025-26 בליגה היפנית דרך מדדי לחץ, OBV ומסירות פורצות קווים, כולל הדרך של קאשימה אנטלרס לאליפות ראשונה מאז 2016."
+        },
+        {
+          "title": "Measuring Defensive Output in Serie A",
+          "url": "https://www.hudl.com/blog/defensive-responsibility-serie-a-statsbomb",
+          "published": "2026-08",
+          "summary_he": "מדדי הגנה מסורתיים סופרים כמות ולא איכות; מודל Defensive Responsibility מוסיף הקשר מרחבי וטקטי ומאפשר להשוות מגנים מקבוצות שונות בסריה A."
+        },
+        {
+          "title": "Defensive Responsibility in the J.League: Centre-Back Analysis",
+          "url": "https://www.hudl.com/blog/defensive-responsibility-j-league-centre-back-analysis",
+          "published": "2026-08",
+          "summary_he": "מודל DefR מפריד בין הבלם למערכת: במקום להעריך פעולות של המגן, הוא מעריך את פעולות התוקף ועובד לאחור, ונותן לסקאוטים קריאה נקייה יותר על בלמים ביפן."
+        }
+      ]
+    },
+    {
+      "id": "pub_espn_nba",
+      "name": "ESPN NBA",
+      "url": "https://www.espn.com/nba/",
+      "desc_he": "כיסוי ה-NBA של ESPN, כולל כתבי אנליטיקה כמו זאק קראם ותחזיות, דירוגים וציונים מבוססי נתונים",
+      "articles": [
+        {
+          "title": "NBA Rank, playoffs edition: The 50 most impactful players in the 2026 postseason",
+          "url": "https://www.espn.com/nba/story/_/id/48478787/nba-playoffs-2026-top-50-most-impactful-players-shai-lebron-cade-booker-durant",
+          "published": "2026-04",
+          "summary_he": "ספירה לאחור של 50 השחקנים המשפיעים ביותר לקראת playoff 2026, ובהם שי גילג'ס-אלכסנדר, לברון, קייד קנינגהאם, בוקר ודוראנט."
+        },
+        {
+          "title": "NBA offseason grades: Which teams had best trades, signings, deals?",
+          "url": "https://www.espn.com/nba/story/_/id/49410979/nba-2026-offseason-grades-30-teams-free-agency-trades",
+          "published": "2026-07",
+          "summary_he": "ציונים לכל 30 הקבוצות על עסקאות חילופין, חתימות ועסקאות בפגרת 2026."
+        },
+        {
+          "title": "NBA Summer Forecast 2026-27: Projections for East and West standings",
+          "url": "https://www.espn.com/nba/story/_/id/49641350/nba-predictions-2026-27-forecast-knicks-76ers-heat-thunder-spurs-lakers-east-west-standings",
+          "published": "2026-08",
+          "summary_he": "פאנל הכתבים של ESPN חוזה את טבלאות המזרח והמערב לעונת 2026-27, כשבמערב בולטות ת'אנדר, ספרס ונאגטס."
+        }
+      ]
+    },
+    {
+      "id": "pub_walla_sport",
+      "name": "וואלה ספורט",
+      "url": "https://sports.walla.co.il",
+      "desc_he": "מדור הספורט של וואלה, עם כיסוי של כנסי אנליטיקה בכדורגל הישראלי ותחזיות מבוססות נתונים של Opta",
+      "articles": [
+        {
+          "title": "לתת ספרינט בכיוון הנכון: מה למדנו בכנס אנליטיקה בכדורגל",
+          "url": "https://sports.walla.co.il/item/3817959",
+          "published": "2026-04",
+          "summary_he": "סיכום כנס אנליטיקה בכדורגל: ההתאחדות אספה נתוני GPS מעשרה מועדוני נוער מובילים ובנתה טבלאות לפי עמדה שמראות את רמת האינטנסיביות הפיזיולוגית של השחקן הישראלי הממוצע לעומת מסגרות בינלאומיות."
+        },
+        {
+          "title": "מחשב העל חזה: אלופת הפרמיירליג, ואיפה תסיים קריסטל פאלאס?",
+          "url": "https://sports.walla.co.il/item/3860810",
+          "published": "2026-08",
+          "summary_he": "לפי 10,000 סימולציות של מחשב העל של Opta, ארסנל היא המועמדת המובילה לזכייה בפרמייר ליג בעונת 2026/27."
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "book_id": "b_moneyball",
+      "chapter_index": 1,
+      "chapter_title": "The Curse of Talent",
+      "chapter_title_he": "קללת הכישרון",
+      "idea_he": "הסקאוטים רואים מה שהם רוצים לראות, לא מה שהנתונים אומרים",
+      "body_he": "הפרק פותח בבילי בין הצעיר, כוכב תיכון עם 'הפנים הטובות' שהסקאוטים האמינו שמנבאות אופי ועתיד מקצועני. הסקאוטים העריכו שחקנים לפי חמישה 'כלים' פיזיים ונתפסו לדימוי של כוכב עתידי. אבל כשבין הגיע למטס, משהו נחסם בינו לבין הכישרון שלו, והוא לא ידע איך לעבור את הקיר הזה.",
+      "points_he": [
+        "חמשת הכלים של הסקאוטינג המסורתי: ריצה, זריקה, תפיסה, חבטה וחבטה לעוצמה",
+        "הטיה אנושית: הסקאוטים 'ראו רק מה שרצו לראות: כוכב ליגה עתידי'",
+        "כישרון פיזי בלי חוסן מנטלי לא מספיק, ובין עצמו הוא ההוכחה"
+      ],
+      "apply_he": "לפני ההחלטה הבאה על אדם או פרויקט, שאל את עצמך אם אתה מעריך נתוני ביצוע בפועל או 'פנים טובות'.",
+      "quote": "when things did not go well for Billy on the playing field, a wall came down between him and his talent",
+      "sources": [
+        "https://www.litcharts.com/lit/moneyball/chapter-1-the-curse-of-talent",
+        "https://www.coursehero.com/lit/Moneyball/chapter-1-summary/",
+        "https://www.enotes.com/topics/moneyball"
+      ]
+    },
+    {
+      "book_id": "b_inner_game_of_tennis",
+      "chapter_index": 1,
+      "chapter_title": "Reflections on the Mental Side of Tennis",
+      "chapter_title_he": "הרהורים על הצד המנטלי של הטניס",
+      "idea_he": "פחות הוראות מילוליות, יותר הדגמה ותחושה: כך לומדים באמת",
+      "body_he": "גאלוויי מספר על הגילוי שלו כמדריך טניס: התלמידים השתפרו יותר ככל שהוא דיבר פחות. עודף הוראות מילוליות יוצר בלבול ומתח, ואילו הגוף לומד דרך צפייה, חיקוי ודמיון של התנועה. הלמידה הטובה ביותר קורית 'מחוץ למחשבה', בלי לשפוט כל תנועה כנכונה או שגויה.",
+      "points_he": [
+        "עודף הוראות מילוליות מפריע למתחיל ללמוד",
+        "לומדים על ידי צפייה בביצוע נכון ודמיון חוזר של עצמנו מבצעים אותו",
+        "שיפוט מתמיד של 'נכון' ו'לא נכון' תוך כדי ביצוע מקלקל את הביצוע"
+      ],
+      "apply_he": "באימון או בהדרכה הבאה שאתה נותן, החלף שלוש הוראות מילוליות בהדגמה אחת שקטה ותן לאדם לחקות.",
+      "sources": [
+        "https://fourminutebooks.com/the-inner-game-of-tennis-summary/",
+        "https://auresnotes.com/the-inner-game-of-tennis-summary-timothy-gallwey/",
+        "https://www.nateliason.com/notes/inner-game-of-tennis-w-timothy-gallwey",
+        "https://www.blinkist.com/en/books/the-inner-game-of-tennis-en"
+      ]
+    },
+    {
+      "book_id": "b_range",
+      "chapter_index": 1,
+      "chapter_title": "The Cult of the Head Start",
+      "chapter_title_he": "פולחן היתרון המוקדם",
+      "idea_he": "התחלה מוקדמת לא מבטיחה הצלחה, ולפעמים מקבעת חשיבה",
+      "body_he": "אפשטיין מספר על משפחת פולגר, שבה האב לאסלו הנדס בקפדנות את קריירת השחמט של בנותיו מגיל צעיר מתוך אמונה שכל ילד יכול להפוך לגאון עם יתרון פתיחה נכון. הפרק מאתגר את האמונה הרווחת שהתמחות מוקדמת היא המפתח, ומצביע על 'התבצרות קוגניטיבית': מומחים צרים שלא רואים פרספקטיבות חלופיות. גם אפקט הדעיכה בתוכניות חינוך מוקדם מוסבר בהוראת מיומנויות 'סגורות' שכולם רוכשים בסוף.",
+      "points_he": [
+        "'פולחן היתרון המוקדם': האמונה שהתחלה מוקדמת, אימון מכוון ומשאבים נכונים מייצרים ילד פלא",
+        "התבצרות קוגניטיבית: התמחות יתר יוצרת חשיבה נוקשה וחוסר יכולת לראות פתרונות חדשים",
+        "מיומנויות 'פתוחות' שמשמשות בסיס לידע מורכב חשובות יותר ממיומנויות 'סגורות'"
+      ],
+      "apply_he": "בחר תחום אחד מחוץ להתמחות שלך והקדש לו שעה השבוע, במקום עוד שעת שיפור בתחום שאתה כבר טוב בו.",
+      "sources": [
+        "https://www.supersummary.com/range/summary/",
+        "https://feedingcuriosity.net/blueprint-range/chapter-1",
+        "https://readingraphics.com/book-summary-range-why-generalists-triumph-in-a-specialized-world/",
+        "https://www.readbrightly.com/letting-kids-dabble/"
+      ]
+    },
+    {
+      "book_id": "b_legacy",
+      "chapter_index": 1,
+      "chapter_title": "Character (Sweep the Sheds)",
+      "chapter_title_he": "אופי (לטאטא את המלתחה)",
+      "idea_he": "אף אחד לא גדול מדי בשביל לעשות את הדברים הקטנים",
+      "body_he": "הפרק נפתח בניצחון 42-7 של האול בלאקס על ווילס ובביצוע המרהיב של דן קרטר. אבל הרגע המרכזי מגיע אחרי המשחק: שני שחקנים בכירים מטאטאים את רצפת המלתחה. האול בלאקס מנקים את חדר ההלבשה אחרי כל משחק ונושאים את התיקים שלהם בעצמם, כי ענווה ואחריות אישית הן הבסיס לאופי של הקבוצה, והמנהיגים הבכירים מובילים בדוגמה אישית.",
+      "points_he": [
+        "ענווה ותשומת לב לפרטים הקטנים ביותר הן חלק מהתרבות של הנבחרת המצליחה בהיסטוריה",
+        "השחקנים המוערכים ביותר עושים את העבודה הפשוטה, וכך אף אחד לא מפתח תחושת זכאות",
+        "מנהיגות אמיתית היא שירות ודוגמה אישית, לא סטטוס"
+      ],
+      "apply_he": "מחר בבוקר עשה בעצמך משימה 'קטנה מדי' עבורך, מול הצוות, בלי להכריז על כך.",
+      "quote": "no one looks after the All Blacks, the All Blacks look after themselves",
+      "sources": [
+        "https://www.supersummary.com/legacy/chapters-1-5-summary/",
+        "https://medium.com/@sahilmoray/summary-for-legacy-by-james-kerr-4219b5e1304d",
+        "https://whatgotyouthere.com/legacy-by-james-kerr/",
+        "https://edmondchan.co.uk/legacy-what-the-all-blacks-can-teach-us-about-the-business-of-life-by-james-kerr/"
+      ]
+    },
+    {
+      "book_id": "b_peak",
+      "chapter_index": 1,
+      "chapter_title": "The Power of Purposeful Practice",
+      "chapter_title_he": "הכוח של אימון מכוון",
+      "idea_he": "אימון נאיבי לא משפר; אימון מכוון עם מטרה, מיקוד ומשוב כן",
+      "body_he": "אריקסון מבחין בין אימון נאיבי, שבו פשוט עושים את הפעילות בלי מטרה או משוב, לבין אימון מכוון שדוחף אותך מעט מעבר לאזור הנוחות. אימון מכוון דורש מטרות מוגדרות וספציפיות, ריכוז מלא, ומשוב מהיר שאחריו מתקנים את הטכניקה. ההבדל הוא בין משחק חברים בפארק לבין עבודה על החלק החלש בזריקה שלך עם תרגיל שנבחר בקפידה.",
+      "points_he": [
+        "מטרות ספציפיות: מפרקים יעד ארוך טווח לצעדים קטנים, והאימון מוצלח רק אם היעד הושג",
+        "מיקוד: כמעט לא משתפרים בלי לתת למשימה את מלוא תשומת הלב",
+        "משוב קצר-מחזור ותיקון טכניקה בעקבותיו, תמיד מעט מעבר לאזור הנוחות"
+      ],
+      "apply_he": "לאימון או לעבודה של מחר, הגדר מראש מטרה אחת מדידה, ובסוף כתוב משפט אחד של משוב ומה תתקן.",
+      "sources": [
+        "https://www.shortform.com/summary/peak-secrets-from-the-new-science-of-expertise-summary-anders-ericsson",
+        "https://commoncog.com/peak-book-summary/",
+        "https://readingraphics.com/book-summary-peak/",
+        "https://setzeus.medium.com/peak-ef10d4cba231"
+      ]
+    },
+    {
+      "book_id": "b_eleven_rings",
+      "chapter_index": 1,
+      "chapter_title": "The Circle of Love",
+      "chapter_title_he": "מעגל האהבה",
+      "idea_he": "לא הטבעת בונה אלופה, אלא הקשר הרגשי בין השחקנים",
+      "body_he": "ג'קסון פותח בחגיגות אליפות הלייקרס ב-2009, כשהוא יושב בלימוזינה מול 95 אלף אוהדים בקוליסאום. הוא מסביר שהסוד הוא לא טבעת הזהב אלא המעגל שנוצר בין השחקנים, אהבה גדולה זה לזה, שהופכת אוסף של יחידים לקבוצה מלוכדת. הפיכת צעירים שאפתנים לקבוצת אליפות אינה תהליך מכני: היא דורשת ידע במשחק, לב פתוח, מחשבה צלולה וסקרנות עמוקה לרוח האנושית.",
+      "points_he": [
+        "'מעגל האהבה' הוא הקשר הרגשי שמחבר לוחמים בלהט הקרב, לא אהבה רומנטית או אחווה סתמית",
+        "בניית קבוצה היא אמנות, לא מכניקה: לב פתוח ומחשבה צלולה לצד ידע מקצועי",
+        "ג'קסון מתאר חמישה שלבים בהתפתחות קבוצה, בהשראת Tribal Leadership"
+      ],
+      "apply_he": "בפגישת הצוות הבאה, הקדש חמש דקות לחיזוק הקשר בין האנשים לפני שעוברים ליעדים ולמספרים.",
+      "quote": "the circle that's made a bond between all these players. A great love for one another.",
+      "sources": [
+        "https://www.oprah.com/own-super-soul-sunday/book-excerpt-eleven-rings-by-phil-jackson-and-hugh-delehanty",
+        "https://www.talkbasket.net/44873-guiding-principles-eleven-rings-the-soul-of-success-by-phil-jackson",
+        "https://acoachsdiary.blogspot.com/2015/05/phil-jackson-circle-of-love.html",
+        "https://sobrief.com/books/eleven-rings"
+      ]
+    }
+  ]
+}

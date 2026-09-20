@@ -1,0 +1,727 @@
+{
+  "id": "productivity",
+  "name_he": "פרודוקטיביות, הרגלים ולמידה",
+  "name_en": "Productivity, Habits & Learning",
+  "tagline_he": "איך לבנות הרגלים, למקד את הקשב וללמוד מהר יותר — בלי לשרוף את עצמך בדרך.",
+  "books": [
+    {
+      "id": "b_atomic_habits",
+      "title": "Atomic Habits",
+      "title_he": "הרגלים אטומיים",
+      "author": "James Clear",
+      "year": 2018,
+      "why_he": "הספר שהפך את בניית ההרגלים לשיטה פשוטה של ארבעה חוקים ושיפור של אחוז אחד ביום.",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_deep_work",
+      "title": "Deep Work",
+      "title_he": "עבודה עמוקה",
+      "author": "Cal Newport",
+      "year": 2016,
+      "why_he": "טבע את המושג 'עבודה עמוקה' והסביר למה ריכוז ללא הפרעות הוא המיומנות היקרה ביותר בכלכלה המודרנית.",
+      "chapters_total": 7
+    },
+    {
+      "id": "b_getting_things_done",
+      "title": "Getting Things Done",
+      "title_he": "לעשות דברים",
+      "author": "David Allen",
+      "year": 2001,
+      "why_he": "שיטת ה-GTD היא הבסיס לכמעט כל מערכת ניהול משימות מודרנית — להוציא הכול מהראש למערכת אמינה."
+    },
+    {
+      "id": "b_7_habits",
+      "title": "The 7 Habits of Highly Effective People",
+      "title_he": "שבעת ההרגלים של אנשים אפקטיביים במיוחד",
+      "author": "Stephen R. Covey",
+      "year": 1989,
+      "why_he": "הקלאסיקה שבנתה את שפת האפקטיביות האישית: פרואקטיביות, להתחיל עם הסוף בראש והדבר החשוב קודם."
+    },
+    {
+      "id": "b_essentialism",
+      "title": "Essentialism",
+      "title_he": "אסנציאליזם",
+      "author": "Greg McKeown",
+      "year": 2014,
+      "why_he": "מלמד לעשות פחות אבל טוב יותר — להגיד לא לכמעט הכול כדי להשקיע במעטים שבאמת חשובים.",
+      "chapters_total": 20
+    },
+    {
+      "id": "b_power_of_habit",
+      "title": "The Power of Habit",
+      "title_he": "כוחו של ההרגל",
+      "author": "Charles Duhigg",
+      "year": 2012,
+      "why_he": "הציג לקהל הרחב את לולאת ההרגל (רמז–שגרה–תגמול) ואת המדע שמאחורי שינוי הרגלים.",
+      "chapters_total": 9
+    },
+    {
+      "id": "b_make_it_stick",
+      "title": "Make It Stick",
+      "title_he": "שיישאר בראש",
+      "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+      "year": 2014,
+      "why_he": "הספר המבוסס-מחקר ביותר על למידה אפקטיבית: שליפה, ריווח ושילוב במקום קריאה חוזרת.",
+      "chapters_total": 8
+    },
+    {
+      "id": "b_ultralearning",
+      "title": "Ultralearning",
+      "title_he": "אולטרה-למידה",
+      "author": "Scott H. Young",
+      "year": 2019,
+      "why_he": "מפרק פרויקטי למידה אינטנסיביים לתשעה עקרונות שאפשר ליישם על כל מיומנות.",
+      "chapters_total": 14
+    },
+    {
+      "id": "b_four_thousand_weeks",
+      "title": "Four Thousand Weeks",
+      "title_he": "ארבעת אלפים שבועות",
+      "author": "Oliver Burkeman",
+      "year": 2021,
+      "why_he": "האנטי-תזה לניהול זמן: מקבלים שלעולם לא נספיק הכול, ובוחרים במה באמת להשקיע.",
+      "chapters_total": 14
+    },
+    {
+      "id": "b_the_one_thing",
+      "title": "The ONE Thing",
+      "title_he": "הדבר האחד",
+      "author": "Gary Keller, Jay Papasan",
+      "year": 2013,
+      "why_he": "שאלה אחת ממקדת — מה הדבר האחד שיהפוך את כל השאר לקל יותר או מיותר?",
+      "chapters_total": 18
+    },
+    {
+      "id": "b_digital_minimalism",
+      "title": "Digital Minimalism",
+      "title_he": "מינימליזם דיגיטלי",
+      "author": "Cal Newport",
+      "year": 2019,
+      "why_he": "פילוסופיה מעשית לשימוש בטכנולוגיה מתוך כוונה, במקום לתת ליישומים לנהל את הקשב שלנו.",
+      "chapters_total": 7
+    },
+    {
+      "id": "b_why_we_sleep",
+      "title": "Why We Sleep",
+      "title_he": "למה אנחנו ישנים",
+      "author": "Matthew Walker",
+      "year": 2017,
+      "why_he": "הפך את השינה מ'בזבוז זמן' לבסיס של זיכרון, למידה, בריאות ופרודוקטיביות.",
+      "chapters_total": 16
+    },
+    {
+      "id": "b_mindset",
+      "title": "Mindset",
+      "title_he": "דפוס חשיבה",
+      "author": "Carol S. Dweck",
+      "year": 2006,
+      "why_he": "ההבחנה בין דפוס חשיבה מקובע לדפוס חשיבה מתפתח משנה איך מתמודדים עם כישלון ולמידה.",
+      "chapters_total": 8
+    },
+    {
+      "id": "b_grit",
+      "title": "Grit",
+      "title_he": "גריט",
+      "author": "Angela Duckworth",
+      "year": 2016,
+      "why_he": "מראה שהתמדה ותשוקה לאורך זמן מנבאות הצלחה יותר מכישרון.",
+      "chapters_total": 13
+    },
+    {
+      "id": "b_flow",
+      "title": "Flow",
+      "title_he": "זרימה",
+      "author": "Mihaly Csikszentmihalyi",
+      "year": 1990,
+      "why_he": "המחקר המקורי על מצב הזרימה — התנאים שבהם עבודה הופכת למהנה ומרוכזת לחלוטין.",
+      "chapters_total": 10
+    },
+    {
+      "id": "b_slight_edge",
+      "title": "The Slight Edge",
+      "title_he": "היתרון הקטן",
+      "author": "Jeff Olson",
+      "year": 2005,
+      "why_he": "פעולות קטנות ויומיומיות שקל לעשות וגם קל לא לעשות — ההצטברות שלהן קובעת את התוצאה."
+    },
+    {
+      "id": "b_tiny_habits",
+      "title": "Tiny Habits",
+      "title_he": "הרגלים זעירים",
+      "author": "BJ Fogg",
+      "year": 2019,
+      "why_he": "מודל ההתנהגות של פוג מסטנפורד: מוטיבציה, יכולת ורמז — ולמה להתחיל קטן עד כדי גיחוך."
+    },
+    {
+      "id": "b_indistractable",
+      "title": "Indistractable",
+      "title_he": "בלתי ניתן להסחה",
+      "author": "Nir Eyal",
+      "year": 2019,
+      "why_he": "מודל של ארבעה שלבים לשליטה בקשב: שליטה בגורמים המפעילים הפנימיים, זמן לטרקשן, וניהול גורמים מפעילים חיצוניים."
+    },
+    {
+      "id": "b_building_a_second_brain",
+      "title": "Building a Second Brain",
+      "title_he": "לבנות מוח שני",
+      "author": "Tiago Forte",
+      "year": 2022,
+      "why_he": "שיטת ניהול ידע אישי (CODE ו-PARA) לארגון מידע דיגיטלי כך שישרת יצירה ולא רק אגירה."
+    },
+    {
+      "id": "b_so_good",
+      "title": "So Good They Can't Ignore You",
+      "title_he": "כל כך טוב שלא יוכלו להתעלם ממך",
+      "author": "Cal Newport",
+      "year": 2012,
+      "why_he": "מפריך את 'לכו אחרי התשוקה' ומציע לבנות הון קריירה דרך מיומנויות נדירות."
+    },
+    {
+      "id": "b_4_hour_workweek",
+      "title": "The 4-Hour Workweek",
+      "title_he": "שבוע עבודה של 4 שעות",
+      "author": "Timothy Ferriss",
+      "year": 2007,
+      "why_he": "הספר שהפך את האוטומציה, המיקור-חוץ וחוק 80/20 לשפה של דור שלם של יזמים."
+    },
+    {
+      "id": "b_eat_that_frog",
+      "title": "Eat That Frog!",
+      "title_he": "לאכול את הצפרדע",
+      "author": "Brian Tracy",
+      "year": 2001,
+      "why_he": "21 טכניקות פשוטות להפסיק לדחות ולהתחיל מהמשימה הקשה והחשובה ביותר.",
+      "chapters_total": 21
+    },
+    {
+      "id": "b_checklist_manifesto",
+      "title": "The Checklist Manifesto",
+      "title_he": "מניפסט הצ'קליסט",
+      "author": "Atul Gawande",
+      "year": 2009,
+      "why_he": "מנתח מראה איך רשימת תיוג פשוטה מצילה חיים ומשפרת ביצועים בכל תחום מורכב.",
+      "chapters_total": 9
+    },
+    {
+      "id": "b_peak",
+      "title": "Peak",
+      "title_he": "שיא",
+      "author": "Anders Ericsson, Robert Pool",
+      "year": 2016,
+      "why_he": "החוקר שמאחורי 'עשרת אלפים השעות' מסביר מהו תרגול מכוון ולמה הוא מה שבאמת יוצר מומחיות."
+    },
+    {
+      "id": "b_mind_for_numbers",
+      "title": "A Mind for Numbers",
+      "title_he": "ראש למספרים",
+      "author": "Barbara Oakley",
+      "year": 2014,
+      "why_he": "הספר שמאחורי הקורס 'Learning How to Learn': מצבי חשיבה ממוקד ומפוזר, צ'אנקינג והתמודדות עם דחיינות.",
+      "chapters_total": 18
+    },
+    {
+      "id": "b_hyperfocus",
+      "title": "Hyperfocus",
+      "title_he": "היפר-מיקוד",
+      "author": "Chris Bailey",
+      "year": 2018,
+      "why_he": "מדריך מעשי לניהול קשב: מתי להתמקד בעוצמה ומתי לתת למוח לנדוד בכוונה."
+    },
+    {
+      "id": "b_effective_executive",
+      "title": "The Effective Executive",
+      "title_he": "המנהל האפקטיבי",
+      "author": "Peter F. Drucker",
+      "year": 1967,
+      "why_he": "הקלאסיקה של דרוקר: אפקטיביות היא הרגל שנלמד — ניהול זמן, תרומה, חוזקות והחלטות.",
+      "chapters_total": 8
+    },
+    {
+      "id": "b_smart_notes",
+      "title": "How to Take Smart Notes",
+      "title_he": "איך לכתוב פתקים חכמים",
+      "author": "Sönke Ahrens",
+      "year": 2017,
+      "why_he": "הציג לעולם את שיטת הצטלקאסטן של לומאן — כתיבה כדרך לחשוב וללמוד."
+    },
+    {
+      "id": "b_tiny_experiments",
+      "title": "Tiny Experiments",
+      "title_he": "ניסויים קטנים",
+      "author": "Anne-Laure Le Cunff",
+      "year": 2025,
+      "why_he": "חלופה למטרות נוקשות: לחיות כמו מדען ולהחליף תוכניות בניסויים קטנים וסקרנות."
+    },
+    {
+      "id": "b_slow_productivity",
+      "title": "Slow Productivity",
+      "title_he": "פרודוקטיביות איטית",
+      "author": "Cal Newport",
+      "year": 2024,
+      "why_he": "שלושה עקרונות נגד שחיקה: לעשות פחות דברים, לעבוד בקצב טבעי ולהתעקש על איכות."
+    }
+  ],
+  "leaders": [
+    {
+      "id": "p_james_clear",
+      "name": "James Clear",
+      "name_he": "ג'יימס קליר",
+      "role_he": "סופר, מחבר Atomic Habits וכותב ידיעון 3-2-1",
+      "why_he": "הספר שלו נמכר בעשרות מיליוני עותקים והפך את בניית ההרגלים לשפה משותפת.",
+      "videos": [
+        {
+          "youtube_id": "M7kFkagIu1Q",
+          "title": "Building atomic habits with James Clear | ReThinking with Adam Grant",
+          "source_url": "https://www.youtube.com/watch?v=M7kFkagIu1Q",
+          "blurb_he": "שיחה עם אדם גרנט על איך יוצרים ומשנים הרגלים."
+        },
+        {
+          "youtube_id": "rtufWBLOXgw",
+          "title": "The Man Who Wrote Atomic Habits: Your Goals Are Quietly Restricting Your Happiness | James Clear",
+          "source_url": "https://www.youtube.com/watch?v=rtufWBLOXgw",
+          "blurb_he": "ראיון ארוך עם קליר על הרגלים, מטרות ולמה מערכות חשובות יותר מיעדים."
+        }
+      ]
+    },
+    {
+      "id": "p_cal_newport",
+      "name": "Cal Newport",
+      "name_he": "קאל ניופורט",
+      "role_he": "פרופסור למדעי המחשב בג'ורג'טאון, מחבר Deep Work ו-Slow Productivity",
+      "why_he": "הקול המוביל בעולם על ריכוז, עבודה עמוקה וחיים דיגיטליים מכוונים.",
+      "videos": [
+        {
+          "youtube_id": "nPzFhkTe2Uw",
+          "title": "Rules For Deep Work — Updated for 2026 | Cal Newport",
+          "source_url": "https://www.youtube.com/watch?v=nPzFhkTe2Uw",
+          "blurb_he": "ניופורט בוחן האם כללי העבודה העמוקה עדיין תקפים עשור אחרי פרסום הספר."
+        },
+        {
+          "youtube_id": "p4ZfkezDTXQ",
+          "title": "How to Enhance Focus and Improve Productivity | Dr. Cal Newport",
+          "source_url": "https://www.youtube.com/watch?v=p4ZfkezDTXQ",
+          "blurb_he": "פרק בתוכנית ה-podcast Huberman Lab על ריכוז ופרודוקטיביות עם קאל ניופורט."
+        }
+      ]
+    },
+    {
+      "id": "p_tim_ferriss",
+      "name": "Tim Ferriss",
+      "name_he": "טים פריס",
+      "role_he": "סופר, יזם ומגיש The Tim Ferriss Show",
+      "why_he": "מחבר The 4-Hour Workweek ומראיין של מאות מבצעי-על על השגרות והשיטות שלהם.",
+      "videos": [
+        {
+          "youtube_id": "doupx8SAs5Y",
+          "title": "Tim Ferriss: How to Learn Better & Create Your Best Future | Huberman Lab Podcast",
+          "source_url": "https://www.youtube.com/watch?v=doupx8SAs5Y",
+          "blurb_he": "פריס אצל הוברמן על איך ללמוד טוב יותר ולעצב את העתיד שלך."
+        },
+        {
+          "youtube_id": "ROymrQKsxSM",
+          "title": "An Eye-Opening Conversation with Podcast Legend Tim Ferriss",
+          "source_url": "https://www.youtube.com/watch?v=ROymrQKsxSM",
+          "blurb_he": "שיחה פתוחה עם טים פריס על הקריירה, ה-podcast והתובנות שלו."
+        }
+      ]
+    },
+    {
+      "id": "p_ali_abdaal",
+      "name": "Ali Abdaal",
+      "name_he": "עלי עבדאל",
+      "role_he": "רופא לשעבר, YouTubeר ומחבר Feel-Good Productivity",
+      "why_he": "אחד היוצרים הנצפים בעולם בתחום הפרודוקטיביות, עם גישה מבוססת-ראיות ומהנה.",
+      "videos": [
+        {
+          "youtube_id": "h_TvzVO7LVk",
+          "title": "Ali Abdaal | Feel-Good Productivity: How to Do More of What Matters to You | Talks at Google",
+          "source_url": "https://m.youtube.com/watch?v=h_TvzVO7LVk",
+          "blurb_he": "הרצאה בגוגל על הספר Feel-Good Productivity — לעשות יותר ממה שחשוב, בהנאה."
+        },
+        {
+          "youtube_id": "Ck2yqXMofoc",
+          "title": "Productivity Expert: How To Finally Stay Productive: Ali Abdaal | E93",
+          "source_url": "https://www.youtube.com/watch?v=Ck2yqXMofoc",
+          "blurb_he": "ראיון על איך להישאר פרודוקטיבי לאורך זמן."
+        }
+      ]
+    },
+    {
+      "id": "p_tiago_forte",
+      "name": "Tiago Forte",
+      "name_he": "טיאגו פורטה",
+      "role_he": "מומחה לניהול ידע אישי, מחבר Building a Second Brain",
+      "why_he": "בנה את שיטת ה'מוח השני' ואת מערכת PARA שאימצו מאות אלפי עובדי ידע.",
+      "videos": [
+        {
+          "youtube_id": "Y86GOtc1KNo",
+          "title": "Tiago Forte | Building a Second Brain | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=Y86GOtc1KNo",
+          "blurb_he": "פורטה מציג בגוגל את השיטה לארגון החיים הדיגיטליים ושחרור פוטנציאל יצירתי."
+        },
+        {
+          "youtube_id": "_8W_iTp-qAQ",
+          "title": "Build a Second Brain to Organize Your Digital Life | Tiago Forte | All The Hacks Podcast",
+          "source_url": "https://www.youtube.com/watch?v=_8W_iTp-qAQ",
+          "blurb_he": "שיחת podcast על השיטה המוכחת לבניית 'מוח שני' לארגון המידע האישי."
+        }
+      ]
+    },
+    {
+      "id": "p_bj_fogg",
+      "name": "BJ Fogg",
+      "name_he": "בי.ג'יי פוג",
+      "role_he": "חוקר התנהגות בסטנפורד, מייסד Behavior Design Lab ומחבר Tiny Habits",
+      "why_he": "מודל ההתנהגות שלו (B=MAP) הוא הבסיס המדעי של רוב שיטות ההרגלים המודרניות.",
+      "videos": [
+        {
+          "youtube_id": "AdKUJxjn-R8",
+          "title": "Forget big change, start with a tiny habit: BJ Fogg at TEDxFremont",
+          "source_url": "https://www.youtube.com/watch?v=AdKUJxjn-R8",
+          "blurb_he": "הרצאת TEDx על למה להתחיל מהרגל זעיר במקום משינוי גדול."
+        },
+        {
+          "youtube_id": "Gsf7AT3itFg",
+          "title": "Tiny Habits. Big Changes: BJ Fogg",
+          "source_url": "https://www.youtube.com/watch?v=Gsf7AT3itFg",
+          "blurb_he": "פוג מדבר על ספרו Tiny Habits ומראה איך יוצרים שינוי."
+        }
+      ]
+    },
+    {
+      "id": "p_oliver_burkeman",
+      "name": "Oliver Burkeman",
+      "name_he": "אוליבר ברקמן",
+      "role_he": "עיתונאי וסופר, מחבר Four Thousand Weeks",
+      "why_he": "הקול שמזכיר לעולם הפרודוקטיביות שהזמן סופי ושהמטרה היא לבחור, לא להספיק הכול.",
+      "videos": [
+        {
+          "youtube_id": "i9juUTtvCzI",
+          "title": "Oliver Burkeman | Four Thousand Weeks: Time and How to Use It | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=i9juUTtvCzI",
+          "blurb_he": "ברקמן בגוגל על הספר Four Thousand Weeks ואיך להשתמש בזמן."
+        },
+        {
+          "youtube_id": "117bg8lJLwM",
+          "title": "Episode 104: Oliver Burkeman - Four Thousand Weeks: Time Management for Mortals",
+          "source_url": "https://www.youtube.com/watch?v=117bg8lJLwM",
+          "blurb_he": "ראיון podcast על רב-המכר שלו בנושא ניהול זמן לבני תמותה."
+        }
+      ]
+    },
+    {
+      "id": "p_andrew_huberman",
+      "name": "Andrew Huberman",
+      "name_he": "אנדרו הוברמן",
+      "role_he": "נוירוביולוג בסטנפורד ומגיש Huberman Lab",
+      "why_he": "מתרגם מדעי מוח לפרוטוקולים מעשיים של ריכוז, מוטיבציה ושינה.",
+      "videos": [
+        {
+          "youtube_id": "XeN6eGO6FVQ",
+          "title": "Controlling Your Dopamine for Motivation, Focus & Satisfaction | Huberman Lab Essentials",
+          "source_url": "https://www.youtube.com/watch?v=XeN6eGO6FVQ",
+          "blurb_he": "פרק על תפקיד הדופמין במוטיבציה ובריכוז."
+        },
+        {
+          "youtube_id": "23t_ynq2tmk",
+          "title": "Optimizing Workspace for Productivity, Focus & Creativity | Huberman Lab Essentials",
+          "source_url": "https://www.youtube.com/watch?v=23t_ynq2tmk",
+          "blurb_he": "פרק על התאמת סביבת העבודה לפרודוקטיביות, ריכוז ויצירתיות."
+        }
+      ]
+    },
+    {
+      "id": "p_nir_eyal",
+      "name": "Nir Eyal",
+      "name_he": "ניר אייל",
+      "role_he": "סופר ומרצה, מחבר Indistractable ו-Hooked",
+      "why_he": "מסביר את שני צידי המטבע — איך מוצרים ממכרים אותנו ואיך לוקחים את הקשב בחזרה.",
+      "videos": [
+        {
+          "youtube_id": "WtLIJwObk2M",
+          "title": "Nir Eyal | Indistractable: How to Control Your Attention and Choose Your Life | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=WtLIJwObk2M",
+          "blurb_he": "הרצאה בגוגל על שליטה בקשב ובחירת החיים שלך."
+        },
+        {
+          "youtube_id": "IddcbxRXP1w",
+          "title": "Focus expert: How to MASTER your attention in a distracted world | Nir Eyal",
+          "source_url": "https://www.youtube.com/watch?v=IddcbxRXP1w",
+          "blurb_he": "ראיון על איך לשלוט בקשב בעולם מלא הסחות."
+        }
+      ]
+    },
+    {
+      "id": "p_barbara_oakley",
+      "name": "Barbara Oakley",
+      "name_he": "ברברה אוקלי",
+      "role_he": "פרופסור להנדסה, יוצרת הקורס Learning How to Learn",
+      "why_he": "הקורס המקוון הפופולרי בעולם על למידה נבנה על עבודתה, יחד עם הספר A Mind for Numbers.",
+      "videos": [
+        {
+          "youtube_id": "O96fE1E-rf8",
+          "title": "Learning how to learn | Barbara Oakley | TEDxOaklandUniversity",
+          "source_url": "https://www.youtube.com/watch?v=O96fE1E-rf8",
+          "blurb_he": "הרצאת TEDx על איך המוח לומד ואיך ללמוד טוב יותר."
+        },
+        {
+          "youtube_id": "vd2dtkMINIw",
+          "title": "Learning How to Learn | Barbara Oakley | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=vd2dtkMINIw",
+          "blurb_he": "הרצאה בגוגל על כלים מנטליים ללמידת נושאים קשים."
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_james_clear_321",
+      "name": "James Clear — 3-2-1 Newsletter",
+      "url": "https://jamesclear.com/3-2-1",
+      "desc_he": "ידיעון שבועי קצר של ג'יימס קליר: 3 רעיונות, 2 ציטוטים ושאלה אחת.",
+      "articles": [
+        {
+          "title": "3-2-1: What to do when you feel stuck, the art of following up, and how to build something successful",
+          "url": "https://jamesclear.com/3-2-1/september-10-2026",
+          "published": "2026-09",
+          "summary_he": "מה לעשות כשמרגישים תקועים, אמנות המעקב ואיך בונים משהו מצליח."
+        },
+        {
+          "title": "3-2-1: On starting over, how to train and how to compete, and the magic of consistency",
+          "url": "https://jamesclear.com/3-2-1/september-3-2026",
+          "published": "2026-09",
+          "summary_he": "על התחלה מחדש, ההבדל בין אימון לתחרות, והקסם של עקביות."
+        },
+        {
+          "title": "3-2-1: On the magic of wanting less, changing inch by inch, and building a sense of hope",
+          "url": "https://jamesclear.com/3-2-1/july-30-2026",
+          "published": "2026-07",
+          "summary_he": "על הקסם שברצון בפחות, שינוי סנטימטר אחר סנטימטר ובניית תחושת תקווה."
+        }
+      ]
+    },
+    {
+      "id": "pub_cal_newport_blog",
+      "name": "Cal Newport — Study Hacks Blog",
+      "url": "https://calnewport.com/blog/",
+      "desc_he": "ה-blog של קאל ניופורט על טכנולוגיה, פרודוקטיביות וחיים עמוקים בעולם מוסח.",
+      "articles": [
+        {
+          "title": "In Defense of Thinking",
+          "url": "https://calnewport.com/in-defense-of-thinking-2/",
+          "published": "2026-03",
+          "summary_he": "הגנה על החשיבה האנושית העמוקה בעידן שבו קל להאציל אותה לכלים."
+        },
+        {
+          "title": "The Original Attention Crisis",
+          "url": "https://calnewport.com/the-original-attention-crisis/",
+          "published": "2026-03",
+          "summary_he": "מבט היסטורי על משבר הקשב — ולמה הוא לא התחיל עם הסמארטפון."
+        },
+        {
+          "title": "On AI Coding and Its Discontents",
+          "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+          "published": "2026-08",
+          "summary_he": "על תכנות בעזרת AI, ומה זה עושה לעבודה העמוקה של המפתחים."
+        }
+      ]
+    },
+    {
+      "id": "pub_farnam_street",
+      "name": "Farnam Street (Brain Food)",
+      "url": "https://fs.blog",
+      "desc_he": "האתר של שיין פאריש על מודלים מנטליים, קבלת החלטות ולמידה; ידיעון Brain Food בכל יום ראשון.",
+      "articles": [
+        {
+          "title": "How Steve Jobs Learned to Lead",
+          "url": "https://fs.blog/brain-food/september-6-2026/",
+          "published": "2026-09",
+          "summary_he": "גיליון Brain Food על איך סטיב ג'ובס למד להנהיג."
+        },
+        {
+          "title": "Two Types of Talent",
+          "url": "https://fs.blog/brain-food/july-12-2026/",
+          "published": "2026-07",
+          "summary_he": "גיליון Brain Food על שני סוגי כישרון."
+        },
+        {
+          "title": "The Microscope and The Telescope",
+          "url": "https://fs.blog/brain-food/may-17-2026/",
+          "published": "2026-05",
+          "summary_he": "גיליון Brain Food על שתי דרכי הסתכלות — מיקרוסקופ וטלסקופ."
+        }
+      ]
+    },
+    {
+      "id": "pub_ness_labs",
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com",
+      "desc_he": "האתר של אן-לור לה קאנף: מדעי המוח ופסיכולוגיה מיושמים ללמידה, יצירתיות ופרודוקטיביות בריאה.",
+      "articles": [
+        {
+          "title": "The generation effect",
+          "url": "https://nesslabs.com/generation-effect-3",
+          "published": "2026-04",
+          "summary_he": "מידע נזכר טוב יותר כשיוצרים אותו בעצמנו במקום לקרוא אותו פסיבית — ואיך ליישם זאת ברישום הערות ובלמידה."
+        },
+        {
+          "title": "The Gut Decision Matrix: When to Trust Instinct and Intuition",
+          "url": "https://nesslabs.com/gut-decision-matrix",
+          "published": "2026-03",
+          "summary_he": "תחושת בטן יכולה לנבוע מאינסטינקט או מאינטואיציה; ההבחנה ביניהם עוזרת להחליט מתי לסמוך עליה."
+        },
+        {
+          "title": "How tiny experiments can set you free | Anne-Laure Le Cunff | TEDxNashville | Transcript",
+          "url": "https://nesslabs.com/tiny-experiments-tedx-nashville-transcript",
+          "published": "2026-01",
+          "summary_he": "תמליל הרצאת TEDx: ניסויים קטנים בנוסחה 'אעשה X למשך Y' — בלי יעדים ובלי אשליית ודאות."
+        }
+      ]
+    },
+    {
+      "id": "pub_curiosity_chronicle",
+      "name": "The Curiosity Chronicle (Sahil Bloom)",
+      "url": "https://www.sahilbloom.com/newsletter",
+      "desc_he": "הידיעון של סאהיל בלום על צמיחה אישית, בריאות, עושר וחיים מכוונים.",
+      "articles": [
+        {
+          "title": "6 Intentions For 2026",
+          "url": "https://www.sahilbloom.com/newsletter/6-intentions-for-2026",
+          "published": "2025-12",
+          "summary_he": "שש כוונות לשנה: להשלים עם זה שלא כולם יאהבו אותך, ליצור מקום למקריות ולמצוא שמחה בדברים הקטנים."
+        },
+        {
+          "title": "The Annual Planning Guide",
+          "url": "https://www.sahilbloom.com/newsletter/the-annual-planning-guide",
+          "published": "2025-12",
+          "summary_he": "מדריך תכנון שנתי שיעזור להפוך את 2026 לשנה הטובה ביותר שלך."
+        },
+        {
+          "title": "The Personal Annual Review",
+          "url": "https://www.sahilbloom.com/newsletter/the-personal-annual-review",
+          "published": "2025-12",
+          "summary_he": "תהליך רפלקציה אישית על השנה שחלפה והגדרת יעדים ספציפיים לשנה הבאה."
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "book_id": "b_atomic_habits",
+      "chapter_index": 1,
+      "chapter_title": "The Surprising Power of Atomic Habits",
+      "chapter_title_he": "הכוח המפתיע של הרגלים אטומיים",
+      "idea_he": "שיפור של אחוז אחד ביום מצטבר לתוצאה עצומה",
+      "body_he": "הרגל אטומי הוא שינוי קטן, שיפור שולי של אחוז אחד, שקל לבצע אבל הוא מקור לכוח אדיר. אם משתפרים באחוז אחד כל יום במשך שנה, מגיעים לפי 37 טוב יותר; אם מידרדרים באחוז ביום — הולכים לאפס. ההרגלים נראים חסרי משמעות עד שחוצים סף קריטי — 'רמת הפוטנציאל הסמוי'.",
+      "points_he": [
+        "הרגלים הם הריבית דריבית של שיפור עצמי — האפקט מורגש רק אחרי זמן",
+        "מטרות מגדירות תוצאה, מערכות מגדירות את התהליך — תקנו את המערכת והתוצאות יגיעו",
+        "פריצות דרך הן תוצאה של פעולות רבות שהצטברו מתחת לפני השטח"
+      ],
+      "apply_he": "בחרו הרגל אחד ובצעו אותו מחר בגרסה זעירה של שתי דקות — ותתמידו בו יום אחר יום.",
+      "sources": [
+        "https://medium.com/@Pahque/chapter-by-chapter-summary-of-atomic-habits-by-james-clear-4bd2f105cc99",
+        "https://atomichabitssummary.com/chapter-1-surprising-power-of-atomic-habits",
+        "https://lastminutelecture.com/books/atomic-habits-1st-edition/chapters/the-surprising-power-of-atomic-habits/"
+      ]
+    },
+    {
+      "book_id": "b_deep_work",
+      "chapter_index": 1,
+      "chapter_title": "Deep Work Is Valuable",
+      "chapter_title_he": "עבודה עמוקה היא בעלת ערך",
+      "idea_he": "היכולת להתרכז בלי הפרעה היא המיומנות הנדירה והיקרה בכלכלה",
+      "body_he": "ניופורט טוען שבעולם תחרותי ומוסח, מי שמסוגל להתרכז לאורך זמן מייצר עבודה איכותית ומתבלט בתחומו. עבודה עמוקה מאפשרת ללמוד דברים קשים במהירות וגם לייצר בפסגת היכולת — ובעידן הרשת, למי שיוצר משהו שימושי יש קהל כמעט בלתי מוגבל.",
+      "points_he": [
+        "נוסחת הפרודוקטיביות: איכות העבודה = זמן שהושקע × עוצמת הריכוז",
+        "למידה של מיומנות קשה דורשת קשב ממוקד ומשוב מיידי לתיקון",
+        "כדי לייצר ברמה הגבוהה ביותר צריך תקופות ארוכות של ריכוז מלא במשימה אחת"
+      ],
+      "apply_he": "חסמו מחר בבוקר 90 דקות ביומן לעבודה עמוקה על משימה אחת — טלפון בחדר אחר, בלי מייל.",
+      "quote": "High-Quality Work Produced = (Time Spent) x (Intensity of Focus)",
+      "sources": [
+        "https://medium.com/@mj.harshi/book-summary-deep-work-by-cal-newport-d11070fb822c",
+        "https://lankydan.dev/deep-work-a-summary/",
+        "https://learnsharedo.com/book-deep-work-part-1-introduction-and-summary/"
+      ]
+    },
+    {
+      "book_id": "b_getting_things_done",
+      "chapter_index": 1,
+      "chapter_title": "A New Practice for a New Reality",
+      "chapter_title_he": "שיטה חדשה למציאות חדשה",
+      "idea_he": "הלחץ נובע ממחויבויות שלא נוהלו כראוי — הוציאו אותן מהראש",
+      "body_he": "אלן מתאר עולם של הסחות דעת ועומס מידע שבו שיטות ניהול הזמן הישנות כבר לא עובדות: העבודה הפכה ל'עבודת ידע' חסרת גבולות ברורים. רוב הלחץ שאנחנו חווים נובע ממחויבויות שלקחנו על עצמנו ולא ניהלנו כראוי. הפתרון: ללכוד את כל המחויבויות מחוץ לראש, להבהיר אותן באופן שיטתי, ולהגיע למצב שהוא מכנה 'מוח כמו מים'.",
+      "points_he": [
+        "הראש נועד לייצר רעיונות, לא לאחסן אותם",
+        "כל 'פתוח' שלא נלכד במערכת אמינה ממשיך לצרוך קשב ואנרגיה",
+        "מטרת השיטה היא מצב של רוגע פרודוקטיבי, כמו אמן לחימה"
+      ],
+      "apply_he": "מחר בבוקר רוקנו את הראש: כתבו על נייר אחד כל דבר שמעסיק אתכם, גדול או קטן, בלי לסנן.",
+      "sources": [
+        "https://medium.com/@anouansavanh56/a-complete-summary-of-getting-things-done-the-art-of-stress-free-productivity-by-david-allen-ea3d5c4b5ca",
+        "https://williammeller.com/getting-things-done-by-david-allen/",
+        "https://www.bookey.app/book/getting-things-done"
+      ]
+    },
+    {
+      "book_id": "b_7_habits",
+      "chapter_index": 1,
+      "chapter_title": "Inside-Out",
+      "chapter_title_he": "מבפנים החוצה",
+      "idea_he": "שינוי אמיתי מתחיל בפרדיגמות ובאופי, לא בטכניקות",
+      "body_he": "קובי טוען שהשינוי מתחיל בתוכנו — בפרדיגמות, באופי ובמניעים שלנו. פרדיגמות הן כמו מפות: הן רק מודלים של המציאות, אבל קריטי שהמפה תהיה נכונה. הוא מבחין בין 'אתיקת האופי' (יושרה, ענווה, אומץ) לבין 'אתיקת האישיות' (טכניקות השפעה ותדמית) — ורק עבודה על השורש מביאה לשיפור קפיצתי.",
+      "points_he": [
+        "פרדיגמה היא המפה שדרכה אנחנו רואים את העולם — לשנות את המפה משנה הכול",
+        "אתיקת האופי אוניברסלית; אתיקת האישיות היא טכניקות למצבים ספציפיים",
+        "עקרונות תקפים תמיד, פרקטיקות תקפות רק במצב מסוים"
+      ],
+      "apply_he": "לפני שאתם מנסים לשנות התנהגות של מישהו מחר, שאלו את עצמכם איזו פרדיגמה שלכם מעצבת את המצב.",
+      "quote": "Inside-out means to start first with self; even more fundamentally, to start with the most inside part of self—with your paradigms, your character, and your motives.",
+      "sources": [
+        "https://steemit.com/success/@cbcheng/inside-out-or-the-7-habits-of-highly-effective-people-chapter-1-summary",
+        "https://www.coursehero.com/lit/The-7-Habits-of-Highly-Effective-People/part-1-inside-out-summary/",
+        "https://alinmiu.com/2024/02/14/the-7-habits-of-highly-effective-people-part-one-paradigms-and-principles/"
+      ]
+    },
+    {
+      "book_id": "b_power_of_habit",
+      "chapter_index": 1,
+      "chapter_title": "The Habit Loop: How Habits Work",
+      "chapter_title_he": "לולאת ההרגל: איך הרגלים עובדים",
+      "idea_he": "כל הרגל בנוי משלושה שלבים: רמז, שגרה ותגמול",
+      "body_he": "דוהיג פותח בסיפורו של יוג'ין פאולי, אדם שאיבד את זיכרונו בעקבות דלקת מוח אך הצליח לרכוש הרגלים חדשים — הוכחה שהרגלים נשמרים בגרעיני הבסיס של המוח, בנפרד מהזיכרון. לולאת ההרגל היא רצף של רמז שמפעיל מצב אוטומטי, שגרה שמבוצעת, ותגמול שקובע אם הלולאה שווה לזכור. ככל שההתנהגות הופכת להרגל, הפעילות המוחית פוחתת — המוח מתייעל.",
+      "points_he": [
+        "הרמז מסמן למוח לעבור למצב אוטומטי",
+        "התגמול — פיזי, קוגניטיבי או רגשי — הוא מה שמקבע את ההרגל",
+        "המוח לא מבחין בין הרגל טוב לרע — הוא שומר את כולם באותה צורה"
+      ],
+      "apply_he": "בחרו הרגל אחד שמפריע לכם וכתבו מחר מהו הרמז, מהי השגרה ומהו התגמול שהוא מספק.",
+      "sources": [
+        "https://www.litcharts.com/lit/the-power-of-habit/chapter-1-the-habit-loop-how-habits-work",
+        "https://www.supersummary.com/the-power-of-habit/part-1-chapter-1-summary/",
+        "https://charlesduhigg.com/wp-content/uploads/2025/01/Power-of-Habit-Chapter-One.pdf"
+      ]
+    },
+    {
+      "book_id": "b_essentialism",
+      "chapter_index": 1,
+      "chapter_title": "The Essentialist",
+      "chapter_title_he": "האסנציאליסט",
+      "idea_he": "לא לעשות יותר בפחות זמן — אלא לעשות רק את הדברים הנכונים",
+      "body_he": "מקיואן מציג את האסנציאליזם כגישה ממושמעת לזיהוי ולמרדף אחר מה שבאמת חשוב. הלא-אסנציאליסט מתאפיין בחוסר החלטיות, פיזור ופחד להחמיץ, ואילו האסנציאליסט פועל מתוך בהירות מטרה, אומץ להגיד לא ומחויבות להשקיע במה שחשוב. הוא מזהיר מפני 'פרדוקס ההצלחה', שפע האפשרויות והלחץ החברתי שגורמים לנו לנסות לעשות הכול — ולהשיג כלום.",
+      "points_he": [
+        "הרדיפה הלא-ממושמעת אחר 'יותר' מובילה לתחושת הצפה וניתוק",
+        "האמונה שאפשר לעשות הכול ולהיות הכול היא מיתוס",
+        "בחירה מודעת היא הליבה: אם לא תבחרו, אחרים יבחרו בשבילכם"
+      ],
+      "apply_he": "מחר, לפני שאתם אומרים כן לבקשה חדשה, שאלו: האם זה בין הדברים הבודדים שבאמת חשובים לי השבוע?",
+      "sources": [
+        "https://www.supersummary.com/essentialism/part-1-summary/",
+        "https://medium.com/@johnnysbooksummaries/summary-of-essentialism-the-disciplined-pursuit-of-less-by-greg-mckeown-6d69585a05ad",
+        "https://www.hustleescape.com/book-summary-essentialism-by-greg-mckeown/"
+      ]
+    }
+  ]
+}

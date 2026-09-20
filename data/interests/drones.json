@@ -1,0 +1,715 @@
+{
+  "id": "drones",
+  "name_he": "כטב\"מים, תעופה וטכנולוגיה ביטחונית",
+  "name_en": "Drones, Aviation & Defense Technology",
+  "tagline_he": "מהאחים רייט ועד נחילי FPV: איך בונים, מטיסים, מווסתים ומוכרים את הטכנולוגיה שמעצבת את שדה הקרב והשמיים.",
+  "books": [
+    {
+      "id": "b_skunk_works",
+      "title": "Skunk Works: A Personal Memoir of My Years at Lockheed",
+      "title_he": "סקאנק וורקס: זיכרונות מלוקהיד",
+      "author": "Ben Rich & Leo Janos",
+      "year": 1994,
+      "why_he": "הביוגרפיה הקלאסית של יחידת הפיתוח שהולידה את U-2, SR-71 ו-F-117 – מדריך מעשי לניהול צוות הנדסי קטן שמייצר פריצות דרך."
+    },
+    {
+      "id": "b_the_kill_chain",
+      "title": "The Kill Chain: Defending America in the Future of High-Tech Warfare",
+      "title_he": "שרשרת ההרג: הגנה על אמריקה בעידן הלוחמה ההייטקית",
+      "author": "Christian Brose",
+      "year": 2020,
+      "why_he": "הספר שהגדיר את שיח ההגנה החדש – רשתות, אוטונומיה ומערכות זולות ורבות במקום פלטפורמות יקרות ומעטות.",
+      "chapters_total": 10
+    },
+    {
+      "id": "b_wired_for_war",
+      "title": "Wired for War: The Robotics Revolution and Conflict in the 21st Century",
+      "title_he": "מחווטים למלחמה: מהפכת הרובוטיקה והלחימה במאה ה-21",
+      "author": "P. W. Singer",
+      "year": 2009,
+      "why_he": "הספר הראשון שמיפה ברוחב את כניסת הרובוטים והכטב\"מים לשדה הקרב ואת ההשלכות האתיות והארגוניות שלהם."
+    },
+    {
+      "id": "b_army_of_none",
+      "title": "Army of None: Autonomous Weapons and the Future of War",
+      "title_he": "צבא של אף אחד: נשק אוטונומי ועתיד המלחמה",
+      "author": "Paul Scharre",
+      "year": 2018,
+      "why_he": "הניתוח המקיף והמאוזן ביותר של נשק אוטונומי – מה כבר קיים, מה מסוכן, ואיפה צריך להשאיר אדם בלולאה."
+    },
+    {
+      "id": "b_four_battlegrounds",
+      "title": "Four Battlegrounds: Power in the Age of Artificial Intelligence",
+      "title_he": "ארבעה שדות קרב: עוצמה בעידן הבינה המלאכותית",
+      "author": "Paul Scharre",
+      "year": 2023,
+      "why_he": "מסביר איך נתונים, מחשוב, כישרון ומוסדות קובעים מי ינצח בתחרות ה-AI הצבאית בין ארה\"ב לסין."
+    },
+    {
+      "id": "b_the_drone_age",
+      "title": "The Drone Age: How Drone Technology Will Change War and Peace",
+      "title_he": "עידן הכטב\"ם: איך טכנולוגיית הכטב\"מים תשנה מלחמה ושלום",
+      "author": "Michael J. Boyle",
+      "year": 2020,
+      "why_he": "מבט אקדמי-נגיש על ההשפעה של הפצת כטב\"מים על מדינות, ארגונים לא-מדינתיים ויחסים בינלאומיים."
+    },
+    {
+      "id": "b_drone_warfare",
+      "title": "Drone Warfare: Killing by Remote Control",
+      "title_he": "לוחמת כטב\"מים: הרג בשלט רחוק",
+      "author": "Medea Benjamin",
+      "year": 2012,
+      "why_he": "הביקורת המוכרת ביותר על תוכנית התקיפות של ארה\"ב – חובה כדי להבין את הטיעונים של המתנגדים לתחום."
+    },
+    {
+      "id": "b_predator",
+      "title": "Predator: The Secret Origins of the Drone Revolution",
+      "title_he": "פרדטור: המקורות הסודיים של מהפכת הכטב\"מים",
+      "author": "Richard Whittle",
+      "year": 2014,
+      "why_he": "סיפור הפיתוח של ה-Predator, כולל שורשיו הישראליים (אברהם קרם), ואיך כטב\"ם שנוי במחלוקת הפך לכלי מרכזי."
+    },
+    {
+      "id": "b_the_right_stuff",
+      "title": "The Right Stuff",
+      "title_he": "החומר הנכון",
+      "author": "Tom Wolfe",
+      "year": 1979,
+      "why_he": "הדיוקן הספרותי הגדול של טייסי הניסוי ואסטרונאוטי מרקורי – ספר היסוד על תרבות טיסות הניסוי.",
+      "chapters_total": 15
+    },
+    {
+      "id": "b_failure_is_not_an_option",
+      "title": "Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond",
+      "title_he": "כישלון אינו אופציה: בקרת המשימה ממרקורי עד אפולו 13",
+      "author": "Gene Kranz",
+      "year": 2000,
+      "why_he": "מנהל הטיסה של אפולו מלמד איך בונים תרבות בקרה, נהלים ומשמעת שמצילים משימות כשהכול משתבש."
+    },
+    {
+      "id": "b_stick_and_rudder",
+      "title": "Stick and Rudder: An Explanation of the Art of Flying",
+      "title_he": "סטיק ורדר: הסבר על אמנות הטיסה",
+      "author": "Wolfgang Langewiesche",
+      "year": 1944,
+      "why_he": "ספר הטיסה הקלאסי שמסביר את זווית ההתקפה והאינטואיציה האווירודינמית – עדיין הבסיס לכל מי שמתכנן או מטיס כלי טיס."
+    },
+    {
+      "id": "b_unit_x",
+      "title": "Unit X: How the Pentagon and Silicon Valley Are Transforming the Future of War",
+      "title_he": "יחידה X: איך הפנטגון ועמק הסיליקון משנים את עתיד המלחמה",
+      "author": "Raj M. Shah & Christopher Kirchhoff",
+      "year": 2024,
+      "why_he": "הסיפור מבפנים של DIU – איך מכניסים חברות הזנק ורכש מהיר למערכת ביטחונית ביורוקרטית."
+    },
+    {
+      "id": "b_the_wright_brothers",
+      "title": "The Wright Brothers",
+      "title_he": "האחים רייט",
+      "author": "David McCullough",
+      "year": 2015,
+      "why_he": "הביוגרפיה המרתקת של שני אחים ללא תואר אקדמי שפתרו את בעיית הטיסה בשיטת ניסוי, כישלון ולמידה.",
+      "chapters_total": 11
+    },
+    {
+      "id": "b_chip_war",
+      "title": "Chip War: The Fight for the World's Most Critical Technology",
+      "title_he": "מלחמת השבבים: המאבק על הטכנולוגיה הקריטית בעולם",
+      "author": "Chris Miller",
+      "year": 2022,
+      "why_he": "מסביר למה שרשרת אספקת השבבים היא סוגיה ביטחונית ולמה כל כטב\"ם תלוי בגיאופוליטיקה של המוליכים למחצה."
+    },
+    {
+      "id": "b_loonshots",
+      "title": "Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries",
+      "title_he": "לונשוטס: איך לטפח את הרעיונות המטורפים שמנצחים מלחמות",
+      "author": "Safi Bahcall",
+      "year": 2019,
+      "why_he": "מודל ארגוני לניהול חדשנות פורצת דרך לצד ביצוע – מבוסס על סיפור המכ\"ם והמדע במלחמת העולם השנייה."
+    },
+    {
+      "id": "b_the_innovators",
+      "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+      "title_he": "הממציאים: איך קבוצה של האקרים וגאונים יצרה את המהפכה הדיגיטלית",
+      "author": "Walter Isaacson",
+      "year": 2014,
+      "why_he": "ההיסטוריה של המחשוב מלמדת שחדשנות היא עבודת צוות – שיעור חשוב לכל חברת טכנולוגיה קטנה."
+    },
+    {
+      "id": "b_making_of_the_atomic_bomb",
+      "title": "The Making of the Atomic Bomb",
+      "title_he": "יצירת פצצת האטום",
+      "author": "Richard Rhodes",
+      "year": 1986,
+      "why_he": "זוכה פוליצר; התיאור המקיף ביותר של פרויקט טכנולוגי-ביטחוני ענק וניהול המדענים והמהנדסים שבו."
+    },
+    {
+      "id": "b_fly_girls",
+      "title": "Fly Girls: How Five Daring Women Defied All Odds and Made Aviation History",
+      "title_he": "נערות מעופפות: חמש נשים שעשו היסטוריה בתעופה",
+      "author": "Keith O'Brien",
+      "year": 2018,
+      "why_he": "סיפורן של הטייסות של שנות ה-20 וה-30 – פרק פחות מוכר בתולדות התעופה ומרוצי האוויר."
+    },
+    {
+      "id": "b_boyd",
+      "title": "Boyd: The Fighter Pilot Who Changed the Art of War",
+      "title_he": "בויד: טייס הקרב ששינה את אמנות המלחמה",
+      "author": "Robert Coram",
+      "year": 2002,
+      "why_he": "הביוגרפיה של ג'ון בויד, אבי לולאת ה-OODA ותורת האנרגיה-תמרון – חובה למי שעוסק במערכות קרב ואוטונומיה."
+    },
+    {
+      "id": "b_rocket_men",
+      "title": "Rocket Men: The Daring Odyssey of Apollo 8 and the Astronauts Who Made Man's First Journey to the Moon",
+      "title_he": "אנשי הרקטות: המסע הנועז של אפולו 8",
+      "author": "Robert Kurson",
+      "year": 2018,
+      "why_he": "איך נאס\"א קיבלה החלטה מסוכנת בלוח זמנים בלתי אפשרי – שיעור בניהול סיכונים בטיסות ניסוי."
+    },
+    {
+      "id": "b_ignition",
+      "title": "Ignition!: An Informal History of Liquid Rocket Propellants",
+      "title_he": "הצתה!: היסטוריה לא-רשמית של דלקי רקטות נוזליים",
+      "author": "John D. Clark",
+      "year": 1972,
+      "why_he": "ספר פולחן בקרב מהנדסי הנעה – כתוב בהומור ומלמד על ניסויים, סיכונים וכימיה של הנעה רקטית."
+    },
+    {
+      "id": "b_the_weapon_wizards",
+      "title": "The Weapon Wizards: How Israel Became a High-Tech Military Superpower",
+      "title_he": "קוסמי הנשק: איך ישראל הפכה למעצמה צבאית טכנולוגית",
+      "author": "Yaakov Katz & Amir Bohbot",
+      "year": 2017,
+      "why_he": "הסיפור של התעשייה הביטחונית הישראלית – כטב\"מים, לוויינים, כיפת ברזל – והתרבות שהולידה אותה."
+    },
+    {
+      "id": "b_start_up_nation",
+      "title": "Start-up Nation: The Story of Israel's Economic Miracle",
+      "title_he": "אומת חברת ההזנק",
+      "author": "Dan Senor & Saul Singer",
+      "year": 2009,
+      "why_he": "מסביר את הקשר בין השירות הצבאי, היחידות הטכנולוגיות ותרבות היזמות הישראלית."
+    },
+    {
+      "id": "b_liftoff",
+      "title": "Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX",
+      "title_he": "ליפטוף: ימיה הראשונים של SpaceX",
+      "author": "Eric Berger",
+      "year": 2021,
+      "why_he": "הסיפור של ארבעת השיגורים הראשונים של פאלקון 1 – מודל לניסוי, כישלון ואיטרציה מהירה בחומרה."
+    },
+    {
+      "id": "b_the_space_barons",
+      "title": "The Space Barons: Elon Musk, Jeff Bezos, and the Quest to Colonize the Cosmos",
+      "title_he": "ברוני החלל: מאסק, בזוס והמרוץ לחלל",
+      "author": "Christian Davenport",
+      "year": 2018,
+      "why_he": "איך יזמים פרטיים שברו את המונופול הממשלתי על החלל – רלוונטי לכל שוק תעופתי שנפתח לחברות קטנות."
+    },
+    {
+      "id": "b_fate_is_the_hunter",
+      "title": "Fate Is the Hunter",
+      "title_he": "הגורל הוא הצייד",
+      "author": "Ernest K. Gann",
+      "year": 1961,
+      "why_he": "ספר הזיכרונות הקלאסי של טייס תובלה – על סיכון, מזל ושיקול דעת בתעופה בימיה הראשונים."
+    },
+    {
+      "id": "b_the_dream_machine",
+      "title": "The Dream Machine: The Untold History of the Notorious V-22 Osprey",
+      "title_he": "מכונת החלומות: ההיסטוריה של ה-V-22 אוספרי",
+      "author": "Richard Whittle",
+      "year": 2010,
+      "why_he": "סיפור הפיתוח הארוך והבעייתי של מטוס הרוטור המוטה – שיעור על טכנולוגיה חדשה מול פוליטיקה ורכש."
+    },
+    {
+      "id": "b_swarm_troopers",
+      "title": "Swarm Troopers: How Small Drones Will Conquer the World",
+      "title_he": "חיילי הנחיל: איך כטב\"מים קטנים יכבשו את העולם",
+      "author": "David Hambling",
+      "year": 2015,
+      "why_he": "חזה כבר ב-2015 את עליית הכטב\"מים הקטנים והזולים והשפעתם על שדה הקרב – מדויק להפליא בדיעבד."
+    },
+    {
+      "id": "b_the_age_of_ai",
+      "title": "The Age of AI: And Our Human Future",
+      "title_he": "עידן ה-AI: ועתידנו האנושי",
+      "author": "Henry Kissinger, Eric Schmidt & Daniel Huttenlocher",
+      "year": 2021,
+      "why_he": "שלושה הוגים על ההשלכות האסטרטגיות והביטחוניות של בינה מלאכותית – כולל פרק על ביטחון ומלחמה."
+    },
+    {
+      "id": "b_elon_musk",
+      "title": "Elon Musk",
+      "title_he": "אילון מאסק",
+      "author": "Walter Isaacson",
+      "year": 2023,
+      "why_he": "מבט צמוד על שיטת העבודה ההנדסית של מאסק ב-SpaceX ובטסלה – ה\"אלגוריתם\" של הפשטה, מחיקה והאצה."
+    }
+  ],
+  "leaders": [
+    {
+      "id": "p_palmer_luckey",
+      "name": "Palmer Luckey",
+      "name_he": "פאלמר לאקי",
+      "role_he": "מייסד Anduril Industries וממציא Oculus",
+      "why_he": "הפנים של דור החברות הזנק הביטחוניים החדש – מערכות אוטונומיות, כטב\"מים ונגד-כטב\"מים במודל של חברת תוכנה.",
+      "videos": [
+        {
+          "youtube_id": "AZdSLJkzN0I",
+          "title": "Palmer Luckey talks AI, war and Anduril on The Axios Show | Full Interview",
+          "source_url": "https://www.youtube.com/watch?v=AZdSLJkzN0I",
+          "blurb_he": "ריאיון מלא ב-Axios Show על בינה מלאכותית, מלחמה ו-Anduril."
+        },
+        {
+          "youtube_id": "k2THslsOYzY",
+          "title": "Palmer Luckey on Threats, Autonomy, and the Future of American Power",
+          "source_url": "https://www.youtube.com/watch?v=k2THslsOYzY",
+          "blurb_he": "שיחה שהוקלטה בסדרת ההרצאות של ווסט פוינט על איומים, אוטונומיה ועוצמה אמריקאית."
+        }
+      ]
+    },
+    {
+      "id": "p_christian_brose",
+      "name": "Christian Brose",
+      "name_he": "כריסטיאן ברוז",
+      "role_he": "מחבר The Kill Chain, סמנכ\"ל אסטרטגיה ב-Anduril",
+      "why_he": "עיצב את הטיעון המרכזי לרפורמה בהגנה: רשתות ומערכות אוטונומיות זולות במקום פלטפורמות יקרות.",
+      "videos": [
+        {
+          "youtube_id": "Bfxmpp9KbFg",
+          "title": "Reimagining The Kill Chain with Christian Brose",
+          "source_url": "https://www.youtube.com/watch?v=Bfxmpp9KbFg",
+          "blurb_he": "שיחה עם ברוז, סמנכ\"ל האסטרטגיה של Anduril ומחבר The Kill Chain, על חשיבה מחדש על שרשרת ההרג."
+        },
+        {
+          "youtube_id": "eWgtPdmlZ4o",
+          "title": "The Kill Chain: 2025 Edition",
+          "source_url": "https://www.youtube.com/watch?v=eWgtPdmlZ4o",
+          "blurb_he": "חמש שנים אחרי פרסום הספר – דיון על הסיכונים שטכנולוגיה חדשה מציבה."
+        }
+      ]
+    },
+    {
+      "id": "p_paul_scharre",
+      "name": "Paul Scharre",
+      "name_he": "פול שאר",
+      "role_he": "סגן נשיא CNAS, מחבר Army of None ו-Four Battlegrounds",
+      "why_he": "לוחם רינג'ר לשעבר שכתב את מדיניות הנשק האוטונומי של הפנטגון והפך למומחה המוביל בתחום.",
+      "videos": [
+        {
+          "youtube_id": "Z9hVOCUUBvM",
+          "title": "Paul Scharre: Army of None: Autonomous Weapons and the Future of War",
+          "source_url": "https://www.youtube.com/watch?v=Z9hVOCUUBvM",
+          "blurb_he": "הרצאה על הטכנולוגיה שכבר קיימת ליצירת נשק שתוקף מטרות ללא מעורבות אדם."
+        },
+        {
+          "youtube_id": "s70_MK2Dbc8",
+          "title": "Book Launch Event: Army of None: Autonomous Weapons and the Future of War by Paul Scharre",
+          "source_url": "https://www.youtube.com/watch?v=s70_MK2Dbc8",
+          "blurb_he": "אירוע ההשקה של הספר בוושינגטון – סקירה של האתגרים האתיים, המשפטיים והצבאיים של נשק אוטונומי."
+        }
+      ]
+    },
+    {
+      "id": "p_chris_anderson",
+      "name": "Chris Anderson",
+      "name_he": "כריס אנדרסון",
+      "role_he": "מייסד 3D Robotics ו-DIY Drones, עורך WIRED לשעבר",
+      "why_he": "הוביל את מהפכת הכטב\"מים בקוד פתוח (ArduPilot) והפך את הרחפן לכלי נגיש למפתחים.",
+      "videos": [
+        {
+          "youtube_id": "JBeC_pw6XrQ",
+          "title": "Homegrown Drones: MAKE talks with Chris Anderson of 3DRobotics",
+          "source_url": "https://www.youtube.com/watch?v=JBeC_pw6XrQ",
+          "blurb_he": "שיחה עם אנדרסון במפגש הרחפנים של MAKE על רחפנים ביתיים וקהילת הקוד הפתוח."
+        },
+        {
+          "youtube_id": "naGcNdqOq7k",
+          "title": "Chris Anderson — Robocars, Drones, and WIRED Magazine",
+          "source_url": "https://www.youtube.com/watch?v=naGcNdqOq7k",
+          "blurb_he": "על המסע מפיזיקה ו-WIRED לרובוטיקה, רחפנים ומכוניות רובוטיות."
+        }
+      ]
+    },
+    {
+      "id": "p_burt_rutan",
+      "name": "Burt Rutan",
+      "name_he": "ברט רוטן",
+      "role_he": "מהנדס אווירונאוטיקה, מייסד Scaled Composites, מתכנן SpaceShipOne",
+      "why_he": "מעצב כלי הטיס הניסיוניים הפורה בדורנו – Voyager, SpaceShipOne – והוכחה שצוות קטן יכול להקדים תוכניות ענק.",
+      "videos": [
+        {
+          "youtube_id": "nwfSENkvJXY",
+          "title": "Burt Rutan: Entrepreneurs are the future of space flight",
+          "source_url": "https://www.youtube.com/watch?v=nwfSENkvJXY",
+          "blurb_he": "הרצאת TED נלהבת על תוכנית החלל הממשלתית ולמה יזמים הם עתיד טיסות החלל."
+        },
+        {
+          "youtube_id": "AMSMnblzPAM",
+          "title": "2018 Engineering Design EXPO Keynote Talk, Burt Rutan",
+          "source_url": "https://www.youtube.com/watch?v=AMSMnblzPAM",
+          "blurb_he": "הרצאת מפתח בתערוכת עיצוב הנדסי 2018."
+        }
+      ]
+    },
+    {
+      "id": "p_trae_stephens",
+      "name": "Trae Stephens",
+      "name_he": "טריי סטיבנס",
+      "role_he": "שותף-מייסד Anduril, שותף ב-Founders Fund",
+      "why_he": "המשקיע-יזם שבנה את הגשר בין הון סיכון לפנטגון ומסביר איך חברות ביטחוניות חדשות מנצחות.",
+      "videos": [
+        {
+          "youtube_id": "liGE6bFvZMQ",
+          "title": "Stanford Seminar - Silicon Valley & The U.S. Government: Anduril Industries' Trae Stephens",
+          "source_url": "https://www.youtube.com/watch?v=liGE6bFvZMQ",
+          "blurb_he": "סמינר בסטנפורד על היחסים בין עמק הסיליקון לממשל האמריקאי."
+        },
+        {
+          "youtube_id": "aUG9Zd0F1nw",
+          "title": "Anduril's Stephens on Innovating in an Age of War",
+          "source_url": "https://www.youtube.com/watch?v=aUG9Zd0F1nw",
+          "blurb_he": "ריאיון על חדשנות ביטחונית בעידן של מלחמה."
+        }
+      ]
+    },
+    {
+      "id": "p_shyam_sankar",
+      "name": "Shyam Sankar",
+      "name_he": "שיאם סנקר",
+      "role_he": "CTO של Palantir Technologies",
+      "why_he": "מוביל את הקריאה ל\"רפורמציה ביטחונית\" – תוכנה, מהירות ורכש מודרני – ומשפיע ישירות על מדיניות הפנטגון.",
+      "videos": [
+        {
+          "youtube_id": "_wO273oi6Q4",
+          "title": "In Conversation With Palantir CTO Shyam Sankar: The Defense Reformation",
+          "source_url": "https://www.youtube.com/watch?v=_wO273oi6Q4",
+          "blurb_he": "שיחה במכון רייגן על הרפורמציה הביטחונית של ארה\"ב."
+        },
+        {
+          "youtube_id": "DTG393KqOGc",
+          "title": "Shyam Sankar - Chief Technology Officer of Palantir: The Future of Warfare | SRS #190",
+          "source_url": "https://www.youtube.com/watch?v=DTG393KqOGc",
+          "blurb_he": "ריאיון ארוך בתוכנית ה-podcast Shawn Ryan Show על עתיד הלוחמה."
+        }
+      ]
+    },
+    {
+      "id": "p_eric_schmidt",
+      "name": "Eric Schmidt",
+      "name_he": "אריק שמידט",
+      "role_he": "מנכ\"ל גוגל לשעבר, יו\"ר ועדת ה-AI לביטחון לאומי לשעבר",
+      "why_he": "מוביל מיזמי כטב\"מים אוטונומיים לאוקראינה (White Stork, Swift Beat) ומשפיע על מדיניות ה-AI הביטחונית.",
+      "videos": [
+        {
+          "youtube_id": "H8wzfTf0EdY",
+          "title": "A conversation with Eric Schmidt: Innovation to win the war in Ukraine and defend the West",
+          "source_url": "https://www.youtube.com/watch?v=H8wzfTf0EdY",
+          "blurb_he": "שיחה מכנס YES בקייב על חדשנות לניצחון במלחמה באוקראינה והגנה על המערב."
+        },
+        {
+          "youtube_id": "ZNtevnJe_8k",
+          "title": "Eric Schmidt on the war in Ukraine, AI and how Russia is innovating",
+          "source_url": "https://www.youtube.com/watch?v=ZNtevnJe_8k",
+          "blurb_he": "ריאיון על המלחמה באוקראינה, AI ואיך רוסיה למדה לחדש."
+        }
+      ]
+    },
+    {
+      "id": "p_aviv_shapira",
+      "name": "Aviv Shapira",
+      "name_he": "אביב שפירא",
+      "role_he": "שותף-מייסד ומנכ\"ל XTEND",
+      "why_he": "הקול הישראלי הבולט בתחום הרחפנים הטקטיים מבוססי AI – מערכות XTEND פועלות בשטח בעזה ובעולם.",
+      "videos": [
+        {
+          "youtube_id": "umeDymlJ4Nw",
+          "title": "The Future of Warfighting Technology Is Now with Aviv Shapira",
+          "source_url": "https://www.youtube.com/watch?v=umeDymlJ4Nw",
+          "blurb_he": "על המסע ממרוצי רחפנים תחרותיים לבניית טכנולוגיה ביטחונית פורצת דרך."
+        },
+        {
+          "youtube_id": "EucyIHEbHUI",
+          "title": "Drones and robots are 'changing' warfare: Xtend CEO",
+          "source_url": "https://www.youtube.com/watch?v=EucyIHEbHUI",
+          "blurb_he": "מנכ\"ל XTEND מסביר איך רחפנים ורובוטים משנים את הלחימה בשדה הקרב."
+        }
+      ]
+    },
+    {
+      "id": "p_brandon_tseng",
+      "name": "Brandon Tseng",
+      "name_he": "ברנדון צנג",
+      "role_he": "שותף-מייסד ונשיא Shield AI, לוחם SEAL לשעבר",
+      "why_he": "בונה את Hivemind – טייס AI שמטיס כטב\"מים ומטוסי קרב ללא GPS ותקשורת – ומוביל את שיח האוטונומיה הצבאית.",
+      "videos": [
+        {
+          "youtube_id": "vQsjYYB4pNA",
+          "title": "Stanford Seminar - Silicon Valley & The U.S. Government: Shield AI's Brandon Tseng",
+          "source_url": "https://www.youtube.com/watch?v=vQsjYYB4pNA",
+          "blurb_he": "סמינר בסטנפורד על Shield AI והיחסים בין עמק הסיליקון לממשל."
+        },
+        {
+          "youtube_id": "M3BEyXlPScc",
+          "title": "Velocity Magazine: In Conversation with Brandon Tseng of Shield AI",
+          "source_url": "https://www.youtube.com/watch?v=M3BEyXlPScc",
+          "blurb_he": "על המעבר מ\"מסה\" לכלים לא-מאוישים ולוחמה מבוססת AI."
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_dronedj",
+      "name": "DroneDJ",
+      "url": "https://dronedj.com",
+      "desc_he": "אתר חדשות רחפנים יומי – רגולציית FAA, מוצרים ותעשייה.",
+      "articles": [
+        {
+          "title": "FAA steps up enforcement against reckless drone pilots",
+          "url": "https://dronedj.com/2026/02/13/faa-drone-fine-penalty-2026/",
+          "published": "2026-02",
+          "summary_he": "ה-FAA קנס מפעילי רחפנים והשעה או ביטל רישיונות על טיסות לא בטוחות, כולל ליד מטוסי כיבוי ומעל אצטדיונים; הקנסות נעו בין 1,771 ל-36,770 דולר."
+        },
+        {
+          "title": "Illegal drone flights just got harder to hide with new FAA tool",
+          "url": "https://dronedj.com/2026/03/17/faa-drone-tracking-api-illegal/",
+          "published": "2026-03",
+          "summary_he": "ה-FAA השיק את DISCVR API – מערכת מאובטחת שמאפשרת לרשויות ביטחון ציבורי לשאול את מאגרי ה-FAA לפי Remote ID של רחפן."
+        },
+        {
+          "title": "AirData hits 65 million drone flights as FAA's BVLOS rule nears",
+          "url": "https://dronedj.com/2026/08/26/drone-fleet-bvlos-software-airdata/",
+          "published": "2026-08",
+          "summary_he": "תקנת Part 108 ל-BVLOS שגרתי נמצאת בשלב הסקירה הפדרלית האחרון וצפויה לשנות את אופן פעולת תוכניות רחפנים מסחריות בארה\"ב."
+        }
+      ]
+    },
+    {
+      "id": "pub_dronelife",
+      "name": "DRONELIFE",
+      "url": "https://dronelife.com",
+      "desc_he": "כתב עת מקוון לתעשיית הרחפנים המסחרית – מדיניות, BVLOS, שילוב במרחב האווירי.",
+      "articles": [
+        {
+          "title": "Federal drone policies summer 2026",
+          "url": "https://dronelife.com/2026/06/12/federal-drone-policies-summer-2026/",
+          "published": "2026-06",
+          "summary_he": "סיכום מדיניות הרחפנים הפדרלית לקיץ 2026 – ה-FAA עדיין מגבש את תקנת ה-BVLOS ופתח מחדש את תקופת ההערות על חלקים ממנה."
+        },
+        {
+          "title": "Beyond the Rule: Preparing for the Operational Reality of BVLOS",
+          "url": "https://dronelife.com/2026/08/03/part-108-bvlos-compliance/",
+          "published": "2026-08",
+          "summary_he": "Part 108 יוצר מסגרת רגולטורית אחידה ל-BVLOS שתפחית את התלות בוויתורים פרטניים – מה נדרש ממפעילים כדי להיערך תפעולית."
+        },
+        {
+          "title": "FAA Drone Integration: Scaling BVLOS and Advanced Aviation",
+          "url": "https://dronelife.com/2026/09/02/faa-drone-integration-bvlos-advanced-aviation/",
+          "published": "2026-09",
+          "summary_he": "ה-FAA מתאר איך Part 108 יעבור מאישורים חד-פעמיים למרחב אווירי צפוי וניתן להרחבה, כדי שחברות יוכלו לפתח עסקים ולהשקיע."
+        }
+      ]
+    },
+    {
+      "id": "pub_breaking_defense",
+      "name": "Breaking Defense",
+      "url": "https://breakingdefense.com",
+      "desc_he": "אתר חדשות ביטחוני מוביל – רכש, תקציבים, נגד-כטב\"מים ותוכניות צבאיות.",
+      "articles": [
+        {
+          "title": "Army awards Anduril counter-drone task order as first in new $20B 'contract vehicle'",
+          "url": "https://breakingdefense.com/2026/03/army-awards-anduril-counter-drone-task-order-as-first-in-new-20b-contract-vehicle/",
+          "published": "2026-03",
+          "summary_he": "כוח המשימה נגד-כטב\"מים של הצבא בחר בתוכנת Lattice של Anduril כעמוד השדרה לשליטה ובקרה, בהזמנה של 87 מיליון דולר במסגרת חוזה של עד 20 מיליארד ל-10 שנים."
+        },
+        {
+          "title": "Here's how the Army plans to spend nearly $1 billion in procuring small counter drone tech",
+          "url": "https://breakingdefense.com/2026/05/heres-how-the-army-plans-to-spend-nearly-1-billion-in-procuring-small-counter-drone-tech/",
+          "published": "2026-05",
+          "summary_he": "בקשת התקציב לשנת 2027 מקצה 994 מיליון דולר לנגד-כטב\"מים קטנים – פירוט תוכנית הרכש של הצבא."
+        },
+        {
+          "title": "Three exercises that pushed counter–UAS from prototype to proven",
+          "url": "https://breakingdefense.com/2026/09/three-exercises-that-pushed-counter-uas-from-prototype-to-proven/",
+          "published": "2026-09",
+          "summary_he": "שלושה תרגילים שהעבירו מערכות נגד-כטב\"מים משלב האב-טיפוס ליכולת מוכחת בשטח."
+        }
+      ]
+    },
+    {
+      "id": "pub_defense_one",
+      "name": "Defense One",
+      "url": "https://www.defenseone.com",
+      "desc_he": "כתב עת ביטחוני אמריקאי – מדיניות, טכנולוגיה ואסטרטגיה של הפנטגון.",
+      "articles": [
+        {
+          "title": "How the Pentagon plans to spend $50 billion on drone warfare",
+          "url": "https://www.defenseone.com/technology/2026/05/how-pentagon-plans-spend-50-billion-drone-warfare/413805/",
+          "published": "2026-05",
+          "summary_he": "תקציב קבוצת העבודה לאוטונומיה של הפנטגון צפוי לזנק מ-226 מיליון דולר ל-54 מיליארד בהצעת התקציב ל-2027."
+        },
+        {
+          "title": "Under new management: the Pentagon's autonomous systems get new oversight",
+          "url": "https://www.defenseone.com/defense-systems/2026/07/under-new-management-pentagons-autonomous-systems-get-new-oversight/414584/",
+          "published": "2026-07",
+          "summary_he": "כל מאמצי הכטב\"מים ונגד-הכטב\"מים של הפנטגון באוויר, ביבשה ובים יאוחדו תחת ארגון ומנהל חדשים שידווחו לסגן שר ההגנה."
+        },
+        {
+          "title": "USAF speed up Reaper replacement after heavy losses in Iran",
+          "url": "https://www.defenseone.com/technology/2026/09/after-heavy-reaper-drone-loses-iran-air-force-accelerates-affordable-future-replacement/415852/",
+          "published": "2026-09",
+          "summary_he": "אובדן עשרות כטב\"מי MQ-9 Reaper להגנה האווירית האיראנית מאיץ את מאמץ חיל האוויר האמריקאי להחליפם בכלי זול וטוב יותר."
+        }
+      ]
+    },
+    {
+      "id": "pub_israel_defense",
+      "name": "Israel Defense",
+      "url": "https://www.israeldefense.co.il",
+      "desc_he": "כתב העת הביטחוני הישראלי (עברית/אנגלית) – תעשייה, חוזים, כטב\"מים ונגד-כטב\"מים.",
+      "articles": [
+        {
+          "title": "XTEND Wins Israeli Defense Contract to Supply Drone Systems for Air Force | Israel Defense",
+          "url": "https://www.israeldefense.co.il/en/node/68705",
+          "published": "2026",
+          "summary_he": "XTEND זכתה בחוזה של משרד הביטחון לאספקת מערכות רחפנים ושירותים לחיל האוויר בהיקף של כ-1.67 מיליון דולר, עם אספקה צפויה ב-2026."
+        },
+        {
+          "title": "Axon Vision Launches AI-Based Counter-Drone System for Maneuvering Forces | Israel Defense",
+          "url": "https://www.israeldefense.co.il/en/node/69799",
+          "published": "2026",
+          "summary_he": "Axon Vision חשפה את ForceField – מערכת נגד-כטב\"מים קומפקטית מבוססת Edge AI להגנת כוחות מתמרנים מפני רחפני FPV ואיומים אוויריים."
+        },
+        {
+          "title": "Israeli AIR Completes First Flight of Production-Ready AIR Cargo Drone | Israel Defense",
+          "url": "https://www.israeldefense.co.il/en/node/68630",
+          "published": "2026",
+          "summary_he": "כטב\"ם המטען החשמלי (eVTOL) הנושא 250 ק\"ג מתקדם לאספקות ב-2026, תוך הרחבת ניסויים גלובליים ועבודה מול רשויות ההגנה והתעופה בארה\"ב."
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "book_id": "b_the_kill_chain",
+      "chapter_index": 1,
+      "chapter_title": "What Happened to Yoda's Revolution",
+      "chapter_title_he": "מה קרה למהפכה של יודה",
+      "idea_he": "ארה\"ב חזתה את מהפכת המידע הצבאית – ולא בנתה אותה",
+      "body_he": "אנדרו מרשל (\"יודה\") ממשרד הערכת המצב בפנטגון חזה כבר בשנות ה-90 שחיישנים, רשתות ונשק מדויק ישנו את המלחמה. אבל במקום לבנות \"שרשרת הרג\" רשתית, ארה\"ב המשיכה לקנות מעט פלטפורמות יקרות – בזמן שסין למדה את הלקח ובנתה נשק שנועד לשבור בדיוק את השרשרת הזאת.",
+      "points_he": [
+        "מה שמנצח הוא שרשרת ההרג – להבין, להחליט, לפעול – ולא הפלטפורמה עצמה",
+        "מוסדות רכש מתגמלים המשך תוכניות קיימות, לא שינוי",
+        "יריב שלומד את החולשות שלך יכול לדלג עליך בזול"
+      ],
+      "apply_he": "מפו את שרשרת ההרג של המוצר שלכם – איפה החיישן, ההחלטה והאפקט – ושאלו איזה חוליה הכי קל ליריב לשבור.",
+      "sources": [
+        "https://www.youtube.com/watch?v=xZNA7osbmzg",
+        "https://www.youtube.com/watch?v=qAXvKZV9Cw4",
+        "https://www.youtube.com/watch?v=eWgtPdmlZ4o"
+      ]
+    },
+    {
+      "book_id": "b_army_of_none",
+      "chapter_index": 1,
+      "chapter_title": "The Coming Swarm",
+      "chapter_title_he": "הנחיל שמגיע",
+      "idea_he": "כטב\"מים מתפשטים לכל צבא – והאוטונומיה היא הצעד הבא",
+      "body_he": "שאר פותח בתיאור ההתפשטות המהירה של רובוטיקה צבאית לעשרות מדינות, ומסביר למה הלחץ הטכנולוגי דוחף לאוטונומיה: קשרי תקשורת נפגעים מלוחמה אלקטרונית, המהירות הנדרשת עולה, ונחילים של כלים זולים דורשים שליטה שאדם אחד לא יכול לספק ידנית.",
+      "points_he": [
+        "הטכנולוגיה לזיהוי ותקיפת מטרות ללא אדם כבר קיימת היום",
+        "שיבוש תקשורת הוא המניע החזק ביותר לאוטונומיה בכלי טיס",
+        "נחילים משנים את הכלכלה: הרבה כלים זולים במקום מעט יקרים"
+      ],
+      "apply_he": "בדקו איזו פונקציה במערכת שלכם חייבת להמשיך לפעול גם באובדן קשר – זו נקודת ההתחלה לאוטונומיה.",
+      "sources": [
+        "https://www.paulscharre.com/army-of-none",
+        "https://www.carnegiecouncil.org/media/series/39/20180501-army-of-none-autonomous-weapons-future-of-war-paul-scharre",
+        "https://www.youtube.com/watch?v=Z9hVOCUUBvM"
+      ]
+    },
+    {
+      "book_id": "b_the_wright_brothers",
+      "chapter_index": 1,
+      "chapter_title": "Beginnings",
+      "chapter_title_he": "התחלות",
+      "idea_he": "ספרייה ביתית, אב שהאמין בצעצועים – והצעצוע שהצית את רעיון הטיסה",
+      "body_he": "מק'קאלו פותח בבית משפחת רייט בדייטון, אוהיו: משפחה מגובשת ממעמד הביניים, אב – הבישוף מילטון רייט – שהנחיל לילדיו ערכים של עבודה קשה והשכלה, וספרייה ביתית עשירה ששני האחים בלעו. הרגע המכונן הוא מסוק צעצוע צרפתי של אלפונס פנו – מקל, שני מדחפים וגומיות – שהאב הביא הביתה כי האמין בערך החינוכי של צעצועים. הצעצוע שהמריא לתקרה הצית סקרנות שהובילה מבית דפוס וחנות אופניים אל הטיסה המאוישת.",
+      "points_he": [
+        "הבית עודד עבודה קשה, השכלה וקריאה – לא תארים",
+        "צעצוע של 50 סנט זרע רעיון שהבשיל עשרות שנים אחר כך",
+        "בית הדפוס וחנות האופניים נתנו לאחים כלים, כסף ותחושת מכניקה"
+      ],
+      "apply_he": "הקדישו שעה בשבוע לבנייה או תיקון ידני של משהו בכלי הטיס שלכם – האינטואיציה ההנדסית נבנית בידיים.",
+      "sources": [
+        "https://www.supersummary.com/the-wright-brothers-mccullough/prologue-part-1-chapter-4-summary/",
+        "https://www.simonandschuster.com/books/The-Wright-Brothers/David-McCullough/9781476728759",
+        "https://historynet.com/how-toy-planes-inspired-the-wright-brothers-to-invent-the-airplane/",
+        "https://www.bookrags.com/studyguide-the-wright-brothers2/chapanal001.html"
+      ]
+    },
+    {
+      "book_id": "b_the_right_stuff",
+      "chapter_index": 1,
+      "chapter_title": "The Angels",
+      "chapter_title_he": "המלאכים",
+      "idea_he": "טיסות ניסוי כתרבות: מוות שבועי, ואף טייס לא מאמין שזה יקרה לו",
+      "body_he": "וולף פותח ביום אחד ב-1955 בג'קסונוויל, פלורידה, מנקודת מבטה של ג'יין קונרד, אשתו של טייס הניסוי פיט קונרד. הידיעה על תאונת טיסה מתפשטת בקהילת 'מלאכי המוות' – נשות הטייסים – וג'יין מניחה שבעלה נהרג; בפועל פיט הוא קצין הבטיחות התורן ובין הראשונים שמגיעים לזירת ההתרסקות. אנשי הבסיס עצובים, אבל ריבוי ההרוגים לא מטריד אותם באמת: כל טייס בטוח שבזכות כישוריו העליונים זה לא יקרה לו.",
+      "points_he": [
+        "בעולם טיסות הניסוי אנשים מתו על בסיס שבועי",
+        "כל טייס האמין שכישוריו העליונים מגנים עליו – ולכן הסיכון הוכחש",
+        "הנשים, 'המלאכים', נשאו את הפחד והאבל בשקט"
+      ],
+      "apply_he": "בתחקיר הטיסה הבא, אסרו על המשפט \"הוא טעה\" עד שנבדקו גם הגורמים המערכתיים.",
+      "sources": [
+        "https://www.supersummary.com/the-right-stuff/chapters-1-3/",
+        "https://www.bookrags.com/studyguide-right-stuff/chapanal001.html",
+        "https://www.npr.org/2010/01/01/320780520/excerpt-the-right-stuff"
+      ]
+    },
+    {
+      "book_id": "b_loonshots",
+      "chapter_index": 1,
+      "chapter_title": "How Loonshots Won a War",
+      "chapter_title_he": "איך רעיונות מטורפים ניצחו מלחמה",
+      "idea_he": "הפרד את הממציאים מהמבצעים – ונהל את הזרימה ביניהם",
+      "body_he": "ב-1939 נראה שגרמניה הנאצית מובילה במרוץ הטכנולוגי: צוללות מתקדמות, חיל אוויר חזק וגילוי ביקוע גרעיני. ונוור בוש, דיקן ב-MIT, הבין שהצי האמריקאי מחזיק במפתח – רעיונות כמו שיטות גילוי הספינות של יאנג וטיילור שהצי התעלם מהן – ובנה מערכת חדשה (ה-OSRD, 1941) להבשלת פריצות דרך. בהקאל שואל מהפיזיקה שני מושגים: 'הפרדת פאזות' – הגנה על עבודת הממציאים בנפרד מהמבצעים – ו'שיווי משקל דינמי' – שיתוף פורה של רעיונות ביניהם.",
+      "points_he": [
+        "ארגון צריך שני 'מצבי צבירה' מופרדים: יצירה וביצוע",
+        "ההנהלה מנהלת את המעבר ביניהם – שיווי משקל דינמי – לא את הרעיונות עצמם",
+        "מכ\"ם המיקרוגל שהוצא מהמעבדה לשדה חתך דרך ערפל וחושך ונטרל את צי הצוללות הגרמני תוך שבועות"
+      ],
+      "apply_he": "הגדירו בחברה מי עובד על הניסוי הבא ומי על האספקה הנוכחית – ותקבעו פגישת העברה שבועית ביניהם.",
+      "sources": [
+        "https://www.bahcall.com/loonshots-contents/",
+        "https://medium.com/@chrisbyboston/the-chris-notes-loonshots-3fc2fa013219",
+        "http://muratbuffalo.blogspot.com/2019/06/book-review-loonshots-how-to-nurture.html",
+        "https://3quarksdaily.com/3quarksdaily/2019/10/making-far-out-the-norm-or-how-to-nurture-loonshots.html",
+        "https://mercury.com/blog/loonshots"
+      ]
+    },
+    {
+      "book_id": "b_wired_for_war",
+      "chapter_index": 1,
+      "chapter_title": "Introduction: Scenes from a Robot War",
+      "chapter_title_he": "מבוא: סצנות ממלחמת רובוטים",
+      "idea_he": "הרובוטים כבר בשדה הקרב – והחיילים מתייחסים אליהם כאל חברים לצוות",
+      "body_he": "סינגר פותח במטען צד בעיראק ש'נראה כמו כל פיסת זבל אחרת': ב-2006 היו יותר מ-2,500 פיגועים כאלה בחודש, וצוותי פינוי המטענים (EOD) הפכו לחוד החנית נגדם. חייל EOD אחד הביא רובוט הרוס לתיקון בדמעות וביקש להרכיב מחדש את 'סקובי-דו'; גם כשהובטח לו רובוט חדש הוא סירב להתנחם – הוא רצה רק את סקובי-דו. דרך סצנות כאלה סינגר מראה שמהפכת הרובוטיקה הצבאית מתרחשת עכשיו, עם השלכות על טקטיקה, פסיכולוגיה ומדיניות.",
+      "points_he": [
+        "יותר מ-7,000 מערכות רובוטיות פעלו בעיראק, וטייסים בנבאדה תקפו מרחוק באפגניסטן",
+        "בני אדם מפתחים קשר רגשי למכונות שלוחמות לצידם",
+        "אובדן רובוט לא נושא את המשקל הרגשי של אובדן חייל – וזה משנה את דינמיקת המלחמה"
+      ],
+      "apply_he": "שאלו את המפעילים שלכם איך הם קוראים לכלי הטיס – השמות מגלים איך הם תופסים את המערכת ואיך יפעילו אותה.",
+      "sources": [
+        "https://www.bookey.app/book/wired-for-war",
+        "https://www.livescience.com/5432-real-soldiers-love-their-robot-brethren.html",
+        "https://www.brookings.edu/articles/wired-for-war-the-future-of-military-robots/",
+        "https://wiredwar.pwsinger.com/"
+      ]
+    }
+  ]
+}

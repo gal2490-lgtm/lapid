@@ -16,6 +16,10 @@ books/videos/articles stay in their original language.
    idea comes from). Only ideas that are actually in the book, grounded in search results
    (Wikipedia / SparkNotes / LitCharts / publisher pages / reputable summaries), URLs in `sources`.
    If you cannot ground an idea, pick another book.
+4a. An article card must teach, not tease. When the environment allows fetching pages (WebFetch or
+   curl works), READ every article you add and fill `headline_he`, `takeaways_he`, `why_he` and
+   `image`. When fetching is blocked, only `summary_he` from the snippet is allowed, and the app
+   shows fewer article cards.
 4b. Articles must still make sense when the reader sees them: never a preview, prediction or
    "who will win" piece about an event that has already happened, and no seasonal content that
    has expired. Older evergreen analysis from a strong publication is fine; freshness is second.
@@ -83,7 +87,11 @@ books/videos/articles stay in their original language.
           "title": "Exact title from the search result",
           "url": "https://exact.url/from/search/result",
           "published": "2026-09",
-          "summary_he": "1-2 משפטים המבוססים אך ורק על הכותרת והסניפט של תוצאת החיפוש"
+          "summary_he": "1-2 משפטים המבוססים אך ורק על הכותרת והסניפט של תוצאת החיפוש",
+          "headline_he": "when the article text was actually read: the article's main claim in one Hebrew sentence",
+          "takeaways_he": ["3-5 Hebrew points with the article's actual content (numbers, examples, arguments) — ONLY when the article text was fetched and read; never from a snippet"],
+          "why_he": "one sentence: why this matters to the reader (business or personal)",
+          "image": "https://... the article's own image (og:image) — only when fetched"
         }
       ]
     }

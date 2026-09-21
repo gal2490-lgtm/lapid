@@ -232,6 +232,11 @@
   .who .n { font-weight: 500; }
   .who .r { color: var(--muted); font-size: 13px; }
   .c-video .blurb { color: var(--ink-2); margin-top: 10px; font-size: 15px; }
+  .c-video .brief { margin: 12px 0 0; display: grid; gap: 8px; }
+  .c-video .brief div { display: grid; grid-template-columns: 96px 1fr; gap: 10px; align-items: start; }
+  .c-video .brief dt { font-size: 12px; letter-spacing: .03em; color: var(--amber); font-weight: 500; padding-top: 3px; }
+  .c-video .brief dd { margin: 0; color: var(--ink); font-size: 15.5px; }
+  .c-video .meta { margin-top: 10px; color: var(--muted); font-size: 12px; }
 
   /* article card */
   .c-article .mast {
@@ -576,7 +581,12 @@
     const text = el('div', 'text', `${eyebrow('סרטון', it)}
       <h2 class="title">${esc(v.title)}</h2>
       <div class="who"><div class="avatar" data-person="${esc(L.name)}">${esc(initials(L.name))}</div><div><div class="n">${esc(L.name_he || L.name)}</div><div class="r">${esc(L.role_he || '')}</div></div></div>
-      ${v.blurb_he ? `<p class="blurb">${esc(v.blurb_he)}</p>` : ''}`);
+      ${v.about_he || v.bottom_line_he || v.worth_he ? `<dl class="brief">
+        ${v.about_he ? `<div><dt>על מה</dt><dd>${esc(v.about_he)}</dd></div>` : ''}
+        ${v.bottom_line_he ? `<div><dt>השורה התחתונה</dt><dd>${esc(v.bottom_line_he)}</dd></div>` : ''}
+        ${v.worth_he ? `<div><dt>כדאי לצפות אם</dt><dd>${esc(v.worth_he)}</dd></div>` : ''}
+      </dl>` : (v.blurb_he ? `<p class="blurb">${esc(v.blurb_he)}</p>` : '')}
+      ${v.duration_min ? `<p class="meta">${esc(v.duration_min)} דקות</p>` : ''}`);
     root.appendChild(text);
   }
 

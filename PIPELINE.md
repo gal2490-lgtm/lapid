@@ -71,7 +71,10 @@ books/videos/articles stay in their original language.
           "title": "Daniel Kahneman: The riddle of experience vs. memory | TED",
           "source_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
           "duration_min": 20,
-          "blurb_he": "משפט אחד על מה הסרטון, מבוסס על הכותרת/תקציר בתוצאת החיפוש בלבד"
+          "about_he": "משפט אחד: על מה הסרטון (מהכותרת, מהתיאור ומדיוני החיפוש עליו)",
+          "bottom_line_he": "משפט אחד: הטענה או התובנה המרכזית של הדובר בסרטון הזה, כפי שמופיעה במקורות שנמצאו",
+          "worth_he": "משפט קצר: למי ומתי כדאי לצפות (למשל: אם אתה בונה צוות; לפני מו\"מ)",
+          "blurb_he": "legacy one-liner; keep only when the three fields above are missing"
         }
       ]
     }
@@ -117,6 +120,7 @@ books/videos/articles stay in their original language.
 
 ## Quantities per interest
 - `books`: exactly 30. Mix classics and modern. `chapters_total` = real chapter count if you know it, else omit.
+- Every video must answer three questions for the reader: what it is about, the bottom line, and when it is worth watching (`about_he`, `bottom_line_he`, `worth_he`). Base them on the video's title/description and on search results discussing that talk; never guess. If nothing beyond the title can be found, pick a different clip.
 - `leaders`: exactly 10 living or historically central thought leaders with a real public video presence. Each with exactly 2 videos found via WebSearch (query like `"<name>" interview youtube` or `"<name>" talk site:youtube.com`). SHORT wins: prefer clips of 3-15 minutes (TED/TEDx talks, short interviews, single-question clips, highlights) over full podcast episodes or hour-long lectures. If the search result shows a duration, record it as `duration_min` (integer). Never add a video you know is longer than ~25 minutes when a shorter one by the same person exists.
 - `publications`: exactly 5 real publications/writers that publish articles in the field (magazines, newsletters, blogs, journals for a lay reader). Each with 3 articles from 2025-2026 found via WebSearch (`site:<domain> <topic>`; add "2026" to the query). Israeli/Hebrew sources are welcome where relevant.
 - Visuals are free and must never be invented: `image_query` on every card and book; `media` on a card only when a real short explainer clip about that idea turned up in search (animated summaries, short lectures, author clips). Prefer clips under 10 minutes.

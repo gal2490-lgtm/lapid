@@ -99,6 +99,8 @@ books/videos/articles stay in their original language.
       "points_he": ["נקודה 1", "נקודה 2", "נקודה 3"],
       "apply_he": "משפט אחד: איך הרעיון נראה בפועל בחיים או בעבודה",
       "quote": "optional — only if seen verbatim in a search snippet",
+      "image_query": "2-4 concrete photographable English nouns that evoke the idea (e.g. \"chess player thinking\"); the app fetches a free Wikimedia photo for it",
+      "media": { "youtube_id": "optional short explainer video (<= 10 min) about THIS idea, found via WebSearch; copy the id verbatim", "title": "...", "source_url": "https://www.youtube.com/watch?v=...", "duration_min": 6 },
       "sources": ["https://url/seen/in/search"]
     }
   ]
@@ -109,6 +111,7 @@ books/videos/articles stay in their original language.
 - `books`: exactly 30. Mix classics and modern. `chapters_total` = real chapter count if you know it, else omit.
 - `leaders`: exactly 10 living or historically central thought leaders with a real public video presence. Each with exactly 2 videos found via WebSearch (query like `"<name>" interview youtube` or `"<name>" talk site:youtube.com`). SHORT wins: prefer clips of 3-15 minutes (TED/TEDx talks, short interviews, single-question clips, highlights) over full podcast episodes or hour-long lectures. If the search result shows a duration, record it as `duration_min` (integer). Never add a video you know is longer than ~25 minutes when a shorter one by the same person exists.
 - `publications`: exactly 5 real publications/writers that publish articles in the field (magazines, newsletters, blogs, journals for a lay reader). Each with 3 articles from 2025-2026 found via WebSearch (`site:<domain> <topic>`; add "2026" to the query). Israeli/Hebrew sources are welcome where relevant.
+- Visuals are free and must never be invented: `image_query` on every card and book; `media` on a card only when a real short explainer clip about that idea turned up in search (animated summaries, short lectures, author clips). Prefer clips under 10 minutes.
 - `chapters`: cards of core ideas, in the book's order. First run: the first idea of 6 different books (the 6 most iconic). Weekly: 3 new ideas per active book (a book is exhausted when its main ideas are covered, typically 6-12 cards). The reader moves through a book by reacting to cards, so always keep ideas ahead of the reader. Ground each card with at least 2 search results.
 
 ## Working method

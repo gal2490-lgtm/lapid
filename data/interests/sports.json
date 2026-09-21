@@ -3,7 +3,10 @@
   "name_he": "אנליטיקה, ביצועים וחשיבה בספורט",
   "name_en": "Sports Analytics & Performance",
   "tagline_he": "איך נתונים, פסיכולוגיה של ביצועים ומנהיגות של מאמנים גדולים הופכים כישרון להצלחה שיטתית",
-  "book_list_source": { "name": "Five Books – Sport & Sporting Culture (expert recommendations)", "url": "https://fivebooks.com/category/sports-games-and-hobbies/sport-sporting-culture/" },
+  "book_list_source": {
+    "name": "Five Books – Sport & Sporting Culture (expert recommendations)",
+    "url": "https://fivebooks.com/category/sports-games-and-hobbies/sport-sporting-culture/"
+  },
   "books": [
     {
       "id": "b_moneyball",
@@ -12,7 +15,8 @@
       "author": "Michael Lewis",
       "year": 2003,
       "why_he": "הספר שהכניס את האנליטיקה לתודעה הציבורית: איך אוקלנד עם תקציב זעום ניצחה בעזרת סטטיסטיקה שאחרים זלזלו בה",
-      "chapters_total": 12
+      "chapters_total": 12,
+      "image_query": "baseball glove field"
     },
     {
       "id": "b_the_numbers_game",
@@ -20,7 +24,8 @@
       "title_he": "משחק המספרים: למה כל מה שאתם יודעים על כדורגל שגוי",
       "author": "Chris Anderson & David Sally",
       "year": 2013,
-      "why_he": "ה'מאניבול של הכדורגל': שני אקדמאים מפרקים מיתוסים על שערים, קרנות ומזל בעזרת נתונים"
+      "why_he": "ה'מאניבול של הכדורגל': שני אקדמאים מפרקים מיתוסים על שערים, קרנות ומזל בעזרת נתונים",
+      "image_query": "soccer ball net goal"
     },
     {
       "id": "b_scorecasting",
@@ -28,7 +33,8 @@
       "title_he": "סקורקאסטינג: ההשפעות הנסתרות על איך משחקים ומנצחים",
       "author": "Tobias J. Moskowitz & L. Jon Wertheim",
       "year": 2011,
-      "why_he": "כלכלן התנהגותי ועיתונאי ספורט חושפים את יתרון הבית, הטיות שופטים ואמונות טפלות דרך מספרים"
+      "why_he": "כלכלן התנהגותי ועיתונאי ספורט חושפים את יתרון הבית, הטיות שופטים ואמונות טפלות דרך מספרים",
+      "image_query": "referee whistle blowing"
     },
     {
       "id": "b_soccernomics",
@@ -36,7 +42,8 @@
       "title_he": "סוקרנומיקס",
       "author": "Simon Kuper & Stefan Szymanski",
       "year": 2009,
-      "why_he": "ה'פריקונומיקס' של הכדורגל: למה אנגליה מפסידה, למה מועדונים מפסידים כסף ואיזה מדינות באמת מצטיינות"
+      "why_he": "ה'פריקונומיקס' של הכדורגל: למה אנגליה מפסידה, למה מועדונים מפסידים כסף ואיזה מדינות באמת מצטיינות",
+      "image_query": "soccer stadium crowd"
     },
     {
       "id": "b_the_book_playing_the_percentages",
@@ -44,7 +51,8 @@
       "title_he": "הספר: לשחק לפי האחוזים בבייסבול",
       "author": "Tom Tango, Mitchel Lichtman & Andrew Dolphin",
       "year": 2007,
-      "why_he": "התנ\"ך של הסייברמטריקה המודרנית: ניתוח מתמטי מדוקדק של החלטות במשחק, מהקרבה ועד סדר החבטה"
+      "why_he": "התנ\"ך של הסייברמטריקה המודרנית: ניתוח מתמטי מדוקדק של החלטות במשחק, מהקרבה ועד סדר החבטה",
+      "image_query": "baseball bat home plate"
     },
     {
       "id": "b_inner_game_of_tennis",
@@ -52,7 +60,8 @@
       "author": "W. Timothy Gallwey",
       "year": 1974,
       "why_he": "אבי הפסיכולוגיה של הביצועים: איך להשתיק את הקול המבקר בראש ולתת לגוף לעשות את מה שהוא יודע",
-      "chapters_total": 10
+      "chapters_total": 10,
+      "image_query": "tennis racket ball court"
     },
     {
       "id": "b_legacy",
@@ -60,7 +69,8 @@
       "author": "James Kerr",
       "year": 2013,
       "why_he": "15 שיעורי מנהיגות מהנבחרת המצליחה בהיסטוריה של הספורט, מ'לטאטא את המלתחה' ועד מורשת",
-      "chapters_total": 15
+      "chapters_total": 15,
+      "image_query": "rugby locker room"
     },
     {
       "id": "b_peak",
@@ -68,7 +78,8 @@
       "author": "Anders Ericsson & Robert Pool",
       "year": 2016,
       "why_he": "החוקר שמאחורי 'עשרת אלפים השעות' מסביר בעצמו מהו אימון מכוון ולמה כישרון מולד הוא סיפור מוגזם",
-      "chapters_total": 9
+      "chapters_total": 9,
+      "image_query": "chess grandmaster tournament"
     },
     {
       "id": "b_range",
@@ -76,7 +87,8 @@
       "author": "David Epstein",
       "year": 2019,
       "why_he": "טייגר או פדרר? הספר שמערער על פולחן ההתמחות המוקדמת בספורט ובחיים",
-      "chapters_total": 12
+      "chapters_total": 12,
+      "image_query": "swiss army knife tools"
     },
     {
       "id": "b_mind_gym",
@@ -84,7 +96,8 @@
       "title_he": "חדר כושר לנפש: מדריך הספורטאי למצוינות פנימית",
       "author": "Gary Mack & David Casstevens",
       "year": 2001,
-      "why_he": "פסיכולוג ספורט של קבוצות מקצועניות בשיעורים קצרים וישימים על ביטחון, מיקוד והתמודדות עם לחץ"
+      "why_he": "פסיכולוג ספורט של קבוצות מקצועניות בשיעורים קצרים וישימים על ביטחון, מיקוד והתמודדות עם לחץ",
+      "image_query": "boxer gym training"
     },
     {
       "id": "b_relentless",
@@ -92,7 +105,8 @@
       "title_he": "ללא רחמים: מטוב למצוין לבלתי ניתן לעצירה",
       "author": "Tim S. Grover",
       "year": 2013,
-      "why_he": "המאמן של מייקל ג'ורדן וקובי בראיינט על המנטליות הבלתי מתפשרת של ה'קלינרים' בפסגה"
+      "why_he": "המאמן של מייקל ג'ורדן וקובי בראיינט על המנטליות הבלתי מתפשרת של ה'קלינרים' בפסגה",
+      "image_query": "basketball hoop night"
     },
     {
       "id": "b_captain_class",
@@ -100,14 +114,16 @@
       "title_he": "מעמד הקפטנים: הכוח הנסתר שיוצר את הקבוצות הגדולות בעולם",
       "author": "Sam Walker",
       "year": 2017,
-      "why_he": "מחקר על 16 השושלות הגדולות בספורט מגלה מכנה משותף מפתיע: קפטן מסוג מסוים, לא הכוכב הגדול"
+      "why_he": "מחקר על 16 השושלות הגדולות בספורט מגלה מכנה משותף מפתיע: קפטן מסוג מסוים, לא הכוכב הגדול",
+      "image_query": "team huddle captain armband"
     },
     {
       "id": "b_eleven_rings",
       "title": "Eleven Rings: The Soul of Success",
       "author": "Phil Jackson & Hugh Delehanty",
       "year": 2013,
-      "why_he": "המאמן עם הכי הרבה אליפויות NBA מסביר איך מיינדפולנס, פילוסופיית זן ואמון בנו את שושלות הבולס והלייקרס"
+      "why_he": "המאמן עם הכי הרבה אליפויות NBA מסביר איך מיינדפולנס, פילוסופיית זן ואמון בנו את שושלות הבולס והלייקרס",
+      "image_query": "basketball championship trophy"
     },
     {
       "id": "b_leading_ferguson",
@@ -115,7 +131,8 @@
       "title_he": "להוביל: לקחים מהחיים ומשנותיי במנצ'סטר יונייטד",
       "author": "Alex Ferguson & Michael Moritz",
       "year": 2015,
-      "why_he": "26 שנים של שליטה במנצ'סטר יונייטד מפורקות לעקרונות מנהיגות: משמעת, תצפית, שליטה ובניית ארגון"
+      "why_he": "26 שנים של שליטה במנצ'סטר יונייטד מפורקות לעקרונות מנהיגות: משמעת, תצפית, שליטה ובניית ארגון",
+      "image_query": "soccer coach sideline"
     },
     {
       "id": "b_open_agassi",
@@ -123,7 +140,8 @@
       "title_he": "פתוח: אוטוביוגרפיה",
       "author": "Andre Agassi",
       "year": 2009,
-      "why_he": "האוטוביוגרפיה הכנה ביותר בספורט: אלוף ששנא טניס מספר על לחץ, אב דורסני ומציאת משמעות בביצוע"
+      "why_he": "האוטוביוגרפיה הכנה ביותר בספורט: אלוף ששנא טניס מספר על לחץ, אב דורסני ומציאת משמעות בביצוע",
+      "image_query": "tennis player exhausted court"
     },
     {
       "id": "b_shoe_dog",
@@ -131,7 +149,8 @@
       "title_he": "שו דוג: זיכרונותיו של מייסד נייקי",
       "author": "Phil Knight",
       "year": 2016,
-      "why_he": "סיפור הקמת נייקי מרץ אחד ומכונית סטיישן: אובססיה לספורט, סיכון ומאמן אתלטיקה שהפך לשותף"
+      "why_he": "סיפור הקמת נייקי מרץ אחד ומכונית סטיישן: אובססיה לספורט, סיכון ומאמן אתלטיקה שהפך לשותף",
+      "image_query": "marathon runners crowd"
     },
     {
       "id": "b_sports_gene",
@@ -140,7 +159,8 @@
       "author": "David Epstein",
       "year": 2013,
       "why_he": "טבע מול טיפוח בספורט העילית: מה באמת נקבע בגנים ומה באימון, על בסיס מחקר ולא מיתוסים",
-      "chapters_total": 16
+      "chapters_total": 16,
+      "image_query": "sprinter starting blocks"
     },
     {
       "id": "b_signal_and_noise",
@@ -149,7 +169,8 @@
       "author": "Nate Silver",
       "year": 2012,
       "why_he": "מייסד FiveThirtyEight שהתחיל בחיזוי בייסבול מלמד חשיבה הסתברותית, מבייסבול ועד פוקר ובחירות",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "baseball scoreboard stats"
     },
     {
       "id": "b_sprawlball",
@@ -157,7 +178,8 @@
       "title_he": "ספרולבול: מסע חזותי בעידן החדש של ה-NBA",
       "author": "Kirk Goldsberry",
       "year": 2019,
-      "why_he": "הגיאוגרף שהמציא את מפות הזריקות מראה איך השלשה שינתה את הכדורסל, בגרפיקה שאי אפשר להתווכח איתה"
+      "why_he": "הגיאוגרף שהמציא את מפות הזריקות מראה איך השלשה שינתה את הכדורסל, בגרפיקה שאי אפשר להתווכח איתה",
+      "image_query": "basketball three point shot"
     },
     {
       "id": "b_how_to_win_the_premier_league",
@@ -165,7 +187,8 @@
       "title_he": "איך לזכות בפרמייר ליג: הסיפור הפנימי של מהפכת הנתונים בכדורגל",
       "author": "Ian Graham",
       "year": 2024,
-      "why_he": "מנהל המחקר של ליברפול בעידן קלופ חושף איך מודלים סטטיסטיים הביאו את סלאח, ואן דייק ואת האליפות"
+      "why_he": "מנהל המחקר של ליברפול בעידן קלופ חושף איך מודלים סטטיסטיים הביאו את סלאח, ואן דייק ואת האליפות",
+      "image_query": "soccer analytics laptop pitch"
     },
     {
       "id": "b_basketball_on_paper",
@@ -173,7 +196,8 @@
       "title_he": "כדורסל על הנייר: כללים וכלים לניתוח ביצועים",
       "author": "Dean Oliver",
       "year": 2004,
-      "why_he": "אבי האנליטיקה בכדורסל וארבעת הגורמים: הספר שעליו נבנו מחלקות הנתונים של כל קבוצות ה-NBA"
+      "why_he": "אבי האנליטיקה בכדורסל וארבעת הגורמים: הספר שעליו נבנו מחלקות הנתונים של כל קבוצות ה-NBA",
+      "image_query": "basketball court aerial view"
     },
     {
       "id": "b_new_bill_james_historical_abstract",
@@ -181,7 +205,8 @@
       "title_he": "התקציר ההיסטורי החדש של ביל ג'יימס לבייסבול",
       "author": "Bill James",
       "year": 2001,
-      "why_he": "יצירת המופת של אבי הסייברמטריקה: דירוג שחקנים לאורך ההיסטוריה עם שיטה, הומור וספקנות מדעית"
+      "why_he": "יצירת המופת של אבי הסייברמטריקה: דירוג שחקנים לאורך ההיסטוריה עם שיטה, הומור וספקנות מדעית",
+      "image_query": "baseball card collection"
     },
     {
       "id": "b_inverting_the_pyramid",
@@ -189,7 +214,8 @@
       "title_he": "להפוך את הפירמידה: ההיסטוריה של הטקטיקה בכדורגל",
       "author": "Jonathan Wilson",
       "year": 2008,
-      "why_he": "ההיסטוריה המקיפה של הטקטיקה בכדורגל: כדי להבין את גווארדיולה צריך להבין מאיפה הגיע ה-4-4-2"
+      "why_he": "ההיסטוריה המקיפה של הטקטיקה בכדורגל: כדי להבין את גווארדיולה צריך להבין מאיפה הגיע ה-4-4-2",
+      "image_query": "soccer tactics whiteboard"
     },
     {
       "id": "b_talent_code",
@@ -198,7 +224,8 @@
       "author": "Daniel Coyle",
       "year": 2009,
       "why_he": "מסע ל'חממות כישרון' בעולם, ממגרשי הכדורגל בברזיל ועד אקדמיות טניס, ומה שמאחד אותן: אימון עמוק",
-      "chapters_total": 10
+      "chapters_total": 10,
+      "image_query": "youth soccer academy field"
     },
     {
       "id": "b_culture_code",
@@ -207,7 +234,8 @@
       "author": "Daniel Coyle",
       "year": 2018,
       "why_he": "מהספרס של פופוביץ' ועד הנייבי סילס: שלושת המנגנונים שבונים תרבות קבוצתית מנצחת",
-      "chapters_total": 17
+      "chapters_total": 17,
+      "image_query": "locker room pregame huddle"
     },
     {
       "id": "b_endure",
@@ -215,7 +243,8 @@
       "title_he": "לעמוד: גוף, נפש והגבולות הגמישים במפתיע של הביצוע האנושי",
       "author": "Alex Hutchinson",
       "year": 2018,
-      "why_he": "עיתונאי מדע ורץ לשעבר בוחן מה באמת קובע את גבול הסיבולת: השרירים, הלב או המוח"
+      "why_he": "עיתונאי מדע ורץ לשעבר בוחן מה באמת קובע את גבול הסיבולת: השרירים, הלב או המוח",
+      "image_query": "ultramarathon desert runner"
     },
     {
       "id": "b_mindset",
@@ -224,7 +253,8 @@
       "author": "Carol S. Dweck",
       "year": 2006,
       "why_he": "תפיסת הצמיחה מול תפיסה קבועה, המסגרת שכמעט כל מאמן ופסיכולוג ספורט מודרני משתמש בה",
-      "chapters_total": 8
+      "chapters_total": 8,
+      "image_query": "coach chalkboard talk"
     },
     {
       "id": "b_score_takes_care_of_itself",
@@ -232,7 +262,8 @@
       "title_he": "התוצאה תדאג לעצמה: הפילוסופיה שלי למנהיגות",
       "author": "Bill Walsh, Steve Jamison & Craig Walsh",
       "year": 2009,
-      "why_he": "המאמן שבנה את שושלת ה-49ers מסביר את 'תקן הביצוע': התמקדות בתהליך ולא בתוצאה"
+      "why_he": "המאמן שבנה את שושלת ה-49ers מסביר את 'תקן הביצוע': התמקדות בתהליך ולא בתוצאה",
+      "image_query": "american football huddle"
     },
     {
       "id": "b_wooden_on_leadership",
@@ -240,7 +271,8 @@
       "title_he": "וודן על מנהיגות",
       "author": "John Wooden & Steve Jamison",
       "year": 2005,
-      "why_he": "פירמידת ההצלחה של המאמן עם 10 אליפויות NCAA: מנהיגות שקטה שמתחילה בלגרוב נכון את הגרביים"
+      "why_he": "פירמידת ההצלחה של המאמן עם 10 אליפויות NCAA: מנהיגות שקטה שמתחילה בלגרוב נכון את הגרביים",
+      "image_query": "old gymnasium basketball court"
     },
     {
       "id": "b_mvp_machine",
@@ -248,7 +280,8 @@
       "title_he": "מכונת ה-MVP: איך הנון-קונפורמיסטים של הבייסבול בונים שחקנים טובים יותר בעזרת נתונים",
       "author": "Ben Lindbergh & Travis Sawchik",
       "year": 2019,
-      "why_he": "הדור הבא אחרי מאניבול: לא רק למצוא שחקנים מוערכים בחסר, אלא לשפר שחקנים בעזרת טכנולוגיה ונתונים"
+      "why_he": "הדור הבא אחרי מאניבול: לא רק למצוא שחקנים מוערכים בחסר, אלא לשפר שחקנים בעזרת טכנולוגיה ונתונים",
+      "image_query": "baseball pitching machine"
     }
   ],
   "leaders": [
@@ -632,7 +665,8 @@
         "https://www.litcharts.com/lit/moneyball/chapter-1-the-curse-of-talent",
         "https://www.coursehero.com/lit/Moneyball/chapter-1-summary/",
         "https://www.enotes.com/topics/moneyball"
-      ]
+      ],
+      "image_query": "baseball scout binoculars"
     },
     {
       "book_id": "b_inner_game_of_tennis",
@@ -652,7 +686,8 @@
         "https://auresnotes.com/the-inner-game-of-tennis-summary-timothy-gallwey/",
         "https://www.nateliason.com/notes/inner-game-of-tennis-w-timothy-gallwey",
         "https://www.blinkist.com/en/books/the-inner-game-of-tennis-en"
-      ]
+      ],
+      "image_query": "tennis player focused serve"
     },
     {
       "book_id": "b_range",
@@ -672,7 +707,8 @@
         "https://feedingcuriosity.net/blueprint-range/chapter-1",
         "https://readingraphics.com/book-summary-range-why-generalists-triumph-in-a-specialized-world/",
         "https://www.readbrightly.com/letting-kids-dabble/"
-      ]
+      ],
+      "image_query": "youth swimmer starting block"
     },
     {
       "book_id": "b_legacy",
@@ -693,7 +729,8 @@
         "https://medium.com/@sahilmoray/summary-for-legacy-by-james-kerr-4219b5e1304d",
         "https://whatgotyouthere.com/legacy-by-james-kerr/",
         "https://edmondchan.co.uk/legacy-what-the-all-blacks-can-teach-us-about-the-business-of-life-by-james-kerr/"
-      ]
+      ],
+      "image_query": "broom locker room floor"
     },
     {
       "book_id": "b_peak",
@@ -713,7 +750,8 @@
         "https://commoncog.com/peak-book-summary/",
         "https://readingraphics.com/book-summary-peak/",
         "https://setzeus.medium.com/peak-ef10d4cba231"
-      ]
+      ],
+      "image_query": "piano practice sheet music"
     },
     {
       "book_id": "b_eleven_rings",
@@ -734,7 +772,8 @@
         "https://www.talkbasket.net/44873-guiding-principles-eleven-rings-the-soul-of-success-by-phil-jackson",
         "https://acoachsdiary.blogspot.com/2015/05/phil-jackson-circle-of-love.html",
         "https://sobrief.com/books/eleven-rings"
-      ]
+      ],
+      "image_query": "basketball team huddle hands"
     },
     {
       "book_id": "b_moneyball",
@@ -753,7 +792,8 @@
       "sources": [
         "https://www.coursehero.com/lit/Moneyball/chapter-2-summary/",
         "https://www.amazinavenue.com/2010/11/19/1825196/amazin-avenue-book-club-moneyball-chapter-two"
-      ]
+      ],
+      "image_query": "laptop baseball statistics"
     },
     {
       "book_id": "b_moneyball",
@@ -772,7 +812,8 @@
       "sources": [
         "https://www.litcharts.com/lit/moneyball/chapter-3-the-enlightenment",
         "https://www.shortform.com/blog/bill-james-moneyball/"
-      ]
+      ],
+      "image_query": "spreadsheet baseball statistics"
     },
     {
       "book_id": "b_moneyball",
@@ -791,7 +832,8 @@
       "sources": [
         "https://www.litcharts.com/lit/moneyball/chapter-4-field-of-ignorance",
         "https://www.hrmaturity.com/talent-stats-a-book-review-of-moneyball-by-michael-lewis/"
-      ]
+      ],
+      "image_query": "baseball scouts stadium seats"
     },
     {
       "book_id": "b_inner_game_of_tennis",
@@ -810,7 +852,8 @@
       "sources": [
         "https://grahammann.net/book-notes/the-inner-game-of-tennis-timothy-gallwey",
         "https://getonwithit.blog/2024/02/28/self-1-and-self-2/"
-      ]
+      ],
+      "image_query": "tennis player mirror reflection"
     },
     {
       "book_id": "b_inner_game_of_tennis",
@@ -829,7 +872,8 @@
       "sources": [
         "https://www.nateliason.com/notes/inner-game-of-tennis-w-timothy-gallwey",
         "https://emeritus.org/videos/the-inner-game-of-tennis-summary-chapter-3/"
-      ]
+      ],
+      "image_query": "tennis serve motion blur"
     },
     {
       "book_id": "b_inner_game_of_tennis",
@@ -848,7 +892,8 @@
       "sources": [
         "https://www.shortform.com/summary/the-inner-game-of-tennis-summary-w-timothy-gallwey",
         "https://www.sloww.co/inner-game-tennis/"
-      ]
+      ],
+      "image_query": "tennis ball seams close-up"
     },
     {
       "book_id": "b_range",
@@ -867,7 +912,8 @@
       "sources": [
         "https://commoncog.com/range-book-summary/",
         "https://www.driverlesscrocodile.com/books-and-recommendations/david-epstein-on-kind-and-wicked-learning-environments/"
-      ]
+      ],
+      "image_query": "chess board tournament"
     },
     {
       "book_id": "b_range",
@@ -886,7 +932,8 @@
       "sources": [
         "https://feedingcuriosity.net/blueprint-range/chapter-3",
         "https://www.linkedin.com/pulse/range-when-less-same-more-sneha-gupta"
-      ]
+      ],
+      "image_query": "youth sampling sports gear"
     },
     {
       "book_id": "b_range",
@@ -905,7 +952,8 @@
       "sources": [
         "https://feedingcuriosity.net/blueprint-range/chapter-4",
         "https://zettelkasten.de/posts/david-epstein-range-episode-5/"
-      ]
+      ],
+      "image_query": "textbook highlighter studying"
     },
     {
       "book_id": "b_legacy",
@@ -924,7 +972,8 @@
       "sources": [
         "https://cove.army.gov.au/article/legacy-what-all-blacks-can-teach-us-about-business-life-james-kerr",
         "https://medium.com/@razbachar/legacy-15-lessons-in-leadership-by-james-kerr-book-review-d5f7d362a755"
-      ]
+      ],
+      "image_query": "rugby ball field play"
     },
     {
       "book_id": "b_legacy",
@@ -943,7 +992,8 @@
       "sources": [
         "https://www.shortform.com/blog/james-kerr-legacy-book/",
         "https://www.zilvold.com/blog-allblacks-lessons/"
-      ]
+      ],
+      "image_query": "captain armband jersey"
     },
     {
       "book_id": "b_legacy",
@@ -962,7 +1012,8 @@
       "sources": [
         "https://cove.army.gov.au/article/legacy-what-all-blacks-can-teach-us-about-business-life-james-kerr",
         "https://www.linkedin.com/pulse/legacy-15-lessons-leadership-james-kerr-what-all-blacks-epelle"
-      ]
+      ],
+      "image_query": "war dance performance"
     },
     {
       "book_id": "b_peak",
@@ -981,7 +1032,8 @@
       "sources": [
         "https://readingraphics.com/book-summary-peak/",
         "https://onlinelibrary.wiley.com/doi/full/10.1002/hipo.23395"
-      ]
+      ],
+      "image_query": "london black taxi cab"
     },
     {
       "book_id": "b_peak",
@@ -1000,7 +1052,8 @@
       "sources": [
         "https://commoncog.com/peak-book-summary/",
         "https://medium.com/@brijsethi/peak-anders-ericsson-robert-pool-book-summary-c998bbeb1597"
-      ]
+      ],
+      "image_query": "chess board pieces pattern"
     },
     {
       "book_id": "b_peak",
@@ -1019,7 +1072,8 @@
       "sources": [
         "https://readingraphics.com/book-summary-peak/",
         "https://mathblog.com/book-review-peak-secrets-from-the-new-science-of-expertise/"
-      ]
+      ],
+      "image_query": "violin sheet music practice"
     },
     {
       "book_id": "b_eleven_rings",
@@ -1038,7 +1092,8 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Triangle_offense",
         "https://thepowermoves.com/eleven-rings/"
-      ]
+      ],
+      "image_query": "basketball court diagram play"
     },
     {
       "book_id": "b_eleven_rings",
@@ -1057,7 +1112,8 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Triangle_offense",
         "https://www.amazon.com/Eleven-Rings-Success-Phil-Jackson/dp/1594205116"
-      ]
+      ],
+      "image_query": "basketball coach whiteboard"
     },
     {
       "book_id": "b_eleven_rings",
@@ -1076,7 +1132,8 @@
       "sources": [
         "https://www.theemotionmachine.com/10-lessons-in-zen-leadership-practiced-by-legendary-coach-phil-jackson/",
         "https://nabilmurad.substack.com/p/eleven-rings-by-phil-jackson-book"
-      ]
+      ],
+      "image_query": "meditation circle sitting"
     }
   ]
 }

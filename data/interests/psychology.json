@@ -3,7 +3,10 @@
   "name_he": "פסיכולוגיה והתנהגות אנושית",
   "name_en": "Psychology & Human Behavior",
   "tagline_he": "להבין למה אנשים (וגם אתה) חושבים, מרגישים ומתנהגים כפי שהם — ולהשתמש בזה כדי להחליט, להשפיע ולחיות טוב יותר.",
-  "book_list_source": { "name": "Five Books – Best Psychology Books (expert recommendations)", "url": "https://fivebooks.com/category/psychology/" },
+  "book_list_source": {
+    "name": "Five Books – Best Psychology Books (expert recommendations)",
+    "url": "https://fivebooks.com/category/psychology/"
+  },
   "books": [
     {
       "id": "b_thinking_fast_and_slow",
@@ -12,7 +15,8 @@
       "author": "Daniel Kahneman",
       "year": 2011,
       "why_he": "הספר שהפך את חקר ההטיות הקוגניטיביות לשפה משותפת — מערכת 1 ומערכת 2 הן הבסיס לכל דיון על קבלת החלטות.",
-      "chapters_total": 38
+      "chapters_total": 38,
+      "image_query": "chess player concentrating"
     },
     {
       "id": "b_influence",
@@ -20,7 +24,8 @@
       "title_he": "השפעה: הפסיכולוגיה של השכנוע",
       "author": "Robert B. Cialdini",
       "year": 1984,
-      "why_he": "הספר הקלאסי על עקרונות השכנוע — הדדיות, מחויבות, הוכחה חברתית, חיבה, סמכות ומחסור — שמסביר למה אנחנו אומרים 'כן'."
+      "why_he": "הספר הקלאסי על עקרונות השכנוע — הדדיות, מחויבות, הוכחה חברתית, חיבה, סמכות ומחסור — שמסביר למה אנחנו אומרים 'כן'.",
+      "image_query": "door to door salesman"
     },
     {
       "id": "b_mans_search_for_meaning",
@@ -28,7 +33,8 @@
       "title_he": "האדם מחפש משמעות",
       "author": "Viktor E. Frankl",
       "year": 1946,
-      "why_he": "עדות ותורה פסיכולוגית מתוך מחנות הריכוז שמראה שגם בסבל קיצוני האדם שומר על חופש הבחירה ועל הצורך במשמעות."
+      "why_he": "עדות ותורה פסיכולוגית מתוך מחנות הריכוז שמראה שגם בסבל קיצוני האדם שומר על חופש הבחירה ועל הצורך במשמעות.",
+      "image_query": "barbed wire fence"
     },
     {
       "id": "b_body_keeps_the_score",
@@ -37,7 +43,8 @@
       "author": "Bessel van der Kolk",
       "year": 2014,
       "why_he": "הספר שהגדיר מחדש את הבנת הטראומה — כיצד היא נרשמת במוח ובגוף ואילו דרכי ריפוי באמת עובדות.",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "human spine anatomy model"
     },
     {
       "id": "b_emotional_intelligence",
@@ -46,7 +53,8 @@
       "author": "Daniel Goleman",
       "year": 1995,
       "why_he": "הספר שהכניס את המושג 'אינטליגנציה רגשית' לשיח הציבורי והראה שניהול רגשות חשוב להצלחה לא פחות מ-IQ.",
-      "chapters_total": 16
+      "chapters_total": 16,
+      "image_query": "brain anatomy model"
     },
     {
       "id": "b_predictably_irrational",
@@ -55,7 +63,8 @@
       "author": "Dan Ariely",
       "year": 2008,
       "why_he": "חוקר ישראלי-אמריקאי מראה בניסויים מבריקים שאנחנו לא-רציונליים בדרכים עקביות וניתנות לחיזוי.",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "price tag sale sign"
     },
     {
       "id": "b_grit",
@@ -64,7 +73,8 @@
       "author": "Angela Duckworth",
       "year": 2016,
       "why_he": "מחקר פורץ דרך שמראה שהתמדה ותשוקה לטווח ארוך מנבאות הצלחה יותר מכישרון.",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "marathon finish line"
     },
     {
       "id": "b_happiness_hypothesis",
@@ -73,7 +83,8 @@
       "author": "Jonathan Haidt",
       "year": 2006,
       "why_he": "חיבור בין חוכמה עתיקה לפסיכולוגיה מודרנית, עם דימוי הרוכב והפיל שמסביר את המאבק בין ההיגיון לרגש.",
-      "chapters_total": 11
+      "chapters_total": 11,
+      "image_query": "elephant and rider"
     },
     {
       "id": "b_righteous_mind",
@@ -82,7 +93,8 @@
       "author": "Jonathan Haidt",
       "year": 2012,
       "why_he": "הסבר פסיכולוגי לשאלה למה אנשים טובים חלוקים כל כך בפוליטיקה ובדת — האינטואיציה קודמת, הנימוק מגיע אחריה.",
-      "chapters_total": 12
+      "chapters_total": 12,
+      "image_query": "political rally crowd"
     },
     {
       "id": "b_anxious_generation",
@@ -90,7 +102,8 @@
       "title_he": "הדור החרד",
       "author": "Jonathan Haidt",
       "year": 2024,
-      "why_he": "הטענה המשפיעה ביותר של העשור על הקשר בין סמארטפונים ורשתות חברתיות לבין משבר בריאות הנפש של בני הנוער."
+      "why_he": "הטענה המשפיעה ביותר של העשור על הקשר בין סמארטפונים ורשתות חברתיות לבין משבר בריאות הנפש של בני הנוער.",
+      "image_query": "teenager smartphone bedroom"
     },
     {
       "id": "b_daring_greatly",
@@ -98,7 +111,8 @@
       "title_he": "להעז בגדול",
       "author": "Brené Brown",
       "year": 2012,
-      "why_he": "הספר שהפך את הפגיעות מחולשה למקור של אומץ, חיבור ויצירתיות, על בסיס מחקר איכותני של שנים."
+      "why_he": "הספר שהפך את הפגיעות מחולשה למקור של אומץ, חיבור ויצירתיות, על בסיס מחקר איכותני של שנים.",
+      "image_query": "arena spectator stands"
     },
     {
       "id": "b_give_and_take",
@@ -107,7 +121,8 @@
       "author": "Adam Grant",
       "year": 2013,
       "why_he": "מחקר ארגוני שמראה שנותנים — לא לוקחים — נמצאים בראש סולם ההצלחה, אם הם נותנים בחוכמה.",
-      "chapters_total": 9
+      "chapters_total": 9,
+      "image_query": "volunteers helping hands"
     },
     {
       "id": "b_think_again",
@@ -116,7 +131,8 @@
       "author": "Adam Grant",
       "year": 2021,
       "why_he": "מדריך לחשיבה מחדש ולשינוי דעה — היכולת לומר 'טעיתי' כמיומנות חשובה בעולם משתנה.",
-      "chapters_total": 11
+      "chapters_total": 11,
+      "image_query": "eraser pencil mistake"
     },
     {
       "id": "b_mindset",
@@ -125,7 +141,8 @@
       "author": "Carol S. Dweck",
       "year": 2006,
       "why_he": "ההבחנה בין דפוס חשיבה מקובע לדפוס חשיבה מתפתח שינתה את החינוך, הניהול והספורט.",
-      "chapters_total": 8
+      "chapters_total": 8,
+      "image_query": "seedling growing soil"
     },
     {
       "id": "b_flow",
@@ -134,7 +151,8 @@
       "author": "Mihaly Csikszentmihalyi",
       "year": 1990,
       "why_he": "הספר שהגדיר את מצב ה'זרימה' — ההתמקדות המוחלטת שהופכת עבודה ופנאי למקור אושר.",
-      "chapters_total": 10
+      "chapters_total": 10,
+      "image_query": "surfer riding wave"
     },
     {
       "id": "b_stumbling_on_happiness",
@@ -142,7 +160,8 @@
       "title_he": "נתקלים באושר",
       "author": "Daniel Gilbert",
       "year": 2006,
-      "why_he": "פסיכולוג מהרווארד מסביר בהומור למה אנחנו גרועים כל כך בחיזוי מה יעשה אותנו מאושרים."
+      "why_he": "פסיכולוג מהרווארד מסביר בהומור למה אנחנו גרועים כל כך בחיזוי מה יעשה אותנו מאושרים.",
+      "image_query": "crystal ball fortune teller"
     },
     {
       "id": "b_drive",
@@ -150,7 +169,8 @@
       "title_he": "מוטיבציה: האמת המפתיעה על מה שמניע אותנו",
       "author": "Daniel H. Pink",
       "year": 2009,
-      "why_he": "סינתזה נגישה של מחקרי המוטיבציה: אוטונומיה, מיומנות ותכלית מניעות יותר ממקל וגזר."
+      "why_he": "סינתזה נגישה של מחקרי המוטיבציה: אוטונומיה, מיומנות ותכלית מניעות יותר ממקל וגזר.",
+      "image_query": "artist painting studio"
     },
     {
       "id": "b_power_of_habit",
@@ -159,7 +179,8 @@
       "author": "Charles Duhigg",
       "year": 2012,
       "why_he": "הסבר של לולאת ההרגל — רמז, שגרה, גמול — שהפך את מדע ההרגלים לכלי מעשי לכל אחד.",
-      "chapters_total": 9
+      "chapters_total": 9,
+      "image_query": "coffee cup morning routine"
     },
     {
       "id": "b_atomic_habits",
@@ -168,7 +189,8 @@
       "author": "James Clear",
       "year": 2018,
       "why_he": "ספר ההרגלים הנמכר ביותר בעולם — שיטה פשוטה לבניית שינויים קטנים שמצטברים לתוצאות גדולות.",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "dominoes falling chain"
     },
     {
       "id": "b_how_emotions_are_made",
@@ -177,7 +199,8 @@
       "author": "Lisa Feldman Barrett",
       "year": 2017,
       "why_he": "תיאוריית הרגש הנבנה — הרגשות אינם תגובות מולדות אלא חיזויים שהמוח בונה, וזה משנה איך אפשר לנהל אותם.",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "kaleidoscope colors"
     },
     {
       "id": "b_quiet",
@@ -186,7 +209,8 @@
       "author": "Susan Cain",
       "year": 2012,
       "why_he": "הספר שהחזיר למופנמים את הכבוד והראה את הערך של שקט, הקשבה ועומק בעולם שמעריץ מוחצנות.",
-      "chapters_total": 11
+      "chapters_total": 11,
+      "image_query": "person reading alone library"
     },
     {
       "id": "b_nudge",
@@ -194,7 +218,8 @@
       "title_he": "דחיפה קלה",
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "year": 2008,
-      "why_he": "הספר שהפך את הכלכלה ההתנהגותית למדיניות — איך ארכיטקטורת בחירה משפיעה על החלטות מבלי לכפות."
+      "why_he": "הספר שהפך את הכלכלה ההתנהגותית למדיניות — איך ארכיטקטורת בחירה משפיעה על החלטות מבלי לכפות.",
+      "image_query": "cafeteria food tray line"
     },
     {
       "id": "b_blank_slate",
@@ -202,7 +227,8 @@
       "title_he": "הלוח החלק",
       "author": "Steven Pinker",
       "year": 2002,
-      "why_he": "טיעון חד נגד הרעיון שהאדם נולד 'לוח חלק' — הטבע האנושי קיים ומעצב את ההתנהגות שלנו."
+      "why_he": "טיעון חד נגד הרעיון שהאדם נולד 'לוח חלק' — הטבע האנושי קיים ומעצב את ההתנהגות שלנו.",
+      "image_query": "newborn baby crib"
     },
     {
       "id": "b_mating_in_captivity",
@@ -210,7 +236,8 @@
       "title_he": "זוגיות בשבי: תשוקה ואינטימיות",
       "author": "Esther Perel",
       "year": 2006,
-      "why_he": "הספר שהציב את המתח בין ביטחון לתשוקה במרכז השיח על זוגיות ארוכת טווח."
+      "why_he": "הספר שהציב את המתח בין ביטחון לתשוקה במרכז השיח על זוגיות ארוכת טווח.",
+      "image_query": "candlelit dinner couple"
     },
     {
       "id": "b_attached",
@@ -218,7 +245,8 @@
       "title_he": "מחוברים: מדע ההתקשרות בזוגיות",
       "author": "Amir Levine & Rachel Heller",
       "year": 2010,
-      "why_he": "הספר שהנגיש את תיאוריית ההתקשרות למבוגרים — חרד, נמנע ובטוח — ככלי להבנת מערכות יחסים."
+      "why_he": "הספר שהנגיש את תיאוריית ההתקשרות למבוגרים — חרד, נמנע ובטוח — ככלי להבנת מערכות יחסים.",
+      "image_query": "couple holding hands"
     },
     {
       "id": "b_lucifer_effect",
@@ -227,7 +255,8 @@
       "author": "Philip Zimbardo",
       "year": 2007,
       "why_he": "מחבר ניסוי הכלא של סטנפורד מסביר איך מצבים ומערכות הופכים אנשים רגילים לאכזריים.",
-      "chapters_total": 16
+      "chapters_total": 16,
+      "image_query": "prison cell bars"
     },
     {
       "id": "b_obedience_to_authority",
@@ -235,7 +264,8 @@
       "title_he": "ציות לסמכות",
       "author": "Stanley Milgram",
       "year": 1974,
-      "why_he": "הדיווח המקורי על ניסויי הציות המפורסמים ביותר בפסיכולוגיה החברתית — עד כמה רחוק אנשים ילכו בפקודה."
+      "why_he": "הדיווח המקורי על ניסויי הציות המפורסמים ביותר בפסיכולוגיה החברתית — עד כמה רחוק אנשים ילכו בפקודה.",
+      "image_query": "electric shock generator dial"
     },
     {
       "id": "b_behave",
@@ -244,7 +274,8 @@
       "author": "Robert M. Sapolsky",
       "year": 2017,
       "why_he": "סינתזה מונומנטלית של נוירוביולוגיה, הורמונים, התפתחות ותרבות שמסבירה כל התנהגות אנושית מרגע לפני ועד אלפי שנים אחורה.",
-      "chapters_total": 17
+      "chapters_total": 17,
+      "image_query": "human brain mri scan"
     },
     {
       "id": "b_nonviolent_communication",
@@ -252,7 +283,8 @@
       "title_he": "תקשורת לא אלימה",
       "author": "Marshall B. Rosenberg",
       "year": 1999,
-      "why_he": "שיטה מעשית לתקשורת של תצפית, רגש, צורך ובקשה שמשמשת במשפחות, ארגונים וגישור עולמי."
+      "why_he": "שיטה מעשית לתקשורת של תצפית, רגש, צורך ובקשה שמשמשת במשפחות, ארגונים וגישור עולמי.",
+      "image_query": "two people talking table"
     },
     {
       "id": "b_seven_principles_marriage",
@@ -260,7 +292,8 @@
       "title_he": "שבעת העקרונות לנישואים מוצלחים",
       "author": "John M. Gottman & Nan Silver",
       "year": 1999,
-      "why_he": "מבוסס על עשרות שנות תצפית ב'מעבדת האהבה' של גוטמן — מה באמת מבדיל זוגות שנשארים יחד."
+      "why_he": "מבוסס על עשרות שנות תצפית ב'מעבדת האהבה' של גוטמן — מה באמת מבדיל זוגות שנשארים יחד.",
+      "image_query": "wedding rings couple"
     }
   ],
   "leaders": [
@@ -646,7 +679,8 @@
         "https://yukaichou.com/readalong/op-book-insights-ch-1-characters-story-thinking-fast-slow/",
         "https://plasubtil.wordpress.com/2015/11/05/thinking-fast-and-slow-chapter-1-the-characters-of-the-story/",
         "https://www.scientificamerican.com/article/kahneman-excerpt-thinking-fast-and-slow/"
-      ]
+      ],
+      "image_query": "hare and tortoise race"
     },
     {
       "book_id": "b_influence",
@@ -667,7 +701,8 @@
         "https://www.supersummary.com/influence/chapter-1-summary/",
         "https://sites.google.com/site/724ecialdiniwiki/chapter-1-weapons-of-influence",
         "https://www.media-studies.ca/articles/influence.htm"
-      ]
+      ],
+      "image_query": "vending machine button press"
     },
     {
       "book_id": "b_mans_search_for_meaning",
@@ -687,7 +722,8 @@
         "https://www.litcharts.com/lit/man-s-search-for-meaning/experiences-in-a-concentration-camp",
         "https://www.sparknotes.com/lit/mans-search-for-meaning/summary-and-analysis/",
         "https://www.enotes.com/topics/mans-search-for-meaning/chapter-summaries"
-      ]
+      ],
+      "image_query": "empty train platform fog"
     },
     {
       "book_id": "b_body_keeps_the_score",
@@ -708,7 +744,8 @@
         "https://www.supersummary.com/the-body-keeps-the-score/part-1/",
         "https://doctorlib.org/travma/body-keeps-score/1.html",
         "https://www.penguinrandomhouse.ca/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/9780143127741/excerpt"
-      ]
+      ],
+      "image_query": "veteran combat boots"
     },
     {
       "book_id": "b_emotional_intelligence",
@@ -728,7 +765,8 @@
         "https://www.bookrags.com/studyguide-emotional-intelligence/chapanal001.html",
         "https://www.shortform.com/summary/emotional-intelligence-summary-daniel-goleman",
         "https://www.runn.io/blog/emotional-intelligence-summary"
-      ]
+      ],
+      "image_query": "startled deer forest"
     },
     {
       "book_id": "b_predictably_irrational",
@@ -749,7 +787,8 @@
         "https://readingraphics.com/book-summary-predictably-irrational/",
         "https://dansilvestre.com/summaries/predictably-irrational-summary/",
         "https://en.wikipedia.org/wiki/Predictably_Irrational"
-      ]
+      ],
+      "image_query": "restaurant menu price list"
     },
     {
       "book_id": "b_thinking_fast_and_slow",
@@ -768,7 +807,8 @@
       "sources": [
         "https://tcagley.wordpress.com/2019/05/04/thinking-fast-and-slow-by-daniel-kahneman-re-read-week-3-chapter-2-attention-and-effort/",
         "https://medium.com/@wealthyliving/decoding-human-thought-a-summary-of-thinking-fast-and-slow-858723bf94e2"
-      ]
+      ],
+      "image_query": "juggler balancing balls"
     },
     {
       "book_id": "b_thinking_fast_and_slow",
@@ -787,7 +827,8 @@
       "sources": [
         "https://plasubtil.wordpress.com/2015/11/19/thinking-fast-and-slow-chapter-3-the-lazy-controller/",
         "https://tcagley.wordpress.com/2019/05/11/thinking-fast-and-slow-by-daniel-kahneman-re-read-week-4-chapter-3-the-lazy-controller/"
-      ]
+      ],
+      "image_query": "sleeping cat couch"
     },
     {
       "book_id": "b_thinking_fast_and_slow",
@@ -806,7 +847,8 @@
       "sources": [
         "https://www.litcharts.com/lit/thinking-fast-and-slow/part-1-chapter-4",
         "https://akashrathiblog.wordpress.com/2024/02/10/ch-4-the-associative-machine/"
-      ]
+      ],
+      "image_query": "scrabble tiles word"
     },
     {
       "book_id": "b_influence",
@@ -825,7 +867,8 @@
       "sources": [
         "https://theprocesshacker.com/blog/influence-book-summary",
         "https://grahammann.net/book-notes/influence-robert-cialdini"
-      ]
+      ],
+      "image_query": "gift box ribbon"
     },
     {
       "book_id": "b_influence",
@@ -844,7 +887,8 @@
       "sources": [
         "https://scottfenstermaker.com/the-six-weapons-of-influence-part-2-commitment-and-consistency/",
         "https://www.coursehero.com/lit/Influence-The-Psychology-of-Persuasion/chapter-3-summary/"
-      ]
+      ],
+      "image_query": "signature contract pen"
     },
     {
       "book_id": "b_influence",
@@ -863,7 +907,8 @@
       "sources": [
         "https://www.supersummary.com/influence/chapter-4-summary/",
         "https://medium.com/@pranamyjain_/influence-the-psychology-of-persuasion-chapter-4-social-proof-90c02ce1b82e"
-      ]
+      ],
+      "image_query": "long queue line people"
     },
     {
       "book_id": "b_mans_search_for_meaning",
@@ -882,7 +927,8 @@
       "sources": [
         "https://www.litcharts.com/lit/man-s-search-for-meaning/logotherapy-in-a-nutshell-the-essence-of-existence",
         "https://gettherapybirmingham.com/viktor-frankl-finding-meaning-in-the-face-of-suffering/"
-      ]
+      ],
+      "image_query": "compass in hand"
     },
     {
       "book_id": "b_mans_search_for_meaning",
@@ -901,7 +947,8 @@
       "sources": [
         "https://www.litcharts.com/lit/man-s-search-for-meaning/logotherapy-in-a-nutshell-the-meaning-of-suffering",
         "https://gettherapybirmingham.com/viktor-frankl-finding-meaning-in-the-face-of-suffering/"
-      ]
+      ],
+      "image_query": "mountain climber struggle"
     },
     {
       "book_id": "b_mans_search_for_meaning",
@@ -920,7 +967,8 @@
       "sources": [
         "https://www.enotes.com/topics/mans-search-for-meaning/chapter-summaries/postscript-case-tragic-optimism-summary",
         "https://reasonandmeaning.com/2017/03/03/summary-of-victor-frankls-tragic-optimism/"
-      ]
+      ],
+      "image_query": "sunrise over mountains"
     },
     {
       "book_id": "b_body_keeps_the_score",
@@ -939,7 +987,8 @@
       "sources": [
         "https://medium.com/@theprofessional68/book-summary-the-body-keeps-the-score-brain-mind-and-body-in-the-healing-of-trauma-dfeaba28b6c6",
         "https://www.supersummary.com/the-body-keeps-the-score/part-2/"
-      ]
+      ],
+      "image_query": "pill bottle prescription"
     },
     {
       "book_id": "b_body_keeps_the_score",
@@ -958,7 +1007,8 @@
       "sources": [
         "https://www.sparknotes.com/lit/the-body-keeps-the-score/summary-and-analysis/",
         "https://tarlowlab.com/2019/10/02/the-body-keeps-the-score-chapters-2-and-3/"
-      ]
+      ],
+      "image_query": "mri brain scan machine"
     },
     {
       "book_id": "b_body_keeps_the_score",
@@ -977,7 +1027,8 @@
       "sources": [
         "https://medium.com/@bookey.en/the-body-keeps-the-score-explained-a-speedy-overview-for-you-38e53fca4f70",
         "https://www.bookrags.com/studyguide-the-body-keeps-the-score-brain-mind-and-body-in-the-healing-of-trauma/chapanal005.html"
-      ]
+      ],
+      "image_query": "child running street"
     },
     {
       "book_id": "b_emotional_intelligence",
@@ -996,7 +1047,8 @@
       "sources": [
         "https://www.simplypsychology.org/amygdala-hijack.html",
         "https://study.com/academy/lesson/emotional-intelligence-amygdala-hijacking.html"
-      ]
+      ],
+      "image_query": "fire alarm flashing light"
     },
     {
       "book_id": "b_emotional_intelligence",
@@ -1015,7 +1067,8 @@
       "sources": [
         "https://readingraphics.com/book-summary-emotional-intelligence-daniel-goleman/",
         "https://parentotheca.com/2021/07/16/emotional-intelligence-daniel-goleman-summary/"
-      ]
+      ],
+      "image_query": "person looking mirror"
     },
     {
       "book_id": "b_emotional_intelligence",
@@ -1034,7 +1087,8 @@
       "sources": [
         "https://medium.com/@admin_64419/emotional-intelligence-why-it-fails-to-cause-success-9ae5aca30be6",
         "https://journals.ku.edu/amsj/article/download/4779/5991/12470"
-      ]
+      ],
+      "image_query": "marshmallow plate child"
     },
     {
       "book_id": "b_predictably_irrational",
@@ -1053,7 +1107,8 @@
       "sources": [
         "http://www.barelkarsan.com/2011/12/predictably-irrational-chapter-2.html",
         "https://alinadenisenko.wordpress.com/2014/09/28/the-fallacy-of-supply-and-demand-ch-2-25-53/"
-      ]
+      ],
+      "image_query": "auction gavel paddle"
     },
     {
       "book_id": "b_predictably_irrational",
@@ -1072,7 +1127,8 @@
       "sources": [
         "https://www.coursehero.com/lit/Predictably-Irrational/chapter-2-summary/",
         "https://medium.com/@ashkanentezari/summary-of-predictably-irrational-76a3a2964e"
-      ]
+      ],
+      "image_query": "free samples table"
     },
     {
       "book_id": "b_predictably_irrational",
@@ -1091,7 +1147,8 @@
       "sources": [
         "https://the7circles.uk/predictably-irrational-2-social-norms-arousal-procrastination-and-ownership/",
         "https://www.studocu.com/en-us/document/saddleback-college/principles-micro/predictably-irrational-chapter-4-notes/9111808"
-      ]
+      ],
+      "image_query": "neighbor helping moving boxes"
     }
   ]
 }

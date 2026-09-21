@@ -3,38 +3,284 @@
   "name_he": "עסקים, יזמות ומנהיגות",
   "name_en": "Business, Entrepreneurship & Leadership",
   "tagline_he": "איך בונים חברה, מוכרים רעיון, מנהלים אנשים ומנצחים בשוק – מהמייסדים והחוקרים שעשו את זה בפועל",
-  "book_list_source": { "name": "Porchlight Book Company – The 100 Best Business Books of All Time", "url": "https://www.porchlightbooks.com/pages/100-best-business-books-of-all-time" },
+  "book_list_source": {
+    "name": "Porchlight Book Company – The 100 Best Business Books of All Time",
+    "url": "https://www.porchlightbooks.com/pages/100-best-business-books-of-all-time"
+  },
   "books": [
-    { "id": "b_the_lean_startup", "title": "The Lean Startup", "title_he": "הסטארטאפ הרזה", "author": "Eric Ries", "year": 2011, "why_he": "הספר שהפך את 'בנה-מדוד-למד' ואת ה-MVP לשפה המשותפת של כל חברת הזנק בעולם.", "chapters_total": 14 },
-    { "id": "b_zero_to_one", "title": "Zero to One", "title_he": "אפס לאחד", "author": "Peter Thiel", "year": 2014, "why_he": "טענה חדה ומעוררת מחלוקת: חברות גדולות נבנות על יצירת משהו חדש, לא על העתקה של מה שכבר עובד.", "chapters_total": 14 },
-    { "id": "b_good_to_great", "title": "Good to Great", "title_he": "גלגל התנופה: מטוב למצוין", "author": "Jim Collins", "year": 2001, "why_he": "מחקר בן חמש שנים שמסביר למה חברות טובות נשארות טובות ומה מבדיל את המעטות שנעשות מצוינות.", "chapters_total": 9 },
-    { "id": "b_the_hard_thing_about_hard_things", "title": "The Hard Thing About Hard Things", "title_he": "הדבר הקשה בדברים הקשים", "author": "Ben Horowitz", "year": 2014, "why_he": "המדריך הכן ביותר לניהול חברה כשאין תשובות קלות – פיטורים, משברים ולילות ללא שינה.", "chapters_total": 9 },
-    { "id": "b_never_split_the_difference", "title": "Never Split the Difference", "author": "Chris Voss", "year": 2016, "why_he": "מו\"מ של חטופים ב-FBI הופך לשיטה מעשית שעובדת גם על משכורת, חוזה או לקוח.", "chapters_total": 10 },
-    { "id": "b_high_output_management", "title": "High Output Management", "author": "Andrew S. Grove", "year": 1983, "why_he": "מנכ\"ל אינטל מסביר ניהול כמערכת ייצור – הספר שמנהלי עמק הסיליקון עדיין מחלקים לכל מנהל חדש.", "chapters_total": 16 },
-    { "id": "b_built_to_last", "title": "Built to Last", "title_he": "בנויות לנצח", "author": "Jim Collins & Jerry I. Porras", "year": 1994, "why_he": "מה משותף לחברות ששרדו עשרות שנים: אידאולוגיית ליבה יציבה ונכונות לשנות הכול מסביבה." },
-    { "id": "b_blue_ocean_strategy", "title": "Blue Ocean Strategy", "title_he": "אסטרטגיית האוקיינוס הכחול", "author": "W. Chan Kim & Renée Mauborgne", "year": 2005, "why_he": "במקום להילחם בשוק אדום ורווי, צרו שוק חדש שבו התחרות אינה רלוונטית." },
-    { "id": "b_the_e_myth_revisited", "title": "The E-Myth Revisited", "title_he": "מיתוס היזם", "author": "Michael E. Gerber", "year": 1995, "why_he": "למה רוב העסקים הקטנים נכשלים – ולמה צריך לעבוד על העסק, לא רק בתוך העסק." },
-    { "id": "b_crossing_the_chasm", "title": "Crossing the Chasm", "title_he": "לחצות את התהום", "author": "Geoffrey A. Moore", "year": 1991, "why_he": "התנ\"ך של שיווק טכנולוגיה: איך לעבור מהמאמצים הראשונים אל השוק הרחב בלי ליפול לתהום שביניהם." },
-    { "id": "b_the_innovators_dilemma", "title": "The Innovator's Dilemma", "author": "Clayton M. Christensen", "year": 1997, "why_he": "התיאוריה של חדשנות משבשת: איך חברות מצוינות נכשלות דווקא כי הן מקשיבות ללקוחות שלהן." },
-    { "id": "b_start_with_why", "title": "Start with Why", "title_he": "להתחיל מה'למה'", "author": "Simon Sinek", "year": 2009, "why_he": "מעגל הזהב: אנשים לא קונים מה שאתה עושה, הם קונים למה אתה עושה את זה." },
-    { "id": "b_measure_what_matters", "title": "Measure What Matters", "title_he": "למדוד את מה שחשוב", "author": "John Doerr", "year": 2018, "why_he": "שיטת ה-OKR שגוגל אימצה מאינטל – איך להפוך יעדים גדולים לתוצאות מדידות." },
-    { "id": "b_shoe_dog", "title": "Shoe Dog", "title_he": "שו דוג", "author": "Phil Knight", "year": 2016, "why_he": "זיכרונותיו של מייסד נייקי – סיפור יזמות גולמי, מלא פחד, חוב ועקשנות." },
-    { "id": "b_principles", "title": "Principles: Life and Work", "title_he": "עקרונות", "author": "Ray Dalio", "year": 2017, "why_he": "מייסד קרן הגידור הגדולה בעולם חושף את מערכת העקרונות שמאחורי ההחלטות שלו ושל הארגון." },
-    { "id": "b_the_effective_executive", "title": "The Effective Executive", "title_he": "המנהל האפקטיבי", "author": "Peter F. Drucker", "year": 1967, "why_he": "אבי הניהול המודרני על ההרגלים שהופכים מנהל ליעיל – ניהול זמן, החלטות ותרומה." },
-    { "id": "b_competitive_strategy", "title": "Competitive Strategy", "title_he": "אסטרטגיה תחרותית", "author": "Michael E. Porter", "year": 1980, "why_he": "חמשת הכוחות של פורטר – המסגרת הבסיסית לניתוח כל תעשייה ותחרות." },
-    { "id": "b_good_strategy_bad_strategy", "title": "Good Strategy Bad Strategy", "title_he": "אסטרטגיה טובה, אסטרטגיה רעה", "author": "Richard Rumelt", "year": 2011, "why_he": "רוב מה שנקרא אסטרטגיה הוא סיסמאות; רומלט מראה מה זו אסטרטגיה אמיתית: אבחון, מדיניות מנחה ופעולה קוהרנטית." },
-    { "id": "b_influence", "title": "Influence: The Psychology of Persuasion", "title_he": "השפעה: הפסיכולוגיה של השכנוע", "author": "Robert B. Cialdini", "year": 1984, "why_he": "ששת עקרונות השכנוע – הבסיס המדעי לכל מכירה, שיווק ומו\"מ." },
-    { "id": "b_getting_to_yes", "title": "Getting to Yes", "title_he": "להגיע ל'כן'", "author": "Roger Fisher & William Ury", "year": 1981, "why_he": "המו\"מ העקרוני מהרווארד: להתמקד באינטרסים ולא בעמדות, ולהמציא אפשרויות לרווח הדדי." },
-    { "id": "b_purple_cow", "title": "Purple Cow", "title_he": "הפרה הסגולה", "author": "Seth Godin", "year": 2003, "why_he": "בעולם רווי פרסום, הדרך היחידה להיראות היא להיות ראוי לציון – מוצר שמדברים עליו." },
-    { "id": "b_positioning", "title": "Positioning: The Battle for Your Mind", "title_he": "מיצוב: הקרב על התודעה", "author": "Al Ries & Jack Trout", "year": 1981, "why_he": "המושג 'מיצוב' נולד כאן: הקרב השיווקי מתרחש בראש של הלקוח, לא במוצר." },
-    { "id": "b_leaders_eat_last", "title": "Leaders Eat Last", "title_he": "מנהיגים אוכלים אחרונים", "author": "Simon Sinek", "year": 2014, "why_he": "מנהיגות כיצירת מעגל ביטחון – למה צוותים שמרגישים בטוחים משיגים יותר." },
-    { "id": "b_five_dysfunctions_of_a_team", "title": "The Five Dysfunctions of a Team", "title_he": "חמש הפרעות הצוות", "author": "Patrick Lencioni", "year": 2002, "why_he": "משל עסקי שחושף למה צוותי הנהלה נכשלים: היעדר אמון, פחד מקונפליקט וחוסר מחויבות." },
-    { "id": "b_radical_candor", "title": "Radical Candor", "title_he": "כנות רדיקלית", "author": "Kim Scott", "year": 2017, "why_he": "איך להיות בוס שאכפת לו באופן אישי ומאתגר באופן ישיר – בלי ליפול לאגרסיביות או לאמפתיה הרסנית." },
-    { "id": "b_blitzscaling", "title": "Blitzscaling", "title_he": "צמיחת בזק", "author": "Reid Hoffman & Chris Yeh", "year": 2018, "why_he": "מייסד לינקדאין על צמיחה מהירה במיוחד: מתי להעדיף מהירות על יעילות ואיך לשרוד את זה." },
-    { "id": "b_the_mom_test", "title": "The Mom Test", "title_he": "מבחן אמא", "author": "Rob Fitzpatrick", "year": 2013, "why_he": "ספר קצר ומעשי על איך לדבר עם לקוחות כך שגם אמא שלך לא תוכל לשקר לך על הרעיון." },
-    { "id": "b_only_the_paranoid_survive", "title": "Only the Paranoid Survive", "title_he": "רק הפרנואידים שורדים", "author": "Andrew S. Grove", "year": 1996, "why_he": "נקודות מפנה אסטרטגיות: איך גרוב זיהה שאינטל חייבת לנטוש זיכרונות ולעבור למעבדים." },
-    { "id": "b_no_rules_rules", "title": "No Rules Rules", "title_he": "אין חוקים – זה החוק", "author": "Reed Hastings & Erin Meyer", "year": 2020, "why_he": "תרבות נטפליקס מבפנים: צפיפות כישרון, כנות קיצונית והסרת בקרות." },
-    { "id": "b_start_up_nation", "title": "Start-up Nation", "title_he": "אומת חברת ההזנק", "author": "Dan Senor & Saul Singer", "year": 2009, "why_he": "הספר שהסביר לעולם למה ישראל מייצרת כל כך הרבה חברות טכנולוגיה – חובה לכל יזם ישראלי." }
+    {
+      "id": "b_the_lean_startup",
+      "title": "The Lean Startup",
+      "title_he": "הסטארטאפ הרזה",
+      "author": "Eric Ries",
+      "year": 2011,
+      "why_he": "הספר שהפך את 'בנה-מדוד-למד' ואת ה-MVP לשפה המשותפת של כל חברת הזנק בעולם.",
+      "chapters_total": 14,
+      "image_query": "garage startup office"
+    },
+    {
+      "id": "b_zero_to_one",
+      "title": "Zero to One",
+      "title_he": "אפס לאחד",
+      "author": "Peter Thiel",
+      "year": 2014,
+      "why_he": "טענה חדה ומעוררת מחלוקת: חברות גדולות נבנות על יצירת משהו חדש, לא על העתקה של מה שכבר עובד.",
+      "chapters_total": 14,
+      "image_query": "rocket launch pad"
+    },
+    {
+      "id": "b_good_to_great",
+      "title": "Good to Great",
+      "title_he": "גלגל התנופה: מטוב למצוין",
+      "author": "Jim Collins",
+      "year": 2001,
+      "why_he": "מחקר בן חמש שנים שמסביר למה חברות טובות נשארות טובות ומה מבדיל את המעטות שנעשות מצוינות.",
+      "chapters_total": 9,
+      "image_query": "flywheel spinning wheel"
+    },
+    {
+      "id": "b_the_hard_thing_about_hard_things",
+      "title": "The Hard Thing About Hard Things",
+      "title_he": "הדבר הקשה בדברים הקשים",
+      "author": "Ben Horowitz",
+      "year": 2014,
+      "why_he": "המדריך הכן ביותר לניהול חברה כשאין תשובות קלות – פיטורים, משברים ולילות ללא שינה.",
+      "chapters_total": 9,
+      "image_query": "captain ship storm"
+    },
+    {
+      "id": "b_never_split_the_difference",
+      "title": "Never Split the Difference",
+      "author": "Chris Voss",
+      "year": 2016,
+      "why_he": "מו\"מ של חטופים ב-FBI הופך לשיטה מעשית שעובדת גם על משכורת, חוזה או לקוח.",
+      "chapters_total": 10,
+      "image_query": "negotiating table handshake"
+    },
+    {
+      "id": "b_high_output_management",
+      "title": "High Output Management",
+      "author": "Andrew S. Grove",
+      "year": 1983,
+      "why_he": "מנכ\"ל אינטל מסביר ניהול כמערכת ייצור – הספר שמנהלי עמק הסיליקון עדיין מחלקים לכל מנהל חדש.",
+      "chapters_total": 16,
+      "image_query": "factory assembly line conveyor"
+    },
+    {
+      "id": "b_built_to_last",
+      "title": "Built to Last",
+      "title_he": "בנויות לנצח",
+      "author": "Jim Collins & Jerry I. Porras",
+      "year": 1994,
+      "why_he": "מה משותף לחברות ששרדו עשרות שנים: אידאולוגיית ליבה יציבה ונכונות לשנות הכול מסביבה.",
+      "image_query": "old stone building pillars"
+    },
+    {
+      "id": "b_blue_ocean_strategy",
+      "title": "Blue Ocean Strategy",
+      "title_he": "אסטרטגיית האוקיינוס הכחול",
+      "author": "W. Chan Kim & Renée Mauborgne",
+      "year": 2005,
+      "why_he": "במקום להילחם בשוק אדום ורווי, צרו שוק חדש שבו התחרות אינה רלוונטית.",
+      "image_query": "blue ocean water"
+    },
+    {
+      "id": "b_the_e_myth_revisited",
+      "title": "The E-Myth Revisited",
+      "title_he": "מיתוס היזם",
+      "author": "Michael E. Gerber",
+      "year": 1995,
+      "why_he": "למה רוב העסקים הקטנים נכשלים – ולמה צריך לעבוד על העסק, לא רק בתוך העסק.",
+      "image_query": "small business storefront"
+    },
+    {
+      "id": "b_crossing_the_chasm",
+      "title": "Crossing the Chasm",
+      "title_he": "לחצות את התהום",
+      "author": "Geoffrey A. Moore",
+      "year": 1991,
+      "why_he": "התנ\"ך של שיווק טכנולוגיה: איך לעבור מהמאמצים הראשונים אל השוק הרחב בלי ליפול לתהום שביניהם.",
+      "image_query": "canyon bridge gap"
+    },
+    {
+      "id": "b_the_innovators_dilemma",
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton M. Christensen",
+      "year": 1997,
+      "why_he": "התיאוריה של חדשנות משבשת: איך חברות מצוינות נכשלות דווקא כי הן מקשיבות ללקוחות שלהן.",
+      "image_query": "computer hard drive parts"
+    },
+    {
+      "id": "b_start_with_why",
+      "title": "Start with Why",
+      "title_he": "להתחיל מה'למה'",
+      "author": "Simon Sinek",
+      "year": 2009,
+      "why_he": "מעגל הזהב: אנשים לא קונים מה שאתה עושה, הם קונים למה אתה עושה את זה.",
+      "image_query": "archery target bullseye"
+    },
+    {
+      "id": "b_measure_what_matters",
+      "title": "Measure What Matters",
+      "title_he": "למדוד את מה שחשוב",
+      "author": "John Doerr",
+      "year": 2018,
+      "why_he": "שיטת ה-OKR שגוגל אימצה מאינטל – איך להפוך יעדים גדולים לתוצאות מדידות.",
+      "image_query": "dashboard gauges meters"
+    },
+    {
+      "id": "b_shoe_dog",
+      "title": "Shoe Dog",
+      "title_he": "שו דוג",
+      "author": "Phil Knight",
+      "year": 2016,
+      "why_he": "זיכרונותיו של מייסד נייקי – סיפור יזמות גולמי, מלא פחד, חוב ועקשנות.",
+      "image_query": "running shoes pavement"
+    },
+    {
+      "id": "b_principles",
+      "title": "Principles: Life and Work",
+      "title_he": "עקרונות",
+      "author": "Ray Dalio",
+      "year": 2017,
+      "why_he": "מייסד קרן הגידור הגדולה בעולם חושף את מערכת העקרונות שמאחורי ההחלטות שלו ושל הארגון.",
+      "image_query": "compass on map"
+    },
+    {
+      "id": "b_the_effective_executive",
+      "title": "The Effective Executive",
+      "title_he": "המנהל האפקטיבי",
+      "author": "Peter F. Drucker",
+      "year": 1967,
+      "why_he": "אבי הניהול המודרני על ההרגלים שהופכים מנהל ליעיל – ניהול זמן, החלטות ותרומה.",
+      "image_query": "office desk clock"
+    },
+    {
+      "id": "b_competitive_strategy",
+      "title": "Competitive Strategy",
+      "title_he": "אסטרטגיה תחרותית",
+      "author": "Michael E. Porter",
+      "year": 1980,
+      "why_he": "חמשת הכוחות של פורטר – המסגרת הבסיסית לניתוח כל תעשייה ותחרות.",
+      "image_query": "chess pieces board"
+    },
+    {
+      "id": "b_good_strategy_bad_strategy",
+      "title": "Good Strategy Bad Strategy",
+      "title_he": "אסטרטגיה טובה, אסטרטגיה רעה",
+      "author": "Richard Rumelt",
+      "year": 2011,
+      "why_he": "רוב מה שנקרא אסטרטגיה הוא סיסמאות; רומלט מראה מה זו אסטרטגיה אמיתית: אבחון, מדיניות מנחה ופעולה קוהרנטית.",
+      "image_query": "road map highway"
+    },
+    {
+      "id": "b_influence",
+      "title": "Influence: The Psychology of Persuasion",
+      "title_he": "השפעה: הפסיכולוגיה של השכנוע",
+      "author": "Robert B. Cialdini",
+      "year": 1984,
+      "why_he": "ששת עקרונות השכנוע – הבסיס המדעי לכל מכירה, שיווק ומו\"מ.",
+      "image_query": "door to door salesman"
+    },
+    {
+      "id": "b_getting_to_yes",
+      "title": "Getting to Yes",
+      "title_he": "להגיע ל'כן'",
+      "author": "Roger Fisher & William Ury",
+      "year": 1981,
+      "why_he": "המו\"מ העקרוני מהרווארד: להתמקד באינטרסים ולא בעמדות, ולהמציא אפשרויות לרווח הדדי.",
+      "image_query": "handshake agreement table"
+    },
+    {
+      "id": "b_purple_cow",
+      "title": "Purple Cow",
+      "title_he": "הפרה הסגולה",
+      "author": "Seth Godin",
+      "year": 2003,
+      "why_he": "בעולם רווי פרסום, הדרך היחידה להיראות היא להיות ראוי לציון – מוצר שמדברים עליו.",
+      "image_query": "purple cow field"
+    },
+    {
+      "id": "b_positioning",
+      "title": "Positioning: The Battle for Your Mind",
+      "title_he": "מיצוב: הקרב על התודעה",
+      "author": "Al Ries & Jack Trout",
+      "year": 1981,
+      "why_he": "המושג 'מיצוב' נולד כאן: הקרב השיווקי מתרחש בראש של הלקוח, לא במוצר.",
+      "image_query": "supermarket shelf products"
+    },
+    {
+      "id": "b_leaders_eat_last",
+      "title": "Leaders Eat Last",
+      "title_he": "מנהיגים אוכלים אחרונים",
+      "author": "Simon Sinek",
+      "year": 2014,
+      "why_he": "מנהיגות כיצירת מעגל ביטחון – למה צוותים שמרגישים בטוחים משיגים יותר.",
+      "image_query": "soldiers eating mess hall"
+    },
+    {
+      "id": "b_five_dysfunctions_of_a_team",
+      "title": "The Five Dysfunctions of a Team",
+      "title_he": "חמש הפרעות הצוות",
+      "author": "Patrick Lencioni",
+      "year": 2002,
+      "why_he": "משל עסקי שחושף למה צוותי הנהלה נכשלים: היעדר אמון, פחד מקונפליקט וחוסר מחויבות.",
+      "image_query": "empty boardroom table chairs"
+    },
+    {
+      "id": "b_radical_candor",
+      "title": "Radical Candor",
+      "title_he": "כנות רדיקלית",
+      "author": "Kim Scott",
+      "year": 2017,
+      "why_he": "איך להיות בוס שאכפת לו באופן אישי ומאתגר באופן ישיר – בלי ליפול לאגרסיביות או לאמפתיה הרסנית.",
+      "image_query": "coach feedback clipboard"
+    },
+    {
+      "id": "b_blitzscaling",
+      "title": "Blitzscaling",
+      "title_he": "צמיחת בזק",
+      "author": "Reid Hoffman & Chris Yeh",
+      "year": 2018,
+      "why_he": "מייסד לינקדאין על צמיחה מהירה במיוחד: מתי להעדיף מהירות על יעילות ואיך לשרוד את זה.",
+      "image_query": "sprinter running track"
+    },
+    {
+      "id": "b_the_mom_test",
+      "title": "The Mom Test",
+      "title_he": "מבחן אמא",
+      "author": "Rob Fitzpatrick",
+      "year": 2013,
+      "why_he": "ספר קצר ומעשי על איך לדבר עם לקוחות כך שגם אמא שלך לא תוכל לשקר לך על הרעיון.",
+      "image_query": "mother and child talking"
+    },
+    {
+      "id": "b_only_the_paranoid_survive",
+      "title": "Only the Paranoid Survive",
+      "title_he": "רק הפרנואידים שורדים",
+      "author": "Andrew S. Grove",
+      "year": 1996,
+      "why_he": "נקודות מפנה אסטרטגיות: איך גרוב זיהה שאינטל חייבת לנטוש זיכרונות ולעבור למעבדים.",
+      "image_query": "fork in road warning sign"
+    },
+    {
+      "id": "b_no_rules_rules",
+      "title": "No Rules Rules",
+      "title_he": "אין חוקים – זה החוק",
+      "author": "Reed Hastings & Erin Meyer",
+      "year": 2020,
+      "why_he": "תרבות נטפליקס מבפנים: צפיפות כישרון, כנות קיצונית והסרת בקרות.",
+      "image_query": "open office no walls"
+    },
+    {
+      "id": "b_start_up_nation",
+      "title": "Start-up Nation",
+      "title_he": "אומת חברת ההזנק",
+      "author": "Dan Senor & Saul Singer",
+      "year": 2009,
+      "why_he": "הספר שהסביר לעולם למה ישראל מייצרת כל כך הרבה חברות טכנולוגיה – חובה לכל יזם ישראלי.",
+      "image_query": "startup office whiteboard"
+    }
   ],
   "leaders": [
     {
@@ -44,9 +290,24 @@
       "role_he": "שותף-מייסד בקרן a16z, מחבר The Hard Thing About Hard Things",
       "why_he": "מנכ\"ל לשעבר שהפך למשקיע המוביל בעמק הסיליקון, וכותב על ניהול במשבר בכנות נדירה.",
       "videos": [
-        { "youtube_id": "9SLSN1iE6q4", "title": "Ben Horowitz — What You Do Is Who You Are | The Tim Ferriss Show", "source_url": "https://www.youtube.com/watch?v=9SLSN1iE6q4", "blurb_he": "שיחה ארוכה עם טים פריס על תרבות ארגונית וספרו 'What You Do Is Who You Are'." },
-        { "youtube_id": "URCUAj1bt28", "title": "Ben Horowitz: How to Lead Through Chaos, Doubt, and Pressure...", "source_url": "https://www.youtube.com/watch?v=URCUAj1bt28", "blurb_he": "הורוביץ חולק לקחים על הצלחה בחברות הזנק, פחד ועתיד הבינה המלאכותית." },
-        { "youtube_id": "dFT4xj57D7U", "title": "Ben Horowitz On What Makes a Great Founder", "source_url": "https://www.youtube.com/watch?v=dFT4xj57D7U", "blurb_he": "שיחה גלויה על מה שבאמת שובר מנכ\"לים מייסדים, ומה מבדיל את הטובים ביותר מכל השאר." }
+        {
+          "youtube_id": "9SLSN1iE6q4",
+          "title": "Ben Horowitz — What You Do Is Who You Are | The Tim Ferriss Show",
+          "source_url": "https://www.youtube.com/watch?v=9SLSN1iE6q4",
+          "blurb_he": "שיחה ארוכה עם טים פריס על תרבות ארגונית וספרו 'What You Do Is Who You Are'."
+        },
+        {
+          "youtube_id": "URCUAj1bt28",
+          "title": "Ben Horowitz: How to Lead Through Chaos, Doubt, and Pressure...",
+          "source_url": "https://www.youtube.com/watch?v=URCUAj1bt28",
+          "blurb_he": "הורוביץ חולק לקחים על הצלחה בחברות הזנק, פחד ועתיד הבינה המלאכותית."
+        },
+        {
+          "youtube_id": "dFT4xj57D7U",
+          "title": "Ben Horowitz On What Makes a Great Founder",
+          "source_url": "https://www.youtube.com/watch?v=dFT4xj57D7U",
+          "blurb_he": "שיחה גלויה על מה שבאמת שובר מנכ\"לים מייסדים, ומה מבדיל את הטובים ביותר מכל השאר."
+        }
       ]
     },
     {
@@ -56,8 +317,18 @@
       "role_he": "מייסד-שותף של LinkedIn, שותף ב-Greylock, מחבר Blitzscaling",
       "why_he": "ארכיטקט של רשתות וצמיחה מהירה, וממשקיעי הטכנולוגיה המשפיעים ביותר בעולם.",
       "videos": [
-        { "youtube_id": "PX8i8fcC5NQ", "title": "Reid Hoffman: Live Life in Permanent Beta [Entire Talk]", "source_url": "https://www.youtube.com/watch?v=PX8i8fcC5NQ", "blurb_he": "הרצאה מלאה בסטנפורד שבה הופמן קורא לכל אחד להיות היזם של החיים שלו." },
-        { "youtube_id": "hONyz7vJ7Vs", "title": "Reid Hoffman On AI, Superagency, And The Future Of Work", "source_url": "https://www.youtube.com/watch?v=hONyz7vJ7Vs", "blurb_he": "שיחה מ-2026 על בינה מלאכותית, 'סופר-אייג'נסי' ואיך העבודה והעסקים משתנים." }
+        {
+          "youtube_id": "PX8i8fcC5NQ",
+          "title": "Reid Hoffman: Live Life in Permanent Beta [Entire Talk]",
+          "source_url": "https://www.youtube.com/watch?v=PX8i8fcC5NQ",
+          "blurb_he": "הרצאה מלאה בסטנפורד שבה הופמן קורא לכל אחד להיות היזם של החיים שלו."
+        },
+        {
+          "youtube_id": "hONyz7vJ7Vs",
+          "title": "Reid Hoffman On AI, Superagency, And The Future Of Work",
+          "source_url": "https://www.youtube.com/watch?v=hONyz7vJ7Vs",
+          "blurb_he": "שיחה מ-2026 על בינה מלאכותית, 'סופר-אייג'נסי' ואיך העבודה והעסקים משתנים."
+        }
       ]
     },
     {
@@ -67,8 +338,18 @@
       "role_he": "סופר ומרצה על מנהיגות, מחבר Start with Why",
       "why_he": "הרצאת ה-TED שלו על 'מעגל הזהב' היא מהנצפות בהיסטוריה ושינתה איך מנהיגים מדברים על תכלית.",
       "videos": [
-        { "youtube_id": "qp0HIF3SfI4", "title": "How Great Leaders Inspire Action | Simon Sinek | TED", "source_url": "https://www.youtube.com/watch?v=qp0HIF3SfI4", "blurb_he": "הרצאת ה-TED הקלאסית על מעגל הזהב – להתחיל מה'למה' עם דוגמאות מאפל והאחים רייט." },
-        { "youtube_id": "lmyZMtPVodo", "title": "Why good leaders make you feel safe | Simon Sinek | TED", "source_url": "https://www.youtube.com/watch?v=lmyZMtPVodo", "blurb_he": "הרצאת TED מ-2014: מנהיג טוב הוא מי שגורם לעובדים להרגיש בטוחים ומכניס אותם למעגל אמון." }
+        {
+          "youtube_id": "qp0HIF3SfI4",
+          "title": "How Great Leaders Inspire Action | Simon Sinek | TED",
+          "source_url": "https://www.youtube.com/watch?v=qp0HIF3SfI4",
+          "blurb_he": "הרצאת ה-TED הקלאסית על מעגל הזהב – להתחיל מה'למה' עם דוגמאות מאפל והאחים רייט."
+        },
+        {
+          "youtube_id": "lmyZMtPVodo",
+          "title": "Why good leaders make you feel safe | Simon Sinek | TED",
+          "source_url": "https://www.youtube.com/watch?v=lmyZMtPVodo",
+          "blurb_he": "הרצאת TED מ-2014: מנהיג טוב הוא מי שגורם לעובדים להרגיש בטוחים ומכניס אותם למעגל אמון."
+        }
       ]
     },
     {
@@ -78,8 +359,18 @@
       "role_he": "הוגה שיווק, מחבר Purple Cow ו-This Is Marketing",
       "why_he": "מהקולות המשפיעים בשיווק המודרני – שיווק כסיפור, כשבט וכמשהו ראוי לציון.",
       "videos": [
-        { "youtube_id": "nAanAMFJ3iE", "title": "Seth Godin | The Song of Significance: A New Manifesto for Teams | Talks at Google", "source_url": "https://www.youtube.com/watch?v=nAanAMFJ3iE", "blurb_he": "שיחה בגוגל על ספרו 'The Song of Significance' – מניפסט חדש לצוותים ולעבודה משמעותית." },
-        { "youtube_id": "cPy-ZX2Y_f8", "title": "Seth Godin on Strategy and Marketing: Hard Talk and Painful Truths | CXOTalk #858", "source_url": "https://www.youtube.com/watch?v=cPy-ZX2Y_f8", "blurb_he": "גודין על אסטרטגיה ושיווק – שיחה ישירה עם אמיתות לא נוחות למנהלים." }
+        {
+          "youtube_id": "nAanAMFJ3iE",
+          "title": "Seth Godin | The Song of Significance: A New Manifesto for Teams | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=nAanAMFJ3iE",
+          "blurb_he": "שיחה בגוגל על ספרו 'The Song of Significance' – מניפסט חדש לצוותים ולעבודה משמעותית."
+        },
+        {
+          "youtube_id": "cPy-ZX2Y_f8",
+          "title": "Seth Godin on Strategy and Marketing: Hard Talk and Painful Truths | CXOTalk #858",
+          "source_url": "https://www.youtube.com/watch?v=cPy-ZX2Y_f8",
+          "blurb_he": "גודין על אסטרטגיה ושיווק – שיחה ישירה עם אמיתות לא נוחות למנהלים."
+        }
       ]
     },
     {
@@ -89,9 +380,24 @@
       "role_he": "לשעבר ראש צוות המו\"מ לחטופים ב-FBI, מחבר Never Split the Difference",
       "why_he": "הביא את טכניקות המו\"מ מזירת החטיפות לעולם העסקי והפך אותן לכלים שכל אחד יכול להפעיל.",
       "videos": [
-        { "youtube_id": "Pn4jUD3mc4o", "title": "Never Split the Difference | Negotiation Tactics | Live Chris Voss Interview", "source_url": "https://www.youtube.com/watch?v=Pn4jUD3mc4o", "blurb_he": "ראיון חי על ספרו 'Never Split the Difference' וטקטיקות המו\"מ שבו." },
-        { "youtube_id": "ouNudMCG1GA", "title": "Chris Voss: Interview with a Master Negotiator", "source_url": "https://www.youtube.com/watch?v=ouNudMCG1GA", "blurb_he": "שיחה עם ווס על כוחו של המו\"מ בעסקים ובחיים." },
-        { "youtube_id": "B1nxvT1sXOk", "title": "Negotiation and Closing, with former FBI hostage chief Chris Voss", "source_url": "https://www.youtube.com/watch?v=B1nxvT1sXOk", "blurb_he": "ווס על מסגרות מו\"מ וסגירת עסקאות שכל בעל עסק צריך להכיר." }
+        {
+          "youtube_id": "Pn4jUD3mc4o",
+          "title": "Never Split the Difference | Negotiation Tactics | Live Chris Voss Interview",
+          "source_url": "https://www.youtube.com/watch?v=Pn4jUD3mc4o",
+          "blurb_he": "ראיון חי על ספרו 'Never Split the Difference' וטקטיקות המו\"מ שבו."
+        },
+        {
+          "youtube_id": "ouNudMCG1GA",
+          "title": "Chris Voss: Interview with a Master Negotiator",
+          "source_url": "https://www.youtube.com/watch?v=ouNudMCG1GA",
+          "blurb_he": "שיחה עם ווס על כוחו של המו\"מ בעסקים ובחיים."
+        },
+        {
+          "youtube_id": "B1nxvT1sXOk",
+          "title": "Negotiation and Closing, with former FBI hostage chief Chris Voss",
+          "source_url": "https://www.youtube.com/watch?v=B1nxvT1sXOk",
+          "blurb_he": "ווס על מסגרות מו\"מ וסגירת עסקאות שכל בעל עסק צריך להכיר."
+        }
       ]
     },
     {
@@ -101,8 +407,18 @@
       "role_he": "מייסד-שותף ומנכ\"ל Stripe",
       "why_he": "בנה את אחת מחברות התשלומים הגדולות בעולם ונחשב לאחד היזמים החושבים והקוראים ביותר בדורו.",
       "videos": [
-        { "youtube_id": "KYApRziMikM", "title": "Patrick Collison recounts Stripe's darkest moment", "source_url": "https://www.youtube.com/watch?v=KYApRziMikM", "blurb_he": "קוליסון משחזר את הרגע הקשה ביותר בתולדות Stripe." },
-        { "youtube_id": "zQhI_lC-74w", "title": "Patrick Collison wants to cure the common cold | Interview", "source_url": "https://www.youtube.com/watch?v=zQhI_lC-74w", "blurb_he": "ראיון עם מנכ\"ל Stripe על חשיבה ארוכת טווח ועל בנייה." }
+        {
+          "youtube_id": "KYApRziMikM",
+          "title": "Patrick Collison recounts Stripe's darkest moment",
+          "source_url": "https://www.youtube.com/watch?v=KYApRziMikM",
+          "blurb_he": "קוליסון משחזר את הרגע הקשה ביותר בתולדות Stripe."
+        },
+        {
+          "youtube_id": "zQhI_lC-74w",
+          "title": "Patrick Collison wants to cure the common cold | Interview",
+          "source_url": "https://www.youtube.com/watch?v=zQhI_lC-74w",
+          "blurb_he": "ראיון עם מנכ\"ל Stripe על חשיבה ארוכת טווח ועל בנייה."
+        }
       ]
     },
     {
@@ -112,8 +428,18 @@
       "role_he": "מייסד ומנכ\"ל NVIDIA",
       "why_he": "הוביל את אנבידיה מחברת כרטיסי גרפיקה לחברה החשובה בעידן ה-AI, עם סגנון ניהול ייחודי ונחקר.",
       "videos": [
-        { "youtube_id": "QvuGhUKfphs", "title": "Watch CNBC's full interview with Nvidia CEO Jensen Huang", "source_url": "https://www.youtube.com/watch?v=QvuGhUKfphs", "blurb_he": "ראיון מלא ב-CNBC על מקומה של אירופה במרוץ ה-AI, רובוטיקה ויחסי ארה\"ב-סין." },
-        { "youtube_id": "XVoyL8rzhWs", "title": "Nvidia's Jensen Huang on the AI revolution, job losses and what drives him | Full interview", "source_url": "https://www.youtube.com/watch?v=XVoyL8rzhWs", "blurb_he": "ראיון מלא מ-2026 על מהפכת ה-AI, אובדן משרות ומה מניע אותו." }
+        {
+          "youtube_id": "QvuGhUKfphs",
+          "title": "Watch CNBC's full interview with Nvidia CEO Jensen Huang",
+          "source_url": "https://www.youtube.com/watch?v=QvuGhUKfphs",
+          "blurb_he": "ראיון מלא ב-CNBC על מקומה של אירופה במרוץ ה-AI, רובוטיקה ויחסי ארה\"ב-סין."
+        },
+        {
+          "youtube_id": "XVoyL8rzhWs",
+          "title": "Nvidia's Jensen Huang on the AI revolution, job losses and what drives him | Full interview",
+          "source_url": "https://www.youtube.com/watch?v=XVoyL8rzhWs",
+          "blurb_he": "ראיון מלא מ-2026 על מהפכת ה-AI, אובדן משרות ומה מניע אותו."
+        }
       ]
     },
     {
@@ -123,8 +449,18 @@
       "role_he": "מייסד-שותף של Netscape ושל קרן a16z",
       "why_he": "ממציא הדפדפן המסחרי הראשון ומהמשקיעים המשפיעים בעולם – 'התוכנה אוכלת את העולם'.",
       "videos": [
-        { "youtube_id": "OHWnPOKh_S0", "title": "Marc Andreessen: Trump, Power, Tech, AI, Immigration & Future of America | Lex Fridman Podcast #458", "source_url": "https://www.youtube.com/watch?v=OHWnPOKh_S0", "blurb_he": "שיחה ארוכה עם לקס פרידמן על טכנולוגיה, כוח, AI ועתיד אמריקה." },
-        { "youtube_id": "qObbK4SjZnk", "title": "Marc Andreessen Reveals His Biggest Wins and Mistakes at a16z", "source_url": "https://www.youtube.com/watch?v=qObbK4SjZnk", "blurb_he": "אנדריסן חושף את ההצלחות והטעויות הגדולות שלו כמשקיע ב-a16z." }
+        {
+          "youtube_id": "OHWnPOKh_S0",
+          "title": "Marc Andreessen: Trump, Power, Tech, AI, Immigration & Future of America | Lex Fridman Podcast #458",
+          "source_url": "https://www.youtube.com/watch?v=OHWnPOKh_S0",
+          "blurb_he": "שיחה ארוכה עם לקס פרידמן על טכנולוגיה, כוח, AI ועתיד אמריקה."
+        },
+        {
+          "youtube_id": "qObbK4SjZnk",
+          "title": "Marc Andreessen Reveals His Biggest Wins and Mistakes at a16z",
+          "source_url": "https://www.youtube.com/watch?v=qObbK4SjZnk",
+          "blurb_he": "אנדריסן חושף את ההצלחות והטעויות הגדולות שלו כמשקיע ב-a16z."
+        }
       ]
     },
     {
@@ -134,9 +470,24 @@
       "role_he": "מייסדת Spanx",
       "why_he": "הקימה מותג של מיליארד דולר מ-5,000 דולר בלי משקיעים – סיפור יזמות של מוצר, מכירות ועקשנות.",
       "videos": [
-        { "youtube_id": "0K-TQcV-Xoo", "title": "Spanx Founder Sara Blakely Shares Secrets To Building A Billion-Dollar Business | #Next1000 Summit", "source_url": "https://www.youtube.com/watch?v=0K-TQcV-Xoo", "blurb_he": "בלייקלי חולקת את הסודות לבניית עסק של מיליארד דולר." },
-        { "youtube_id": "pjS2pqWUmgU", "title": "Sara Blakely: Fireside Chat", "source_url": "https://www.youtube.com/watch?v=pjS2pqWUmgU", "blurb_he": "שיחת אח עם מייסדת Spanx בכנס של גולדמן זאקס." },
-        { "youtube_id": "8vq2H_FpZ04", "title": "Sara Blakely | Florida State University 2026 Commencement Address", "source_url": "https://www.youtube.com/watch?v=8vq2H_FpZ04", "blurb_he": "נאום הפתיחה שנשאה בלייקלי, בוגרת האוניברסיטה, בטקס הסיום של אוניברסיטת פלורידה סטייט ב-2026." }
+        {
+          "youtube_id": "0K-TQcV-Xoo",
+          "title": "Spanx Founder Sara Blakely Shares Secrets To Building A Billion-Dollar Business | #Next1000 Summit",
+          "source_url": "https://www.youtube.com/watch?v=0K-TQcV-Xoo",
+          "blurb_he": "בלייקלי חולקת את הסודות לבניית עסק של מיליארד דולר."
+        },
+        {
+          "youtube_id": "pjS2pqWUmgU",
+          "title": "Sara Blakely: Fireside Chat",
+          "source_url": "https://www.youtube.com/watch?v=pjS2pqWUmgU",
+          "blurb_he": "שיחת אח עם מייסדת Spanx בכנס של גולדמן זאקס."
+        },
+        {
+          "youtube_id": "8vq2H_FpZ04",
+          "title": "Sara Blakely | Florida State University 2026 Commencement Address",
+          "source_url": "https://www.youtube.com/watch?v=8vq2H_FpZ04",
+          "blurb_he": "נאום הפתיחה שנשאה בלייקלי, בוגרת האוניברסיטה, בטקס הסיום של אוניברסיטת פלורידה סטייט ב-2026."
+        }
       ]
     },
     {
@@ -146,8 +497,18 @@
       "role_he": "חוקר ניהול, מחבר Good to Great ו-Built to Last",
       "why_he": "החוקר שהפך את השאלה 'מה מבדיל חברות מצוינות' למחקר אמפירי רב-שנים עם מסגרות שנכנסו לשפה.",
       "videos": [
-        { "youtube_id": "z_FX9p1CUEA", "title": "Jim Collins Reveals the Surprising Truth About Business Growth", "source_url": "https://www.youtube.com/watch?v=z_FX9p1CUEA", "blurb_he": "פרק מיוחד עם מומחה המנהיגות ג'ים קולינס על האמת המפתיעה לגבי צמיחה עסקית." },
-        { "youtube_id": "73cTNHEQhkQ", "title": "Jim Collins: The X Factor of Truly Great Leadership - Nordic Business Forum", "source_url": "https://www.youtube.com/watch?v=73cTNHEQhkQ", "blurb_he": "הרצאה בNordic Business Forum על 'פקטור ה-X' של מנהיגות גדולה באמת." }
+        {
+          "youtube_id": "z_FX9p1CUEA",
+          "title": "Jim Collins Reveals the Surprising Truth About Business Growth",
+          "source_url": "https://www.youtube.com/watch?v=z_FX9p1CUEA",
+          "blurb_he": "פרק מיוחד עם מומחה המנהיגות ג'ים קולינס על האמת המפתיעה לגבי צמיחה עסקית."
+        },
+        {
+          "youtube_id": "73cTNHEQhkQ",
+          "title": "Jim Collins: The X Factor of Truly Great Leadership - Nordic Business Forum",
+          "source_url": "https://www.youtube.com/watch?v=73cTNHEQhkQ",
+          "blurb_he": "הרצאה בNordic Business Forum על 'פקטור ה-X' של מנהיגות גדולה באמת."
+        }
       ]
     }
   ],
@@ -158,9 +519,24 @@
       "url": "https://hbr.org",
       "desc_he": "כתב העת של בית הספר למנהל עסקים בהרווארד – המקור המוביל למאמרי ניהול, אסטרטגיה ומנהיגות.",
       "articles": [
-        { "title": "The AI Leadership Imperative", "url": "https://hbr.org/2026/04/the-ai-leadership-imperative", "published": "2026-04", "summary_he": "רוב המנהיגים שואלים את אותה שאלה על AI: האם הוא יהפוך את הצוותים ליעילים יותר – או ישחוק בהדרגה את הכישורים שהם מנסים לבנות." },
-        { "title": "3 Forces Are Redefining the Transition from Manager to Leader", "url": "https://hbr.org/2026/06/3-forces-are-redefining-the-transition-from-manager-to-leader", "published": "2026-06", "summary_he": "מנהלים בכירים מתמודדים היום עם אתגרים שכמעט לא היו קיימים לפני עשור: ניהול מערכות AI שהם מבינים רק חלקית ופעילות חוצת גבולות עם רגולציה משתנה." },
-        { "title": "The Power of Strategic Centering", "url": "https://hbr.org/2026/07/the-power-of-strategic-centering", "published": "2026-07", "summary_he": "ארגונים זקוקים ל'מרכז' ברור – עיקרון מארגן אחד וקוהרנטי שמנחה הקצאת משאבים, בחירת הזדמנויות וזהות ארגונית." }
+        {
+          "title": "The AI Leadership Imperative",
+          "url": "https://hbr.org/2026/04/the-ai-leadership-imperative",
+          "published": "2026-04",
+          "summary_he": "רוב המנהיגים שואלים את אותה שאלה על AI: האם הוא יהפוך את הצוותים ליעילים יותר – או ישחוק בהדרגה את הכישורים שהם מנסים לבנות."
+        },
+        {
+          "title": "3 Forces Are Redefining the Transition from Manager to Leader",
+          "url": "https://hbr.org/2026/06/3-forces-are-redefining-the-transition-from-manager-to-leader",
+          "published": "2026-06",
+          "summary_he": "מנהלים בכירים מתמודדים היום עם אתגרים שכמעט לא היו קיימים לפני עשור: ניהול מערכות AI שהם מבינים רק חלקית ופעילות חוצת גבולות עם רגולציה משתנה."
+        },
+        {
+          "title": "The Power of Strategic Centering",
+          "url": "https://hbr.org/2026/07/the-power-of-strategic-centering",
+          "published": "2026-07",
+          "summary_he": "ארגונים זקוקים ל'מרכז' ברור – עיקרון מארגן אחד וקוהרנטי שמנחה הקצאת משאבים, בחירת הזדמנויות וזהות ארגונית."
+        }
       ]
     },
     {
@@ -169,9 +545,24 @@
       "url": "https://review.firstround.com",
       "desc_he": "המגזין של קרן First Round – מאמרי עומק מעשיים ממייסדים ומנהלים על בניית חברות.",
       "articles": [
-        { "title": "The 30 Best Pieces of Company Building Advice We Heard in 2025", "url": "https://review.firstround.com/the-30-best-pieces-of-company-building-advice-we-heard-in-2025/", "published": "2026-04", "summary_he": "אוסף של 30 עצות בולטות לבניית חברות שנאספו במהלך 2025, כדי לעזור לבנות חברות ב-2026." },
-        { "title": "“AI-Powered” Isn’t a Position", "url": "https://review.firstround.com/positioning-playbook-for-ai-products/", "published": "2026-06", "summary_he": "מדריך מיצוב למוצרי AI: להגיד 'מבוסס AI' זה לא מיצוב אמיתי." },
-        { "title": "Why 90% of CROs will fall behind in the next 2 years | Stevie Case (CRO, Vanta)", "url": "https://review.firstround.com/executive-function-stevie-case-cro-vanta/", "published": "2026-04", "summary_he": "ראיון עם סמנכ\"לית ההכנסות של Vanta על המגמות שמשפיעות על מנהלי מכירות והכנסות, ולמה רובם יישארו מאחור." }
+        {
+          "title": "The 30 Best Pieces of Company Building Advice We Heard in 2025",
+          "url": "https://review.firstround.com/the-30-best-pieces-of-company-building-advice-we-heard-in-2025/",
+          "published": "2026-04",
+          "summary_he": "אוסף של 30 עצות בולטות לבניית חברות שנאספו במהלך 2025, כדי לעזור לבנות חברות ב-2026."
+        },
+        {
+          "title": "“AI-Powered” Isn’t a Position",
+          "url": "https://review.firstround.com/positioning-playbook-for-ai-products/",
+          "published": "2026-06",
+          "summary_he": "מדריך מיצוב למוצרי AI: להגיד 'מבוסס AI' זה לא מיצוב אמיתי."
+        },
+        {
+          "title": "Why 90% of CROs will fall behind in the next 2 years | Stevie Case (CRO, Vanta)",
+          "url": "https://review.firstround.com/executive-function-stevie-case-cro-vanta/",
+          "published": "2026-04",
+          "summary_he": "ראיון עם סמנכ\"לית ההכנסות של Vanta על המגמות שמשפיעות על מנהלי מכירות והכנסות, ולמה רובם יישארו מאחור."
+        }
       ]
     },
     {
@@ -180,9 +571,24 @@
       "url": "https://www.lennysnewsletter.com",
       "desc_he": "הידיעון של לני רחיצקי – המקור הפופולרי ביותר לניהול מוצר, צמיחה ובניית חברות טכנולוגיה.",
       "articles": [
-        { "title": "State of the product job market in early 2026", "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9", "published": "2026-03", "summary_he": "תפקידי AI מזנקים, משרות מנהלי מוצר ומהנדסים בשיא של שנים, ומספר משרות הטכנולוגיה הכולל עולה." },
-        { "title": "How tech workers are feeling in 2026: a workforce splitting in two", "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026", "published": "2026-07", "summary_he": "כוח העבודה של 2026 שחוק ופחות אופטימי מאשר לפני שנה, ומתפצל לאורך קו השבר של AI – בין מי שמשגשגים למי שנאבקים." },
-        { "title": "Best of Lenny’s Newsletter 2025 - by Lenny Rachitsky", "url": "https://www.lennysnewsletter.com/p/best-of-lennys-newsletter-2026", "published": "2026-01", "summary_he": "סיכום המאמרים הטובים של 2025 ויעדי הידיעון ל-2026, כולל איזון בין תוכן AI לתוכן שאינו AI." }
+        {
+          "title": "State of the product job market in early 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
+          "published": "2026-03",
+          "summary_he": "תפקידי AI מזנקים, משרות מנהלי מוצר ומהנדסים בשיא של שנים, ומספר משרות הטכנולוגיה הכולל עולה."
+        },
+        {
+          "title": "How tech workers are feeling in 2026: a workforce splitting in two",
+          "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+          "published": "2026-07",
+          "summary_he": "כוח העבודה של 2026 שחוק ופחות אופטימי מאשר לפני שנה, ומתפצל לאורך קו השבר של AI – בין מי שמשגשגים למי שנאבקים."
+        },
+        {
+          "title": "Best of Lenny’s Newsletter 2025 - by Lenny Rachitsky",
+          "url": "https://www.lennysnewsletter.com/p/best-of-lennys-newsletter-2026",
+          "published": "2026-01",
+          "summary_he": "סיכום המאמרים הטובים של 2025 ויעדי הידיעון ל-2026, כולל איזון בין תוכן AI לתוכן שאינו AI."
+        }
       ]
     },
     {
@@ -191,9 +597,24 @@
       "url": "https://stratechery.com",
       "desc_he": "ה-blog של בן תומפסון – ניתוח אסטרטגיה עסקית של חברות הטכנולוגיה הגדולות, מהנקראים בתעשייה.",
       "articles": [
-        { "title": "2026.38: Doomforce", "url": "https://stratechery.com/2026/doomforce/", "published": "2026-09", "summary_he": "המבט מכל מקום שאינו סן פרנסיסקו, הפוטנציאל המוגבל לעסקת 'pacing', והזיגזג של Salesforce." },
-        { "title": "Google Earnings, The Frontier Case, Amazon Earnings", "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/", "published": "2026-08", "summary_he": "דוחות גוגל שנראים כמאשרים את הגידור של Anthropic, וההסבר של אנדי ג'סי להצדקת ההשקעות ההוניות של אמזון." },
-        { "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity", "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/", "published": "2026-05", "summary_he": "שיחה על בניית מודלים ל-AI גנרטיבי, מודלי היסוד של מטא, והקשר בין פרסום להבנת עתיד האנושות." }
+        {
+          "title": "2026.38: Doomforce",
+          "url": "https://stratechery.com/2026/doomforce/",
+          "published": "2026-09",
+          "summary_he": "המבט מכל מקום שאינו סן פרנסיסקו, הפוטנציאל המוגבל לעסקת 'pacing', והזיגזג של Salesforce."
+        },
+        {
+          "title": "Google Earnings, The Frontier Case, Amazon Earnings",
+          "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
+          "published": "2026-08",
+          "summary_he": "דוחות גוגל שנראים כמאשרים את הגידור של Anthropic, וההסבר של אנדי ג'סי להצדקת ההשקעות ההוניות של אמזון."
+        },
+        {
+          "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
+          "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+          "published": "2026-05",
+          "summary_he": "שיחה על בניית מודלים ל-AI גנרטיבי, מודלי היסוד של מטא, והקשר בין פרסום להבנת עתיד האנושות."
+        }
       ]
     },
     {
@@ -202,9 +623,24 @@
       "url": "https://www.globes.co.il",
       "desc_he": "העיתון הכלכלי הישראלי – חדשות, ניתוחים ורשימת החברות הזנק המבטיחים השנתית של ההייטק הישראלי.",
       "articles": [
-        { "title": "מה למדנו מרשימת 10 החברות הזנק המבטיחים של שנת 2026? - גלובס", "url": "https://www.globes.co.il/news/sparticle.aspx?did=1001546435", "published": "2026-02", "summary_he": "השנה ה-20 שבה גלובס בוחר את החברות הזנק המבטיחים; לפי דוח רשות החדשנות ניכרת תזוזה לחברות חומרה ותעשיית השבבים והשרתים הישראלית פורחת." },
-        { "title": "משרד הביטחון יצא למסע רכישות, וסטארט־‏אפים בוגרים נהנו במיוחד | בלעדי", "url": "https://www.globes.co.il/news/article.aspx?did=1001551872", "published": "2026-07", "summary_he": "במחצית הראשונה של 2026 הוכפל היקף ההזמנות שקיבלו חברות הזנק ישראליים ממשרד הביטחון ל-960 מיליון שקל, ו-37 חברות חדשות קיבלו הזמנות." },
-        { "title": "התא\"ל שמציג: להשתחרר מצה\"ל בגיל 47 ולהקים חברת הזנק - גלובס", "url": "https://www.globes.co.il/news/article.aspx?did=1001550742", "published": "2026-06", "summary_he": "סיפורו של תת-אלוף שהשתחרר מצה\"ל בגיל 47 והקים חברת הזנק." }
+        {
+          "title": "מה למדנו מרשימת 10 החברות הזנק המבטיחים של שנת 2026? - גלובס",
+          "url": "https://www.globes.co.il/news/sparticle.aspx?did=1001546435",
+          "published": "2026-02",
+          "summary_he": "השנה ה-20 שבה גלובס בוחר את החברות הזנק המבטיחים; לפי דוח רשות החדשנות ניכרת תזוזה לחברות חומרה ותעשיית השבבים והשרתים הישראלית פורחת."
+        },
+        {
+          "title": "משרד הביטחון יצא למסע רכישות, וסטארט־‏אפים בוגרים נהנו במיוחד | בלעדי",
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001551872",
+          "published": "2026-07",
+          "summary_he": "במחצית הראשונה של 2026 הוכפל היקף ההזמנות שקיבלו חברות הזנק ישראליים ממשרד הביטחון ל-960 מיליון שקל, ו-37 חברות חדשות קיבלו הזמנות."
+        },
+        {
+          "title": "התא\"ל שמציג: להשתחרר מצה\"ל בגיל 47 ולהקים חברת הזנק - גלובס",
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001550742",
+          "published": "2026-06",
+          "summary_he": "סיפורו של תת-אלוף שהשתחרר מצה\"ל בגיל 47 והקים חברת הזנק."
+        }
       ]
     }
   ],
@@ -227,7 +663,8 @@
         "https://www.teamly.com/blog/lessons-from-the-lean-startup-by-eric-ries-chapter-1/",
         "https://www.supersummary.com/the-lean-startup/introduction-part-1-summary/",
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/"
-      ]
+      ],
+      "image_query": "scientist lab coat experiment"
     },
     {
       "book_id": "b_zero_to_one",
@@ -248,7 +685,8 @@
         "https://jameshfisher.com/2016/11/17/summary-zero-to-one-c1/",
         "https://www.coursehero.com/lit/Zero-to-One-Notes-on-Startups-or-How-to-Build-the-Future/chapter-1-summary/",
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/zero-to-one/"
-      ]
+      ],
+      "image_query": "blank canvas paintbrush"
     },
     {
       "book_id": "b_good_to_great",
@@ -269,7 +707,8 @@
         "https://www.litcharts.com/lit/good-to-great/chapter-1",
         "https://www.supersummary.com/good-to-great/chapter-1/",
         "https://medium.com/samipackard/good-to-great-chapter-1-good-is-the-enemy-of-great-ea16428b80"
-      ]
+      ],
+      "image_query": "silver medal podium"
     },
     {
       "book_id": "b_never_split_the_difference",
@@ -289,7 +728,8 @@
         "https://www.runn.io/blog/never-split-the-difference-summary",
         "https://www.shortform.com/summary/never-split-the-difference-summary-chris-voss",
         "https://www.scienceofpeople.com/never-split-difference-summary/"
-      ]
+      ],
+      "image_query": "poker face negotiation"
     },
     {
       "book_id": "b_high_output_management",
@@ -309,7 +749,8 @@
         "https://readingraphics.com/book-summary-high-output-management/",
         "https://danlebrero.com/2023/04/12/high-output-management-summary/",
         "https://matthewkudija.com/reading-notes/2021-04-11-High-Output-Management.html"
-      ]
+      ],
+      "image_query": "assembly line conveyor belt"
     },
     {
       "book_id": "b_the_innovators_dilemma",
@@ -329,7 +770,8 @@
         "https://www.oreilly.com/library/view/the-innovators-dilemma/9781422197585/Text/InnovatorsSolu_chap-1.html",
         "https://www.supersummary.com/the-innovators-dilemma/summary/",
         "https://iterativegrowth.wordpress.com/2017/07/07/the-innovators-dilemma-chapter-1/"
-      ]
+      ],
+      "image_query": "computer hard drive disassembled"
     },
     {
       "book_id": "b_the_lean_startup",
@@ -349,7 +791,8 @@
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/",
         "https://www.oberlo.com/blog/lean-startup",
         "https://www.supersummary.com/the-lean-startup/summary/"
-      ]
+      ],
+      "image_query": "business card office desk"
     },
     {
       "book_id": "b_the_lean_startup",
@@ -368,7 +811,8 @@
       "sources": [
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/",
         "https://www.oberlo.com/blog/lean-startup"
-      ]
+      ],
+      "image_query": "graph chart magnifying glass"
     },
     {
       "book_id": "b_the_lean_startup",
@@ -387,7 +831,8 @@
       "sources": [
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-lean-startup/",
         "https://www.supersummary.com/the-lean-startup/summary/"
-      ]
+      ],
+      "image_query": "test tube beaker lab"
     },
     {
       "book_id": "b_zero_to_one",
@@ -406,7 +851,8 @@
       "sources": [
         "https://jameshfisher.com/2018/09/14/summary-zero-to-one-c2/",
         "https://grahammann.net/book-notes/zero-to-one-peter-thiel"
-      ]
+      ],
+      "image_query": "stock ticker crash graph"
     },
     {
       "book_id": "b_zero_to_one",
@@ -425,7 +871,8 @@
       "sources": [
         "https://jameshfisher.com/2018/09/15/summary-zero-to-one-c3/",
         "https://www.leapaheadapp.com/en/blog/zero-to-one-summary"
-      ]
+      ],
+      "image_query": "chess king piece alone"
     },
     {
       "book_id": "b_zero_to_one",
@@ -444,7 +891,8 @@
       "sources": [
         "https://grahammann.net/book-notes/zero-to-one-peter-thiel",
         "https://auresnotes.com/summary-zero-to-one-peter-thiel/"
-      ]
+      ],
+      "image_query": "boxing ring fighters"
     },
     {
       "book_id": "b_good_to_great",
@@ -463,7 +911,8 @@
       "sources": [
         "https://www.litcharts.com/lit/good-to-great/chapter-2",
         "https://www.litcharts.com/lit/good-to-great/summary"
-      ]
+      ],
+      "image_query": "modest office desk"
     },
     {
       "book_id": "b_good_to_great",
@@ -482,7 +931,8 @@
       "sources": [
         "https://www.litcharts.com/lit/good-to-great/chapter-3",
         "https://www.litcharts.com/lit/good-to-great/summary"
-      ]
+      ],
+      "image_query": "job interview table"
     },
     {
       "book_id": "b_good_to_great",
@@ -501,7 +951,8 @@
       "sources": [
         "https://www.jimcollins.com/concepts/confront-the-brutal-facts.html",
         "https://www.jimcollins.com/concepts/Stockdale-Concept.html"
-      ]
+      ],
+      "image_query": "red flag warning sign"
     },
     {
       "book_id": "b_never_split_the_difference",
@@ -520,7 +971,8 @@
       "sources": [
         "https://villager1598.medium.com/never-split-the-difference-summary-of-chapter-2-b8e704b8575a",
         "https://www.runn.io/blog/never-split-the-difference-summary"
-      ]
+      ],
+      "image_query": "mirror reflection face"
     },
     {
       "book_id": "b_never_split_the_difference",
@@ -539,7 +991,8 @@
       "sources": [
         "https://www.scienceofpeople.com/never-split-difference-summary/",
         "https://www.runn.io/blog/never-split-the-difference-summary"
-      ]
+      ],
+      "image_query": "sticky notes labels"
     },
     {
       "book_id": "b_never_split_the_difference",
@@ -558,7 +1011,8 @@
       "sources": [
         "https://www.runn.io/blog/never-split-the-difference-summary",
         "https://elevatesociety.com/takeaways-never-split-the-difference/"
-      ]
+      ],
+      "image_query": "red stop sign"
     },
     {
       "book_id": "b_high_output_management",
@@ -577,7 +1031,8 @@
       "sources": [
         "https://readingraphics.com/book-summary-high-output-management/",
         "https://danlebrero.com/2023/04/12/high-output-management-summary/"
-      ]
+      ],
+      "image_query": "breakfast eggs bacon plate"
     },
     {
       "book_id": "b_high_output_management",
@@ -596,7 +1051,8 @@
       "sources": [
         "https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63",
         "https://danlebrero.com/2023/04/12/high-output-management-summary/"
-      ]
+      ],
+      "image_query": "domino effect chain reaction"
     },
     {
       "book_id": "b_high_output_management",
@@ -615,7 +1071,8 @@
       "sources": [
         "https://matthewkudija.com/reading-notes/2021-04-11-High-Output-Management.html",
         "https://danlebrero.com/2023/04/12/high-output-management-summary/"
-      ]
+      ],
+      "image_query": "conference room meeting table"
     },
     {
       "book_id": "b_the_innovators_dilemma",
@@ -634,7 +1091,8 @@
       "sources": [
         "https://www.coursehero.com/lit/The-Innovators-Dilemma-When-New-Technologies-Cause-Great-Firms-to-Fail/part-1-chapter-2-summary/",
         "https://www.supersummary.com/the-innovators-dilemma/summary/"
-      ]
+      ],
+      "image_query": "supply chain warehouse boxes"
     },
     {
       "book_id": "b_the_innovators_dilemma",
@@ -653,7 +1111,8 @@
       "sources": [
         "https://www.supersummary.com/the-innovators-dilemma/summary/",
         "https://tuningjohn.com/book/innovators/"
-      ]
+      ],
+      "image_query": "excavator construction site"
     },
     {
       "book_id": "b_the_innovators_dilemma",
@@ -672,7 +1131,8 @@
       "sources": [
         "https://tuningjohn.com/book/innovators/",
         "https://medium.com/@rohitrkutum345/summary-of-the-innovators-dilemma-by-clayton-m-christensen-1eb159b878c7"
-      ]
+      ],
+      "image_query": "budget price tag discount"
     }
   ]
 }

@@ -3,7 +3,10 @@
   "name_he": "היסטוריה, אסטרטגיה וביוגרפיות",
   "name_en": "History, Strategy & Biography",
   "tagline_he": "להבין איך אימפריות, מנהיגים ובוני חברות קמו ונפלו — כדי לקבל החלטות טובות יותר היום.",
-  "book_list_source": { "name": "Five Books – History Books (expert recommendations)", "url": "https://fivebooks.com/category/history-books/" },
+  "book_list_source": {
+    "name": "Five Books – History Books (expert recommendations)",
+    "url": "https://fivebooks.com/category/history-books/"
+  },
   "books": [
     {
       "id": "b_the_art_of_war",
@@ -12,7 +15,8 @@
       "author": "Sun Tzu",
       "year": -500,
       "why_he": "הטקסט האסטרטגי העתיק והמצוטט ביותר בעולם — תכנון, הונאה וניצחון ללא קרב.",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "ancient bamboo scroll"
     },
     {
       "id": "b_on_war",
@@ -20,7 +24,8 @@
       "title_he": "על המלחמה",
       "author": "Carl von Clausewitz",
       "year": 1832,
-      "why_he": "היצירה שהגדירה את המלחמה כהמשך המדיניות באמצעים אחרים, ועדיין נלמדת בכל מכללה צבאית."
+      "why_he": "היצירה שהגדירה את המלחמה כהמשך המדיניות באמצעים אחרים, ועדיין נלמדת בכל מכללה צבאית.",
+      "image_query": "napoleonic battlefield cannons"
     },
     {
       "id": "b_sapiens",
@@ -29,7 +34,8 @@
       "author": "Yuval Noah Harari",
       "year": 2011,
       "why_he": "ההיסטוריה של המין האנושי בכרך אחד, מהמהפכה הקוגניטיבית ועד למהפכה המדעית.",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "prehistoric cave art"
     },
     {
       "id": "b_guns_germs_and_steel",
@@ -38,7 +44,8 @@
       "author": "Jared Diamond",
       "year": 1997,
       "why_he": "זוכה פוליצר שמסביר למה גיאוגרפיה וסביבה, ולא ביולוגיה, עיצבו את גורל החברות.",
-      "chapters_total": 19
+      "chapters_total": 19,
+      "image_query": "ancient farming tools"
     },
     {
       "id": "b_the_guns_of_august",
@@ -47,7 +54,8 @@
       "author": "Barbara W. Tuchman",
       "year": 1962,
       "why_he": "הסיפור הקלאסי על החודש הראשון של מלחמת העולם הראשונה ועל איך מנהיגים מחליקים למלחמה.",
-      "chapters_total": 22
+      "chapters_total": 22,
+      "image_query": "world war one trench"
     },
     {
       "id": "b_team_of_rivals",
@@ -55,7 +63,8 @@
       "author": "Doris Kearns Goodwin",
       "year": 2005,
       "why_he": "איך לינקולן הכניס את יריביו הפוליטיים לקבינט שלו והפך אותם לשותפים — שיעור במנהיגות.",
-      "chapters_total": 26
+      "chapters_total": 26,
+      "image_query": "19th century courtroom"
     },
     {
       "id": "b_steve_jobs",
@@ -64,7 +73,8 @@
       "author": "Walter Isaacson",
       "year": 2011,
       "why_he": "הביוגרפיה המוסמכת של האיש שבנה את אפל, על סמך עשרות ראיונות איתו ועם סביבתו.",
-      "chapters_total": 42
+      "chapters_total": 42,
+      "image_query": "vintage computer garage"
     },
     {
       "id": "b_elon_musk",
@@ -72,7 +82,8 @@
       "title_he": "אילון מאסק",
       "author": "Walter Isaacson",
       "year": 2023,
-      "why_he": "שנתיים של צל אחרי היזם השנוי במחלוקת ביותר של דורנו — טסלה, ספייס-אקס וTwitter מבפנים."
+      "why_he": "שנתיים של צל אחרי היזם השנוי במחלוקת ביותר של דורנו — טסלה, ספייס-אקס וTwitter מבפנים.",
+      "image_query": "tesla factory floor"
     },
     {
       "id": "b_leonardo_da_vinci",
@@ -80,7 +91,8 @@
       "title_he": "לאונרדו דה וינצ'י",
       "author": "Walter Isaacson",
       "year": 2017,
-      "why_he": "ביוגרפיה שמראה איך סקרנות חסרת גבולות וחיבור בין אמנות למדע יוצרים גאונות."
+      "why_he": "ביוגרפיה שמראה איך סקרנות חסרת גבולות וחיבור בין אמנות למדע יוצרים גאונות.",
+      "image_query": "renaissance sketchbook drawings"
     },
     {
       "id": "b_titan",
@@ -88,7 +100,8 @@
       "title_he": "טיטאן: חייו של ג'ון ד. רוקפלר",
       "author": "Ron Chernow",
       "year": 1998,
-      "why_he": "הביוגרפיה המקיפה של האיש העשיר בהיסטוריה המודרנית ושל בניית סטנדרד אויל."
+      "why_he": "הביוגרפיה המקיפה של האיש העשיר בהיסטוריה המודרנית ושל בניית סטנדרד אויל.",
+      "image_query": "oil derrick rig"
     },
     {
       "id": "b_the_power_broker",
@@ -96,7 +109,8 @@
       "title_he": "מתווך הכוח: רוברט מוזס ונפילתה של ניו יורק",
       "author": "Robert A. Caro",
       "year": 1974,
-      "why_he": "מחקר מונומנטלי על איך כוח נצבר ומופעל בפועל, דרך האיש שעיצב את ניו יורק בלי להיבחר מעולם."
+      "why_he": "מחקר מונומנטלי על איך כוח נצבר ומופעל בפועל, דרך האיש שעיצב את ניו יורק בלי להיבחר מעולם.",
+      "image_query": "new york bridge highway"
     },
     {
       "id": "b_a_promised_land",
@@ -104,7 +118,8 @@
       "title_he": "ארץ מובטחת",
       "author": "Barack Obama",
       "year": 2020,
-      "why_he": "זיכרונות נשיאותיים מגוף ראשון על הדרך לבית הלבן ועל קבלת החלטות בקדנציה הראשונה."
+      "why_he": "זיכרונות נשיאותיים מגוף ראשון על הדרך לבית הלבן ועל קבלת החלטות בקדנציה הראשונה.",
+      "image_query": "white house oval office"
     },
     {
       "id": "b_churchill_walking_with_destiny",
@@ -112,7 +127,8 @@
       "title_he": "צ'רצ'יל: הולך עם הגורל",
       "author": "Andrew Roberts",
       "year": 2018,
-      "why_he": "הביוגרפיה החד-כרכית המובילה של צ'רצ'יל, המבוססת על מקורות חדשים כולל יומני המלך ג'ורג' השישי."
+      "why_he": "הביוגרפיה החד-כרכית המובילה של צ'רצ'יל, המבוססת על מקורות חדשים כולל יומני המלך ג'ורג' השישי.",
+      "image_query": "big ben london fog"
     },
     {
       "id": "b_alexander_hamilton",
@@ -120,7 +136,8 @@
       "title_he": "אלכסנדר המילטון",
       "author": "Ron Chernow",
       "year": 2004,
-      "why_he": "הביוגרפיה שהולידה את המחזמר — סיפורו של המהגר היתום שבנה את המערכת הפיננסית האמריקאית."
+      "why_he": "הביוגרפיה שהולידה את המחזמר — סיפורו של המהגר היתום שבנה את המערכת הפיננסית האמריקאית.",
+      "image_query": "old american currency"
     },
     {
       "id": "b_rise_and_fall_of_the_third_reich",
@@ -128,7 +145,8 @@
       "title_he": "עלייתו ונפילתו של הרייך השלישי",
       "author": "William L. Shirer",
       "year": 1960,
-      "why_he": "ההיסטוריה הקלאסית של גרמניה הנאצית, שנכתבה על ידי עיתונאי שראה את הדברים מקרוב."
+      "why_he": "ההיסטוריה הקלאסית של גרמניה הנאצית, שנכתבה על ידי עיתונאי שראה את הדברים מקרוב.",
+      "image_query": "vintage newspaper headlines"
     },
     {
       "id": "b_destined_for_war",
@@ -136,7 +154,8 @@
       "title_he": "נועדו למלחמה: האם ארה\"ב וסין יכולות להימלט ממלכודת תוקידידס?",
       "author": "Graham Allison",
       "year": 2017,
-      "why_he": "הספר שטבע את 'מלכודת תוקידידס' ובחן 16 מקרים היסטוריים של מעצמה עולה מול מעצמה שלטת."
+      "why_he": "הספר שטבע את 'מלכודת תוקידידס' ובחן 16 מקרים היסטוריים של מעצמה עולה מול מעצמה שלטת.",
+      "image_query": "chess board two kings"
     },
     {
       "id": "b_the_lessons_of_history",
@@ -145,7 +164,8 @@
       "author": "Will Durant & Ariel Durant",
       "year": 1968,
       "why_he": "תמצית של אלפי שנות היסטוריה במאה עמודים — הדפוסים החוזרים בכלכלה, בדת, במלחמה ובממשל.",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "ancient ruins columns"
     },
     {
       "id": "b_the_prince",
@@ -154,7 +174,8 @@
       "author": "Niccolò Machiavelli",
       "year": 1532,
       "why_he": "המדריך המקורי לכוח פוליטי — איך שליטים משיגים ושומרים שלטון בעולם כפי שהוא.",
-      "chapters_total": 26
+      "chapters_total": 26,
+      "image_query": "medieval castle fortress"
     },
     {
       "id": "b_meditations",
@@ -163,7 +184,8 @@
       "author": "Marcus Aurelius",
       "year": 180,
       "why_he": "היומן הפרטי של קיסר רומי שהפך לספר הסטואי הנקרא ביותר על מנהיגות ושליטה עצמית.",
-      "chapters_total": 12
+      "chapters_total": 12,
+      "image_query": "roman marble statue"
     },
     {
       "id": "b_start_up_nation",
@@ -171,7 +193,8 @@
       "title_he": "מדינת חברת ההזנק",
       "author": "Dan Senor & Saul Singer",
       "year": 2009,
-      "why_he": "הספר שהסביר לעולם איך מדינה קטנה ומאוימת הפכה למעצמת חדשנות — צבא, עלייה וחוצפה."
+      "why_he": "הספר שהסביר לעולם איך מדינה קטנה ומאוימת הפכה למעצמת חדשנות — צבא, עלייה וחוצפה.",
+      "image_query": "israeli tech office"
     },
     {
       "id": "b_israel_concise_history",
@@ -179,7 +202,8 @@
       "title_he": "ישראל: היסטוריה תמציתית של אומה שנולדה מחדש",
       "author": "Daniel Gordis",
       "year": 2016,
-      "why_he": "היסטוריה קריאה ומאוזנת של הציונות ומדינת ישראל, מהרצל ועד ימינו."
+      "why_he": "היסטוריה קריאה ומאוזנת של הציונות ומדינת ישראל, מהרצל ועד ימינו.",
+      "image_query": "jerusalem old city walls"
     },
     {
       "id": "b_the_wright_brothers",
@@ -187,7 +211,8 @@
       "title_he": "האחים רייט",
       "author": "David McCullough",
       "year": 2015,
-      "why_he": "סיפורם של שני אחים ללא תואר אקדמי שפתרו את בעיית הטיסה בעקשנות ובניסוי שיטתי."
+      "why_he": "סיפורם של שני אחים ללא תואר אקדמי שפתרו את בעיית הטיסה בעקשנות ובניסוי שיטתי.",
+      "image_query": "vintage wooden biplane"
     },
     {
       "id": "b_endurance",
@@ -195,7 +220,8 @@
       "title_he": "אנדיורנס: מסעו המדהים של שקלטון",
       "author": "Alfred Lansing",
       "year": 1959,
-      "why_he": "סיפור ההישרדות האנטארקטי שהפך לספר החובה על מנהיגות במשבר."
+      "why_he": "סיפור ההישרדות האנטארקטי שהפך לספר החובה על מנהיגות במשבר.",
+      "image_query": "ship trapped in ice"
     },
     {
       "id": "b_genghis_khan",
@@ -203,7 +229,8 @@
       "title_he": "ג'ינגיס חאן ויצירת העולם המודרני",
       "author": "Jack Weatherford",
       "year": 2004,
-      "why_he": "הערכה מחודשת של המונגולים כבוני סחר, חוק ותקשורת בין-יבשתית — לא רק ככובשים."
+      "why_he": "הערכה מחודשת של המונגולים כבוני סחר, חוק ותקשורת בין-יבשתית — לא רק ככובשים.",
+      "image_query": "mongolian horseback riders"
     },
     {
       "id": "b_postwar",
@@ -211,7 +238,8 @@
       "title_he": "אחרי המלחמה: היסטוריה של אירופה מ-1945",
       "author": "Tony Judt",
       "year": 2005,
-      "why_he": "ההיסטוריה המקיפה של אירופה שאחרי מלחמת העולם השנייה — שיקום, מלחמה קרה ואיחוד."
+      "why_he": "ההיסטוריה המקיפה של אירופה שאחרי מלחמת העולם השנייה — שיקום, מלחמה קרה ואיחוד.",
+      "image_query": "berlin wall graffiti"
     },
     {
       "id": "b_the_silk_roads",
@@ -219,7 +247,8 @@
       "title_he": "דרכי המשי: היסטוריה חדשה של העולם",
       "author": "Peter Frankopan",
       "year": 2015,
-      "why_he": "היסטוריה עולמית שמעבירה את מרכז הכובד מאירופה למזרח התיכון ולמרכז אסיה."
+      "why_he": "היסטוריה עולמית שמעבירה את מרכז הכובד מאירופה למזרח התיכון ולמרכז אסיה.",
+      "image_query": "camel caravan desert"
     },
     {
       "id": "b_1776",
@@ -227,7 +256,8 @@
       "title_he": "1776",
       "author": "David McCullough",
       "year": 2005,
-      "why_he": "שנה אחת קריטית במהפכה האמריקאית, דרך עיניהם של וושינגטון וחייליו."
+      "why_he": "שנה אחת קריטית במהפכה האמריקאית, דרך עיניהם של וושינגטון וחייליו.",
+      "image_query": "colonial soldiers marching"
     },
     {
       "id": "b_undaunted_courage",
@@ -235,7 +265,8 @@
       "title_he": "אומץ ללא חת",
       "author": "Stephen E. Ambrose",
       "year": 1996,
-      "why_he": "מסע לואיס וקלארק — סיפור של חקר, מנהיגות בשטח ובניית אומה."
+      "why_he": "מסע לואיס וקלארק — סיפור של חקר, מנהיגות בשטח ובניית אומה.",
+      "image_query": "river canoe wilderness"
     },
     {
       "id": "b_longitude",
@@ -243,7 +274,8 @@
       "title_he": "קו האורך",
       "author": "Dava Sobel",
       "year": 1995,
-      "why_he": "איך שען אחד פתר את הבעיה המדעית הגדולה של תקופתו ושינה את הניווט הימי."
+      "why_he": "איך שען אחד פתר את הבעיה המדעית הגדולה של תקופתו ושינה את הניווט הימי.",
+      "image_query": "old ship compass sextant"
     },
     {
       "id": "b_the_splendid_and_the_vile",
@@ -251,7 +283,8 @@
       "title_he": "המפואר והנתעב",
       "author": "Erik Larson",
       "year": 2020,
-      "why_he": "השנה הראשונה של צ'רצ'יל כראש ממשלה בזמן הבליץ — מנהיגות תחת אש, יום אחר יום."
+      "why_he": "השנה הראשונה של צ'רצ'יל כראש ממשלה בזמן הבליץ — מנהיגות תחת אש, יום אחר יום.",
+      "image_query": "london blitz searchlight sky"
     }
   ],
   "leaders": [
@@ -636,7 +669,8 @@
         "https://www.ebsco.com/research-starters/literature-and-writing/analysis-excerpt-art-war-chapter-1",
         "https://www.sparknotes.com/lit/the-art-of-war/section1/",
         "https://suntzusaid.com/book/1"
-      ]
+      ],
+      "image_query": "ancient map battle strategy"
     },
     {
       "book_id": "b_sapiens",
@@ -658,7 +692,8 @@
         "https://medium.com/reading-collaboration/1-an-animal-of-no-significance-1fe20a0a8f17",
         "https://saurabhdashora.com/sapiens-chapter-1-summary-analysis/",
         "https://www.supersummary.com/sapiens/part-1/"
-      ]
+      ],
+      "image_query": "prehistoric human skull"
     },
     {
       "book_id": "b_guns_germs_and_steel",
@@ -680,7 +715,8 @@
         "https://www.enotes.com/topics/guns-germs-steel/questions/yali-s-question-in-guns-germs-and-steel-3135939",
         "https://study.com/academy/lesson/guns-germs-and-steel-prologue-summary.html",
         "https://www.litcharts.com/lit/guns-germs-and-steel/chapter-1-up-to-the-starting-line"
-      ]
+      ],
+      "image_query": "tropical village huts"
     },
     {
       "book_id": "b_on_war",
@@ -702,7 +738,8 @@
         "https://clausewitzstudies.org/readings/OnWar1873/BK1ch01.html",
         "https://www.coursehero.com/lit/On-War/book-1-chapter-1-summary/",
         "https://clausewitzstudies.org/readings/Bassford/Trinity/TRININTR.htm"
-      ]
+      ],
+      "image_query": "cannon battlefield smoke"
     },
     {
       "book_id": "b_the_lessons_of_history",
@@ -724,7 +761,8 @@
         "https://bobsbeenreading.com/2023/01/30/the-lessons-of-history-by-will-and-ariel-durant/",
         "https://en.wikipedia.org/wiki/The_Lessons_of_History",
         "https://lanredahunsi.com/book-summary-the-lessons-of-history-by-will-and-ariel-durant/"
-      ]
+      ],
+      "image_query": "old library books shelves"
     },
     {
       "book_id": "b_team_of_rivals",
@@ -745,7 +783,8 @@
         "https://www.bookreporter.com/reviews/team-of-rivals-the-political-genius-of-abraham-lincoln/excerpt",
         "https://www.bookey.app/book/team-of-rivals",
         "https://en.wikipedia.org/wiki/Team_of_Rivals"
-      ]
+      ],
+      "image_query": "telegraph office 1860"
     },
     {
       "book_id": "b_the_art_of_war",
@@ -764,7 +803,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-art-of-war/chapter-2",
         "https://www.coursehero.com/lit/The-Art-of-War/chapter-2-summary/"
-      ]
+      ],
+      "image_query": "war supply wagons"
     },
     {
       "book_id": "b_the_art_of_war",
@@ -783,7 +823,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-art-of-war/chapter-3",
         "https://www.sparknotes.com/lit/the-art-of-war/summary-and-analysis/"
-      ]
+      ],
+      "image_query": "chess checkmate board"
     },
     {
       "book_id": "b_the_art_of_war",
@@ -802,7 +843,8 @@
       "sources": [
         "https://suntzusaid.com/book/4",
         "https://www.druglibrary.net/schaffer/GENERAL/artofwar/chapter4.htm"
-      ]
+      ],
+      "image_query": "fortress wall defense"
     },
     {
       "book_id": "b_sapiens",
@@ -821,7 +863,8 @@
       "sources": [
         "https://www.litcharts.com/lit/sapiens/chapter-2-the-tree-of-knowledge",
         "https://saurabhdashora.com/sapiens-chapter-2-summary-analysis/"
-      ]
+      ],
+      "image_query": "ancient manuscript scroll"
     },
     {
       "book_id": "b_sapiens",
@@ -840,7 +883,8 @@
       "sources": [
         "https://www.litcharts.com/lit/sapiens/chapter-3-a-day-in-the-life-of-adam-and-eve",
         "https://saurabhdashora.com/sapiens-chapter-3-summary-analysis/"
-      ]
+      ],
+      "image_query": "forager basket berries"
     },
     {
       "book_id": "b_sapiens",
@@ -859,7 +903,8 @@
       "sources": [
         "https://www.litcharts.com/lit/sapiens/chapter-4-the-flood",
         "https://saurabhdashora.com/sapiens-chapter-4-summary-the-flood/"
-      ]
+      ],
+      "image_query": "mammoth skeleton museum"
     },
     {
       "book_id": "b_guns_germs_and_steel",
@@ -878,7 +923,8 @@
       "sources": [
         "https://www.litcharts.com/lit/guns-germs-and-steel/chapter-2-a-natural-experiment-of-history",
         "https://study.com/academy/lesson/guns-germs-and-steel-chapter-2-summary.html"
-      ]
+      ],
+      "image_query": "polynesian island canoe"
     },
     {
       "book_id": "b_guns_germs_and_steel",
@@ -897,7 +943,8 @@
       "sources": [
         "https://www.coursehero.com/lit/Guns-Germs-and-Steel/summaries/",
         "https://www.cs.utexas.edu/~cline/seminar/Guns/GGSstudyguide.pdf"
-      ]
+      ],
+      "image_query": "spanish conquistador armor"
     },
     {
       "book_id": "b_guns_germs_and_steel",
@@ -916,7 +963,8 @@
       "sources": [
         "https://www.litcharts.com/lit/guns-germs-and-steel/chapter-4-farmer-power",
         "https://www.bookrags.com/studyguide-guns-germs-and-steel/chapanal005.html"
-      ]
+      ],
+      "image_query": "wheat field harvest"
     },
     {
       "book_id": "b_on_war",
@@ -935,7 +983,8 @@
       "sources": [
         "https://clausewitzstudies.org/readings/OnWar1873/BK1ch02.html",
         "https://www.coursehero.com/lit/On-War/book-1-chapters-2-3-summary/"
-      ]
+      ],
+      "image_query": "military map table strategy"
     },
     {
       "book_id": "b_on_war",
@@ -954,7 +1003,8 @@
       "sources": [
         "https://clausewitzstudies.org/readings/OnWar1873/BK1ch03.html",
         "https://www.marxists.org/reference/archive/clausewitz/works/on-war/book1/ch03.htm"
-      ]
+      ],
+      "image_query": "general officer uniform portrait"
     },
     {
       "book_id": "b_on_war",
@@ -973,7 +1023,8 @@
       "sources": [
         "https://clausewitzstudies.org/readings/OnWar1873/BK1ch04.html",
         "https://www.supersummary.com/on-war/summary/"
-      ]
+      ],
+      "image_query": "soldier trench smoke"
     },
     {
       "book_id": "b_the_lessons_of_history",
@@ -992,7 +1043,8 @@
       "sources": [
         "https://www.supersummary.com/the-lessons-of-history/summary/",
         "https://www.sloww.co/lessons-of-history-durant/"
-      ]
+      ],
+      "image_query": "ants colony working"
     },
     {
       "book_id": "b_the_lessons_of_history",
@@ -1011,7 +1063,8 @@
       "sources": [
         "https://www.supersummary.com/the-lessons-of-history/summary/",
         "https://calvinrosser.com/notes/lessons-of-history-will-ariel-durant/"
-      ]
+      ],
+      "image_query": "world map cultures"
     },
     {
       "book_id": "b_the_lessons_of_history",
@@ -1030,7 +1083,8 @@
       "sources": [
         "https://medium.com/@aaronvarley_99163/summary-of-the-lessons-of-history-by-will-and-ariel-durant-f0117fa1fa3c",
         "https://lanredahunsi.com/book-summary-the-lessons-of-history-by-will-and-ariel-durant/"
-      ]
+      ],
+      "image_query": "ancient marketplace crowd"
     },
     {
       "book_id": "b_team_of_rivals",
@@ -1049,7 +1103,8 @@
       "sources": [
         "https://lastminutelecture.com/books/team-of-rivals-the-political-genius-of-abraham-lincoln-1st-edition/chapters/the-longing-to-rise/",
         "https://summaries.muthu.co/posts/biographies/team-of-rivals/"
-      ]
+      ],
+      "image_query": "log cabin frontier"
     },
     {
       "book_id": "b_team_of_rivals",
@@ -1068,7 +1123,8 @@
       "sources": [
         "https://www.npr.org/2012/11/15/165220138/doris-kearns-goodwin-on-lincoln-and-his-team-of-rivals",
         "https://civilwar-history.fandom.com/wiki/William_H._Seward"
-      ]
+      ],
+      "image_query": "senate chamber 1860"
     },
     {
       "book_id": "b_team_of_rivals",
@@ -1087,7 +1143,8 @@
       "sources": [
         "https://www.enotes.com/topics/team-rivals",
         "https://www.getabstract.com/en/summary/team-of-rivals/18739"
-      ]
+      ],
+      "image_query": "convention hall delegates"
     }
   ]
 }

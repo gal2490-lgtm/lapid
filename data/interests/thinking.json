@@ -3,7 +3,10 @@
   "name_he": "חשיבה, קבלת החלטות ומדע פופולרי",
   "name_en": "Thinking, Decision-Making & Popular Science",
   "tagline_he": "כלים לחשוב בבהירות תחת אי-ודאות, להבין הסתברות וסיכון, ולראות את העולם דרך עיניים של מדען סקרן",
-  "book_list_source": { "name": "Farnam Street – 40 Books That Improve Your Ability to Make Decisions", "url": "https://fs.blog/books-on-decision-making/" },
+  "book_list_source": {
+    "name": "Farnam Street – 40 Books That Improve Your Ability to Make Decisions",
+    "url": "https://fs.blog/books-on-decision-making/"
+  },
   "books": [
     {
       "id": "b_thinking_fast_and_slow",
@@ -12,7 +15,8 @@
       "author": "Daniel Kahneman",
       "year": 2011,
       "why_he": "ספר היסוד של חקר ההטיות הקוגניטיביות: שתי מערכות החשיבה שמסבירות למה אנחנו טועים באופן שיטתי",
-      "chapters_total": 38
+      "chapters_total": 38,
+      "image_query": "hare and tortoise race"
     },
     {
       "id": "b_thinking_in_bets",
@@ -21,7 +25,8 @@
       "author": "Annie Duke",
       "year": 2018,
       "why_he": "אלופת פוקר מלמדת להפריד בין איכות ההחלטה לבין התוצאה, ולחיות בשלום עם אי-ודאות",
-      "chapters_total": 6
+      "chapters_total": 6,
+      "image_query": "poker chips cards table"
     },
     {
       "id": "b_how_to_decide",
@@ -29,7 +34,8 @@
       "title_he": "איך להחליט",
       "author": "Annie Duke",
       "year": 2020,
-      "why_he": "ספר עבודה מעשי עם כלים מוחשיים לקבלת החלטות טובות יותר, מהיר יותר"
+      "why_he": "ספר עבודה מעשי עם כלים מוחשיים לקבלת החלטות טובות יותר, מהיר יותר",
+      "image_query": "crossroads signpost"
     },
     {
       "id": "b_superforecasting",
@@ -37,7 +43,8 @@
       "title_he": "תחזיות על: המדע שמאחורי אמנות הניבוי",
       "author": "Philip E. Tetlock & Dan Gardner",
       "year": 2015,
-      "why_he": "מחקר ענק הראה שאנשים רגילים עם הרגלי חשיבה נכונים מנבאים טוב יותר ממומחים, והספר מפרט את ההרגלים"
+      "why_he": "מחקר ענק הראה שאנשים רגילים עם הרגלי חשיבה נכונים מנבאים טוב יותר ממומחים, והספר מפרט את ההרגלים",
+      "image_query": "darts bullseye target"
     },
     {
       "id": "b_fooled_by_randomness",
@@ -45,7 +52,8 @@
       "title_he": "תעתועי האקראיות",
       "author": "Nassim Nicholas Taleb",
       "year": 2001,
-      "why_he": "הספר שפתח את סדרת 'אינצ'רטו' ומראה כמה מההצלחה שאנו מייחסים לכישרון היא בעצם מזל"
+      "why_he": "הספר שפתח את סדרת 'אינצ'רטו' ומראה כמה מההצלחה שאנו מייחסים לכישרון היא בעצם מזל",
+      "image_query": "casino roulette wheel"
     },
     {
       "id": "b_the_black_swan",
@@ -53,7 +61,8 @@
       "title_he": "הברבור השחור",
       "author": "Nassim Nicholas Taleb",
       "year": 2007,
-      "why_he": "אירועים נדירים ובלתי צפויים מעצבים את ההיסטוריה הרבה יותר ממה שהמודלים שלנו מודים"
+      "why_he": "אירועים נדירים ובלתי צפויים מעצבים את ההיסטוריה הרבה יותר ממה שהמודלים שלנו מודים",
+      "image_query": "black swan lake"
     },
     {
       "id": "b_antifragile",
@@ -61,7 +70,8 @@
       "title_he": "אנטי-שביר",
       "author": "Nassim Nicholas Taleb",
       "year": 2012,
-      "why_he": "מציג קטגוריה חדשה: מערכות שלא רק שורדות זעזועים אלא מתחזקות מהם, ואיך לבנות כאלה בחיים"
+      "why_he": "מציג קטגוריה חדשה: מערכות שלא רק שורדות זעזועים אלא מתחזקות מהם, ואיך לבנות כאלה בחיים",
+      "image_query": "weightlifter lifting barbell"
     },
     {
       "id": "b_nudge",
@@ -69,7 +79,8 @@
       "title_he": "דחיפה קלה",
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "year": 2008,
-      "why_he": "הספר שהכניס את 'ארכיטקטורת הבחירה' למדיניות ציבורית ולעסקים בכל העולם"
+      "why_he": "הספר שהכניס את 'ארכיטקטורת הבחירה' למדיניות ציבורית ולעסקים בכל העולם",
+      "image_query": "grocery store shelf display"
     },
     {
       "id": "b_predictably_irrational",
@@ -77,7 +88,8 @@
       "title_he": "לא רציונלי ולא במקרה",
       "author": "Dan Ariely",
       "year": 2008,
-      "why_he": "ניסויים משעשעים ומפתיעים שמראים שהאי-רציונליות שלנו שיטתית, ולכן ניתנת לחיזוי"
+      "why_he": "ניסויים משעשעים ומפתיעים שמראים שהאי-רציונליות שלנו שיטתית, ולכן ניתנת לחיזוי",
+      "image_query": "supermarket discount sign"
     },
     {
       "id": "b_noise",
@@ -85,7 +97,8 @@
       "title_he": "רעש: פגם בשיפוט האנושי",
       "author": "Daniel Kahneman, Olivier Sibony & Cass R. Sunstein",
       "year": 2021,
-      "why_he": "מעבר להטיות, יש 'רעש': שונות אקראית בשיפוט של אותם אנשים על אותם מקרים, והספר מלמד לצמצם אותה"
+      "why_he": "מעבר להטיות, יש 'רעש': שונות אקראית בשיפוט של אותם אנשים על אותם מקרים, והספר מלמד לצמצם אותה",
+      "image_query": "archery targets scattered arrows"
     },
     {
       "id": "b_signal_and_noise",
@@ -93,7 +106,8 @@
       "title_he": "האות והרעש",
       "author": "Nate Silver",
       "year": 2012,
-      "why_he": "מדריך לחשיבה בייסיאנית דרך דוגמאות מבייסבול, פוליטיקה, מזג אוויר ופוקר"
+      "why_he": "מדריך לחשיבה בייסיאנית דרך דוגמאות מבייסבול, פוליטיקה, מזג אוויר ופוקר",
+      "image_query": "weather satellite map"
     },
     {
       "id": "b_scout_mindset",
@@ -101,7 +115,8 @@
       "title_he": "תודעת הסייר",
       "author": "Julia Galef",
       "year": 2021,
-      "why_he": "ההבדל בין 'חייל' שמגן על עמדותיו ל'סייר' שרוצה לראות את המפה כפי שהיא, ואיך לעבור לצד השני"
+      "why_he": "ההבדל בין 'חייל' שמגן על עמדותיו ל'סייר' שרוצה לראות את המפה כפי שהיא, ואיך לעבור לצד השני",
+      "image_query": "binoculars overlook landscape"
     },
     {
       "id": "b_poor_charlies_almanack",
@@ -109,7 +124,8 @@
       "title_he": "האלמנך של צ'רלי מאנגר",
       "author": "Charles T. Munger (ed. Peter D. Kaufman)",
       "year": 2005,
-      "why_he": "אוסף הנאומים של שותפו של וורן באפט, ומקור הרעיון של 'סריג מודלים מנטליים' מתחומים שונים"
+      "why_he": "אוסף הנאומים של שותפו של וורן באפט, ומקור הרעיון של 'סריג מודלים מנטליים' מתחומים שונים",
+      "image_query": "toolbox wrenches tools"
     },
     {
       "id": "b_great_mental_models",
@@ -117,7 +133,8 @@
       "title_he": "המודלים המנטליים הגדולים",
       "author": "Shane Parrish & Rhiannon Beaubien",
       "year": 2019,
-      "why_he": "ספר הבסיס של Farnam Street: מפה, טריטוריה, מעגל כשירות, חשיבה מהיסודות ועוד"
+      "why_he": "ספר הבסיס של Farnam Street: מפה, טריטוריה, מעגל כשירות, חשיבה מהיסודות ועוד",
+      "image_query": "world map with pins"
     },
     {
       "id": "b_factfulness",
@@ -125,7 +142,8 @@
       "title_he": "עובדתיות",
       "author": "Hans Rosling, Ola Rosling & Anna Rosling Rönnlund",
       "year": 2018,
-      "why_he": "עשרה אינסטינקטים שמעוותים את תמונת העולם שלנו, ונתונים שמראים שהעולם טוב יותר ממה שנדמה"
+      "why_he": "עשרה אינסטינקטים שמעוותים את תמונת העולם שלנו, ונתונים שמראים שהעולם טוב יותר ממה שנדמה",
+      "image_query": "world globe classroom"
     },
     {
       "id": "b_thinking_in_systems",
@@ -133,7 +151,8 @@
       "title_he": "לחשוב במערכות",
       "author": "Donella H. Meadows",
       "year": 2008,
-      "why_he": "המבוא הקלאסי לחשיבה מערכתית: מאגרים, זרימות, לולאות משוב ונקודות מינוף"
+      "why_he": "המבוא הקלאסי לחשיבה מערכתית: מאגרים, זרימות, לולאות משוב ונקודות מינוף",
+      "image_query": "bathtub water faucet"
     },
     {
       "id": "b_algorithms_to_live_by",
@@ -141,7 +160,8 @@
       "title_he": "אלגוריתמים לחיים",
       "author": "Brian Christian & Tom Griffiths",
       "year": 2016,
-      "why_he": "מה מדעי המחשב יכולים ללמד אותנו על מתי להפסיק לחפש, איך לסדר ומתי לחקור מול לנצל"
+      "why_he": "מה מדעי המחשב יכולים ללמד אותנו על מתי להפסיק לחפש, איך לסדר ומתי לחקור מול לנצל",
+      "image_query": "apartment hunting search"
     },
     {
       "id": "b_art_of_thinking_clearly",
@@ -149,7 +169,8 @@
       "title_he": "אמנות החשיבה הבהירה",
       "author": "Rolf Dobelli",
       "year": 2013,
-      "why_he": "99 הטיות ומלכודות חשיבה בפרקים קצרצרים, מושלם לקריאה יומית"
+      "why_he": "99 הטיות ומלכודות חשיבה בפרקים קצרצרים, מושלם לקריאה יומית",
+      "image_query": "maze puzzle path"
     },
     {
       "id": "b_how_not_to_be_wrong",
@@ -157,7 +178,8 @@
       "title_he": "איך לא לטעות: כוחה של החשיבה המתמטית",
       "author": "Jordan Ellenberg",
       "year": 2014,
-      "why_he": "מתמטיקאי מראה איך רעיונות מתמטיים פשוטים חושפים טעויות בחדשות, בפוליטיקה ובחיים"
+      "why_he": "מתמטיקאי מראה איך רעיונות מתמטיים פשוטים חושפים טעויות בחדשות, בפוליטיקה ובחיים",
+      "image_query": "chalkboard math equations"
     },
     {
       "id": "b_drunkards_walk",
@@ -165,7 +187,8 @@
       "title_he": "הליכת השיכור",
       "author": "Leonard Mlodinow",
       "year": 2008,
-      "why_he": "מבוא נגיש להסתברות ולאקראיות, מהיסטוריית התורה ועד לשאלה כמה מזל יש בהצלחה"
+      "why_he": "מבוא נגיש להסתברות ולאקראיות, מהיסטוריית התורה ועד לשאלה כמה מזל יש בהצלחה",
+      "image_query": "dice rolling table"
     },
     {
       "id": "b_sapiens",
@@ -174,7 +197,8 @@
       "author": "Yuval Noah Harari",
       "year": 2014,
       "why_he": "הספר הישראלי שכבש את העולם: איך מין חסר חשיבות שלט בכדור הארץ בזכות היכולת לספר סיפורים",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "cave paintings wall"
     },
     {
       "id": "b_short_history_nearly_everything",
@@ -182,7 +206,8 @@
       "title_he": "קיצור תולדות כמעט הכול",
       "author": "Bill Bryson",
       "year": 2003,
-      "why_he": "הסיור המשעשע והמקיף ביותר במדע, מהמפץ הגדול ועד לתאים שלנו, כתוב לקורא שאינו מדען"
+      "why_he": "הסיור המשעשע והמקיף ביותר במדע, מהמפץ הגדול ועד לתאים שלנו, כתוב לקורא שאינו מדען",
+      "image_query": "telescope night sky stars"
     },
     {
       "id": "b_selfish_gene",
@@ -190,7 +215,8 @@
       "title_he": "הגן האנוכי",
       "author": "Richard Dawkins",
       "year": 1976,
-      "why_he": "הספר ששינה את הדרך שבה מבינים אבולוציה: הגן, לא הפרט או הקבוצה, הוא יחידת הברירה"
+      "why_he": "הספר ששינה את הדרך שבה מבינים אבולוציה: הגן, לא הפרט או הקבוצה, הוא יחידת הברירה",
+      "image_query": "dna double helix model"
     },
     {
       "id": "b_godel_escher_bach",
@@ -199,7 +225,8 @@
       "author": "Douglas R. Hofstadter",
       "year": 1979,
       "why_he": "זוכה פוליצר שמחבר לוגיקה, אמנות ומוזיקה כדי לשאול איך תודעה יכולה לצמוח מחומר",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "impossible staircase illusion"
     },
     {
       "id": "b_beginning_of_infinity",
@@ -208,7 +235,8 @@
       "author": "David Deutsch",
       "year": 2011,
       "why_he": "הסברים טובים הם המנוע של כל התקדמות, ופיזיקאי קוונטי טוען שאין גבול למה שאפשר להסביר",
-      "chapters_total": 18
+      "chapters_total": 18,
+      "image_query": "telescope observatory dome"
     },
     {
       "id": "b_chaos",
@@ -216,7 +244,8 @@
       "title_he": "כאוס: מדע חדש נוצר",
       "author": "James Gleick",
       "year": 1987,
-      "why_he": "הסיפור של תורת הכאוס ואפקט הפרפר, ולמה מערכות דטרמיניסטיות יכולות להיות בלתי צפויות"
+      "why_he": "הסיפור של תורת הכאוס ואפקט הפרפר, ולמה מערכות דטרמיניסטיות יכולות להיות בלתי צפויות",
+      "image_query": "butterfly wings close-up"
     },
     {
       "id": "b_the_gene",
@@ -224,7 +253,8 @@
       "title_he": "הגן: היסטוריה אינטימית",
       "author": "Siddhartha Mukherjee",
       "year": 2016,
-      "why_he": "היסטוריה של הגנטיקה ממנדל ועד CRISPR, שזורה בסיפור משפחתו של המחבר"
+      "why_he": "היסטוריה של הגנטיקה ממנדל ועד CRISPR, שזורה בסיפור משפחתו של המחבר",
+      "image_query": "laboratory test tubes"
     },
     {
       "id": "b_behave",
@@ -232,7 +262,8 @@
       "title_he": "להתנהג: הביולוגיה של בני אדם במיטבם ובמירעם",
       "author": "Robert M. Sapolsky",
       "year": 2017,
-      "why_he": "מה קרה במוח שנייה לפני ההתנהגות, ומה קרה שעות, שנים ומיליוני שנים לפני כן"
+      "why_he": "מה קרה במוח שנייה לפני ההתנהגות, ומה קרה שעות, שנים ומיליוני שנים לפני כן",
+      "image_query": "chimpanzee close-up face"
     },
     {
       "id": "b_seven_brief_lessons",
@@ -241,7 +272,8 @@
       "author": "Carlo Rovelli",
       "year": 2014,
       "why_he": "ספרון שירי ונגיש על יחסות, קוונטים, חורים שחורים וזמן, שנמכר במיליוני עותקים",
-      "chapters_total": 7
+      "chapters_total": 7,
+      "image_query": "starry night galaxy"
     },
     {
       "id": "b_rationality",
@@ -249,7 +281,8 @@
       "title_he": "רציונליות",
       "author": "Steven Pinker",
       "year": 2021,
-      "why_he": "קורס מרוכז blogיקה, הסתברות, בייס ותורת המשחקים, ולמה רציונליות היא נכס ציבורי"
+      "why_he": "קורס מרוכז blogיקה, הסתברות, בייס ותורת המשחקים, ולמה רציונליות היא נכס ציבורי",
+      "image_query": "scale balance weighing"
     }
   ],
   "leaders": [
@@ -632,7 +665,8 @@
         "https://grahammann.net/book-notes/thinking-in-bets-annie-duke",
         "https://readingraphics.com/book-summary-thinking-in-bets/",
         "https://evansamek.substack.com/p/thinking-in-bets-by-annie-duke"
-      ]
+      ],
+      "image_query": "poker table chips"
     },
     {
       "book_id": "b_superforecasting",
@@ -651,7 +685,8 @@
         "https://lifeitself.org/blog/notes-on-tetlock-and-gardners-superforecasting",
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/executive-summary-superforecasting/",
         "http://faculty.bard.edu/hhaggard/teaching/sci127Sp20/notes/TetlockGardnerSuperforecasting1.pdf"
-      ]
+      ],
+      "image_query": "weather forecaster map"
     },
     {
       "book_id": "b_the_black_swan",
@@ -670,7 +705,8 @@
         "https://www.bookrags.com/studyguide-the-black-swan/chapanal002.html",
         "https://www.cxoadvisory.com/big-ideas/the-black-swan-the-impact-of-the-highly-improbable-chapter-by-chapter-review/",
         "https://auresnotes.com/summary-the-black-swan-nassim-taleb/"
-      ]
+      ],
+      "image_query": "rearview mirror road"
     },
     {
       "book_id": "b_sapiens",
@@ -690,7 +726,8 @@
         "https://www.litcharts.com/lit/sapiens/chapter-1-an-animal-of-no-significance",
         "https://saurabhdashora.com/sapiens-chapter-1-summary-analysis/",
         "https://medium.com/reading-collaboration/1-an-animal-of-no-significance-1fe20a0a8f17"
-      ]
+      ],
+      "image_query": "prehistoric human skull"
     },
     {
       "book_id": "b_sapiens",
@@ -709,7 +746,8 @@
       "sources": [
         "https://www.litcharts.com/lit/sapiens/chapter-2-the-tree-of-knowledge",
         "https://saurabhdashora.com/sapiens-chapter-2-summary-analysis/"
-      ]
+      ],
+      "image_query": "ancient manuscript scroll"
     },
     {
       "book_id": "b_sapiens",
@@ -728,7 +766,8 @@
       "sources": [
         "https://www.litcharts.com/lit/sapiens/chapter-3-a-day-in-the-life-of-adam-and-eve",
         "https://saurabhdashora.com/sapiens-chapter-3-summary-analysis/"
-      ]
+      ],
+      "image_query": "forager basket berries"
     },
     {
       "book_id": "b_sapiens",
@@ -747,7 +786,8 @@
       "sources": [
         "https://www.litcharts.com/lit/sapiens/chapter-4-the-flood",
         "https://saurabhdashora.com/sapiens-chapter-4-summary-the-flood/"
-      ]
+      ],
+      "image_query": "mammoth skeleton museum"
     },
     {
       "book_id": "b_selfish_gene",
@@ -766,7 +806,8 @@
         "https://www.litcharts.com/lit/the-selfish-gene/chapter-1-why-are-people",
         "https://www.supersummary.com/the-selfish-gene/chapters-1-3/",
         "https://www.bookrags.com/studyguide-the-selfish-gene/chapanal001.html"
-      ]
+      ],
+      "image_query": "ant colony close-up"
     },
     {
       "book_id": "b_factfulness",
@@ -785,7 +826,8 @@
         "https://saatnyarehatsejenak.medium.com/a-summary-of-factfulness-chapter-1-the-gap-instinct-206717c65a1e",
         "https://marklooi.medium.com/summary-and-commentary-on-roslings-factfulness-8aa52621d96f",
         "https://readingraphics.com/book-summary-factfulness/"
-      ]
+      ],
+      "image_query": "world map two halves"
     },
     {
       "book_id": "b_thinking_in_bets",
@@ -804,7 +846,8 @@
       "sources": [
         "https://journals.cambridgemedia.com.au/jhtam/volume-5-number-1/Thinking-in%20bets-making-smarter-decisions-when-you-don%E2%80%99t-have-all-the-facts-by-Annie-Duke",
         "https://readingraphics.com/book-summary-thinking-in-bets/"
-      ]
+      ],
+      "image_query": "betting chips dice"
     },
     {
       "book_id": "b_thinking_in_bets",
@@ -823,7 +866,8 @@
       "sources": [
         "https://www.shortform.com/summary/thinking-in-bets-summary-annie-duke",
         "https://grahammann.net/book-notes/thinking-in-bets-annie-duke"
-      ]
+      ],
+      "image_query": "magnifying glass evidence"
     },
     {
       "book_id": "b_thinking_in_bets",
@@ -842,7 +886,8 @@
       "sources": [
         "https://trunin.com/en/2022/03/thinking-in-bets-04-the-buddy-system/",
         "https://ericsandroni.com/thinking-in-bets-summary/"
-      ]
+      ],
+      "image_query": "friends talking coffee table"
     },
     {
       "book_id": "b_superforecasting",
@@ -861,7 +906,8 @@
       "sources": [
         "http://faculty.bard.edu/hhaggard/teaching/sci127Sp20/notes/TetlockGardnerSuperforecasting1.pdf",
         "https://lifeitself.org/blog/notes-on-tetlock-and-gardners-superforecasting"
-      ]
+      ],
+      "image_query": "fortune teller crystal ball"
     },
     {
       "book_id": "b_superforecasting",
@@ -880,7 +926,8 @@
       "sources": [
         "https://rufuspollock.com/post/tetlock-gardner-2015-superforecasting-the-art-and-science-of-prediction/",
         "https://jamesstuber.com/super-forecasting/"
-      ]
+      ],
+      "image_query": "scoreboard stadium numbers"
     },
     {
       "book_id": "b_superforecasting",
@@ -899,7 +946,8 @@
       "sources": [
         "https://www.shortform.com/summary/superforecasting-summary-philip-e-tetlock",
         "https://jaknguyen.medium.com/superforecasting-the-art-and-science-of-prediction-summary-7d2bb0eea2e1"
-      ]
+      ],
+      "image_query": "notebook journal writing"
     },
     {
       "book_id": "b_the_black_swan",
@@ -918,7 +966,8 @@
       "sources": [
         "https://readingraphics.com/book-summary-the-black-swan/",
         "https://www.slideshare.net/slideshow/taleb-the-black-swan/255189763"
-      ]
+      ],
+      "image_query": "stack of rejected letters"
     },
     {
       "book_id": "b_the_black_swan",
@@ -937,7 +986,8 @@
       "sources": [
         "https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/the-black-swan/",
         "https://boolefund.com/the-black-swan/"
-      ]
+      ],
+      "image_query": "stock exchange trading floor"
     },
     {
       "book_id": "b_the_black_swan",
@@ -956,7 +1006,8 @@
       "sources": [
         "https://www.shortform.com/summary/the-black-swan-summary-nassim-nicholas-taleb",
         "https://auresnotes.com/summary-the-black-swan-nassim-taleb/"
-      ]
+      ],
+      "image_query": "turkey being fed farm"
     },
     {
       "book_id": "b_selfish_gene",
@@ -975,7 +1026,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-selfish-gene/chapter-2-the-replicators",
         "https://sites.nd.edu/carmen-alvarez/general-summary/chapter-2/"
-      ]
+      ],
+      "image_query": "test tube chemistry lab"
     },
     {
       "book_id": "b_selfish_gene",
@@ -994,7 +1046,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-selfish-gene/chapter-3-immortal-coils",
         "http://theselfishgeneareading.blogspot.com/2009/09/chapter-3.html"
-      ]
+      ],
+      "image_query": "dna double helix strand"
     },
     {
       "book_id": "b_selfish_gene",
@@ -1013,7 +1066,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-selfish-gene/chapter-4-the-gene-machine",
         "https://medium.com/@ahilyatrivedi_30233/the-selfish-gene-1127dd217d75"
-      ]
+      ],
+      "image_query": "chess clock timer"
     },
     {
       "book_id": "b_factfulness",
@@ -1032,7 +1086,8 @@
       "sources": [
         "https://mindblog.dericbownds.net/2019/04/factfulness-roslings-instinctual-mental.html",
         "https://www.shortform.com/summary/factfulness-summary-hans-rosling"
-      ]
+      ],
+      "image_query": "newspaper headlines stack"
     },
     {
       "book_id": "b_factfulness",
@@ -1051,7 +1106,8 @@
       "sources": [
         "https://mindblog.dericbownds.net/2019/04/factfulness-roslings-instinctual-mental.html",
         "https://professornerdster.com/synopsis-of-factfulness/"
-      ]
+      ],
+      "image_query": "graph chart arrow up"
     },
     {
       "book_id": "b_factfulness",
@@ -1070,7 +1126,8 @@
       "sources": [
         "https://www.supersummary.com/factfulness/chapters-4-5/",
         "https://mindblog.dericbownds.net/2019/04/factfulness-roslings-instinctual-mental_24.html"
-      ]
+      ],
+      "image_query": "shark fin ocean"
     }
   ]
 }

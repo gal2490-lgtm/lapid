@@ -170,6 +170,20 @@
     padding: 18px 20px 16px;
   }
   .c-chapter .head .eyebrow, .c-chapter .head .eyebrow b { color: var(--tint-ink); opacity: .9; }
+  .c-chapter .head { position: relative; display: flex; flex-direction: column; justify-content: flex-end; }
+  .c-chapter .head .hero-img { position: absolute; inset: 0; overflow: hidden; }
+  .c-chapter .head .hero-img img { width: 100%; height: 100%; object-fit: cover; display: block; transform: scale(1.02); }
+  .c-chapter .head .hero-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.25) 45%, rgba(0,0,0,.72) 100%); }
+  .c-chapter .head.has-img { min-height: 250px; color: #fff; padding-top: 120px; }
+  .c-chapter .head.has-img .eyebrow, .c-chapter .head.has-img .eyebrow b { color: #fff; opacity: .92; }
+  .c-chapter .head.has-img .eyebrow .dot { background: #fff; }
+  .c-chapter .head > * { position: relative; z-index: 1; }
+  .c-chapter .head .credit { position: absolute; top: 10px; inset-inline-start: 14px; z-index: 2; font-size: 10px; color: rgba(255,255,255,.75); text-decoration: none; letter-spacing: .03em; }
+  .c-chapter .explain { position: relative; margin: 14px 20px 4px; border-radius: 14px; overflow: hidden; aspect-ratio: 16 / 9; max-width: 100%; background: #0c0b09; display: grid; place-items: center; }
+  .c-chapter .explain img, .c-chapter .explain iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; }
+  .c-chapter .explain .play { width: 52px; height: 52px; }
+  .c-chapter .explain .play svg { width: 22px; height: 22px; }
+  .c-chapter .explain .cap { position: absolute; bottom: 8px; inset-inline-start: 12px; z-index: 1; font-size: 12px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.6); }
   .c-chapter .idea {
     font-family: var(--font-display); font-weight: 900;
     font-size: clamp(24px, 6.4vw, 32px); line-height: 1.2; margin-top: 10px;
@@ -390,6 +404,7 @@
 
   // ---------- media capability probe ----------
   function probeMedia() {
+    if (/[?&]media=1/.test(location.search)) return Promise.resolve(true);
     if (/claude\.ai$|anthropic/.test(location.hostname) || (window.top !== window.self && !/localhost|lovable|flyxforce/.test(location.hostname))) return Promise.resolve(false);
     return new Promise(resolve => {
       const img = new Image();
@@ -496,12 +511,32 @@
   function renderChapter(root, it) {
     const { book, chapter: ch } = it;
     root.innerHTML = `
-      <div class="head">${eyebrow('רעיון מהספר', it, `רעיון ${it.ordinal}`)}<h2 class="idea">${esc(ch.idea_he)}</h2></div>
+      <div class="head" data-img-query="${esc(ch.image_query || '')}" data-book-title="${esc(book.title)}">${eyebrow('רעיון מהספר', it, `רעיון ${it.ordinal}`)}<h2 class="idea">${esc(ch.idea_he)}</h2></div>
       <p class="body">${esc(ch.body_he)}</p>
       <ul class="points">${(ch.points_he || []).map(p => `<li>${esc(p)}</li>`).join('')}</ul>
       ${ch.apply_he ? `<div class="apply"><b>איך זה נראה בפועל</b>${esc(ch.apply_he)}</div>` : ''}
       ${ch.quote ? `<p class="quote">“${esc(ch.quote)}”</p>` : ''}
       <div class="bookline"><div class="cover" data-cover="${esc(book.title)}|${esc(book.author)}">${esc(initials(book.title))}</div><div><div class="t">${esc(book.title)}</div><div class="a">${esc(book.author)}${book.year ? ' · ' + book.year : ''}</div></div></div>`;
+    if (ch.media && ch.media.youtube_id) explainer(root, ch.media);
+  }
+
+  function explainer(root, m) {
+    const box = el('div', 'explain');
+    const play = el(state.mediaOK ? 'button' : 'a', 'play', ICON_PLAY);
+    play.setAttribute('aria-label', 'נגן הסבר קצר');
+    if (state.mediaOK) {
+      const img = new Image(); img.alt = ''; img.src = `https://i.ytimg.com/vi/${encodeURIComponent(m.youtube_id)}/hqdefault.jpg`;
+      box.appendChild(img);
+      play.addEventListener('click', () => {
+        const f = document.createElement('iframe');
+        f.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(m.youtube_id)}?autoplay=1&rel=0&playsinline=1`;
+        f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.setAttribute('allowfullscreen', ''); f.title = m.title || '';
+        box.innerHTML = ''; box.appendChild(f);
+      });
+    } else { play.href = m.source_url; play.target = '_blank'; play.rel = 'noopener'; }
+    box.appendChild(play);
+    box.appendChild(el('span', 'cap', esc((m.duration_min ? m.duration_min + ' דק׳ · ' : '') + 'הסבר קצר' + (m.title ? ': ' + m.title : ''))));
+    root.querySelector('.head').insertAdjacentElement('afterend', box);
   }
 
   const LONG_RE = /podcast|episode|\bep\.? ?\d|full (interview|episode|conversation|talk)|#\d{2,}|\bhours?\b|masterclass|\blive\b|lecture/i;
@@ -645,7 +680,7 @@
     }
     feed.appendChild(frag);
     observeCards();
-    if (state.mediaOK) { resolveCovers(); resolvePortraits(); }
+    if (state.mediaOK) { resolveCovers(); resolvePortraits(); resolveHeroes(); }
   }
 
   let io;
@@ -701,6 +736,44 @@
         }
         if (portraitCache[name]) { const img = new Image(); img.alt = ''; img.onload = () => { n.textContent = ''; n.appendChild(img); }; img.src = portraitCache[name]; }
       } catch (e) { /* keep initials */ }
+    }
+  }
+
+  // Hero images for idea cards: a free Wikimedia Commons photo matching the card's visual query,
+  // else the book's Wikipedia image. Cached per query; the tinted head stays when nothing fits.
+  const heroCache = store.get('heroes', {});
+  async function commonsImage(q) {
+    const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&generator=search&gsrnamespace=6&gsrlimit=6&gsrsearch=' + encodeURIComponent('filetype:bitmap ' + q) + '&prop=imageinfo&iiprop=url|mime|size&iiurlwidth=900';
+    const j = await (await fetch(url)).json();
+    const pages = Object.values((j.query && j.query.pages) || {});
+    const ok = pages.map(p => (p.imageinfo || [])[0]).filter(i => i && /jpeg|png/.test(i.mime) && i.width >= 600 && i.width / i.height > 0.7 && i.width / i.height < 2.6);
+    ok.sort((a, b) => (b.width * b.height) - (a.width * a.height));
+    return ok[0] ? { src: ok[0].thumburl, page: ok[0].descriptionurl, credit: 'Wikimedia Commons' } : null;
+  }
+  async function wikiBookImage(title) {
+    const r = await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title.replace(/ /g, '_')));
+    if (!r.ok) return null;
+    const j = await r.json();
+    const img = (j.originalimage && j.originalimage.width <= 2000 ? j.originalimage : j.thumbnail);
+    return img && j.type === 'standard' ? { src: img.source, page: j.content_urls && j.content_urls.desktop && j.content_urls.desktop.page, credit: 'Wikipedia' } : null;
+  }
+  async function resolveHeroes() {
+    const nodes = Array.from(document.querySelectorAll('.c-chapter .head:not([data-done])'));
+    for (const n of nodes) {
+      n.dataset.done = '1';
+      const q = n.dataset.imgQuery, title = n.dataset.bookTitle;
+      try {
+        let hit = null;
+        if (q) { if (!(('q:' + q) in heroCache)) { heroCache['q:' + q] = await commonsImage(q); store.set('heroes', heroCache); } hit = heroCache['q:' + q]; }
+        if (!hit && title) { if (!(('b:' + title) in heroCache)) { heroCache['b:' + title] = await wikiBookImage(title); store.set('heroes', heroCache); } hit = heroCache['b:' + title]; }
+        if (!hit) continue;
+        const img = new Image(); img.alt = '';
+        img.onload = () => {
+          const wrap = el('div', 'hero-img'); wrap.appendChild(img); n.prepend(wrap); n.classList.add('has-img');
+          if (hit.page) { const a = el('a', 'credit', esc(hit.credit)); a.href = hit.page; a.target = '_blank'; a.rel = 'noopener'; n.appendChild(a); }
+        };
+        img.src = hit.src;
+      } catch (e) { /* keep the tinted head */ }
     }
   }
 

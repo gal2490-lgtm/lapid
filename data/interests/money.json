@@ -3,160 +3,654 @@
   "name_he": "כלכלה, כסף והשקעות",
   "name_en": "Economics, Money & Investing",
   "tagline_he": "להבין איך כסף באמת עובד — מהתנהגות אישית ועד שווקים וכלכלות — כדי לקבל החלטות פיננסיות רגועות וחכמות יותר.",
-  "book_list_source": { "name": "Five Books – Best Investing Books (expert recommendations)", "url": "https://fivebooks.com/category/business/best-investing-books/" },
+  "book_list_source": {
+    "name": "Five Books – Best Investing Books (expert recommendations)",
+    "url": "https://fivebooks.com/category/business/best-investing-books/"
+  },
   "books": [
-    { "id": "b_psychology_of_money", "title": "The Psychology of Money", "author": "Morgan Housel", "year": 2020, "why_he": "הספר שהפך את השיחה על כסף מטכניקה להתנהגות: סבלנות, ענווה ומזל חשובים יותר מאינטליגנציה.", "chapters_total": 20 },
-    { "id": "b_intelligent_investor", "title": "The Intelligent Investor", "title_he": "המשקיע הנבון", "author": "Benjamin Graham", "year": 1949, "why_he": "אבי השקעות הערך; הספר שוורן באפט מכנה הטוב ביותר שנכתב אי פעם על השקעות.", "chapters_total": 20 },
-    { "id": "b_rich_dad_poor_dad", "title": "Rich Dad Poor Dad", "title_he": "אבא עשיר, אבא עני", "author": "Robert T. Kiyosaki", "year": 1997, "why_he": "רב-המכר שהכניס למיליוני קוראים את ההבחנה בין נכסים להתחייבויות ואת רעיון האוריינות הפיננסית." },
-    { "id": "b_random_walk_wall_street", "title": "A Random Walk Down Wall Street", "author": "Burton G. Malkiel", "year": 1973, "why_he": "הטיעון הקלאסי לכך שקשה לנצח את השוק, ושמדדים זולים מנצחים את רוב המנהלים הפעילים." },
-    { "id": "b_millionaire_next_door", "title": "The Millionaire Next Door", "author": "Thomas J. Stanley & William D. Danko", "year": 1996, "why_he": "מחקר שהראה שרוב המיליונרים בארה\"ב חיים בצניעות, חוסכים בעקביות ולא נראים עשירים.", "chapters_total": 8 },
-    { "id": "b_freakonomics", "title": "Freakonomics", "title_he": "פריקונומיקס", "author": "Steven D. Levitt & Stephen J. Dubner", "year": 2005, "why_he": "הספר שלימד קהל רחב לחשוב כמו כלכלן: תמריצים מסבירים התנהגות במקומות הכי לא צפויים.", "chapters_total": 6 },
-    { "id": "b_little_book_common_sense_investing", "title": "The Little Book of Common Sense Investing", "title_he": "הספר הקטן של השקעה בשכל ישר", "author": "John C. Bogle", "year": 2007, "why_he": "מייסד ואנגארד מסביר בפשטות למה קרן מדד זולה היא הדרך הטובה ביותר לרוב המשקיעים." },
-    { "id": "b_one_up_on_wall_street", "title": "One Up on Wall Street", "title_he": "צעד אחד לפני וול סטריט", "author": "Peter Lynch", "year": 1989, "why_he": "מנהל קרן מג'לן האגדי מראה איך משקיע פרטי יכול למצוא מניות מנצחות מתוך חיי היומיום.", "chapters_total": 20 },
-    { "id": "b_richest_man_in_babylon", "title": "The Richest Man in Babylon", "author": "George S. Clason", "year": 1926, "why_he": "משלים קצרים מבבל העתיקה שמלמדים את היסודות: שלם לעצמך קודם, חיה מתחת לאמצעיך, השקע בחוכמה." },
-    { "id": "b_your_money_or_your_life", "title": "Your Money or Your Life", "title_he": "הכסף או החיים", "author": "Vicki Robin & Joe Dominguez", "year": 1992, "why_he": "הספר שהוליד את תנועת העצמאות הכלכלית: כסף הוא אנרגיית חיים, ויש לבזבז אותו בהתאם לערכים שלך.", "chapters_total": 9 },
-    { "id": "b_simple_path_to_wealth", "title": "The Simple Path to Wealth", "title_he": "הדרך הפשוטה לעושר", "author": "JL Collins", "year": 2016, "why_he": "מכתבים לבת שהפכו למדריך הפשוט והאהוב ביותר של קהילת ה-FIRE: חסוך הרבה, קנה קרן מדד, אל תיגע." },
-    { "id": "b_principles_dalio", "title": "Principles: Life and Work", "title_he": "עקרונות", "author": "Ray Dalio", "year": 2017, "why_he": "מייסד קרן הגידור הגדולה בעולם חושף את מערכת העקרונות שמאחורי החלטותיו בחיים ובהשקעות." },
-    { "id": "b_big_short", "title": "The Big Short", "title_he": "הביג שורט", "author": "Michael Lewis", "year": 2010, "why_he": "הסיפור המרתק ביותר על משבר 2008 דרך עיני המעטים שראו אותו מגיע והימרו נגד השוק.", "chapters_total": 10 },
-    { "id": "b_liars_poker", "title": "Liar's Poker", "title_he": "פוקר של שקרנים", "author": "Michael Lewis", "year": 1989, "why_he": "זיכרונות מסאלומון ברדרס בשנות ה-80 שהפכו לתיאור המכונן של תרבות וול סטריט.", "chapters_total": 11 },
-    { "id": "b_most_important_thing", "title": "The Most Important Thing", "title_he": "הדבר הכי חשוב", "author": "Howard Marks", "year": 2011, "why_he": "מזכרי ההשקעות של הווארד מרקס בספר אחד: חשיבה מסדר שני, סיכון, מחזורים ופסיכולוגיית שוק.", "chapters_total": 20 },
-    { "id": "b_poor_economics", "title": "Poor Economics", "title_he": "כלכלת עוני", "author": "Abhijit V. Banerjee & Esther Duflo", "year": 2011, "why_he": "חתני פרס נובל מראים בניסויים שטח איך אנשים עניים באמת מקבלים החלטות כלכליות.", "chapters_total": 10 },
-    { "id": "b_capital_21st_century", "title": "Capital in the Twenty-First Century", "title_he": "ההון במאה העשרים ואחת", "author": "Thomas Piketty", "year": 2013, "why_he": "המחקר ההיסטורי שהחזיר את אי-השוויון למרכז הדיון הכלכלי העולמי (r > g).", "chapters_total": 16 },
-    { "id": "b_ascent_of_money", "title": "The Ascent of Money", "title_he": "עלייתו של הכסף", "author": "Niall Ferguson", "year": 2008, "why_he": "היסטוריה פיננסית של העולם — מבנקאות ואג\"ח ועד ביטוח ונדל\"ן — כסיפור אחד רציף.", "chapters_total": 6 },
-    { "id": "b_same_as_ever", "title": "Same as Ever", "title_he": "אותו הדבר תמיד", "author": "Morgan Housel", "year": 2023, "why_he": "במקום לנבא את העתיד, האוזל מתמקד במה שלעולם לא משתנה בהתנהגות אנושית וכלכלית.", "chapters_total": 23 },
-    { "id": "b_die_with_zero", "title": "Die With Zero", "title_he": "למות עם אפס", "author": "Bill Perkins", "year": 2020, "why_he": "טיעון פרובוקטיבי נגד חיסכון יתר: למקסם חוויות חיים ולא את היתרה בבנק ביום המוות.", "chapters_total": 9 },
-    { "id": "b_almanack_naval_ravikant", "title": "The Almanack of Naval Ravikant", "title_he": "האלמנך של נאבאל רביקנט", "author": "Eric Jorgenson", "year": 2020, "why_he": "אוסף ציטוטים ורעיונות של נאבאל על עושר ואושר, כולל 'איך להתעשר בלי מזל'." },
-    { "id": "b_security_analysis", "title": "Security Analysis", "title_he": "ניתוח ניירות ערך", "author": "Benjamin Graham & David Dodd", "year": 1934, "why_he": "התנ\"ך המקצועי של השקעות הערך — הבסיס האקדמי לכל מה שבא אחריו." },
-    { "id": "b_common_stocks_uncommon_profits", "title": "Common Stocks and Uncommon Profits", "title_he": "מניות רגילות ורווחים לא רגילים", "author": "Philip A. Fisher", "year": 1958, "why_he": "אבי השקעות הצמיחה ושיטת ה'רכילות' (Scuttlebutt); באפט תיאר את עצמו כ-85% גראהם ו-15% פישר." },
-    { "id": "b_wealth_of_nations", "title": "The Wealth of Nations", "title_he": "עושר העמים", "author": "Adam Smith", "year": 1776, "why_he": "הטקסט המכונן של הכלכלה המודרנית: חלוקת עבודה, שווקים ו'היד הנעלמה'." },
-    { "id": "b_i_will_teach_you_to_be_rich", "title": "I Will Teach You to Be Rich", "title_he": "אלמד אותך להיות עשיר", "author": "Ramit Sethi", "year": 2009, "why_he": "תוכנית פרקטית של שישה שבועות לאוטומציה של הכסף האישי, בלי אשמה ובלי לקצץ בקפה.", "chapters_total": 9 },
-    { "id": "b_misbehaving", "title": "Misbehaving: The Making of Behavioral Economics", "title_he": "לא מתנהגים יפה: לידתה של הכלכלה ההתנהגותית", "author": "Richard H. Thaler", "year": 2015, "why_he": "חתן פרס נובל מספר איך התגלה שבני אדם אינם 'רציונליים' — ומה זה אומר על הכסף שלנו." },
-    { "id": "b_total_money_makeover", "title": "The Total Money Makeover", "title_he": "המהפך הכספי המלא", "author": "Dave Ramsey", "year": 2003, "why_he": "שיטת 'צעדי התינוק' ליציאה מחובות ובניית חיסכון, שעזרה למיליוני משפחות בארה\"ב." },
-    { "id": "b_economics_in_one_lesson", "title": "Economics in One Lesson", "title_he": "כלכלה בשיעור אחד", "author": "Henry Hazlitt", "year": 1946, "why_he": "המבוא הקצר והבהיר ביותר לחשיבה כלכלית: להסתכל על ההשלכות הנסתרות וארוכות הטווח של כל מדיניות." },
-    { "id": "b_essays_of_warren_buffett", "title": "The Essays of Warren Buffett", "title_he": "המסות של וורן באפט", "author": "Lawrence A. Cunningham (ed.)", "year": 1997, "why_he": "מכתבי באפט לבעלי המניות מסודרים לפי נושא — הפילוסופיה של המשקיע הגדול בעולם במילותיו." },
-    { "id": "b_too_big_to_fail", "title": "Too Big to Fail", "title_he": "גדולים מכדי ליפול", "author": "Andrew Ross Sorkin", "year": 2009, "why_he": "התיעוד המפורט ביותר של ימי המשבר ב-2008 מבפנים — וול סטריט, הפד והאוצר בזמן אמת." }
+    {
+      "id": "b_psychology_of_money",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "year": 2020,
+      "why_he": "הספר שהפך את השיחה על כסף מטכניקה להתנהגות: סבלנות, ענווה ומזל חשובים יותר מאינטליגנציה.",
+      "chapters_total": 20,
+      "image_query": "piggy bank coins"
+    },
+    {
+      "id": "b_intelligent_investor",
+      "title": "The Intelligent Investor",
+      "title_he": "המשקיע הנבון",
+      "author": "Benjamin Graham",
+      "year": 1949,
+      "why_he": "אבי השקעות הערך; הספר שוורן באפט מכנה הטוב ביותר שנכתב אי פעם על השקעות.",
+      "chapters_total": 20,
+      "image_query": "newspaper stock pages"
+    },
+    {
+      "id": "b_rich_dad_poor_dad",
+      "title": "Rich Dad Poor Dad",
+      "title_he": "אבא עשיר, אבא עני",
+      "author": "Robert T. Kiyosaki",
+      "year": 1997,
+      "why_he": "רב-המכר שהכניס למיליוני קוראים את ההבחנה בין נכסים להתחייבויות ואת רעיון האוריינות הפיננסית.",
+      "image_query": "monopoly board game"
+    },
+    {
+      "id": "b_random_walk_wall_street",
+      "title": "A Random Walk Down Wall Street",
+      "author": "Burton G. Malkiel",
+      "year": 1973,
+      "why_he": "הטיעון הקלאסי לכך שקשה לנצח את השוק, ושמדדים זולים מנצחים את רוב המנהלים הפעילים.",
+      "image_query": "wall street bull statue"
+    },
+    {
+      "id": "b_millionaire_next_door",
+      "title": "The Millionaire Next Door",
+      "author": "Thomas J. Stanley & William D. Danko",
+      "year": 1996,
+      "why_he": "מחקר שהראה שרוב המיליונרים בארה\"ב חיים בצניעות, חוסכים בעקביות ולא נראים עשירים.",
+      "chapters_total": 8,
+      "image_query": "suburban house driveway"
+    },
+    {
+      "id": "b_freakonomics",
+      "title": "Freakonomics",
+      "title_he": "פריקונומיקס",
+      "author": "Steven D. Levitt & Stephen J. Dubner",
+      "year": 2005,
+      "why_he": "הספר שלימד קהל רחב לחשוב כמו כלכלן: תמריצים מסבירים התנהגות במקומות הכי לא צפויים.",
+      "chapters_total": 6,
+      "image_query": "vending machine coins"
+    },
+    {
+      "id": "b_little_book_common_sense_investing",
+      "title": "The Little Book of Common Sense Investing",
+      "title_he": "הספר הקטן של השקעה בשכל ישר",
+      "author": "John C. Bogle",
+      "year": 2007,
+      "why_he": "מייסד ואנגארד מסביר בפשטות למה קרן מדד זולה היא הדרך הטובה ביותר לרוב המשקיעים.",
+      "image_query": "simple index card"
+    },
+    {
+      "id": "b_one_up_on_wall_street",
+      "title": "One Up on Wall Street",
+      "title_he": "צעד אחד לפני וול סטריט",
+      "author": "Peter Lynch",
+      "year": 1989,
+      "why_he": "מנהל קרן מג'לן האגדי מראה איך משקיע פרטי יכול למצוא מניות מנצחות מתוך חיי היומיום.",
+      "chapters_total": 20,
+      "image_query": "shopping mall storefront"
+    },
+    {
+      "id": "b_richest_man_in_babylon",
+      "title": "The Richest Man in Babylon",
+      "author": "George S. Clason",
+      "year": 1926,
+      "why_he": "משלים קצרים מבבל העתיקה שמלמדים את היסודות: שלם לעצמך קודם, חיה מתחת לאמצעיך, השקע בחוכמה.",
+      "image_query": "gold coins pouch"
+    },
+    {
+      "id": "b_your_money_or_your_life",
+      "title": "Your Money or Your Life",
+      "title_he": "הכסף או החיים",
+      "author": "Vicki Robin & Joe Dominguez",
+      "year": 1992,
+      "why_he": "הספר שהוליד את תנועת העצמאות הכלכלית: כסף הוא אנרגיית חיים, ויש לבזבז אותו בהתאם לערכים שלך.",
+      "chapters_total": 9,
+      "image_query": "hourglass sand time"
+    },
+    {
+      "id": "b_simple_path_to_wealth",
+      "title": "The Simple Path to Wealth",
+      "title_he": "הדרך הפשוטה לעושר",
+      "author": "JL Collins",
+      "year": 2016,
+      "why_he": "מכתבים לבת שהפכו למדריך הפשוט והאהוב ביותר של קהילת ה-FIRE: חסוך הרבה, קנה קרן מדד, אל תיגע.",
+      "image_query": "hiking trail path"
+    },
+    {
+      "id": "b_principles_dalio",
+      "title": "Principles: Life and Work",
+      "title_he": "עקרונות",
+      "author": "Ray Dalio",
+      "year": 2017,
+      "why_he": "מייסד קרן הגידור הגדולה בעולם חושף את מערכת העקרונות שמאחורי החלטותיו בחיים ובהשקעות.",
+      "image_query": "compass and map"
+    },
+    {
+      "id": "b_big_short",
+      "title": "The Big Short",
+      "title_he": "הביג שורט",
+      "author": "Michael Lewis",
+      "year": 2010,
+      "why_he": "הסיפור המרתק ביותר על משבר 2008 דרך עיני המעטים שראו אותו מגיע והימרו נגד השוק.",
+      "chapters_total": 10,
+      "image_query": "foreclosed house for sale"
+    },
+    {
+      "id": "b_liars_poker",
+      "title": "Liar's Poker",
+      "title_he": "פוקר של שקרנים",
+      "author": "Michael Lewis",
+      "year": 1989,
+      "why_he": "זיכרונות מסאלומון ברדרס בשנות ה-80 שהפכו לתיאור המכונן של תרבות וול סטריט.",
+      "chapters_total": 11,
+      "image_query": "poker cards trading floor"
+    },
+    {
+      "id": "b_most_important_thing",
+      "title": "The Most Important Thing",
+      "title_he": "הדבר הכי חשוב",
+      "author": "Howard Marks",
+      "year": 2011,
+      "why_he": "מזכרי ההשקעות של הווארד מרקס בספר אחד: חשיבה מסדר שני, סיכון, מחזורים ופסיכולוגיית שוק.",
+      "chapters_total": 20,
+      "image_query": "road sign curve risk"
+    },
+    {
+      "id": "b_poor_economics",
+      "title": "Poor Economics",
+      "title_he": "כלכלת עוני",
+      "author": "Abhijit V. Banerjee & Esther Duflo",
+      "year": 2011,
+      "why_he": "חתני פרס נובל מראים בניסויים שטח איך אנשים עניים באמת מקבלים החלטות כלכליות.",
+      "chapters_total": 10,
+      "image_query": "rural village marketplace"
+    },
+    {
+      "id": "b_capital_21st_century",
+      "title": "Capital in the Twenty-First Century",
+      "title_he": "ההון במאה העשרים ואחת",
+      "author": "Thomas Piketty",
+      "year": 2013,
+      "why_he": "המחקר ההיסטורי שהחזיר את אי-השוויון למרכז הדיון הכלכלי העולמי (r > g).",
+      "chapters_total": 16,
+      "image_query": "stacked coins tower"
+    },
+    {
+      "id": "b_ascent_of_money",
+      "title": "The Ascent of Money",
+      "title_he": "עלייתו של הכסף",
+      "author": "Niall Ferguson",
+      "year": 2008,
+      "why_he": "היסטוריה פיננסית של העולם — מבנקאות ואג\"ח ועד ביטוח ונדל\"ן — כסיפור אחד רציף.",
+      "chapters_total": 6,
+      "image_query": "ancient bank vault"
+    },
+    {
+      "id": "b_same_as_ever",
+      "title": "Same as Ever",
+      "title_he": "אותו הדבר תמיד",
+      "author": "Morgan Housel",
+      "year": 2023,
+      "why_he": "במקום לנבא את העתיד, האוזל מתמקד במה שלעולם לא משתנה בהתנהגות אנושית וכלכלית.",
+      "chapters_total": 23,
+      "image_query": "old vintage photograph"
+    },
+    {
+      "id": "b_die_with_zero",
+      "title": "Die With Zero",
+      "title_he": "למות עם אפס",
+      "author": "Bill Perkins",
+      "year": 2020,
+      "why_he": "טיעון פרובוקטיבי נגד חיסכון יתר: למקסם חוויות חיים ולא את היתרה בבנק ביום המוות.",
+      "chapters_total": 9,
+      "image_query": "beach vacation sunset"
+    },
+    {
+      "id": "b_almanack_naval_ravikant",
+      "title": "The Almanack of Naval Ravikant",
+      "title_he": "האלמנך של נאבאל רביקנט",
+      "author": "Eric Jorgenson",
+      "year": 2020,
+      "why_he": "אוסף ציטוטים ורעיונות של נאבאל על עושר ואושר, כולל 'איך להתעשר בלי מזל'.",
+      "image_query": "hammock beach relaxing"
+    },
+    {
+      "id": "b_security_analysis",
+      "title": "Security Analysis",
+      "title_he": "ניתוח ניירות ערך",
+      "author": "Benjamin Graham & David Dodd",
+      "year": 1934,
+      "why_he": "התנ\"ך המקצועי של השקעות הערך — הבסיס האקדמי לכל מה שבא אחריו.",
+      "image_query": "financial newspaper magnifying glass"
+    },
+    {
+      "id": "b_common_stocks_uncommon_profits",
+      "title": "Common Stocks and Uncommon Profits",
+      "title_he": "מניות רגילות ורווחים לא רגילים",
+      "author": "Philip A. Fisher",
+      "year": 1958,
+      "why_he": "אבי השקעות הצמיחה ושיטת ה'רכילות' (Scuttlebutt); באפט תיאר את עצמו כ-85% גראהם ו-15% פישר.",
+      "image_query": "factory floor tour"
+    },
+    {
+      "id": "b_wealth_of_nations",
+      "title": "The Wealth of Nations",
+      "title_he": "עושר העמים",
+      "author": "Adam Smith",
+      "year": 1776,
+      "why_he": "הטקסט המכונן של הכלכלה המודרנית: חלוקת עבודה, שווקים ו'היד הנעלמה'.",
+      "image_query": "factory pin production line"
+    },
+    {
+      "id": "b_i_will_teach_you_to_be_rich",
+      "title": "I Will Teach You to Be Rich",
+      "title_he": "אלמד אותך להיות עשיר",
+      "author": "Ramit Sethi",
+      "year": 2009,
+      "why_he": "תוכנית פרקטית של שישה שבועות לאוטומציה של הכסף האישי, בלי אשמה ובלי לקצץ בקפה.",
+      "chapters_total": 9,
+      "image_query": "laptop online banking"
+    },
+    {
+      "id": "b_misbehaving",
+      "title": "Misbehaving: The Making of Behavioral Economics",
+      "title_he": "לא מתנהגים יפה: לידתה של הכלכלה ההתנהגותית",
+      "author": "Richard H. Thaler",
+      "year": 2015,
+      "why_he": "חתן פרס נובל מספר איך התגלה שבני אדם אינם 'רציונליים' — ומה זה אומר על הכסף שלנו.",
+      "image_query": "shopping cart grocery store"
+    },
+    {
+      "id": "b_total_money_makeover",
+      "title": "The Total Money Makeover",
+      "title_he": "המהפך הכספי המלא",
+      "author": "Dave Ramsey",
+      "year": 2003,
+      "why_he": "שיטת 'צעדי התינוק' ליציאה מחובות ובניית חיסכון, שעזרה למיליוני משפחות בארה\"ב.",
+      "image_query": "scissors cutting credit card"
+    },
+    {
+      "id": "b_economics_in_one_lesson",
+      "title": "Economics in One Lesson",
+      "title_he": "כלכלה בשיעור אחד",
+      "author": "Henry Hazlitt",
+      "year": 1946,
+      "why_he": "המבוא הקצר והבהיר ביותר לחשיבה כלכלית: להסתכל על ההשלכות הנסתרות וארוכות הטווח של כל מדיניות.",
+      "image_query": "broken window glass"
+    },
+    {
+      "id": "b_essays_of_warren_buffett",
+      "title": "The Essays of Warren Buffett",
+      "title_he": "המסות של וורן באפט",
+      "author": "Lawrence A. Cunningham (ed.)",
+      "year": 1997,
+      "why_he": "מכתבי באפט לבעלי המניות מסודרים לפי נושא — הפילוסופיה של המשקיע הגדול בעולם במילותיו.",
+      "image_query": "old typewriter letter"
+    },
+    {
+      "id": "b_too_big_to_fail",
+      "title": "Too Big to Fail",
+      "title_he": "גדולים מכדי ליפול",
+      "author": "Andrew Ross Sorkin",
+      "year": 2009,
+      "why_he": "התיעוד המפורט ביותר של ימי המשבר ב-2008 מבפנים — וול סטריט, הפד והאוצר בזמן אמת.",
+      "image_query": "bank building columns"
+    }
   ],
   "leaders": [
     {
-      "id": "p_warren_buffett", "name": "Warren Buffett", "name_he": "וורן באפט",
+      "id": "p_warren_buffett",
+      "name": "Warren Buffett",
+      "name_he": "וורן באפט",
       "role_he": "יו\"ר ברקשייר האת'וויי, המשקיע המצליח בהיסטוריה",
       "why_he": "עשרות שנים של תשואות עודפות ומכתבים לבעלי מניות הפכו אותו למורה של דור שלם של משקיעים.",
       "videos": [
-        { "youtube_id": "QpFiBEsO-VM", "title": "Extended interview: Warren Buffett", "source_url": "https://www.youtube.com/watch?v=QpFiBEsO-VM", "blurb_he": "ריאיון מורחב עם נורה או'דונל, על הסרט התיעודי אודות קתרין גרהם ועל הקריירה שלו." },
-        { "youtube_id": "QQOWQcnNmr0", "title": "Watch CNBC's full interview with Berkshire Hathaway Chair Warren Buffett", "source_url": "https://www.youtube.com/watch?v=QQOWQcnNmr0", "blurb_he": "ריאיון מלא של בקי קוויק מ-CNBC עם באפט באסיפה השנתית של ברקשייר 2026." }
+        {
+          "youtube_id": "QpFiBEsO-VM",
+          "title": "Extended interview: Warren Buffett",
+          "source_url": "https://www.youtube.com/watch?v=QpFiBEsO-VM",
+          "blurb_he": "ריאיון מורחב עם נורה או'דונל, על הסרט התיעודי אודות קתרין גרהם ועל הקריירה שלו."
+        },
+        {
+          "youtube_id": "QQOWQcnNmr0",
+          "title": "Watch CNBC's full interview with Berkshire Hathaway Chair Warren Buffett",
+          "source_url": "https://www.youtube.com/watch?v=QQOWQcnNmr0",
+          "blurb_he": "ריאיון מלא של בקי קוויק מ-CNBC עם באפט באסיפה השנתית של ברקשייר 2026."
+        }
       ]
     },
     {
-      "id": "p_charlie_munger", "name": "Charlie Munger", "name_he": "צ'רלי מאנגר",
+      "id": "p_charlie_munger",
+      "name": "Charlie Munger",
+      "name_he": "צ'רלי מאנגר",
       "role_he": "סגן יו\"ר ברקשייר האת'וויי (1924–2023), שותפו של באפט",
       "why_he": "אבי 'סריג המודלים המנטליים' והפסיכולוגיה של שיפוט מוטעה, שהשפיע על דור של משקיעים ומנהלים.",
       "videos": [
-        { "youtube_id": "FlWL1Qz23co", "title": "Charlie Munger's Full 1995 Speech at Harvard on the Psychology of Human Misjudgment", "source_url": "https://www.youtube.com/watch?v=FlWL1Qz23co", "blurb_he": "הנאום המלא מהרווארד 1995 על הפסיכולוגיה של שיפוט אנושי מוטעה." },
-        { "youtube_id": "Nj9sRI5lofM", "title": "Charlie Munger in final CNBC interview: You've got to learn how to recognize rare opportunities", "source_url": "https://www.youtube.com/watch?v=Nj9sRI5lofM", "blurb_he": "הריאיון האחרון של מאנגר ב-CNBC עם בקי קוויק, על זיהוי הזדמנויות נדירות." }
+        {
+          "youtube_id": "FlWL1Qz23co",
+          "title": "Charlie Munger's Full 1995 Speech at Harvard on the Psychology of Human Misjudgment",
+          "source_url": "https://www.youtube.com/watch?v=FlWL1Qz23co",
+          "blurb_he": "הנאום המלא מהרווארד 1995 על הפסיכולוגיה של שיפוט אנושי מוטעה."
+        },
+        {
+          "youtube_id": "Nj9sRI5lofM",
+          "title": "Charlie Munger in final CNBC interview: You've got to learn how to recognize rare opportunities",
+          "source_url": "https://www.youtube.com/watch?v=Nj9sRI5lofM",
+          "blurb_he": "הריאיון האחרון של מאנגר ב-CNBC עם בקי קוויק, על זיהוי הזדמנויות נדירות."
+        }
       ]
     },
     {
-      "id": "p_morgan_housel", "name": "Morgan Housel", "name_he": "מורגן האוזל",
+      "id": "p_morgan_housel",
+      "name": "Morgan Housel",
+      "name_he": "מורגן האוזל",
       "role_he": "סופר, שותף ב-Collaborative Fund, מחבר 'הפסיכולוגיה של הכסף'",
       "why_he": "הכותב הפופולרי ביותר כיום על ההיבט ההתנהגותי של כסף, בסיפורים קצרים ובהירים.",
       "videos": [
-        { "youtube_id": "CW1beXhrYpQ", "title": "Morgan Housel interview: The Psychology of Money | Rask", "source_url": "https://www.youtube.com/watch?v=CW1beXhrYpQ", "blurb_he": "ריאיון בתוכנית ה-podcast הפיננסי האוסטרלי של Rask על ספרו 'הפסיכולוגיה של הכסף'." },
-        { "youtube_id": "U49WKzpaD38", "title": "Morgan Housel: \"The Psychology of Money,\" Wealth and What Actually Makes You Rich", "source_url": "https://www.youtube.com/watch?v=U49WKzpaD38", "blurb_he": "שיחה עם פיטר מאלוק על למה בניית עושר קשורה פחות לאינטליגנציה ויותר להתנהגות." }
+        {
+          "youtube_id": "CW1beXhrYpQ",
+          "title": "Morgan Housel interview: The Psychology of Money | Rask",
+          "source_url": "https://www.youtube.com/watch?v=CW1beXhrYpQ",
+          "blurb_he": "ריאיון בתוכנית ה-podcast הפיננסי האוסטרלי של Rask על ספרו 'הפסיכולוגיה של הכסף'."
+        },
+        {
+          "youtube_id": "U49WKzpaD38",
+          "title": "Morgan Housel: \"The Psychology of Money,\" Wealth and What Actually Makes You Rich",
+          "source_url": "https://www.youtube.com/watch?v=U49WKzpaD38",
+          "blurb_he": "שיחה עם פיטר מאלוק על למה בניית עושר קשורה פחות לאינטליגנציה ויותר להתנהגות."
+        }
       ]
     },
     {
-      "id": "p_howard_marks", "name": "Howard Marks", "name_he": "הווארד מרקס",
+      "id": "p_howard_marks",
+      "name": "Howard Marks",
+      "name_he": "הווארד מרקס",
       "role_he": "מייסד-שותף ויו\"ר-שותף של Oaktree Capital Management",
       "why_he": "המזכרים שלו למשקיעים נקראים על ידי באפט ומעצבים את השיח על סיכון ומחזורי שוק.",
       "videos": [
-        { "youtube_id": "bfgNtbr2KuE", "title": "Investor Howard Marks on Making Sense of Today's Markets: Full Interview | WONK", "source_url": "https://www.youtube.com/watch?v=bfgNtbr2KuE", "blurb_he": "ריאיון מלא עם אמנדה לאנג על אופטימיות, פחד ולמה אמריקה עדיין מושכת השקעות." },
-        { "youtube_id": "lpNjJlWcdGY", "title": "Howard Marks: How I Mastered the Markets - My Advice From 50 Years of Investing", "source_url": "https://www.youtube.com/watch?v=lpNjJlWcdGY", "blurb_he": "מרקס מסכם את הלקחים מקריירת השקעות של עשרות שנים ב-Oaktree." },
-        { "youtube_id": "km2LidRpRvo", "title": "Howard Marks: TBPN (2026)", "source_url": "https://www.youtube.com/watch?v=km2LidRpRvo", "blurb_he": "מרקס משוחח על מחזורי שוק והשקעה נגד הזרם." }
+        {
+          "youtube_id": "bfgNtbr2KuE",
+          "title": "Investor Howard Marks on Making Sense of Today's Markets: Full Interview | WONK",
+          "source_url": "https://www.youtube.com/watch?v=bfgNtbr2KuE",
+          "blurb_he": "ריאיון מלא עם אמנדה לאנג על אופטימיות, פחד ולמה אמריקה עדיין מושכת השקעות."
+        },
+        {
+          "youtube_id": "lpNjJlWcdGY",
+          "title": "Howard Marks: How I Mastered the Markets - My Advice From 50 Years of Investing",
+          "source_url": "https://www.youtube.com/watch?v=lpNjJlWcdGY",
+          "blurb_he": "מרקס מסכם את הלקחים מקריירת השקעות של עשרות שנים ב-Oaktree."
+        },
+        {
+          "youtube_id": "km2LidRpRvo",
+          "title": "Howard Marks: TBPN (2026)",
+          "source_url": "https://www.youtube.com/watch?v=km2LidRpRvo",
+          "blurb_he": "מרקס משוחח על מחזורי שוק והשקעה נגד הזרם."
+        }
       ]
     },
     {
-      "id": "p_ray_dalio", "name": "Ray Dalio", "name_he": "ריי דאליו",
+      "id": "p_ray_dalio",
+      "name": "Ray Dalio",
+      "name_he": "ריי דאליו",
       "role_he": "מייסד Bridgewater Associates, מחבר 'עקרונות'",
       "why_he": "בנה את קרן הגידור הגדולה בעולם על עקרונות מפורשים ומחקר של מחזורי חוב והיסטוריה כלכלית.",
       "videos": [
-        { "youtube_id": "jC0Hm_9GnoU", "title": "Ray Dalio: Ted Talk", "source_url": "https://www.youtube.com/watch?v=jC0Hm_9GnoU", "blurb_he": "הרצאת TED של דאליו על בניית חברה שבה הרעיונות הטובים ביותר מנצחים, בשקיפות רדיקלית." },
-        { "youtube_id": "yrxYhv2O3wU", "title": "What coronavirus means for the global economy | Ray Dalio", "source_url": "https://www.youtube.com/watch?v=yrxYhv2O3wU", "blurb_he": "שיחת TED מאפריל 2020 על משמעות משבר הקורונה לכלכלה העולמית ואיך מתאוששים ממנו." },
-        { "youtube_id": "U2jtfP4Fnt0", "title": "Ray Dalio Just Warned We're In Stage 4 Of The Debt Cycle", "source_url": "https://www.youtube.com/watch?v=U2jtfP4Fnt0", "blurb_he": "דאליו מזהיר שאנחנו בשלב 4 של מחזור החוב הגדול, לפי המחקר שלו על 500 שנות היסטוריה." }
+        {
+          "youtube_id": "jC0Hm_9GnoU",
+          "title": "Ray Dalio: Ted Talk",
+          "source_url": "https://www.youtube.com/watch?v=jC0Hm_9GnoU",
+          "blurb_he": "הרצאת TED של דאליו על בניית חברה שבה הרעיונות הטובים ביותר מנצחים, בשקיפות רדיקלית."
+        },
+        {
+          "youtube_id": "yrxYhv2O3wU",
+          "title": "What coronavirus means for the global economy | Ray Dalio",
+          "source_url": "https://www.youtube.com/watch?v=yrxYhv2O3wU",
+          "blurb_he": "שיחת TED מאפריל 2020 על משמעות משבר הקורונה לכלכלה העולמית ואיך מתאוששים ממנו."
+        },
+        {
+          "youtube_id": "U2jtfP4Fnt0",
+          "title": "Ray Dalio Just Warned We're In Stage 4 Of The Debt Cycle",
+          "source_url": "https://www.youtube.com/watch?v=U2jtfP4Fnt0",
+          "blurb_he": "דאליו מזהיר שאנחנו בשלב 4 של מחזור החוב הגדול, לפי המחקר שלו על 500 שנות היסטוריה."
+        }
       ]
     },
     {
-      "id": "p_ramit_sethi", "name": "Ramit Sethi", "name_he": "רמית סתי",
+      "id": "p_ramit_sethi",
+      "name": "Ramit Sethi",
+      "name_he": "רמית סתי",
       "role_he": "מחבר 'I Will Teach You to Be Rich' ומנחה podcast על כסף וזוגיות",
       "why_he": "הקול המרכזי בפיננסים אישיים לצעירים: אוטומציה, 'חיים עשירים' לפי ערכים, ובלי אשמה על הוצאות.",
       "videos": [
-        { "youtube_id": "2IBlTjNqmCo", "title": "Ramit Sethi Interview: Part 1 (Full Episode) | The Tim Ferriss Show (Podcast)", "source_url": "https://www.youtube.com/watch?v=2IBlTjNqmCo", "blurb_he": "ריאיון מלא אצל טים פריס על שכנוע ועל הפיכת blog לעסק של מיליונים." },
-        { "youtube_id": "NXGN85IzH3g", "title": "Why So Many Young Adults Feel Financially Stuck | Ramit Sethi on 'The Interview'", "source_url": "https://www.youtube.com/watch?v=NXGN85IzH3g", "blurb_he": "ריאיון מ-2026 על הסיבות שבגללן צעירים רבים מרגישים תקועים כלכלית." }
+        {
+          "youtube_id": "2IBlTjNqmCo",
+          "title": "Ramit Sethi Interview: Part 1 (Full Episode) | The Tim Ferriss Show (Podcast)",
+          "source_url": "https://www.youtube.com/watch?v=2IBlTjNqmCo",
+          "blurb_he": "ריאיון מלא אצל טים פריס על שכנוע ועל הפיכת blog לעסק של מיליונים."
+        },
+        {
+          "youtube_id": "NXGN85IzH3g",
+          "title": "Why So Many Young Adults Feel Financially Stuck | Ramit Sethi on 'The Interview'",
+          "source_url": "https://www.youtube.com/watch?v=NXGN85IzH3g",
+          "blurb_he": "ריאיון מ-2026 על הסיבות שבגללן צעירים רבים מרגישים תקועים כלכלית."
+        }
       ]
     },
     {
-      "id": "p_jl_collins", "name": "JL Collins", "name_he": "ג'יי.אל. קולינס",
+      "id": "p_jl_collins",
+      "name": "JL Collins",
+      "name_he": "ג'יי.אל. קולינס",
       "role_he": "סופר וכותב blog פיננסי, מחבר 'The Simple Path to Wealth'",
       "why_he": "'סבא של תנועת ה-FIRE' — הפך את ההשקעה בקרנות מדד לפילוסופיית חיים פשוטה ונגישה.",
       "videos": [
-        { "youtube_id": "T71ibcZAX3I", "title": "The Simple Path to Wealth | JL Collins | Talks at Google", "source_url": "https://www.youtube.com/watch?v=T71ibcZAX3I", "blurb_he": "הרצאה בגוגל שבה קולינס מציג את גישתו הפשוטה והנגישה להשקעות." },
-        { "youtube_id": "wdLNNbcoufA", "title": "JL Collins: The Simple Path to Wealth Evolves (with International Stocks)", "source_url": "https://www.youtube.com/watch?v=wdLNNbcoufA", "blurb_he": "ריאיון מ-2026 בתוכנית ה-podcast Fit Rich Life על איך הדרך הפשוטה לעושר התפתחה, כולל מניות בינלאומיות." }
+        {
+          "youtube_id": "T71ibcZAX3I",
+          "title": "The Simple Path to Wealth | JL Collins | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=T71ibcZAX3I",
+          "blurb_he": "הרצאה בגוגל שבה קולינס מציג את גישתו הפשוטה והנגישה להשקעות."
+        },
+        {
+          "youtube_id": "wdLNNbcoufA",
+          "title": "JL Collins: The Simple Path to Wealth Evolves (with International Stocks)",
+          "source_url": "https://www.youtube.com/watch?v=wdLNNbcoufA",
+          "blurb_he": "ריאיון מ-2026 בתוכנית ה-podcast Fit Rich Life על איך הדרך הפשוטה לעושר התפתחה, כולל מניות בינלאומיות."
+        }
       ]
     },
     {
-      "id": "p_peter_lynch", "name": "Peter Lynch", "name_he": "פיטר לינץ'",
+      "id": "p_peter_lynch",
+      "name": "Peter Lynch",
+      "name_he": "פיטר לינץ'",
       "role_he": "מנהל קרן מג'לן של פידליטי (1977–1990), מחבר 'One Up on Wall Street'",
       "why_he": "השיג תשואה שנתית ממוצעת של כ-29% ולימד משקיעים פרטיים 'להשקיע במה שאתה מכיר'.",
       "videos": [
-        { "youtube_id": "pbMBZnpBllc", "title": "Peter Lynch Lecture - 1994", "source_url": "https://www.youtube.com/watch?v=pbMBZnpBllc", "blurb_he": "הרצאה מ-1994 שבה אחד המשקיעים הטובים בעולם נותן עצות על-זמניות על השקעות." },
-        { "youtube_id": "myu4Nv0pt0U", "title": "Peter Lynch Lecture On The Stock Market | 1997", "source_url": "https://www.youtube.com/watch?v=myu4Nv0pt0U", "blurb_he": "הרצאה ושאלות-תשובות מכנס השקעות ב-1997 על השקעה בשוק המניות." }
+        {
+          "youtube_id": "pbMBZnpBllc",
+          "title": "Peter Lynch Lecture - 1994",
+          "source_url": "https://www.youtube.com/watch?v=pbMBZnpBllc",
+          "blurb_he": "הרצאה מ-1994 שבה אחד המשקיעים הטובים בעולם נותן עצות על-זמניות על השקעות."
+        },
+        {
+          "youtube_id": "myu4Nv0pt0U",
+          "title": "Peter Lynch Lecture On The Stock Market | 1997",
+          "source_url": "https://www.youtube.com/watch?v=myu4Nv0pt0U",
+          "blurb_he": "הרצאה ושאלות-תשובות מכנס השקעות ב-1997 על השקעה בשוק המניות."
+        }
       ]
     },
     {
-      "id": "p_aswath_damodaran", "name": "Aswath Damodaran", "name_he": "אסוואת' דמודראן",
+      "id": "p_aswath_damodaran",
+      "name": "Aswath Damodaran",
+      "name_he": "אסוואת' דמודראן",
       "role_he": "פרופסור למימון ב-NYU Stern, 'דיקן ההערכה'",
       "why_he": "הסמכות העולמית בהערכת שווי חברות, שמפרסם בחינם את כל ההרצאות והנתונים שלו.",
       "videos": [
-        { "youtube_id": "Z5chrxMuBoo", "title": "Valuation in Four Lessons | Aswath Damodaran | Talks at Google", "source_url": "https://www.youtube.com/watch?v=Z5chrxMuBoo", "blurb_he": "הרצאה בגוגל שמרכזת את עקרונות הערכת השווי לארבעה שיעורים." },
-        { "youtube_id": "c20_S-QgvsA", "title": "Aswath Damodaran – Laws of Valuation: Revealing the Myths and Misconceptions (FULL KEYNOTE)", "source_url": "https://www.youtube.com/watch?v=c20_S-QgvsA", "blurb_he": "הרצאת מפתח מלאה על חוקי הערכת השווי והמיתוסים והטעויות הנפוצות סביבה." },
-        { "youtube_id": "6XOjrkb47AA", "title": "Jobs At Risk, The AI Boom Or Bubble Debate & Stock Market Valuations: Aswath Damodaran's Interview", "source_url": "https://www.youtube.com/watch?v=6XOjrkb47AA", "blurb_he": "דמודראן על ויכוח הבועה או הפריחה ב-AI, ומה נדרש כדי שהשוויים הנוכחיים יצדיקו את עצמם." }
+        {
+          "youtube_id": "Z5chrxMuBoo",
+          "title": "Valuation in Four Lessons | Aswath Damodaran | Talks at Google",
+          "source_url": "https://www.youtube.com/watch?v=Z5chrxMuBoo",
+          "blurb_he": "הרצאה בגוגל שמרכזת את עקרונות הערכת השווי לארבעה שיעורים."
+        },
+        {
+          "youtube_id": "c20_S-QgvsA",
+          "title": "Aswath Damodaran – Laws of Valuation: Revealing the Myths and Misconceptions (FULL KEYNOTE)",
+          "source_url": "https://www.youtube.com/watch?v=c20_S-QgvsA",
+          "blurb_he": "הרצאת מפתח מלאה על חוקי הערכת השווי והמיתוסים והטעויות הנפוצות סביבה."
+        },
+        {
+          "youtube_id": "6XOjrkb47AA",
+          "title": "Jobs At Risk, The AI Boom Or Bubble Debate & Stock Market Valuations: Aswath Damodaran's Interview",
+          "source_url": "https://www.youtube.com/watch?v=6XOjrkb47AA",
+          "blurb_he": "דמודראן על ויכוח הבועה או הפריחה ב-AI, ומה נדרש כדי שהשוויים הנוכחיים יצדיקו את עצמם."
+        }
       ]
     },
     {
-      "id": "p_bill_ackman", "name": "Bill Ackman", "name_he": "ביל אקמן",
+      "id": "p_bill_ackman",
+      "name": "Bill Ackman",
+      "name_he": "ביל אקמן",
       "role_he": "מייסד ומנכ\"ל Pershing Square Capital Management, משקיע אקטיביסט",
       "why_he": "מהמשקיעים האקטיביסטים הבולטים בעולם, ידוע בהימורים מרוכזים ובהסברים פומביים על התזה שלו.",
       "videos": [
-        { "youtube_id": "PgGKhsWhUu8", "title": "Bill Ackman: Investing, Financial Battles, Harvard, DEI, X & Free Speech | Lex Fridman Podcast #413", "source_url": "https://www.youtube.com/watch?v=PgGKhsWhUu8", "blurb_he": "שיחה ארוכה עם לקס פרידמן על השקעות, קרבות פיננסיים והרווארד." },
-        { "youtube_id": "sdGs9sQd4XY", "title": "Activist Investor Bill Ackman on The David Rubenstein Show", "source_url": "https://www.youtube.com/watch?v=sdGs9sQd4XY", "blurb_he": "ריאיון אצל דיוויד רובנשטיין על השקעות אקטיביסטיות, בינה מלאכותית והרווארד." }
+        {
+          "youtube_id": "PgGKhsWhUu8",
+          "title": "Bill Ackman: Investing, Financial Battles, Harvard, DEI, X & Free Speech | Lex Fridman Podcast #413",
+          "source_url": "https://www.youtube.com/watch?v=PgGKhsWhUu8",
+          "blurb_he": "שיחה ארוכה עם לקס פרידמן על השקעות, קרבות פיננסיים והרווארד."
+        },
+        {
+          "youtube_id": "sdGs9sQd4XY",
+          "title": "Activist Investor Bill Ackman on The David Rubenstein Show",
+          "source_url": "https://www.youtube.com/watch?v=sdGs9sQd4XY",
+          "blurb_he": "ריאיון אצל דיוויד רובנשטיין על השקעות אקטיביסטיות, בינה מלאכותית והרווארד."
+        }
       ]
     }
   ],
   "publications": [
-    { "id": "pub_the_economist", "name": "The Economist", "url": "https://www.economist.com", "desc_he": "השבועון הבריטי המוביל לכלכלה, שווקים ופוליטיקה, עם מדור 'Finance & economics' קבוע.", "articles": [
-      {"title": "Buttonwood: Manic markets", "url": "https://www.pressreader.com/canada/the-economist/20260620/281865830176804", "published": "2026-06", "summary_he": "טור 'באטנווד' של The Economist על שווקים מאניים – מצב הרוח התזזיתי של המשקיעים באמצע 2026."},
-      {"title": "Markets are waking up to the rich world's reckless borrowing", "url": "https://www.pressreader.com/canada/the-economist/20260919/textview", "published": "2026-09", "summary_he": "בפיננסים אין הרבה הימורים בטוחים, ובעשורים האחרונים ההימור הבטוח היה שאג\"ח של מדינות עשירות הן נכס בטוח. עכשיו השווקים מתעוררים לחוב המופרז של המדינות העשירות, והאג\"ח האמריקאית ל-10 שנים חווה את הריצה הגרועה שלה זה יותר ממאה שנה."},
-      {"title": "Free exchange: New thoughts on \"repugnant transactions\"", "url": "https://www.pressreader.com/canada/the-economist/20260523/textview", "published": "2026-05", "summary_he": "טור 'Free exchange' עם מחשבות חדשות על 'עסקאות דוחות' – עסקאות שהצדדים רוצים לבצע אך החברה אוסרת, משכירת מתנקשים ועד קניית הרואין."}
-    ] },
-    { "id": "pub_financial_times", "name": "Financial Times", "url": "https://www.ft.com", "desc_he": "העיתון הפיננסי הגלובלי המוביל, סיקור יומי של שווקים, חברות וכלכלה.", "articles": [
-      {"title": "Oil leaps past $105 as bond sell-off flares again", "url": "https://www.irishtimes.com/business/2026/09/10/oil-leaps-105-as-bond-sell-off-flares-again/", "published": "2026-09", "summary_he": "הנפט זינק מעל 105 דולר בזמן שמכירת האג\"ח התלקחה שוב, והמניות ירדו יחד עם האג\"ח: S&P 500 ב-0.5% ונאסד\"ק 100 ב-0.8%. ברקע: נתוני התפוקה של סעודיה והאינפלציה הסיטונאית בארה\"ב באוגוסט."},
-      {"title": "Federal Reserve raises rates for first time since 2023", "url": "https://www.irishtimes.com/business/2026/09/16/federal-reserve-raise-rates-for-first-time-since-2023/", "published": "2026-09", "summary_he": "הפד העלה ריבית לראשונה מאז 2023, אחרי שמדד המחירים לצרכן של אוגוסט הראה שההתקדמות באינפלציה נעצרה והשוק תמחר סיכוי של יותר מ-90% להעלאה. תחזיות הוועדה מצביעות על העלאה נוספת של רבע אחוז עד סוף השנה."},
-      {"title": "The gig economy faces its AI apocalypse", "url": "https://www.irishtimes.com/business/work/2026/09/18/the-gig-economy-faces-its-ai-apocalypse/", "published": "2026-09", "summary_he": "כלכלת הגיג מתמודדת עם 'אפוקליפסת ה-AI': פלטפורמות חדשות פונות לתחומים שקשה לאוטומט כמו בריאות, או לעבודות צווארון לבן שה-AI עצמו יוצר בהן ביקוש – למשל Mercor, שמשלמת לעורכי דין, עיתונאים ובנקאים לכוונן מודלים."}
-    ] },
-    { "id": "pub_collaborative_fund_blog", "name": "Collaborative Fund Blog (Morgan Housel)", "url": "https://collabfund.com/blog/", "desc_he": "ה-blog שבו מורגן האוזל מפרסם את מאמריו על התנהגות, כסף והיסטוריה.", "articles": [
-      {"title": "A Few Things I'm Pretty Sure About", "url": "https://collabfund.com/blog/a-few-things-im-pretty-sure-about-2026/", "published": "2026", "summary_he": "רשימה של דברים שמורגן האוזל 'די בטוח בהם' – תובנות קצרות בסגנונו על כסף והתנהגות."},
-      {"title": "Long-Term Money", "url": "https://collabfund.com/blog/long-term-money/", "published": "2026-04", "summary_he": "האוזל פותח באדם סמית', הכלכלן מהמאה ה-18, שכתב על אמהות ברמות סקוטלנד, ומשווה תנאי חיים בעבר להווה כדי לדבר על כסף לטווח ארוך."},
-      {"title": "Very Bad Advice", "url": "https://collabfund.com/blog/very-bad-advice/", "published": "2025-06", "summary_he": "קשה לדעת מה יביא אושר, אבל קל לזהות מה יגרום אומללות. האוזל הופך את השאלה ומציג רשימת אמונות שמחבלות בהצלחה בהשקעות ובחיים."}
-    ] },
-    { "id": "pub_bloomberg_money_stuff", "name": "Bloomberg Opinion — Money Stuff (Matt Levine)", "url": "https://www.bloomberg.com/opinion", "desc_he": "הידיעון היומי של מאט לוין שמסביר בהומור את מה שקורה בוול סטריט ובמימון תאגידי.", "articles": [
-      {"title": "AI Can Manage Your Mutual Fund", "url": "https://www.bloomberg.com/opinion/newsletters/2026-02-24/ai-can-manage-your-mutual-fund", "published": "2026-02", "summary_he": "לוין על העולם שבו אנשים רגילים השקיעו במניות דרך קרנות נאמנות מנוהלות – מאגדים כסף ומוסרים אותו למקצוען שקונה ומוכר תמורת עמלה – ומה קורה כשבינה מלאכותית יכולה לנהל את הקרן."},
-      {"title": "BlackRock Guards the Gates", "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-09/blackrock-guards-the-gates", "published": "2026-03", "summary_he": "על אשראי פרטי: גיוס כסף ממשקיעים שנעולים לטווח ארוך והלוואתו לחברות. לוין מסביר שכל מה שמאפיין את התחום – היציבות המערכתית, הרגולציה הקלה והתשואות הגבוהות – נובע מכך שהמשקיעים לא יכולים למשוך את כספם מתי שירצו."},
-      {"title": "Lever the Predictions", "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-12/lever-the-predictions", "published": "2026-03", "summary_he": "לוין על מינוף בשוקי החיזוי, דרך אנלוגיה לאופן שבו סוחרים בנפט באמצעות חוזים עתידיים במקום לקנות נפט ישירות. בגיליון גם: סימוני שווי באשראי פרטי, 'עסקאות התנקשות' ויחס שעון-לבית."}
-    ] },
-    { "id": "pub_globes", "name": "Globes (גלובס)", "url": "https://www.globes.co.il", "desc_he": "עיתון הכלכלה הישראלי הוותיק, סיקור שוק ההון, נדל\"ן ומאקרו בעברית.", "articles": [
-      {"title": "\"יקפוץ ב-30% בשנת 2026\": השוק החם שמסמנים בבנק אוף אמריקה", "url": "https://www.globes.co.il/news/article.aspx?did=1001530188", "published": "2025-12", "summary_he": "האנליסט ויווק אריה מבנק אוף אמריקה צופה ששוק השבבים יזנק ב-30% ב-2026 ויחצה לראשונה את רף הטריליון דולר. לדבריו, אנבידיה פועלת ב'גלקסיה אחרת' ואין להשוות אותה ליצרניות שבבים מסורתיות."},
-      {"title": "10.9 מיליארד שקל באוגוסט: 2026 היא שנת שיא בהיקפי המשכנתאות", "url": "https://www.globes.co.il/news/article.aspx?did=1001555384", "published": "2026", "summary_he": "10.9 מיליארד שקל משכנתאות נלקחו באוגוסט, ו-2026 מסתמנת כשנת שיא בהיקפי המשכנתאות בישראל."},
-      {"title": "הגאות בשוק ההון הקפיצה את רווחי מיטב: \"הרווח ב-2026 יגדל ב-25%\"", "url": "https://www.globes.co.il/news/article.aspx?did=1001552529", "published": "2026", "summary_he": "הגאות בשוק ההון הקפיצה את רווחי בית ההשקעות מיטב, ובחברה מעריכים שהרווח ב-2026 יגדל ב-25%."}
-    ] }
+    {
+      "id": "pub_the_economist",
+      "name": "The Economist",
+      "url": "https://www.economist.com",
+      "desc_he": "השבועון הבריטי המוביל לכלכלה, שווקים ופוליטיקה, עם מדור 'Finance & economics' קבוע.",
+      "articles": [
+        {
+          "title": "Buttonwood: Manic markets",
+          "url": "https://www.pressreader.com/canada/the-economist/20260620/281865830176804",
+          "published": "2026-06",
+          "summary_he": "טור 'באטנווד' של The Economist על שווקים מאניים – מצב הרוח התזזיתי של המשקיעים באמצע 2026."
+        },
+        {
+          "title": "Markets are waking up to the rich world's reckless borrowing",
+          "url": "https://www.pressreader.com/canada/the-economist/20260919/textview",
+          "published": "2026-09",
+          "summary_he": "בפיננסים אין הרבה הימורים בטוחים, ובעשורים האחרונים ההימור הבטוח היה שאג\"ח של מדינות עשירות הן נכס בטוח. עכשיו השווקים מתעוררים לחוב המופרז של המדינות העשירות, והאג\"ח האמריקאית ל-10 שנים חווה את הריצה הגרועה שלה זה יותר ממאה שנה."
+        },
+        {
+          "title": "Free exchange: New thoughts on \"repugnant transactions\"",
+          "url": "https://www.pressreader.com/canada/the-economist/20260523/textview",
+          "published": "2026-05",
+          "summary_he": "טור 'Free exchange' עם מחשבות חדשות על 'עסקאות דוחות' – עסקאות שהצדדים רוצים לבצע אך החברה אוסרת, משכירת מתנקשים ועד קניית הרואין."
+        }
+      ]
+    },
+    {
+      "id": "pub_financial_times",
+      "name": "Financial Times",
+      "url": "https://www.ft.com",
+      "desc_he": "העיתון הפיננסי הגלובלי המוביל, סיקור יומי של שווקים, חברות וכלכלה.",
+      "articles": [
+        {
+          "title": "Oil leaps past $105 as bond sell-off flares again",
+          "url": "https://www.irishtimes.com/business/2026/09/10/oil-leaps-105-as-bond-sell-off-flares-again/",
+          "published": "2026-09",
+          "summary_he": "הנפט זינק מעל 105 דולר בזמן שמכירת האג\"ח התלקחה שוב, והמניות ירדו יחד עם האג\"ח: S&P 500 ב-0.5% ונאסד\"ק 100 ב-0.8%. ברקע: נתוני התפוקה של סעודיה והאינפלציה הסיטונאית בארה\"ב באוגוסט."
+        },
+        {
+          "title": "Federal Reserve raises rates for first time since 2023",
+          "url": "https://www.irishtimes.com/business/2026/09/16/federal-reserve-raise-rates-for-first-time-since-2023/",
+          "published": "2026-09",
+          "summary_he": "הפד העלה ריבית לראשונה מאז 2023, אחרי שמדד המחירים לצרכן של אוגוסט הראה שההתקדמות באינפלציה נעצרה והשוק תמחר סיכוי של יותר מ-90% להעלאה. תחזיות הוועדה מצביעות על העלאה נוספת של רבע אחוז עד סוף השנה."
+        },
+        {
+          "title": "The gig economy faces its AI apocalypse",
+          "url": "https://www.irishtimes.com/business/work/2026/09/18/the-gig-economy-faces-its-ai-apocalypse/",
+          "published": "2026-09",
+          "summary_he": "כלכלת הגיג מתמודדת עם 'אפוקליפסת ה-AI': פלטפורמות חדשות פונות לתחומים שקשה לאוטומט כמו בריאות, או לעבודות צווארון לבן שה-AI עצמו יוצר בהן ביקוש – למשל Mercor, שמשלמת לעורכי דין, עיתונאים ובנקאים לכוונן מודלים."
+        }
+      ]
+    },
+    {
+      "id": "pub_collaborative_fund_blog",
+      "name": "Collaborative Fund Blog (Morgan Housel)",
+      "url": "https://collabfund.com/blog/",
+      "desc_he": "ה-blog שבו מורגן האוזל מפרסם את מאמריו על התנהגות, כסף והיסטוריה.",
+      "articles": [
+        {
+          "title": "A Few Things I'm Pretty Sure About",
+          "url": "https://collabfund.com/blog/a-few-things-im-pretty-sure-about-2026/",
+          "published": "2026",
+          "summary_he": "רשימה של דברים שמורגן האוזל 'די בטוח בהם' – תובנות קצרות בסגנונו על כסף והתנהגות."
+        },
+        {
+          "title": "Long-Term Money",
+          "url": "https://collabfund.com/blog/long-term-money/",
+          "published": "2026-04",
+          "summary_he": "האוזל פותח באדם סמית', הכלכלן מהמאה ה-18, שכתב על אמהות ברמות סקוטלנד, ומשווה תנאי חיים בעבר להווה כדי לדבר על כסף לטווח ארוך."
+        },
+        {
+          "title": "Very Bad Advice",
+          "url": "https://collabfund.com/blog/very-bad-advice/",
+          "published": "2025-06",
+          "summary_he": "קשה לדעת מה יביא אושר, אבל קל לזהות מה יגרום אומללות. האוזל הופך את השאלה ומציג רשימת אמונות שמחבלות בהצלחה בהשקעות ובחיים."
+        }
+      ]
+    },
+    {
+      "id": "pub_bloomberg_money_stuff",
+      "name": "Bloomberg Opinion — Money Stuff (Matt Levine)",
+      "url": "https://www.bloomberg.com/opinion",
+      "desc_he": "הידיעון היומי של מאט לוין שמסביר בהומור את מה שקורה בוול סטריט ובמימון תאגידי.",
+      "articles": [
+        {
+          "title": "AI Can Manage Your Mutual Fund",
+          "url": "https://www.bloomberg.com/opinion/newsletters/2026-02-24/ai-can-manage-your-mutual-fund",
+          "published": "2026-02",
+          "summary_he": "לוין על העולם שבו אנשים רגילים השקיעו במניות דרך קרנות נאמנות מנוהלות – מאגדים כסף ומוסרים אותו למקצוען שקונה ומוכר תמורת עמלה – ומה קורה כשבינה מלאכותית יכולה לנהל את הקרן."
+        },
+        {
+          "title": "BlackRock Guards the Gates",
+          "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-09/blackrock-guards-the-gates",
+          "published": "2026-03",
+          "summary_he": "על אשראי פרטי: גיוס כסף ממשקיעים שנעולים לטווח ארוך והלוואתו לחברות. לוין מסביר שכל מה שמאפיין את התחום – היציבות המערכתית, הרגולציה הקלה והתשואות הגבוהות – נובע מכך שהמשקיעים לא יכולים למשוך את כספם מתי שירצו."
+        },
+        {
+          "title": "Lever the Predictions",
+          "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-12/lever-the-predictions",
+          "published": "2026-03",
+          "summary_he": "לוין על מינוף בשוקי החיזוי, דרך אנלוגיה לאופן שבו סוחרים בנפט באמצעות חוזים עתידיים במקום לקנות נפט ישירות. בגיליון גם: סימוני שווי באשראי פרטי, 'עסקאות התנקשות' ויחס שעון-לבית."
+        }
+      ]
+    },
+    {
+      "id": "pub_globes",
+      "name": "Globes (גלובס)",
+      "url": "https://www.globes.co.il",
+      "desc_he": "עיתון הכלכלה הישראלי הוותיק, סיקור שוק ההון, נדל\"ן ומאקרו בעברית.",
+      "articles": [
+        {
+          "title": "\"יקפוץ ב-30% בשנת 2026\": השוק החם שמסמנים בבנק אוף אמריקה",
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001530188",
+          "published": "2025-12",
+          "summary_he": "האנליסט ויווק אריה מבנק אוף אמריקה צופה ששוק השבבים יזנק ב-30% ב-2026 ויחצה לראשונה את רף הטריליון דולר. לדבריו, אנבידיה פועלת ב'גלקסיה אחרת' ואין להשוות אותה ליצרניות שבבים מסורתיות."
+        },
+        {
+          "title": "10.9 מיליארד שקל באוגוסט: 2026 היא שנת שיא בהיקפי המשכנתאות",
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001555384",
+          "published": "2026",
+          "summary_he": "10.9 מיליארד שקל משכנתאות נלקחו באוגוסט, ו-2026 מסתמנת כשנת שיא בהיקפי המשכנתאות בישראל."
+        },
+        {
+          "title": "הגאות בשוק ההון הקפיצה את רווחי מיטב: \"הרווח ב-2026 יגדל ב-25%\"",
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001552529",
+          "published": "2026",
+          "summary_he": "הגאות בשוק ההון הקפיצה את רווחי בית ההשקעות מיטב, ובחברה מעריכים שהרווח ב-2026 יגדל ב-25%."
+        }
+      ]
+    }
   ],
   "chapters": [
     {
@@ -178,7 +672,8 @@
         "https://thewealthline.com/the-psychology-of-money-chapter-1-summary/",
         "https://saurabhdashora.com/the-psychology-of-money-chapter-1-analysis-no-ones-crazy/",
         "https://nicoleputzcfp.substack.com/p/the-psychology-of-money-chapter-1"
-      ]
+      ],
+      "image_query": "old family photograph"
     },
     {
       "book_id": "b_intelligent_investor",
@@ -199,7 +694,8 @@
         "https://www.graham.investments/chapter-1.html",
         "https://petejayhuang.medium.com/the-intelligent-investor-by-benjamin-graham-book-summary-99b22f268185",
         "https://medium.com/@vikramlingam/essential-takeaways-from-chapter-1-of-the-intelligent-investor-investment-versus-speculation-16f8dda21b5a"
-      ]
+      ],
+      "image_query": "vault safe deposit box"
     },
     {
       "book_id": "b_rich_dad_poor_dad",
@@ -220,7 +716,8 @@
         "https://www.shortform.com/blog/rich-dad-poor-chapter-1/",
         "https://thewealthline.com/rich-dad-poor-dad-chapter-1-summary/",
         "https://www.bookey.app/topic/summary-of-chapter-1-rich-dad-poor-dad:-key-principles-and-insights"
-      ]
+      ],
+      "image_query": "cash register money"
     },
     {
       "book_id": "b_richest_man_in_babylon",
@@ -239,7 +736,8 @@
         "https://www.bookrags.com/studyguide-richest-man-in-babylon/chapanal001.html",
         "https://www.supersummary.com/the-richest-man-in-babylon/summary/",
         "https://medium.com/@BrevityInsights/summary-of-chapter-1-of-the-richest-man-in-babylon-the-man-who-desired-gold-d727d478eb70"
-      ]
+      ],
+      "image_query": "gold coins pouch"
     },
     {
       "book_id": "b_millionaire_next_door",
@@ -258,7 +756,8 @@
         "https://www.supersummary.com/the-millionaire-next-door/summary/",
         "https://thebookinsight.com/the-millionaire-next-door-summary-chapter-wise/",
         "https://booksthatslay.com/the-millionaire-next-door-summary/"
-      ]
+      ],
+      "image_query": "modest house suburb"
     },
     {
       "book_id": "b_random_walk_wall_street",
@@ -279,7 +778,8 @@
         "https://concallanalysis.com/a-random-walk-down-wall-street-detailed-chapter-by-chapter-summary/",
         "https://professornerdster.com/key-takeaways-from-a-random-walk-down-wall-street/",
         "https://www.studocu.com/en-us/document/hult-international-business-school/accounting/random-walk-down-wall-street-summary/9516554"
-      ]
+      ],
+      "image_query": "sandcastle beach"
     },
     {
       "book_id": "b_psychology_of_money",
@@ -298,7 +798,8 @@
       "sources": [
         "https://medium.com/@tanujsailor.education/the-psychology-of-money-chapter-2-book-review-24de84bcbe0e",
         "https://auresnotes.com/summary-the-psychology-of-money-morgan-housel/"
-      ]
+      ],
+      "image_query": "dice rolling table"
     },
     {
       "book_id": "b_psychology_of_money",
@@ -317,7 +818,8 @@
       "sources": [
         "https://medium.com/@tanujsailor.education/the-psychology-of-money-chapter-2-book-review-24de84bcbe0e",
         "https://www.supersummary.com/the-psychology-of-money/summary/"
-      ]
+      ],
+      "image_query": "treadmill running"
     },
     {
       "book_id": "b_psychology_of_money",
@@ -336,7 +838,8 @@
       "sources": [
         "https://www.supersummary.com/the-psychology-of-money/chapters-4-6-summary/",
         "https://thewealthline.com/the-psychology-of-money-chapter-4-summary/"
-      ]
+      ],
+      "image_query": "snowball rolling snow"
     },
     {
       "book_id": "b_intelligent_investor",
@@ -355,7 +858,8 @@
       "sources": [
         "https://www.supersummary.com/the-intelligent-investor/introduction-chapter-2-summary/",
         "https://medium.com/the-intelligent-investor-series/the-intelligent-investor-series-chapter-2-c81f4728836e"
-      ]
+      ],
+      "image_query": "grocery receipt long"
     },
     {
       "book_id": "b_intelligent_investor",
@@ -374,7 +878,8 @@
       "sources": [
         "https://petejayhuang.medium.com/the-intelligent-investor-by-benjamin-graham-book-summary-3969c7e1bd4a",
         "https://jsilva.blog/2020/06/22/intelligent-investor-summary/"
-      ]
+      ],
+      "image_query": "vintage stock ticker tape"
     },
     {
       "book_id": "b_intelligent_investor",
@@ -393,7 +898,8 @@
       "sources": [
         "https://medium.com/@vikramlingam/essential-takeaways-from-chapter-4-of-the-intelligent-investor-general-portfolio-policy-the-5f878b589ffe",
         "https://unearnedwisdom.com/article/chapter-4-general-portfolio-policy-the-defensive-investor-the-intelligent-investor"
-      ]
+      ],
+      "image_query": "seatbelt car dashboard"
     },
     {
       "book_id": "b_rich_dad_poor_dad",
@@ -412,7 +918,8 @@
       "sources": [
         "https://www.supersummary.com/rich-dad-poor-dad/chapters-2-3-summary/",
         "https://nexterauxstudio.medium.com/here-is-a-summary-of-each-chapter-of-rich-dad-poor-dad-by-robert-kiyosaki-5f783a98881f"
-      ]
+      ],
+      "image_query": "chalkboard classroom lesson"
     },
     {
       "book_id": "b_rich_dad_poor_dad",
@@ -431,7 +938,8 @@
       "sources": [
         "https://www.supersummary.com/rich-dad-poor-dad/chapters-2-3-summary/",
         "https://nexterauxstudio.medium.com/here-is-a-summary-of-each-chapter-of-rich-dad-poor-dad-by-robert-kiyosaki-5f783a98881f"
-      ]
+      ],
+      "image_query": "small business ledger"
     },
     {
       "book_id": "b_rich_dad_poor_dad",
@@ -450,7 +958,8 @@
       "sources": [
         "https://medium.com/@deepak169/the-history-of-taxes-and-the-power-of-corporations-10504594de25",
         "https://dailylearner.medium.com/chapther-4-rich-dad-poor-dad-1cfcb6e7f346"
-      ]
+      ],
+      "image_query": "tax forms calculator"
     },
     {
       "book_id": "b_richest_man_in_babylon",
@@ -469,7 +978,8 @@
       "sources": [
         "https://www.shortform.com/blog/7-cures-for-a-lean-purse/",
         "https://financialducksinarow.com/1349/seven-cures-for-a-lean-purse-the-richest-man-in-babylon-pt-2/"
-      ]
+      ],
+      "image_query": "coin jar savings"
     },
     {
       "book_id": "b_richest_man_in_babylon",
@@ -488,7 +998,8 @@
       "sources": [
         "https://www.elearnmarkets.com/school/units/the-richest-man-in-babylon/seven-cures-for-a-lean-purse",
         "https://www.wealest.com/articles/seven-cures-for-a-lean-purse"
-      ]
+      ],
+      "image_query": "budget notebook pencil"
     },
     {
       "book_id": "b_richest_man_in_babylon",
@@ -507,7 +1018,8 @@
       "sources": [
         "https://www.shortform.com/blog/7-cures-for-a-lean-purse/",
         "https://harrisonlawaz.com/finance/the-richest-man-in-babylon-part-2-seven-cures-for-a-lean-purse/"
-      ]
+      ],
+      "image_query": "seed sprouting soil"
     },
     {
       "book_id": "b_millionaire_next_door",
@@ -526,7 +1038,8 @@
       "sources": [
         "https://medium.com/@avalontownsend428/the-millionaire-next-door-summary-318728bcd5d8",
         "https://readingraphics.com/book-summary-the-millionaire-next-door/"
-      ]
+      ],
+      "image_query": "used car garage"
     },
     {
       "book_id": "b_millionaire_next_door",
@@ -545,7 +1058,8 @@
       "sources": [
         "https://www.supersummary.com/the-millionaire-next-door/chapter-3-summary/",
         "https://medium.com/@avalontownsend428/the-millionaire-next-door-summary-318728bcd5d8"
-      ]
+      ],
+      "image_query": "calendar planner desk"
     },
     {
       "book_id": "b_millionaire_next_door",
@@ -564,7 +1078,8 @@
       "sources": [
         "https://themidaproject.com/2014/06/24/millionaire-monday-chapter-4-you-arent-what-you-drive/",
         "https://www.whitecoatinvestor.com/drive-a-beater-get-rich/"
-      ]
+      ],
+      "image_query": "old pickup truck"
     },
     {
       "book_id": "b_random_walk_wall_street",
@@ -583,7 +1098,8 @@
       "sources": [
         "https://www.cxoadvisory.com/big-ideas/a-few-notes-on-a-random-walk-down-wall-street/",
         "https://www.shortform.com/summary/a-random-walk-down-wall-street-summary-burton-g-malkiel"
-      ]
+      ],
+      "image_query": "tulip flowers field"
     },
     {
       "book_id": "b_random_walk_wall_street",
@@ -602,7 +1118,8 @@
       "sources": [
         "https://catalog.lib.uchicago.edu/vufind/Record/67245/TOC",
         "https://professornerdster.com/key-takeaways-from-a-random-walk-down-wall-street/"
-      ]
+      ],
+      "image_query": "vintage stock certificates"
     },
     {
       "book_id": "b_random_walk_wall_street",
@@ -621,7 +1138,8 @@
       "sources": [
         "https://www.shortform.com/summary/a-random-walk-down-wall-street-summary-burton-g-malkiel",
         "https://www.supersummary.com/a-random-walk-down-wall-street/summary/"
-      ]
+      ],
+      "image_query": "old computer monitor office"
     }
   ]
 }

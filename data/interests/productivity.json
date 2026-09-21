@@ -3,7 +3,10 @@
   "name_he": "פרודוקטיביות, הרגלים ולמידה",
   "name_en": "Productivity, Habits & Learning",
   "tagline_he": "איך לבנות הרגלים, למקד את הקשב וללמוד מהר יותר — בלי לשרוף את עצמך בדרך.",
-  "book_list_source": { "name": "Goodreads – Best Popular Productivity Books", "url": "https://www.goodreads.com/list/show/139751.Best_Popular_Productivity_Books_on_Goodreads" },
+  "book_list_source": {
+    "name": "Goodreads – Best Popular Productivity Books",
+    "url": "https://www.goodreads.com/list/show/139751.Best_Popular_Productivity_Books_on_Goodreads"
+  },
   "books": [
     {
       "id": "b_atomic_habits",
@@ -12,7 +15,8 @@
       "author": "James Clear",
       "year": 2018,
       "why_he": "הספר שהפך את בניית ההרגלים לשיטה פשוטה של ארבעה חוקים ושיפור של אחוז אחד ביום.",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "dominoes falling chain"
     },
     {
       "id": "b_deep_work",
@@ -21,14 +25,16 @@
       "author": "Cal Newport",
       "year": 2016,
       "why_he": "טבע את המושג 'עבודה עמוקה' והסביר למה ריכוז ללא הפרעות הוא המיומנות היקרה ביותר בכלכלה המודרנית.",
-      "chapters_total": 7
+      "chapters_total": 7,
+      "image_query": "library desk lamp books"
     },
     {
       "id": "b_getting_things_done",
       "title": "Getting Things Done",
       "author": "David Allen",
       "year": 2001,
-      "why_he": "שיטת ה-GTD היא הבסיס לכמעט כל מערכת ניהול משימות מודרנית — להוציא הכול מהראש למערכת אמינה."
+      "why_he": "שיטת ה-GTD היא הבסיס לכמעט כל מערכת ניהול משימות מודרנית — להוציא הכול מהראש למערכת אמינה.",
+      "image_query": "inbox tray paperwork"
     },
     {
       "id": "b_7_habits",
@@ -36,7 +42,8 @@
       "title_he": "שבעת ההרגלים של אנשים אפקטיביים במיוחד",
       "author": "Stephen R. Covey",
       "year": 1989,
-      "why_he": "הקלאסיקה שבנתה את שפת האפקטיביות האישית: פרואקטיביות, להתחיל עם הסוף בראש והדבר החשוב קודם."
+      "why_he": "הקלאסיקה שבנתה את שפת האפקטיביות האישית: פרואקטיביות, להתחיל עם הסוף בראש והדבר החשוב קודם.",
+      "image_query": "compass map trail"
     },
     {
       "id": "b_essentialism",
@@ -44,7 +51,8 @@
       "author": "Greg McKeown",
       "year": 2014,
       "why_he": "מלמד לעשות פחות אבל טוב יותר — להגיד לא לכמעט הכול כדי להשקיע במעטים שבאמת חשובים.",
-      "chapters_total": 20
+      "chapters_total": 20,
+      "image_query": "minimalist empty desk"
     },
     {
       "id": "b_power_of_habit",
@@ -53,7 +61,8 @@
       "author": "Charles Duhigg",
       "year": 2012,
       "why_he": "הציג לקהל הרחב את לולאת ההרגל (רמז–שגרה–תגמול) ואת המדע שמאחורי שינוי הרגלים.",
-      "chapters_total": 9
+      "chapters_total": 9,
+      "image_query": "toothbrush bathroom sink"
     },
     {
       "id": "b_make_it_stick",
@@ -62,7 +71,8 @@
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "year": 2014,
       "why_he": "הספר המבוסס-מחקר ביותר על למידה אפקטיבית: שליפה, ריווח ושילוב במקום קריאה חוזרת.",
-      "chapters_total": 8
+      "chapters_total": 8,
+      "image_query": "flashcards studying"
     },
     {
       "id": "b_ultralearning",
@@ -71,7 +81,8 @@
       "author": "Scott H. Young",
       "year": 2019,
       "why_he": "מפרק פרויקטי למידה אינטנסיביים לתשעה עקרונות שאפשר ליישם על כל מיומנות.",
-      "chapters_total": 14
+      "chapters_total": 14,
+      "image_query": "chalkboard equations intense study"
     },
     {
       "id": "b_four_thousand_weeks",
@@ -80,7 +91,8 @@
       "author": "Oliver Burkeman",
       "year": 2021,
       "why_he": "האנטי-תזה לניהול זמן: מקבלים שלעולם לא נספיק הכול, ובוחרים במה באמת להשקיע.",
-      "chapters_total": 14
+      "chapters_total": 14,
+      "image_query": "hourglass sand falling"
     },
     {
       "id": "b_the_one_thing",
@@ -89,7 +101,8 @@
       "author": "Gary Keller, Jay Papasan",
       "year": 2013,
       "why_he": "שאלה אחת ממקדת — מה הדבר האחד שיהפוך את כל השאר לקל יותר או מיותר?",
-      "chapters_total": 18
+      "chapters_total": 18,
+      "image_query": "single arrow target bullseye"
     },
     {
       "id": "b_digital_minimalism",
@@ -98,7 +111,8 @@
       "author": "Cal Newport",
       "year": 2019,
       "why_he": "פילוסופיה מעשית לשימוש בטכנולוגיה מתוך כוונה, במקום לתת ליישומים לנהל את הקשב שלנו.",
-      "chapters_total": 7
+      "chapters_total": 7,
+      "image_query": "smartphone locked in drawer"
     },
     {
       "id": "b_why_we_sleep",
@@ -107,7 +121,8 @@
       "author": "Matthew Walker",
       "year": 2017,
       "why_he": "הפך את השינה מ'בזבוז זמן' לבסיס של זיכרון, למידה, בריאות ופרודוקטיביות.",
-      "chapters_total": 16
+      "chapters_total": 16,
+      "image_query": "alarm clock nightstand"
     },
     {
       "id": "b_mindset",
@@ -116,7 +131,8 @@
       "author": "Carol S. Dweck",
       "year": 2006,
       "why_he": "ההבחנה בין דפוס חשיבה מקובע לדפוס חשיבה מתפתח משנה איך מתמודדים עם כישלון ולמידה.",
-      "chapters_total": 8
+      "chapters_total": 8,
+      "image_query": "gardener planting seeds"
     },
     {
       "id": "b_grit",
@@ -125,7 +141,8 @@
       "author": "Angela Duckworth",
       "year": 2016,
       "why_he": "מראה שהתמדה ותשוקה לאורך זמן מנבאות הצלחה יותר מכישרון.",
-      "chapters_total": 13
+      "chapters_total": 13,
+      "image_query": "runner uphill struggle"
     },
     {
       "id": "b_flow",
@@ -134,7 +151,8 @@
       "author": "Mihaly Csikszentmihalyi",
       "year": 1990,
       "why_he": "המחקר המקורי על מצב הזרימה — התנאים שבהם עבודה הופכת למהנה ומרוכזת לחלוטין.",
-      "chapters_total": 10
+      "chapters_total": 10,
+      "image_query": "painter easel studio focused"
     },
     {
       "id": "b_slight_edge",
@@ -142,7 +160,8 @@
       "title_he": "היתרון הקטן",
       "author": "Jeff Olson",
       "year": 2005,
-      "why_he": "פעולות קטנות ויומיומיות שקל לעשות וגם קל לא לעשות — ההצטברות שלהן קובעת את התוצאה."
+      "why_he": "פעולות קטנות ויומיומיות שקל לעשות וגם קל לא לעשות — ההצטברות שלהן קובעת את התוצאה.",
+      "image_query": "staircase steps climbing"
     },
     {
       "id": "b_tiny_habits",
@@ -150,7 +169,8 @@
       "title_he": "הרגלים זעירים",
       "author": "BJ Fogg",
       "year": 2019,
-      "why_he": "מודל ההתנהגות של פוג מסטנפורד: מוטיבציה, יכולת ורמז — ולמה להתחיל קטן עד כדי גיחוך."
+      "why_he": "מודל ההתנהגות של פוג מסטנפורד: מוטיבציה, יכולת ורמז — ולמה להתחיל קטן עד כדי גיחוך.",
+      "image_query": "small seed in hand"
     },
     {
       "id": "b_indistractable",
@@ -158,7 +178,8 @@
       "title_he": "בלתי ניתן להסחה",
       "author": "Nir Eyal",
       "year": 2019,
-      "why_he": "מודל של ארבעה שלבים לשליטה בקשב: שליטה בגורמים המפעילים הפנימיים, זמן לטרקשן, וניהול גורמים מפעילים חיצוניים."
+      "why_he": "מודל של ארבעה שלבים לשליטה בקשב: שליטה בגורמים המפעילים הפנימיים, זמן לטרקשן, וניהול גורמים מפעילים חיצוניים.",
+      "image_query": "muted phone silence"
     },
     {
       "id": "b_building_a_second_brain",
@@ -166,7 +187,8 @@
       "title_he": "לבנות מוח שני",
       "author": "Tiago Forte",
       "year": 2022,
-      "why_he": "שיטת ניהול ידע אישי (CODE ו-PARA) לארגון מידע דיגיטלי כך שישרת יצירה ולא רק אגירה."
+      "why_he": "שיטת ניהול ידע אישי (CODE ו-PARA) לארגון מידע דיגיטלי כך שישרת יצירה ולא רק אגירה.",
+      "image_query": "filing cabinet folders"
     },
     {
       "id": "b_so_good",
@@ -174,7 +196,8 @@
       "title_he": "כל כך טוב שלא יוכלו להתעלם ממך",
       "author": "Cal Newport",
       "year": 2012,
-      "why_he": "מפריך את 'לכו אחרי התשוקה' ומציע לבנות הון קריירה דרך מיומנויות נדירות."
+      "why_he": "מפריך את 'לכו אחרי התשוקה' ומציע לבנות הון קריירה דרך מיומנויות נדירות.",
+      "image_query": "craftsman workshop tools"
     },
     {
       "id": "b_4_hour_workweek",
@@ -182,7 +205,8 @@
       "title_he": "שבוע עבודה של 4 שעות",
       "author": "Timothy Ferriss",
       "year": 2007,
-      "why_he": "הספר שהפך את האוטומציה, המיקור-חוץ וחוק 80/20 לשפה של דור שלם של יזמים."
+      "why_he": "הספר שהפך את האוטומציה, המיקור-חוץ וחוק 80/20 לשפה של דור שלם של יזמים.",
+      "image_query": "hammock beach laptop"
     },
     {
       "id": "b_eat_that_frog",
@@ -191,7 +215,8 @@
       "author": "Brian Tracy",
       "year": 2001,
       "why_he": "21 טכניקות פשוטות להפסיק לדחות ולהתחיל מהמשימה הקשה והחשובה ביותר.",
-      "chapters_total": 21
+      "chapters_total": 21,
+      "image_query": "frog on lily pad"
     },
     {
       "id": "b_checklist_manifesto",
@@ -200,7 +225,8 @@
       "author": "Atul Gawande",
       "year": 2009,
       "why_he": "מנתח מראה איך רשימת תיוג פשוטה מצילה חיים ומשפרת ביצועים בכל תחום מורכב.",
-      "chapters_total": 9
+      "chapters_total": 9,
+      "image_query": "pilot clipboard checklist"
     },
     {
       "id": "b_peak",
@@ -208,7 +234,8 @@
       "title_he": "שיא",
       "author": "Anders Ericsson, Robert Pool",
       "year": 2016,
-      "why_he": "החוקר שמאחורי 'עשרת אלפים השעות' מסביר מהו תרגול מכוון ולמה הוא מה שבאמת יוצר מומחיות."
+      "why_he": "החוקר שמאחורי 'עשרת אלפים השעות' מסביר מהו תרגול מכוון ולמה הוא מה שבאמת יוצר מומחיות.",
+      "image_query": "violin practice sheet music"
     },
     {
       "id": "b_mind_for_numbers",
@@ -217,7 +244,8 @@
       "author": "Barbara Oakley",
       "year": 2014,
       "why_he": "הספר שמאחורי הקורס 'Learning How to Learn': מצבי חשיבה ממוקד ומפוזר, צ'אנקינג והתמודדות עם דחיינות.",
-      "chapters_total": 18
+      "chapters_total": 18,
+      "image_query": "puzzle pieces table"
     },
     {
       "id": "b_hyperfocus",
@@ -225,7 +253,8 @@
       "title_he": "היפר-מיקוד",
       "author": "Chris Bailey",
       "year": 2018,
-      "why_he": "מדריך מעשי לניהול קשב: מתי להתמקד בעוצמה ומתי לתת למוח לנדוד בכוונה."
+      "why_he": "מדריך מעשי לניהול קשב: מתי להתמקד בעוצמה ומתי לתת למוח לנדוד בכוונה.",
+      "image_query": "magnifying glass focus lens"
     },
     {
       "id": "b_effective_executive",
@@ -234,7 +263,8 @@
       "author": "Peter F. Drucker",
       "year": 1967,
       "why_he": "הקלאסיקה של דרוקר: אפקטיביות היא הרגל שנלמד — ניהול זמן, תרומה, חוזקות והחלטות.",
-      "chapters_total": 8
+      "chapters_total": 8,
+      "image_query": "wristwatch close-up"
     },
     {
       "id": "b_smart_notes",
@@ -242,7 +272,8 @@
       "title_he": "איך לכתוב פתקים חכמים",
       "author": "Sönke Ahrens",
       "year": 2017,
-      "why_he": "הציג לעולם את שיטת הצטלקאסטן של לומאן — כתיבה כדרך לחשוב וללמוד."
+      "why_he": "הציג לעולם את שיטת הצטלקאסטן של לומאן — כתיבה כדרך לחשוב וללמוד.",
+      "image_query": "index cards notebook"
     },
     {
       "id": "b_tiny_experiments",
@@ -250,7 +281,8 @@
       "title_he": "ניסויים קטנים",
       "author": "Anne-Laure Le Cunff",
       "year": 2025,
-      "why_he": "חלופה למטרות נוקשות: לחיות כמו מדען ולהחליף תוכניות בניסויים קטנים וסקרנות."
+      "why_he": "חלופה למטרות נוקשות: לחיות כמו מדען ולהחליף תוכניות בניסויים קטנים וסקרנות.",
+      "image_query": "petri dish laboratory"
     },
     {
       "id": "b_slow_productivity",
@@ -258,7 +290,8 @@
       "title_he": "פרודוקטיביות איטית",
       "author": "Cal Newport",
       "year": 2024,
-      "why_he": "שלושה עקרונות נגד שחיקה: לעשות פחות דברים, לעבוד בקצב טבעי ולהתעקש על איכות."
+      "why_he": "שלושה עקרונות נגד שחיקה: לעשות פחות דברים, לעבוד בקצב טבעי ולהתעקש על איכות.",
+      "image_query": "cup of tea window"
     }
   ],
   "leaders": [
@@ -641,7 +674,8 @@
         "https://medium.com/@Pahque/chapter-by-chapter-summary-of-atomic-habits-by-james-clear-4bd2f105cc99",
         "https://atomichabitssummary.com/chapter-1-surprising-power-of-atomic-habits",
         "https://lastminutelecture.com/books/atomic-habits-1st-edition/chapters/the-surprising-power-of-atomic-habits/"
-      ]
+      ],
+      "image_query": "staircase steps sunlight"
     },
     {
       "book_id": "b_deep_work",
@@ -661,7 +695,8 @@
         "https://medium.com/@mj.harshi/book-summary-deep-work-by-cal-newport-d11070fb822c",
         "https://lankydan.dev/deep-work-a-summary/",
         "https://learnsharedo.com/book-deep-work-part-1-introduction-and-summary/"
-      ]
+      ],
+      "image_query": "locked door office focus"
     },
     {
       "book_id": "b_getting_things_done",
@@ -680,7 +715,8 @@
         "https://medium.com/@anouansavanh56/a-complete-summary-of-getting-things-done-the-art-of-stress-free-productivity-by-david-allen-ea3d5c4b5ca",
         "https://williammeller.com/getting-things-done-by-david-allen/",
         "https://www.bookey.app/book/getting-things-done"
-      ]
+      ],
+      "image_query": "cluttered desk papers"
     },
     {
       "book_id": "b_7_habits",
@@ -700,7 +736,8 @@
         "https://steemit.com/success/@cbcheng/inside-out-or-the-7-habits-of-highly-effective-people-chapter-1-summary",
         "https://www.coursehero.com/lit/The-7-Habits-of-Highly-Effective-People/part-1-inside-out-summary/",
         "https://alinmiu.com/2024/02/14/the-7-habits-of-highly-effective-people-part-one-paradigms-and-principles/"
-      ]
+      ],
+      "image_query": "mirror self reflection"
     },
     {
       "book_id": "b_power_of_habit",
@@ -719,7 +756,8 @@
         "https://www.litcharts.com/lit/the-power-of-habit/chapter-1-the-habit-loop-how-habits-work",
         "https://www.supersummary.com/the-power-of-habit/part-1-chapter-1-summary/",
         "https://charlesduhigg.com/wp-content/uploads/2025/01/Power-of-Habit-Chapter-One.pdf"
-      ]
+      ],
+      "image_query": "vending machine snack"
     },
     {
       "book_id": "b_essentialism",
@@ -738,7 +776,8 @@
         "https://www.supersummary.com/essentialism/part-1-summary/",
         "https://medium.com/@johnnysbooksummaries/summary-of-essentialism-the-disciplined-pursuit-of-less-by-greg-mckeown-6d69585a05ad",
         "https://www.hustleescape.com/book-summary-essentialism-by-greg-mckeown/"
-      ]
+      ],
+      "image_query": "single flower vase"
     },
     {
       "book_id": "b_atomic_habits",
@@ -757,7 +796,8 @@
       "sources": [
         "https://medium.com/binibuku/atomic-habits-chapter-2-summary-how-your-habits-shape-your-identity-and-vice-versa-cbb95a51a569",
         "https://bitemybooks.com/atomic-habits-chapter-2-summary/"
-      ]
+      ],
+      "image_query": "runner identity shoes"
     },
     {
       "book_id": "b_atomic_habits",
@@ -776,7 +816,8 @@
       "sources": [
         "https://www.litcharts.com/lit/atomic-habits/chapter-3",
         "https://grahammann.net/book-notes/atomic-habits-james-clear"
-      ]
+      ],
+      "image_query": "recipe card steps"
     },
     {
       "book_id": "b_atomic_habits",
@@ -795,7 +836,8 @@
       "sources": [
         "https://medium.com/activated-thinker/atomic-habits-chapter-4-summary-the-man-who-didnt-look-right-power-of-awareness-db2717cefb3e",
         "https://omranic.com/atomic-habits-chapter-4-the-man-who-didnt-look-right/"
-      ]
+      ],
+      "image_query": "detective magnifying glass"
     },
     {
       "book_id": "b_deep_work",
@@ -814,7 +856,8 @@
       "sources": [
         "https://www.simplimba.com/deep-work-by-cal-newport-book-summary/",
         "https://ursummary.com/deep-work-summary-by-chapter-cal-newport/"
-      ]
+      ],
+      "image_query": "crowded office cubicles"
     },
     {
       "book_id": "b_deep_work",
@@ -833,7 +876,8 @@
       "sources": [
         "https://theprocesshacker.com/blog/deep-work-cal-newport-pdf-book-summary",
         "https://www.runn.io/blog/deep-work-summary"
-      ]
+      ],
+      "image_query": "blacksmith forge craft"
     },
     {
       "book_id": "b_deep_work",
@@ -852,7 +896,8 @@
       "sources": [
         "https://grahammann.net/book-notes/deep-work-cal-newport",
         "https://deepworkblock.net/en/deep-work/4-rules-of-deep-work/"
-      ]
+      ],
+      "image_query": "morning coffee ritual desk"
     },
     {
       "book_id": "b_getting_things_done",
@@ -871,7 +916,8 @@
       "sources": [
         "https://lipsachhotray.medium.com/getting-things-done-chapter-2-summary-dd0907aebbcf",
         "https://www.shortform.com/blog/gtd-workflow/"
-      ]
+      ],
+      "image_query": "inbox sorting trays"
     },
     {
       "book_id": "b_getting_things_done",
@@ -890,7 +936,8 @@
       "sources": [
         "http://apppm.man.dtu.dk/index.php/Getting_Things_Done_in_Project_Management:_The_Five_Phases_of_Project_Planning",
         "https://weekplan.net/Getting-Things-Done-The-Five-Stages-of-Mastering-Workflow/"
-      ]
+      ],
+      "image_query": "sticky notes planning wall"
     },
     {
       "book_id": "b_getting_things_done",
@@ -909,7 +956,8 @@
       "sources": [
         "https://saanys.org/wp-content/uploads/2020/10/The-Main-Idea-Getting-Things-Done-August-2017.pdf",
         "https://theprocesshacker.com/blog/getting-things-done-book-summary"
-      ]
+      ],
+      "image_query": "junk drawer clutter"
     },
     {
       "book_id": "b_7_habits",
@@ -928,7 +976,8 @@
       "sources": [
         "https://www.franklincovey.com/courses/the-7-habits/habit-1/",
         "https://www.oberlo.com/blog/7-habits-of-highly-effective-people-by-stephen-covey-summary"
-      ]
+      ],
+      "image_query": "steering wheel driver"
     },
     {
       "book_id": "b_7_habits",
@@ -947,7 +996,8 @@
       "sources": [
         "https://www.franklincovey.com/courses/the-7-habits/habit-2/",
         "https://www.tutuwaahwoi.com/booknotes/book-notes-habit-2-begin-with-the-end-in-mind-from-the-7-habits-of-highly-effective-people-by-stephen-r-covey/"
-      ]
+      ],
+      "image_query": "mountain summit view"
     },
     {
       "book_id": "b_7_habits",
@@ -966,7 +1016,8 @@
       "sources": [
         "https://www.shortform.com/blog/habit-3-put-first-things-first-7-habits/",
         "https://weekplan.net/habit-3-put-first-things-first/"
-      ]
+      ],
+      "image_query": "calendar priorities pen"
     },
     {
       "book_id": "b_power_of_habit",
@@ -985,7 +1036,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-power-of-habit/summary",
         "https://www.scienceofpeople.com/power-of-habit-summary/"
-      ]
+      ],
+      "image_query": "chocolate bar craving"
     },
     {
       "book_id": "b_power_of_habit",
@@ -1004,7 +1056,8 @@
       "sources": [
         "https://www.litcharts.com/lit/the-power-of-habit/chapter-3-the-golden-rule-of-habit-change-why-transformation-occurs",
         "https://grahammann.net/book-notes/the-power-of-habit-charles-duhigg"
-      ]
+      ],
+      "image_query": "light switch on off"
     },
     {
       "book_id": "b_power_of_habit",
@@ -1024,7 +1077,8 @@
       "sources": [
         "https://www.scienceofpeople.com/power-of-habit-summary/",
         "https://www.valuecapturellc.com/blog/paul-oneill-in-the-power-of-habit"
-      ]
+      ],
+      "image_query": "domino first tile falling"
     },
     {
       "book_id": "b_essentialism",
@@ -1043,7 +1097,8 @@
       "sources": [
         "https://medium.com/@johnnysbooksummaries/summary-of-essentialism-the-disciplined-pursuit-of-less-by-greg-mckeown-6d69585a05ad",
         "https://auresnotes.com/summary-essentialism-greg-mckeown/"
-      ]
+      ],
+      "image_query": "fork in road signpost"
     },
     {
       "book_id": "b_essentialism",
@@ -1062,7 +1117,8 @@
       "sources": [
         "https://elevatesociety.com/takeaways-essentialism/",
         "https://nielsbohrmann.com/essentialism-book-summary/"
-      ]
+      ],
+      "image_query": "needle in haystack"
     },
     {
       "book_id": "b_essentialism",
@@ -1081,7 +1137,8 @@
       "sources": [
         "https://medium.com/@DeanNatukunda/a-summary-and-review-of-essentialism-by-greg-mckeown-5d8c7fe266b3",
         "https://elevatesociety.com/takeaways-essentialism/"
-      ]
+      ],
+      "image_query": "scale balance weighing"
     }
   ]
 }
